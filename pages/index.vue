@@ -1,15 +1,73 @@
 <template>
   <div>
-    <Navbar />
-    <Dropdown />
+
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+
+                <!-- CUSTOM BLOCKQUOTE -->
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"The pursuit of happiness discretion both sides of all employees.
+                      To provide the best of ICT services to customers,
+                      It will contribute to the realization of a livable peace society."</p>
+
+                </blockquote>
+                <!-- END -->
+
+            </div>
+        </div>
+    </div>
+</section>
+<br />
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <!-- BLOCKQUOTE -->
+           <blockquote class="blockquote">
+                <p class="mb-0">
+                    We will continue to all employees growth beneath the the management philosophy. And we have stacked the day-to-day study in order to continue to be a company that will contribute to the world.
+Also,beneath the idea of“Making the first person before you make things.”we have the human resources development as one of the important themes.
+Learn the technology, to learn philosophy.Then growing employees voluntarily each person was, and will continue to further growth by learn sometimes gathered.
+Its employees and by mutual cooperation, the force will be the companies able to contribute to the world become a greater force.
+                </p>
+            </blockquote>
+        </div>
+    </div>
+</div>
+<br />
+
+<div class="container">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-10">
+      <div class="card text-dark bg-light mb-12" style="max-width: 60rem;">
+  <div class="card-header">Partners Recruiting</div>
+  <div class="card-body">
+    <h5 class="card-title">We are looking for a partner.</h5>
+    <p class="card-text">The Company is looking for a partner who can both perform software development.
+Interested in our business areas, if there is a possibility you'll find cooperation, thank you for your consideration.
+We are, for the sake of technology provided by customers satisfaction is, without having to stick to our own,
+widely flexibility in seeking business partners, and we believe Let's build a relationship of collaboration.
+
+And entered into a partnership for the purpose acquisition and the business strengthening of business opportunities
+both to expand business opportunities by sharing technology and know-how of each other, why not continue to grow together.</p>
   </div>
+</div>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
+
+
+
+</div>
 </template>
 
 <script>
-import Navbar from "../components/Navbar.vue";
-import Dropdown from "../components/Dropdown.vue";
 export default {
-  name: "IndexPage",
-  components: { Navbar, Dropdown },
-};
+  layout: 'default'
+}
 </script>
