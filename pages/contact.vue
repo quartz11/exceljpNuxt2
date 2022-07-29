@@ -44,17 +44,18 @@ h1 {
             </tbody>
           </table>
           <br />
-<img class="object-none object-center" src="http://1excellence.com/official/img/access/access_en.png"></img>
-<br />
-<div class="text-center">
- <h1>Excellence Inc. Ltd.</h1>
- <h2>Address: 2F Animart-Nishiki 311 Uradeyama-cho KarasumaNishiIru Nishikikogi-Tohri Nakagyo-ku Kyoto-city Kyoto 604-8115 Japan</h2>
-<h2>Telephone: 075-256-7872</h2>
-<h2>FAX: 075-256-9052</h2>
-<h2>MailAddress: excel@mbox.kyoto-inet.or.jp</h2>
-<h2>Karasuma Line of Kyoto Municipal Subway “Shijo” Station.
-Hankyu Kyoto Line “Shijo Karasuma”Station.Please exit out of ●exit 22 at that station.</h2>
-</div>
+          <img class="object-none object-center" src="http://1excellence.com/official/img/access/access_en.png"></img>
+          <br />
+          <div class="text-center">
+            <h1>Excellence Inc. Ltd.</h1>
+            <h2>Address: 2F Animart-Nishiki 311 Uradeyama-cho KarasumaNishiIru Nishikikogi-Tohri Nakagyo-ku Kyoto-city
+              Kyoto 604-8115 Japan</h2>
+            <h2>Telephone: 075-256-7872</h2>
+            <h2>FAX: 075-256-9052</h2>
+            <h2>MailAddress: excel@mbox.kyoto-inet.or.jp</h2>
+            <h2>Karasuma Line of Kyoto Municipal Subway “Shijo” Station.
+              Hankyu Kyoto Line “Shijo Karasuma”Station.Please exit out of ●exit 22 at that station.</h2>
+          </div>
         </div>
       </div>
       <!-- END -->
