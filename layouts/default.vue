@@ -13,10 +13,9 @@
 
 <script>
 import Navbar from "../components/Navbar.vue";
-import Dropdown from "../components/Dropdown.vue";
 import AppFooter from "../components/AppFooter.vue";
 export default {
   name: "default",
-  components: { Navbar, Dropdown, AppFooter},
+  components: { Navbar, AppFooter},
 };
 </script>
