@@ -8,7 +8,7 @@
 
                 <!-- CUSTOM BLOCKQUOTE -->
                 <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
-                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                    <div class="blockquote-custom-icon bg-info shadow-sm"></div>
                     <p class="mb-0 mt-2 font-italic">"The pursuit of happiness discretion both sides of all employees.
                       To provide the best of ICT services to customers,
                       It will contribute to the realization of a livable peace society."</p>
