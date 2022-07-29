@@ -1,5 +1,12 @@
 <template>
   <div>
+    <nav class="relative px-4 py-4 flex justify-between items-center bg-sky-700">
+      <div class="md:container md:l-auto">
+
+        <a class="text-sm text-white hover:text-slate-400" href="#">Home</a>
+
+      </div>
+    </nav>
     <b-navbar toggleable="lg" type="dark" class="navbar navbar-dark bg-primary" variant="info">
       <b-container>
         <b-navbar-brand href="/">Excellence Inc. Ltd.</b-navbar-brand>
@@ -71,6 +78,8 @@
     </div>
 
   </div>
+
+
 </template>
 
 <script>

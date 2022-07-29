@@ -1,5 +1,5 @@
 <template>
-  <div style="background-color:LightGray;">
+  <div style="background-color:whitesmoke">
     <Navbar />
     <br />
     <Nuxt />
