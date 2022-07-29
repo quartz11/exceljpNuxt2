@@ -20,9 +20,9 @@
         </div>
     </div>
 </section>
-<br />
 
-<div class="container">
+
+<div class="container" style="background-color:white;">
     <div class="row">
         <div class="col-sm-12">
             <!-- BLOCKQUOTE -->
@@ -44,7 +44,7 @@ Its employees and by mutual cooperation, the force will be the companies able to
     <div class="col"></div>
     <div class="col-10">
       <div class="card text-dark bg-light mb-12" style="max-width: 60rem;">
-  <div class="card-header">Partners Recruiting</div>
+  <div class="card-header" style="background-color:blueviolet; color:white;">Partners Recruiting</div>
   <div class="card-body">
     <h5 class="card-title">We are looking for a partner.</h5>
     <p class="card-text">The Company is looking for a partner who can both perform software development.

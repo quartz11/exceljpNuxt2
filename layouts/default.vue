@@ -1,13 +1,13 @@
 <template>
-  <div>
+  <div style="background-color:LightGray;">
     <Navbar />
     <br />
     <Nuxt />
+    <br />
     <v-footer>
       <AppFooter />
     </v-footer>
   </div>
-
 
 </template>
 
