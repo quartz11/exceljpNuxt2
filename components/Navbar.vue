@@ -2,7 +2,7 @@
   <div>
     <b-navbar toggleable="lg" type="dark" class="navbar navbar-dark bg-primary" variant="info">
       <b-container>
-        <b-navbar-brand href="#">Excellence Inc. Ltd.</b-navbar-brand>
+        <b-navbar-brand href="/">Excellence Inc. Ltd.</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -30,7 +30,7 @@
 
                 <b-nav-item href="/">Join us</b-nav-item>
 
-                <b-nav-item href="/">Contact us</b-nav-item>
+                <b-nav-item href="/contact">Contact us</b-nav-item>
 
               </b-navbar-nav>
 
@@ -44,14 +44,14 @@
             </b-nav-item-dropdown>
 
             <!-- Using 'button-content' slot -->
-            <!-- 
+            <!--
           <b-nav-item-dropdownav-item-dropdown right>
             <template #button-content>
               <em>User</em>
             </template>
             <b-dropdown-item href="#">Profile</b-dropdown-item>
             <b-dropdown-item href="#">Sign Out</b-dropdown-item>
-          </b-nav-item-dropdownav-item-dropdown> 
+          </b-nav-item-dropdownav-item-dropdown>
           -->
 
           </b-navbar-nav>
