@@ -59,6 +59,13 @@ both to expand business opportunities by sharing technology and know-how of each
     </div>
     <div class="col"></div>
   </div>
+  <br />
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-2">
+    <button type="button" class="btn btn-primary">Inquiry form</button>
+    </div>
+  </div>
 </div>
 
 
