@@ -1,51 +1,90 @@
 <style scoped>
-h6 {text-align: center;}
+h6 {
+  text-align: center;
+}
 </style>
 <template>
-    <!-- FOOTER -->
-    <footer class="w-100 py-4 flex-shrink-0" style="background-color:black;">
-        <div class="container py-4">
-            <div class="row gy-4 gx-5">
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-3">Focus Topics</h5>
-                    <ul class="list-unstyled text-muted">
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-3">Services and Products</h5>
-                    <ul class="list-unstyled text-muted">
-                        <li><a href="#">Business</a></li>
-                        <li><a href="#">Development</a></li>
-                        <li><a href="#">Import agency</a></li>
-                        <li><a href="#">e-base</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-3">	Company Guides</h5>
-                    <ul class="list-unstyled text-muted">
-                        <li><a href="#">Greeting</a></li>
-                        <li><a href="#">Overview</a></li>
-                        <li><a href="#">Philosophy and Motto</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Employment</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Access</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-3">Related Sites</h5>
-                    <ul class="list-unstyled text-muted">
-                        <li><a href="#">Excellence Siam</a></li>
-                        <li><a href="#">Employee e-base</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-          <h6 style="color:white">Copyright (C) 2015 Excellence co.,Ltd. All Rights Reserved.</h6>
-        </div>
-    </footer>
+  <!-- FOOTER -->
+
+
+
+  <footer class="bg-white dark:bg-gray-900">
+    <div class="grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
+      <div>
+        <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-white">Focus Topics</h2>
+        <ul class="text-gray-500 dark:text-gray-400">
+          <li class="mb-1">
+            <a href="#" class=" hover:underline">News</a>
+          </li>
+          <li class="mb-1">
+            <a href="#" class="hover:underline">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-white">Services and Products </h2>
+        <ul class="text-gray-500 dark:text-gray-400">
+          <li class="mb-1">
+            <a href="#" class="hover:underline">Business</a>
+          </li>
+          <li class="mb-1">
+            <a href="#" class="hover:underline">Development</a>
+          </li>
+          <li class="mb-1">
+            <a href="#" class="hover:underline">Import agency</a>
+          </li>
+          <li class="mb-1">
+            <a href="#" class="hover:underline">e-base</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-white">Company Guide</h2>
+        <ul class="text-gray-500 dark:text-gray-400">
+          <li class="mb-1">
+            <a href="#" class="hover:underline">Greeting</a>
+          </li>
+          <li class="mb-1">
+            <a href="#" class="hover:underline">Overview</a>
+          </li>
+          <li class="mb-1">
+            <a href="#" class="hover:underline">Philosophy and Motto</a>
+          </li>
+          <li class="mb-1">
+            <a href="#" class="hover:underline">Privacy Policy</a>
+          </li>
+          <li class="mb-1">
+            <a href="#" class="hover:underline">Employment</a>
+          </li>
+          <li class="mb-1">
+            <a href="#" class="hover:underline">Contact</a>
+          </li>
+          <li class="mb-1">
+            <a href="#" class="hover:underline">Access</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-white">Related Sites</h2>
+        <ul class="text-gray-500 dark:text-gray-400">
+          <li class="mb-1">
+            <a href="#" class="hover:underline">Excellence Siam</a>
+          </li>
+          <li class="mb-1">
+            <a href="#" class="hover:underline">Employee e-base</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-center">
+      <span class="text-sm text-center text-gray-500 dark:text-gray-300">© 2015 <a
+          href="https://1excellence.com//">Excellence co.,Ltd. All Rights Reserved.</a>
+      </span>
+
+    </div>
+  </footer>
+
+
+
 
 </template>
