@@ -1,6 +1,7 @@
 <template>
   <div class="bg-slate-300">
     <TestNavbar />
+    <Navbar />
     <br />
     <Nuxt />
     <br />
