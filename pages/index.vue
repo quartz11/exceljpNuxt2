@@ -2,14 +2,14 @@
   <div>
 
 <section class="py-5">
-    <div class="container">
+    <div class="container mx-auto">
         <div class="row">
-            <div class="col-lg-6 mx-auto">
+            <div class="mx-auto col-lg-6">
 
                 <!-- CUSTOM BLOCKQUOTE -->
-                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
-                    <div class="blockquote-custom-icon bg-info shadow-sm"></div>
-                    <p class="mb-0 mt-2 font-italic">"The pursuit of happiness discretion both sides of all employees.
+                <blockquote class="p-5 bg-white rounded shadow blockquote blockquote-custom">
+                    <div class="shadow-sm blockquote-custom-icon bg-info"></div>
+                    <p class="mt-2 mb-0 font-italic">"The pursuit of happiness discretion both sides of all employees.
                       To provide the best of ICT services to customers,
                       It will contribute to the realization of a livable peace society."</p>
 
@@ -22,7 +22,7 @@
 </section>
 
 
-<div class="container" style="background-color:white;">
+<div class="container mx-auto" style="background-color:white;">
     <div class="row">
         <div class="col-sm-12">
             <!-- BLOCKQUOTE -->
@@ -39,11 +39,11 @@ Its employees and by mutual cooperation, the force will be the companies able to
 </div>
 <br />
 
-<div class="container">
+<div class="container mx-auto">
   <div class="row">
     <div class="col"></div>
     <div class="col-10">
-      <div class="card text-dark bg-light mb-12" style="max-width: 60rem;">
+      <div class="mb-12 card text-dark bg-light" style="max-width: 60rem;">
   <div class="card-header" style="background-color:blueviolet; color:white;">Partners Recruiting</div>
   <div class="card-body">
     <h5 class="card-title">We are looking for a partner.</h5>
@@ -63,7 +63,7 @@ both to expand business opportunities by sharing technology and know-how of each
   <div class="row">
     <div class="col-1"></div>
     <div class="col-2">
-    <button type="button" class="btn btn-primary">Inquiry form</button>
+    <button class="px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700">Inquiry form</button>
     </div>
   </div>
 </div>
