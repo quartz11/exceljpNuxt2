@@ -7,11 +7,12 @@ h1 {
   <section class="px-20">
     <div class="container">
 
-      <h1>Contact Us</h1>
+      <h1 class="text-3xl ">Contact Us</h1>
+      <br />
       <!-- CUSTOM BLOCKQUOTE -->
-      <div class="max-w-8xl p-4 text-gray-800 bg-white rounded-lg shadow">
+      <div class="p-4 text-gray-800 bg-white rounded-lg shadow max-w-8xl">
         <div class="mb-2">
-          <table class="table-fixed justify-center">
+          <table class="justify-center table-fixed">
             <thead>
               <tr>
                 <th class="w-80"></th>
@@ -26,16 +27,21 @@ h1 {
                 <td class="text-center">Sales Department : </td>
                 <td class="text-center">g-sales@1excellence.com</td>
               </tr>
+              <br />
               <tr>
                 <td></td>
                 <td class="text-center">General Affairs :</td>
                 <td class="text-center">admin@1excellence.com</td>
               </tr>
+              <br />
+
               <tr>
                 <td></td>
                 <td class="text-center">Human Resource :</td>
                 <td class="text-center">recruit@1excellence.com</td>
               </tr>
+              <br />
+
               <tr>
                 <td></td>
                 <td class="text-center">Other inquiries :</td>
@@ -44,7 +50,27 @@ h1 {
             </tbody>
           </table>
           <br />
-          <img class="object-none object-center" src="http://1excellence.com/official/img/access/access_en.png"></img>
+
+          <table class="justify-center table-fixed">
+            <thead>
+              <tr>
+                <th class="w-72"></th>
+                <th class=""></th>
+                <th class=""></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td>
+                  <img class="object-none object-center"
+                    src="http://1excellence.com/official/img/access/access_en.png"></img>
+
+                </td>
+              </tr>
+            </tbody>
+
+          </table>
           <br />
           <div class="text-center">
             <h1>Excellence Inc. Ltd.</h1>
