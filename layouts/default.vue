@@ -1,6 +1,5 @@
 <template>
   <div class="bg-slate-300">
-    <TestNavbar />
     <Navbar />
     <br />
     <Nuxt />
@@ -13,11 +12,10 @@
 </template>
 
 <script>
-import Navbar from "../components/Navbar.vue";
 import AppFooter from "../components/AppFooter.vue";
-import TestNavbar from "../components/TestNavbar.vue";
+import Navbar from "~/components/Navbar.vue";
 export default {
   name: "default",
-  components: { Navbar, AppFooter, TestNavbar },
+  components: { AppFooter, Navbar },
 };
 </script>
