@@ -1,6 +1,7 @@
 <template>
   <div style="background-color:LightGray;">
     <TestNavbar />
+    <Navbar />
     <br />
     <Nuxt />
     <br />
