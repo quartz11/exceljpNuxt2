@@ -7,7 +7,7 @@ h1 {
   <section class="px-20">
     <div class="container">
 
-      <h1 class="text-3xl ">Contact Us</h1>
+      <h1 class="text-3xl text-black ">Contact Us</h1>
       <br />
       <!-- CUSTOM BLOCKQUOTE -->
       <div class="p-4 text-gray-800 bg-white rounded-lg shadow max-w-8xl">
