@@ -4,7 +4,7 @@
 
     <div class="container mx-auto">
 
-      <div class="bg-slate-50 card lg:card-side card-bordered">
+      <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
           <img width="350" height="350" src="http://1excellence.com/official/img/business/dispatch.jpg">
         </figure>
@@ -20,7 +20,7 @@
       </div>
       <br />
 
-      <div class="bg-slate-50 card lg:card-side card-bordered">
+      <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
           <img width="350" height="350" src="http://1excellence.com/official/img/business/package.jpg">
         </figure>
@@ -43,7 +43,7 @@
       </div>
       <br />
 
-      <div class="bg-slate-50 card lg:card-side card-bordered">
+      <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
           <img width="350" height="350" src="http://1excellence.com/official/img/business/given.jpg">
         </figure>
@@ -61,7 +61,7 @@
       </div>
       <br />
 
-      <div class="bg-slate-50 card lg:card-side card-bordered">
+      <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
           <img width="350" height="350" src="http://1excellence.com/official/img/business/offshore.jpg">
         </figure>
@@ -77,7 +77,7 @@
       </div>
       <br />
 
-      <div class="bg-slate-50 card lg:card-side card-bordered">
+      <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
           <img width="350" height="350" src="http://1excellence.com/official/img/business/consult.jpg">
         </figure>
@@ -91,7 +91,7 @@
       </div>
       <br />
 
-      <div class="bg-slate-50 card lg:card-side card-bordered">
+      <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
           <img width="350" height="350" src="http://1excellence.com/official/img/business/translate.jpg">
         </figure>
@@ -106,7 +106,7 @@ Japanese fluent Chinese and Thai staff have enrolled,It delivered in Comfortable
       </div>
       <br />
 
-      <div class="bg-slate-50 card lg:card-side card-bordered">
+      <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
           <img width="350" height="350" src="http://1excellence.com/official/img/business/siamorder.jpg">
         </figure>
