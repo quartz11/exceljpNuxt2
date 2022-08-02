@@ -4,7 +4,7 @@
 
     <div class="container mx-auto">
 
-      <div class="bg-slate-50 card lg:card-side card-bordered">
+      <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
           <img width="350" height="350" src="http://1excellence.com/official/img/deployment/medical.jpg">
         </figure>
@@ -22,7 +22,7 @@ Photos, videos, body image and saved for each patient, it is possible to edit an
       </div>
       <br />
 
-      <div class="bg-slate-50 card lg:card-side card-bordered">
+      <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
           <img width="350" height="350" src="http://1excellence.com/official/img/deployment/warehouse.jpg">
         </figure>
@@ -39,7 +39,7 @@ By your leave the risks associated with tied and data management to the complica
       </div>
       <br />
 
-      <div class="bg-slate-50 card lg:card-side card-bordered">
+      <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
           <img width="350" height="350" src="http://1excellence.com/official/img/deployment/groupware.jpg">
         </figure>
@@ -55,7 +55,7 @@ Daily, weekly, monthly, general affairs management, sales reporting, ranging fro
       </div>
       <br />
 
-      <div class="bg-slate-50 card lg:card-side card-bordered">
+      <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
           <img width="350" height="350" src="http://1excellence.com/official/img/deployment/hotelReservation.jpg">
         </figure>
