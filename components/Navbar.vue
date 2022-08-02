@@ -1,7 +1,7 @@
 <template>
   <div class="navbar bg-base-100 lg:justify-center">
     <div class="lg:container">
-      <div class="navbar-start ">
+      <div class="navbar-start lg:w-1/4">
 
         <a href="/" class="btn btn-ghost normal-case text-3xl">Excellence</a>
 
@@ -33,7 +33,7 @@
         </div>
       </div>
 
-      <div class="navbar-end hidden lg:flex">
+      <div class="navbar-end lg:w-3/4 hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
 
           <li tabindex="0">
