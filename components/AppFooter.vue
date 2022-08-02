@@ -25,10 +25,10 @@ h6 {
         <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-white">Services and Products </h2>
         <ul class="text-gray-500 dark:text-gray-400">
           <li class="mb-1">
-            <a href="#" class="hover:underline">Business</a>
+            <router-link to ="/business" class="hover:underline">Business</router-link>
           </li>
           <li class="mb-1">
-            <a href="#" class="hover:underline">Development</a>
+            <router-link to ="/development" class="hover:underline">Development</router-link>
           </li>
           <li class="mb-1">
             <a href="#" class="hover:underline">Import agency</a>
@@ -45,7 +45,7 @@ h6 {
             <a href="#" class="hover:underline">Greeting</a>
           </li>
           <li class="mb-1">
-            <a href="#" class="hover:underline">Overview</a>
+            <router-link to ="/overview" class="hover:underline">Overview</router-link>
           </li>
           <li class="mb-1">
             <a href="#" class="hover:underline">Philosophy and Motto</a>
@@ -57,7 +57,7 @@ h6 {
             <a href="#" class="hover:underline">Employment</a>
           </li>
           <li class="mb-1">
-            <a href="#" class="hover:underline">Contact</a>
+            <router-link to ="contact" class="hover:underline">Contact</router-link>
           </li>
           <li class="mb-1">
             <a href="#" class="hover:underline">Access</a>
