@@ -64,7 +64,7 @@ h1 {
                 <td></td>
                 <td>
                   <img class="object-none object-center"
-                    src="http://1excellence.com/official/img/access/access_en.png"></img>
+                    src="http://1excellence.com/official/img/access/access_en.png"/>
 
                 </td>
               </tr>
