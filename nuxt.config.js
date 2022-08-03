@@ -37,6 +37,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
+    '@nuxtjs/i18n',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -54,5 +55,32 @@ export default {
      solid:true,
      brands:true
     }
-   }
+  },
+
+  i18n: {
+    locales: [
+      {
+        code: 'jp',
+        file: 'jp.js',
+      },
+      {
+        code: 'en',
+        file: 'en.js',
+      },
+      {
+        code: 'th',
+        file: 'th.js',
+      },
+      {
+        code: 'cn',
+        file: 'cn.js',
+      }
+    ],
+    lazy: true,
+    langDir: 'lang/',
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+    }
+  }
 }
