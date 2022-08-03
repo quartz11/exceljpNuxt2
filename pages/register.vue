@@ -1,3 +1,4 @@
+
 <template>
   <div>
 
@@ -34,7 +35,7 @@
                     Name
                   </th>
                   <th scope="col" class="px-6 py-3 text-black bg-slate-400">
-
+                    <p>{{ first_name }} &nbsp; {{ middle_name }} &nbsp; {{ family_name }}</p>
                   </th>
                 </tr>
               </thead>
@@ -44,7 +45,7 @@
                     Age
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-
+                    <p>{{ age }}</p>
                   </td>
 
                 </tr>
@@ -53,7 +54,7 @@
                     Sex
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-
+                    <p>{{ sex }}</p>
                   </td>
                 </tr>
 
@@ -62,7 +63,7 @@
                     Country
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-
+                    <p>{{ country }}</p>
                   </td>
                 </tr>
 
@@ -71,7 +72,7 @@
                     Address-Number
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-
+                    <p>{{ addressN }}</p>
                   </td>
                 </tr>
 
@@ -80,7 +81,7 @@
                     Address
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-
+                    <p>{{ address }}</p>
                   </td>
                 </tr>
 
@@ -89,7 +90,7 @@
                     Telphone
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-
+                    <p>{{ telphone }}</p>
                   </td>
                 </tr>
 
@@ -98,7 +99,7 @@
                     e-Mail
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-
+                    <p>{{ email }}</p>
                   </td>
                 </tr>
 
@@ -107,7 +108,7 @@
                     Matter
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-
+                  <p style="white-space: pre-line;">{{ matter }}</p>
                   </td>
                 </tr>
                 <br />
@@ -129,7 +130,7 @@
             </thead>
           </table>
           <!-- Form input -->
-          <div class="container mx-auto">
+          <div id="inputForm1" class="container mx-auto">
             <table class="w-full text-sm text-left text-white dark:text-gray-400">
               <thead class="text-sm text-white dark:text-gray-400">
                 <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -139,17 +140,17 @@
                   <th scope="col" class="px-6 py-3 text-black bg-slate-400">
                 <tr></tr>
                 <label for="first_name">First Name</label>
-                <input type="text" id="first_name"
+                <input v-model="first_name" id="first_name"
                   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   required>
                 <br />
                 <label for="middle_name">Middle Name</label>
-                <input type="text" id="middle_name"
+                <input v-model="middle_name" id="middle_name"
                   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   required>
                 <br />
                 <label for="family_name">Family Name</label>
-                <input type="text" id="family_name"
+                <input v-model="family_name" id="family_name"
                   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   required>
                 </th>
@@ -161,7 +162,7 @@
                     Age
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-                    <input type="text" id="Age"
+                    <input id="age" v-model="age" type="number" name="age" min="0"
                       class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-20  h-8	p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       required>
                   </td>
@@ -171,15 +172,15 @@
                     Sex
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-                    <input id="Sex_M" type="radio" value="" name="default-radio"
+                    <input type="radio" id="Sex_M" value="Male" v-model="sex"
                       class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                     <label for="Sex_M" class="ml-2 text-sm font-medium text-gray-900">Male</label>
                     &nbsp;&nbsp;
-                    <input id="Sex_F" type="radio" value="" name="default-radio"
+                    <input type="radio" id="Sex_F" value="Female" v-model="sex"
                       class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                     <label for="Sex_F" class="ml-2 text-sm font-medium text-gray-900">Female</label>
                     &nbsp;&nbsp;
-                    <input id="Sex_O" type="radio" value="" name="default-radio"
+                    <input type="radio" id="Sex_O" value="--" v-model="sex"
                       class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                     <label for="Sex_O" class="ml-2 text-sm font-medium text-gray-900">--</label>
                   </td>
@@ -189,58 +190,59 @@
                     Country
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-                    <input type="text" id="Country"
+                    <input v-model="country" id="country"
                       class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       required>
                   </td>
                 </tr>
 
-                                <tr class="border-b border-gray-200 dark:border-gray-700">
+                <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
                     Address-Number
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-                    <input type="text" id="AddressNum"
+                    <input v-model="addressN" id="addressN"
                       class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       required>
                   </td>
                 </tr>
-                                                <tr class="border-b border-gray-200 dark:border-gray-700">
+                <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
                     ※Address
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-                    <input type="text" id="Address"
+                    <input v-model="address" id="address"
                       class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       required>
                   </td>
                 </tr>
-                                                                <tr class="border-b border-gray-200 dark:border-gray-700">
+                <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
                     ※Telphone
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-                    <input type="text" id="Telphone"
+                    <input v-model="telphone" id="telphone"
                       class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       required>
                   </td>
                 </tr>
-                                                                                <tr class="border-b border-gray-200 dark:border-gray-700">
+                <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
                     ※e-Mail
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-                    <input type="email" id="eMail"
+                    <input v-model="email" id="email"
                       class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       required>
                   </td>
                 </tr>
-                                                                                                <tr class="border-b border-gray-200 dark:border-gray-700">
+                <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
                     Matter
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-<textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-black bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"></textarea>
+                    <textarea v-model="matter" id="matter"
+                      class="block p-2.5 w-full text-sm text-black bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"></textarea>
 
                   </td>
                 </tr>
@@ -255,3 +257,27 @@
 
   </div>
 </template>
+
+<script>
+import Vue from 'vue'
+export default {
+  data() {
+    return {
+      first_name: '',
+      middle_name: '',
+      family_name: '',
+      age: '',
+      sex: '',
+      country: '',
+      addressN: '',
+      address: '',
+      telphone: '',
+      email: '',
+      matter: ''
+    }
+  },
+  methods: {
+
+  }
+}
+</script>
