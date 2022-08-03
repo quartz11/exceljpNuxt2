@@ -63,7 +63,8 @@
               </thead>
               <tbody>
                 <tr>
-                  <th scope="col" class="px-6 py-3 text-xl text-center text-black auto-cols-auto">Sales department(Representative)</th>
+                  <th scope="col" class="px-6 py-3 text-xl text-center text-black auto-cols-auto">Sales
+                    department(Representative)</th>
 
                 </tr>
                 <tr>
@@ -184,13 +185,14 @@
 
         </div>
       </div>
-    <br />
-<div class="container mx-auto ">
-  <div class="w-100"></div>
-      <button class="content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700">
-  Inquiry form
-</button>
-</div>
+      <br />
+      <div class="container mx-auto ">
+        <div class="w-100"></div>
+        <button
+          class="content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700">
+          Inquiry form
+        </button>
+      </div>
     </div>
 
   </div>
