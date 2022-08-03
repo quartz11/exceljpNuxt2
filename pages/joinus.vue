@@ -132,9 +132,9 @@
             <p class="text-2xl text-center text-black">Recruiting Requirements</p>
             <br />
             <table class="w-full text-sm text-left text-white dark:text-gray-400">
-              <thead class="text-xs text-white uppercase dark:text-gray-400">
+              <thead class="text-sm text-white dark:text-gray-400">
                 <tr class="border-b border-gray-200 dark:border-gray-700">
-                  <th scope="col" class="px-6 py-3 text-white dark:bg-slate-900 auto-cols-auto">
+                  <th scope="col" class="px-6 py-3 text-sm text-white dark:bg-slate-900 auto-cols-auto">
                     Business
                   </th>
                   <th scope="col" class="px-6 py-3 text-black bg-slate-400">
