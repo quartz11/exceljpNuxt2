@@ -13,8 +13,8 @@
           <div class="mx-auto col-lg-6">
 
             <!-- CUSTOM BLOCKQUOTE -->
-            <blockquote class="p-5 bg-white rounded shadow blockquote blockquote-custom">
-              <div class="shadow-sm blockquote-custom-icon bg-info"></div>
+            <blockquote class="p-5 bg-white rounded shadow-2xl blockquote blockquote-custom">
+              <div class="shadow-2xl blockquote-custom-icon bg-info"></div>
               <p class="mt-2 mb-0 text-black font-italic">"The pursuit of happiness discretion both sides of all
                 employees.
                 To provide the best of ICT services to customers,
@@ -35,8 +35,8 @@
           <div class="mx-auto col-lg-6">
 
             <!-- CUSTOM BLOCKQUOTE -->
-            <blockquote class="p-5 bg-white rounded shadow blockquote blockquote-custom">
-              <div class="shadow-sm blockquote-custom-icon bg-info"></div>
+            <blockquote class="p-5 bg-white rounded shadow-2xl blockquote blockquote-custom">
+              <div class="shadow-2xl blockquote-custom-icon bg-info"></div>
               <p class="mt-2 mb-0 text-black font-italic">We will continue to all employees growth beneath the the
                 management philosophy. And we have stacked the day-to-day study in order to continue to be a company
                 that will contribute to the world.
@@ -61,7 +61,7 @@
       <div class="row">
         <div class="col"></div>
         <div class="col-10">
-          <div class="max-w-sm overflow-hidden rounded shadow-lg bg-slate-50" style="max-width: 60rem;">
+          <div class="max-w-sm overflow-hidden rounded shadow-2xl bg-slate-50" style="max-width: 60rem;">
             <div class="card-header" style="background-color:blueviolet; color:white;">&nbsp;&nbsp; Partners Recruiting
             </div>
             <div class="card-body">
