@@ -16,27 +16,27 @@
 
           <ul tabindex="0" class="menu menu-compact collapse-content">
             <li tabindex="0">
-              <a href="/">Home
+              <a href="/">{{$t('navbar.home.home')}}
                 <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </a>
               <ul class="p-2 bg-base-100">
-                <li><a href="">News</a></li>
+                <li><a href="">{{$t('navbar.home.news')}}</a></li>
               </ul>
             </li>
 
             <li tabindex="0">
-              <a> Overview
+              <a> {{$t('navbar.overview.overview')}}
                 <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </a>
               <ul class="p-2 bg-base-100">
-                <li><a>Company Overview</a></li>
-                <li><a>Our History</a></li>
-                <li><a>Our Philosophy</a></li>
-                <li><a>Greeting</a></li>
+                <li><a>{{$t('navbar.overview.company')}}</a></li>
+                <li><a>{{$t('navbar.overview.history')}}</a></li>
+                <li><a>{{$t('navbar.overview.philosophy')}}</a></li>
+                <li><a>{{$t('navbar.overview.greeting')}}</a></li>
               </ul>
             </li>
 
@@ -122,17 +122,9 @@
 </template>
 <script>
 import { ref } from 'vue';
+
 export default {
   name: "Navbar",
-  // setup() {
-  //   let showMenu = ref(false);
-  //   let show = ref(false);
-  //   let ddnav1 = ref(false);
-  //   let ddnav2 = ref(false);
-  //   let ddnav3 = ref(false);
-  //   let lang = ref('EN');
-  //   const toggleNav = () => (showMenu.value = !showMenu.value);
-  //   return { showMenu, show, ddnav1, ddnav2, ddnav3, lang, toggleNav };
-  // },
+
 };
 </script>

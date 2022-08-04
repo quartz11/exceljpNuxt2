@@ -3,7 +3,9 @@
 
     <div>
       <h2>
-        TEST LANGUAGE Welcome - {{$t('welcome')}}
+        TEST LANGUAGE Welcome - {{$t('welcome')}} 
+        <br/>
+        TEST LANGUAGE Home - {{$t('navbar.home.home')}}
       </h2>
     </div>
 
