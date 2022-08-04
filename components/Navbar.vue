@@ -117,14 +117,6 @@
               </svg>
             </a>
             <ul class="p-2 bg-base-100">
-<<<<<<< HEAD
-              <li><a>Company Overview</a></li>
-              <li><a>Our History</a></li>
-              <li>
-                <nuxt-link :to="localePath('motto')">Our Philosophy</nuxt-link>
-              </li>
-              <li><a>Greeting</a></li>
-=======
               <li>
                 <nuxt-link to="/overview">Company Overview</nuxt-link>
               </li>
@@ -140,7 +132,6 @@
               <li>
                 <nuxt-link to="/employment">Employment</nuxt-link>
               </li>
->>>>>>> 2b9fef9d2bcab92ea784a32d67b1eed0463ccf6f
             </ul>
           </li>
 
@@ -151,15 +142,6 @@
               </svg>
             </a>
             <ul class="p-2 bg-base-100">
-<<<<<<< HEAD
-              <li><a href="/business">Our Business</a></li>
-              <li><a>Our Product</a></li>
-            </ul>
-          </li>
-
-          <li><a>Join us</a></li>
-          <li><a href="/contact">Contact us</a></li>
-=======
               <li>
                 <nuxt-link to="/business">Our Business</nuxt-link>
               </li>
@@ -175,7 +157,6 @@
           <li>
             <nuxt-link to="/contact">Contact us</nuxt-link>
           </li>
->>>>>>> 2b9fef9d2bcab92ea784a32d67b1eed0463ccf6f
 
           <li tabindex="0" class="dropdown-end">
             <a>
