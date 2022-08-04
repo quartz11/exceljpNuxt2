@@ -3,8 +3,8 @@
 
     <div>
       <h2>
-        TEST LANGUAGE Welcome - {{$t('welcome')}} 
-        <br/>
+        TEST LANGUAGE Welcome - {{$t('welcome')}}
+        <br />
         TEST LANGUAGE Home - {{$t('navbar.home.home')}}
       </h2>
     </div>
@@ -103,6 +103,6 @@
 
 <script>
 export default {
-  layout: 'default'
+  layout: 'default',
 }
 </script>

@@ -70,6 +70,7 @@ export default {
         file: "cn.js",
       },
     ],
+    // silentFallbackWarn: true,
     langDir: "assets/lang/",
     defaultLocale: "en",
     vueI18n: {
