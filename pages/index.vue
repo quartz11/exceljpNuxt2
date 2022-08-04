@@ -3,9 +3,9 @@
 
     <div>
       <h2>
-        TEST LANGUAGE Welcome - {{$t('welcome')}} 
-        <br/>
-        TEST LANGUAGE Home - {{$t('navbar.home.home')}}
+        TEST LANGUAGE Welcome - {{ $t('welcome') }}
+        <br />
+        TEST LANGUAGE Home - {{ $t('navbar.home.home') }}
       </h2>
     </div>
 
@@ -60,43 +60,47 @@
     <br />
 
     <div class="container mx-auto">
-      <div class="row">
-        <div class="col"></div>
-        <div class="col-10">
-          <div class="max-w-sm overflow-hidden rounded shadow-2xl bg-slate-50" style="max-width: 60rem;">
-            <div class="card-header" style="background-color:blueviolet; color:white;">&nbsp;&nbsp; Partners Recruiting
-            </div>
-            <div class="card-body">
-              <h5 class="text-black card-title">We are looking for a partner.</h5>
-              <p class="text-black card-text">The Company is looking for a partner who can both perform software
-                development.
-                Interested in our business areas, if there is a possibility you'll find cooperation, thank you for your
-                consideration.
-                We are, for the sake of technology provided by customers satisfaction is, without having to stick to our
-                own,
-                widely flexibility in seeking business partners, and we believe Let's build a relationship of
-                collaboration.
+      <div class="mx-auto col-lg-6">
 
-                And entered into a partnership for the purpose acquisition and the business strengthening of business
-                opportunities
-                both to expand business opportunities by sharing technology and know-how of each other, why not continue
-                to grow together.</p>
-            </div>
+        <div class="w-full overflow-hidden rounded shadow-2xl bg-slate-50">
+          <div class="card-header" style="background-color:blueviolet; color:white;">&nbsp;&nbsp; Partners Recruiting
+          </div>
+          <div class="card-body">
+            <h5 class="text-black card-title">We are looking for a partner.</h5>
+            <p class="text-black card-text">The Company is looking for a partner who can both perform software
+              development.
+              Interested in our business areas, if there is a possibility you'll find cooperation, thank you for your
+              consideration.
+              We are, for the sake of technology provided by customers satisfaction is, without having to stick to our
+              own,
+              widely flexibility in seeking business partners, and we believe Let's build a relationship of
+              collaboration.
+
+              And entered into a partnership for the purpose acquisition and the business strengthening of business
+              opportunities
+              both to expand business opportunities by sharing technology and know-how of each other, why not continue
+              to grow together.</p>
           </div>
         </div>
-        <div class="col"></div>
+
       </div>
       <br />
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="col-2">
-          <button class="px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700">Inquiry
-            form</button>
-        </div>
-      </div>
     </div>
+<br />
 
-
+<div class="h-2 grid grid-cols-3 gap-64	content-center">
+  <div></div>
+  <div>
+    <nuxt-link to="/register">
+        <button
+          class="content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700">
+          Inquiry form
+        </button>
+      </nuxt-link>
+      </div>
+  <div></div>
+</div>
+<br />
 
   </div>
 </template>
