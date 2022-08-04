@@ -93,7 +93,21 @@
           </tbody>
         </table>
       </div>
-
+      <br />
+      <div class="h-8 grid grid-cols-5 gap-4 content-center">
+        <div></div>
+        <div></div>
+        <div>
+          <nuxt-link to="/history">
+            <button
+              class="content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700">
+              Company History
+            </button>
+          </nuxt-link>
+        </div>
+        <div></div>
+        <div></div>
+      </div>
 
     </div>
 
