@@ -79,10 +79,21 @@
               </svg>
             </a>
             <ul class="p-2 bg-base-100">
-              <li><nuxt-link to="/overview">Company Overview</nuxt-link></li>
-              <li><nuxt-link to="/history">Our History</nuxt-link></li>
-              <li><nuxt-link :to="localePath('motto')">Our Philosophy</nuxt-link></li>
-              <li><nuxt-link to="/greetings">Greeting</nuxt-link></li>
+              <li>
+                <nuxt-link to="/overview">Company Overview</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/history">Our History</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link :to="localePath('motto')">Our Philosophy</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/greetings">Greeting</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/employment">Employment</nuxt-link>
+              </li>
             </ul>
           </li>
 
@@ -93,23 +104,39 @@
               </svg>
             </a>
             <ul class="p-2 bg-base-100">
-              <li><nuxt-link to="/business">Our Business</nuxt-link></li>
-              <li><nuxt-link to="/product">Our Product</nuxt-link></li>
+              <li>
+                <nuxt-link to="/business">Our Business</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/product">Our Product</nuxt-link>
+              </li>
             </ul>
           </li>
 
-          <li><nuxt-link to="/joinus">Join us</nuxt-link></li>
-          <li><nuxt-link to="/contact">Contact us</nuxt-link></li>
+          <li>
+            <nuxt-link to="/joinus">Join us</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/contact">Contact us</nuxt-link>
+          </li>
 
-          <li tabindex="0" class="dropdown-end" >
-            <a >
+          <li tabindex="0" class="dropdown-end">
+            <a>
               <font-awesome-icon icon="fa-solid fa-language" class="text-2xl" />
             </a>
             <ul class="p-2 bg-base-100 dropdown-content">
-              <li><nuxt-link :to="switchLocalePath('jp')">日本語</nuxt-link></li>
-              <li><nuxt-link :to="switchLocalePath('en')">English</nuxt-link></li>
-              <li><nuxt-link :to="switchLocalePath('th')">ภาษาไทย</nuxt-link></li>
-              <li><nuxt-link :to="switchLocalePath('cn')">中文</nuxt-link></li>
+              <li>
+                <nuxt-link :to="switchLocalePath('jp')">日本語</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link :to="switchLocalePath('en')">English</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link :to="switchLocalePath('th')">ภาษาไทย</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link :to="switchLocalePath('cn')">中文</nuxt-link>
+              </li>
             </ul>
           </li>
 
