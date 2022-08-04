@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <div class="container mx-auto">
+    <div class="container w-9/12 mx-auto">
 
       <h1 class="text-lg text-center text-white bg-violet-800 ">Company Overview</h1>
       <div class="relative overflow-x-auto shadow-md ">

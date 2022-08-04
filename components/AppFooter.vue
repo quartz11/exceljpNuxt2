@@ -17,7 +17,7 @@ h6 {
             <a href="#" class=" hover:underline">News</a>
           </li>
           <li class="mb-1">
-            <a href="#" class="hover:underline">Blog</a>
+            <a href="https://www.excellence-blog.com/" class="hover:underline">Blog</a>
           </li>
         </ul>
       </div>
@@ -25,16 +25,16 @@ h6 {
         <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-white">Services and Products </h2>
         <ul class="text-gray-500 dark:text-gray-400">
           <li class="mb-1">
-            <router-link to ="/business" class="hover:underline">Business</router-link>
+            <nuxt-link to ="/business" class="hover:underline">Business</nuxt-link>
           </li>
           <li class="mb-1">
-            <router-link to ="/development" class="hover:underline">Development</router-link>
+            <nuxt-link to ="/product" class="hover:underline">Product</nuxt-link>
           </li>
           <li class="mb-1">
-            <a href="#" class="hover:underline">Import agency</a>
+            <nuxt-link to="/" class="hover:underline">Import agency</nuxt-link>
           </li>
           <li class="mb-1">
-            <a href="#" class="hover:underline">e-base</a>
+            <a href="http://1excellence.com/productdemo/ebase/ebase.jsp" class="hover:underline">e-base</a>
           </li>
         </ul>
       </div>
@@ -42,25 +42,25 @@ h6 {
         <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-white">Company Guide</h2>
         <ul class="text-gray-500 dark:text-gray-400">
           <li class="mb-1">
-            <a href="#" class="hover:underline">Greeting</a>
+            <nuxt-link to="/greetings" class="hover:underline">Greeting</nuxt-link>
           </li>
           <li class="mb-1">
-            <router-link to ="/overview" class="hover:underline">Overview</router-link>
+            <nuxt-link to ="/overview" class="hover:underline">Overview</nuxt-link>
           </li>
           <li class="mb-1">
-            <a href="#" class="hover:underline">Philosophy and Motto</a>
+            <nuxt-link to="/motto" class="hover:underline">Philosophy and Motto</nuxt-link>
           </li>
           <li class="mb-1">
-            <a href="#" class="hover:underline">Privacy Policy</a>
+            <nuxt-link to="/policy" class="hover:underline">Privacy Policy</nuxt-link>
           </li>
           <li class="mb-1">
-            <a href="#" class="hover:underline">Employment</a>
+            <nuxt-link to="/employment" class="hover:underline">Employment</nuxt-link>
           </li>
           <li class="mb-1">
-            <router-link to ="contact" class="hover:underline">Contact</router-link>
+            <nuxt-link to ="/contact" class="hover:underline">Contact</nuxt-link>
           </li>
           <li class="mb-1">
-            <a href="#" class="hover:underline">Access</a>
+            <nuxt-link to="/joinus" class="hover:underline">Join us</nuxt-link>
           </li>
         </ul>
       </div>
@@ -68,10 +68,10 @@ h6 {
         <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-white">Related Sites</h2>
         <ul class="text-gray-500 dark:text-gray-400">
           <li class="mb-1">
-            <a href="#" class="hover:underline">Excellence Siam</a>
+            <a href="https://www.excelsiam.com/" class="hover:underline">Excellence Siam</a>
           </li>
           <li class="mb-1">
-            <a href="#" class="hover:underline">Employee e-base</a>
+            <a href="https://1excellence.com/ebase6/DQube" class="hover:underline">Employee e-base</a>
           </li>
         </ul>
       </div>
