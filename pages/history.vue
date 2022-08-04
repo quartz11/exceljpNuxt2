@@ -3,9 +3,9 @@
 
     <div class="container w-9/12	 mx-auto">
 
-      <h1 class="text-lg text-left text-white bg-violet-800 ">&nbsp;&nbsp; Company History</h1>
+      <h1 class="text-lg shadow-2xl text-left text-white bg-violet-800 ">&nbsp;&nbsp; Company History</h1>
       <div class="relative overflow-x-auto shadow-md ">
-        <table class="w-full text-sm text-left text-white dark:text-gray-400">
+        <table class="w-full shadow-2xl text-sm text-left text-white dark:text-gray-400">
           <thead class="text-xs text-white dark:text-gray-400">
             <tr class="border-b border-gray-200 dark:border-gray-700">
               <th scope="col" class="px-6 py-3 text-white dark:bg-violet-600 auto-cols-auto">
