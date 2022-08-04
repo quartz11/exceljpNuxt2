@@ -80,7 +80,7 @@
             </a>
             <ul class="p-2 bg-base-100">
               <li><nuxt-link to="/overview">Company Overview</nuxt-link></li>
-              <li><a>Our History</a></li>
+              <li><nuxt-link to="/history">Our History</nuxt-link></li>
               <li><nuxt-link :to="localePath('motto')">Our Philosophy</nuxt-link></li>
               <li><nuxt-link to="/greetings">Greeting</nuxt-link></li>
             </ul>
