@@ -178,10 +178,12 @@
                   </td>
                 </tr>
                 <br />
-        <button
-          class="content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700">
-          Inquiry form
-        </button>
+                <nuxt-link to="/register">
+                  <button
+                    class="content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700">
+                    Inquiry form
+                  </button>
+                </nuxt-link>
               </tbody>
             </table>
 
