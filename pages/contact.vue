@@ -54,19 +54,19 @@ h1 {
           <table class="justify-center table-fixed">
             <thead>
               <tr>
-                <th class="w-72"></th>
-                <th class=""></th>
-                <th class=""></th>
+                <th class="w-1/3"></th>
+                <th class="w-1/3"></th>
+                <th class="w-1/3"></th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td></td>
                 <td>
-                  <img class="object-none object-center"
+                  <img class="object-scale-down object-center"
                     src="http://1excellence.com/official/img/access/access_en.png"/>
-
                 </td>
+                <td></td>
               </tr>
             </tbody>
 
