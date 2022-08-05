@@ -86,7 +86,7 @@
               </tr>
               <tr>
                 <td class="text-center text-xl">
-                  <nuxt-link to="/">Campus Recruiting</nuxt-link>
+                  <nuxt-link to="/campus">Campus Recruiting</nuxt-link>
                 </td>
                 <td class="text-center text-xl">
                   <nuxt-link to="/">Mid-career recruitment</nuxt-link>
