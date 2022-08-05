@@ -21,9 +21,7 @@ export default {
   plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: [
-    '~/components',
-  ],
+  components: ["~/components"],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: ["@nuxtjs/fontawesome", "@nuxt/postcss8"],
@@ -33,6 +31,9 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     "@nuxtjs/i18n",
   ],
+  generate: {
+    dir: "public",
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
