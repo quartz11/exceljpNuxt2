@@ -107,6 +107,6 @@
 
 <script>
 export default {
-  layout: 'default'
+  layout: 'default',
 }
 </script>
