@@ -4,7 +4,7 @@
 
       <!-- Collapse Manu -->
       <div class="flex-1 navbar-start collapse lg:hidden w-3/4">
-        <input type="checkbox" class="peer" />
+        <input type="checkbox" >
         <div class="collapse-title btn btn-ghost content-center">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
             class="inline-block w-6 h-6 stroke-current">
@@ -14,9 +14,9 @@
           <label class="normal-case text-3xl pl-5 pb-1">Excellence</label>
         </div>
 
-        <ul class="menu collapse-content overflow-visible w-fit items-start">
+        <ul class="menu collapse-content overflow-visible w-fit">
           <li tabindex="0">
-            <nuxt-link :to="localePath('/')" class="rounded-lg">
+            <nuxt-link :to="localePath('index')" class="rounded-lg">
               {{ $t('navbar.home.home') }}
               <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                 <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"></path>
@@ -24,20 +24,21 @@
             </nuxt-link>
             <ul class="p-2 bg-base-100">
               <li>
-                <nuxt-link :to="localePath('/')" class="rounded-lg">{{ $t('navbar.home.news') }}</nuxt-link>
+                <nuxt-link :to="localePath('index')" class="rounded-lg">{{ $t('navbar.home.news') }}</nuxt-link>
               </li>
             </ul>
           </li>
 
           <li tabindex="0">
-            <a> Overview
+            <nuxt-link :to="localePath('overview')" class="rounded-lg"> 
+              {{ $t('navbar.overview.overview') }}
               <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                 <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"></path>
               </svg>
-            </a>
+            </nuxt-link>
             <ul class="p-2 bg-base-100">
               <li>
-                <nuxt-link to="/overview">Company Overview</nuxt-link>
+                <nuxt-link :to="localePath('/')">Company Overview</nuxt-link>
               </li>
               <li>
                 <nuxt-link to="/history">Our History</nuxt-link>
@@ -202,7 +203,6 @@ import { ref } from 'vue';
 
 export default {
   name: "Navbar",
-
-
+  
 };
 </script>
