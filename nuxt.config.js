@@ -31,9 +31,7 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     "@nuxtjs/i18n",
   ],
-  generate: {
-    dir: "public",
-  },
+  target: "static",
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
