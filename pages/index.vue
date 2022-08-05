@@ -88,18 +88,27 @@
     </div>
 <br />
 
-<div class="h-2 grid grid-cols-3 gap-64	content-center">
-  <div></div>
-  <div>
-    <nuxt-link to="/register">
+
+<div class="flex justify-center">
+
+  <table>
+<thead>
+<tr>
+  <th class="w-1/3"></th>
+  <th class="w-1/3">
+        <nuxt-link to="/register">
         <button
-          class="content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700">
+          class="w-full	 content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700 mx-2">
           Inquiry form
         </button>
       </nuxt-link>
-      </div>
-  <div></div>
+  </th>
+  <th class="w-1/3"></th>
+</tr>
+</thead>
+</table>
 </div>
+
 <br />
 
   </div>
