@@ -53,7 +53,7 @@
     </div>
     <br />
 
-<!-- 3 button -->
+    <!-- 3 button -->
 
     <div class="flex justify-center mx-auto">
 
@@ -61,33 +61,42 @@
 
         <div class="card-body text-black">
 
-<table class="table-auto mx-auto">
-  <thead class="mx-auto">
-    <tr>
-      <th class="w-96 center mx-auto">
-       <img class="content-center" width="290" height="290" src="http://1excellence.com/official/img/recruit/recruit.jpg"/>
-      </th>
-      <th class="w-96 content-center mx-auto">
-        <img class="content-center" width="290" height="290" src="http://1excellence.com/official/img/recruit/recruit.jpg"/>
-      </th>
-      <th class="w-96 content-center mx-auto">
-         <img class="content-center" width="290" height="290" src="http://1excellence.com/official/img/recruit/recruit.jpg"/>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><br /></td>
-      <td><br /></td>
-      <td><br /></td>
-    </tr>
-    <tr>
-      <td class="text-center text-xl"><nuxt-link to="/">Campus Recruiting</nuxt-link></td>
-      <td class="text-center text-xl"><nuxt-link to="/">Mid-career recruitment</nuxt-link></td>
-      <td class="text-center text-xl"><nuxt-link to="/">Employee Interviews</nuxt-link></td>
-    </tr>
-  </tbody>
-</table>
+          <table class="table-auto justify-center mx-auto">
+            <thead class="justify-center">
+              <tr>
+                <th class="w-96 center mx-auto">
+                  <img class="content-center" width="290" height="290"
+                    src="http://1excellence.com/official/img/recruit/recruit.jpg" />
+                </th>
+                <th class="w-96 content-center mx-auto">
+                  <img class="content-center" width="290" height="290"
+                    src="http://1excellence.com/official/img/recruit/recruit.jpg" />
+                </th>
+                <th class="w-96 content-center mx-auto">
+                  <img class="content-center" width="290" height="290"
+                    src="http://1excellence.com/official/img/recruit/recruit.jpg" />
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><br /></td>
+                <td><br /></td>
+                <td><br /></td>
+              </tr>
+              <tr>
+                <td class="text-center text-xl">
+                  <nuxt-link to="/">Campus Recruiting</nuxt-link>
+                </td>
+                <td class="text-center text-xl">
+                  <nuxt-link to="/">Mid-career recruitment</nuxt-link>
+                </td>
+                <td class="text-center text-xl">
+                  <nuxt-link to="/">Employee Interviews</nuxt-link>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
         </div>
       </div>
