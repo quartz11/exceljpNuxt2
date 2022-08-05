@@ -411,7 +411,7 @@
 </style>
 
 <script>
-//import '~/assets/js/history.js';
+import '~/assets/js/history.js';
 export default {
 
 }
