@@ -11,7 +11,14 @@ export default{
             history:'ประวัติความเป็นมา',
             philosophy:'ปรัชญาและคำขวัญ',
             greeting:'ทักทาย',
+            employment:'รับสมัคร',
         },
+        business: {
+            business: 'ธุรกิจของเรา',
+            product:'ผลิตภัณฑ์ของเรา',            
+        },
+        joinus:'เข้าร่วมกับเรา', 
+        contact:'ติดต่อเรา', 
         
     },    
 }
