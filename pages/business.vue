@@ -14,7 +14,9 @@
             we are aligned to the skills experienced technicians from the newcomer,Regardless of the field.
             Please contact us.</p>
           <div class="card-actions">
-            <button class="btn btn-primary">More info</button>
+            <nuxt-link to="/B1Dispatch">
+              <button class="btn btn-primary">More info</button>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -25,7 +27,9 @@
           <img width="350" height="350" src="http://1excellence.com/official/img/business/package.jpg">
         </figure>
         <div class="card-body">
-          <h2 class="text-black card-title">Development Package</h2>
+          <h2 class="text-black card-title">
+            <nuxt-link to="/product"><p class="text-black">Development Package</p></nuxt-link>
+          </h2>
           <p class="text-black">In our company we have been developing products for various business.</p>
           <a href="http://1excellence.com/#Treatment%20support%20application">
             <p class="text-sky-600">Treatment support application</p>
