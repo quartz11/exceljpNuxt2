@@ -65,16 +65,19 @@
             <thead class="justify-center">
               <tr>
                 <th class="w-96 center mx-auto">
-                  <img class="content-center" width="290" height="290"
-                    src="http://1excellence.com/official/img/recruit/recruit.jpg" />
+                  <div class="flex justify-center mx-auto">
+                    <img width="290" height="290" src="http://1excellence.com/official/img/recruit/recruit.jpg" />
+                  </div>
                 </th>
                 <th class="w-96 content-center mx-auto">
-                  <img class="content-center" width="290" height="290"
-                    src="http://1excellence.com/official/img/recruit/recruit.jpg" />
+                  <div class="flex justify-center mx-auto">
+                    <img width="290" height="290" src="http://1excellence.com/official/img/recruit/recruit.jpg" />
+                  </div>
                 </th>
                 <th class="w-96 content-center mx-auto">
-                  <img class="content-center" width="290" height="290"
-                    src="http://1excellence.com/official/img/recruit/recruit.jpg" />
+                  <div class="flex justify-center mx-auto">
+                    <img width="290" height="290" src="http://1excellence.com/official/img/recruit/recruit.jpg" />
+                  </div>
                 </th>
               </tr>
             </thead>
@@ -85,13 +88,13 @@
                 <td><br /></td>
               </tr>
               <tr>
-                <td class="text-center text-xl">
+                <td class="text-center text-xl text-blue-600">
                   <nuxt-link to="/campus">Campus Recruiting</nuxt-link>
                 </td>
-                <td class="text-center text-xl">
+                <td class="text-center text-xl text-blue-600">
                   <nuxt-link to="/midcareer">Mid-career recruitment</nuxt-link>
                 </td>
-                <td class="text-center text-xl">
+                <td class="text-center text-xl text-blue-600">
                   <nuxt-link to="/">Employee Interviews</nuxt-link>
                 </td>
               </tr>
