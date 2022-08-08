@@ -110,7 +110,9 @@
           <p class="text-black">	“Japanese→Other languages”“Other languages→Japanese”Both it can be translated.
 Japanese fluent Chinese and Thai staff have enrolled,It delivered in Comfortable quality.</p>
           <div class="card-actions">
-            <button class="btn btn-primary">More info</button>
+            <nuxt-link to="/B5Trans">
+              <button class="btn btn-primary">More info</button>
+            </nuxt-link>
           </div>
         </div>
       </div>
