@@ -12,7 +12,7 @@ export default {
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/EXfavicon.ico" }],
     script: [{ src: 'https://code.jquery.com/jquery-3.6.0.min.js' },],
   },
 
