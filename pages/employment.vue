@@ -89,7 +89,7 @@
                   <nuxt-link to="/campus">Campus Recruiting</nuxt-link>
                 </td>
                 <td class="text-center text-xl">
-                  <nuxt-link to="/">Mid-career recruitment</nuxt-link>
+                  <nuxt-link to="/midcareer">Mid-career recruitment</nuxt-link>
                 </td>
                 <td class="text-center text-xl">
                   <nuxt-link to="/">Employee Interviews</nuxt-link>
