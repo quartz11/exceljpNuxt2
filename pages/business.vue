@@ -93,7 +93,9 @@
           <h2 class="text-black card-title">Asia foray consultants</h2>
           <p class="text-black">	Subsidiary established in Thailand, based on the business experience in China, we will help with Preparing to various procedures and site selection and offices opened.</p>
           <div class="card-actions">
-            <button class="btn btn-primary">More info</button>
+            <nuxt-link to="/B4Consult">
+              <button class="btn btn-primary">More info</button>
+            </nuxt-link>
           </div>
         </div>
       </div>
