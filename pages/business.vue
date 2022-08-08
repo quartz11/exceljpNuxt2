@@ -59,7 +59,9 @@
             In addition, as long as it is a project that is similar to the development track record, it is possible more
             rapid response.</p>
           <div class="card-actions">
-            <button class="btn btn-primary">More info</button>
+            <nuxt-link to="/B2Outsource">
+              <button class="btn btn-primary">More info</button>
+            </nuxt-link>
           </div>
         </div>
       </div>
