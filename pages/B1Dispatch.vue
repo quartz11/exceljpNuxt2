@@ -89,62 +89,78 @@
         </div>
       </div>
     </div>
-<br />
-<!-- Business Footer -->
-<div class="flex justify-center mx-auto w-1/3">
-<table>
-  <thead>
-    <tr>
-      <th class="text-black text-center text-2xl">
-Introduction
-      </th>
-    </tr>
-  </thead>
-  <br />
-  <tbody class="text-center">
-    <tr>
-      <td>
-            <nuxt-link to="/B1Dispatch"><p class="text-black text-lg">Dispatch the IT technician</p></nuxt-link>
-      </td>
-    </tr>
-        <tr>
-      <td>
-            <nuxt-link to="/"><p class="text-black text-lg">Development Package</p></nuxt-link>
-      </td>
-    </tr>
-            <tr>
-      <td>
-            <nuxt-link to="/"><p class="text-black text-lg">System Outsourcing</p></nuxt-link>
-      </td>
-    </tr>
-            <tr>
-      <td>
-            <nuxt-link to="/"><p class="text-black text-lg">Offshore Development</p></nuxt-link>
-      </td>
-    </tr>
-            <tr>
-      <td>
-            <nuxt-link to="/"><p class="text-black text-lg">Asia foray consultants</p></nuxt-link>
-      </td>
-    </tr>
-            <tr>
-      <td>
-            <nuxt-link to="/"><p class="text-black text-lg">Translation(Japanese/English/Chinese/Thai)</p></nuxt-link>
-      </td>
-    </tr>
-            <tr>
-      <td>
-            <nuxt-link to="/"><p class="text-black text-lg">Siam Order Service(Import agency)</p></nuxt-link>
-      </td>
-    </tr>
-            <tr>
-      <td>
-            <nuxt-link to="/"><p class="text-black text-lg">Other Development Results</p></nuxt-link>
-      </td>
-    </tr>
-  </tbody>
-</table>
-</div>
+    <br />
+    <!-- Business Footer -->
+    <div class="flex justify-center mx-auto w-1/3">
+      <table>
+        <thead>
+          <tr>
+            <th class="text-black text-center text-2xl">
+              Introduction
+            </th>
+          </tr>
+        </thead>
+        <br />
+        <tbody class="text-center">
+          <tr>
+            <td>
+              <nuxt-link to="/B1Dispatch">
+                <p class="text-black text-lg">Dispatch the IT technician</p>
+              </nuxt-link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <nuxt-link to="/">
+                <p class="text-black text-lg">Development Package</p>
+              </nuxt-link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <nuxt-link to="/">
+                <p class="text-black text-lg">System Outsourcing</p>
+              </nuxt-link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <nuxt-link to="/">
+                <p class="text-black text-lg">Offshore Development</p>
+              </nuxt-link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <nuxt-link to="/">
+                <p class="text-black text-lg">Asia foray consultants</p>
+              </nuxt-link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <nuxt-link to="/">
+                <p class="text-black text-lg">Translation(Japanese/English/Chinese/Thai)</p>
+              </nuxt-link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <nuxt-link to="/">
+                <p class="text-black text-lg">Siam Order Service(Import agency)</p>
+              </nuxt-link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <nuxt-link to="/">
+                <p class="text-black text-lg">Other Development Results</p>
+              </nuxt-link>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
   </div>
 </template>
