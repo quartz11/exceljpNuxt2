@@ -48,7 +48,7 @@
                 </th>
               </tr>
               <tr>
-                <th class="bg-slate-50 text-black text-left">
+                <th class="bg-slate-50 text-black text-left px-6">
                   <br />
                   &nbsp; Is it personality of the The company president.I think that it is felt if the conversation
                   toward the surface.In addition, the playing field even things and new employees that are focused on
@@ -65,7 +65,7 @@
 
               </tr>
               <tr>
-                <th class="bg-slate-50 text-black text-left">
+                <th class="bg-slate-50 text-black text-left px-6">
                   <br />
                   &nbsp; Was seconded to the customer destination, you have a Windows application developed in C #
                   language.We are developing a map-related applications.
@@ -80,7 +80,7 @@
 
               </tr>
               <tr>
-                <th class="bg-slate-50 text-black text-left">
+                <th class="bg-slate-50 text-black text-left px-6">
                   <br />
                   &nbsp; It is a philosophy (management philosophy).We hold regular study sessions as employee
                   education, but not things like increase the technical capabilities, study of philosophy has become the
@@ -98,7 +98,7 @@
 
               </tr>
               <tr>
-                <th class="bg-slate-50 text-black text-left">
+                <th class="bg-slate-50 text-black text-left px-6">
                   <br />
                   &nbsp; Hundreds of thousands it is also that it was training I am allowed to participate in, such
                   as.In our company, we are focused on the idea in education and that individual is directly linked to
@@ -115,7 +115,7 @@
 
               </tr>
               <tr>
-                <th class="bg-slate-50 text-black text-left">
+                <th class="bg-slate-50 text-black text-left px-6">
                   <br />
                   &nbsp; In our company, it can cause the proposals and act in his power even new employees.If you are
                   motivated, let's do our best come together.
@@ -130,7 +130,7 @@
 
               </tr>
               <tr>
-                <th class="bg-slate-50 text-black text-left">
+                <th class="bg-slate-50 text-black text-left px-6">
                   <br />
                   &nbsp; I think there are many things to be worried about, such as business content and work location,
                   but I think also people working together is not the most important.I think that I want you to cherish
