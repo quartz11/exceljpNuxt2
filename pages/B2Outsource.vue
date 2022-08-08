@@ -95,7 +95,7 @@
                   <br />
                   Overseas resides staff we have also deployed.
                   <br />
-                  <nuxt-link to="/offshoe"><a class="text-blue-600 underline">Offshore Development</a></nuxt-link> With
+                  <nuxt-link to="/B3Offshoe"><a class="text-blue-600 underline">Offshore Development</a></nuxt-link> With
                   the introduction, depending on the development scale and budget of the customer's wish, it is possible
                   to respond flexibly.
                   <br />
