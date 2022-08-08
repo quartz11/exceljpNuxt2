@@ -95,7 +95,7 @@
                   <nuxt-link to="/midcareer">Mid-career recruitment</nuxt-link>
                 </td>
                 <td class="text-center text-xl text-blue-600">
-                  <nuxt-link to="/">Employee Interviews</nuxt-link>
+                  <nuxt-link to="/empinter1">Employee Interviews</nuxt-link>
                 </td>
               </tr>
             </tbody>
