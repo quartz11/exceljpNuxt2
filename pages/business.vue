@@ -77,7 +77,9 @@
             development approach in Thailand　subsidiary.
             The management format by Japanese staff are based, it will simultaneously achieve high quality.</p>
           <div class="card-actions">
-            <button class="btn btn-primary">More info</button>
+            <nuxt-link to="/B3Offshoe">
+              <button class="btn btn-primary">More info</button>
+            </nuxt-link>
           </div>
         </div>
       </div>
