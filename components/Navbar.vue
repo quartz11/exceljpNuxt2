@@ -1,6 +1,6 @@
 <template>
   <div class="navbar bg-base-100 justify-center">
-    <div class="container items-start">
+    <div class="container items-start text-slate-200">
 
       <!-- Collapse Manu -->
       <div class="flex-1 navbar-start collapse lg:hidden w-3/4">

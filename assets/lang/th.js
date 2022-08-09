@@ -49,4 +49,49 @@ export default {
     card_text2: `โทรศัพท์ 075-256-7872`,
     card_text3: `※ กรุณาใส่กรอกข้อมูลที่มีเครื่องหมายให้ครบถ้วน`,
   },
+  overview: {
+    title: `ภาพรวมบริษัท`,
+    comp_name: {
+      head: `ชื่อบริษัท`,
+      text: `Excellence Inc. Ltd.`,
+    },
+    location: {
+      head: `ที่ตั้ง`,
+      text: `2F Animart-Nishiki 311 Uradeyama-cho KarasumaNishiIru Nishikikogi-Tohri Nakagyo-ku Kyoto-city Kyoto
+      604-8115 Japan`,
+    },
+    establish: {
+      head: `ก่อตั้ง`,
+      text: `วันที่ 20 ธันวาคม พ.ศ.2541`,
+    },
+    capital: {
+      head: `ทุน`,
+      text: `10,000,000`,
+    },
+    president: {
+      head: `ผู้บริหารสูงสุด`,
+      text: `อัตสึโนริ โทคุมะสึ`,
+    },
+    num_employees: {
+      head: `จำนวนพนักงาน`,
+      text: `24 คน (ณ มีนาคม 2565)`,
+    },
+    member_oreganiz: {
+      head: `องค์กรสมาชิก`,
+      text1: "Kyoto Venture Business Club",
+      text2: "Kyoto chamber of commerce Kyoto",
+    },
+    bank: {
+      head: `ธนาคาร`,
+      text1:"Kyoto-Chuo Credit Union",
+      text2:"Kyoto Bank ",
+      text3:"Kyoto Credit Union",
+    },
+    business_regis: {
+      head: `จดทะเบียนธุรกิจ`,
+      text: `派２６－３００５３２ 一般労働者派遣事業者免許(Japan)`,
+    },
+    btn_history: "ประวัติบริษัท",
+  },
+
 };
