@@ -127,7 +127,9 @@ Japanese fluent Chinese and Thai staff have enrolled,It delivered in Comfortable
           <p class="text-black">Products that are not sold only in Thailand.It is a service to the import agency with their introduction.
 </p>
           <div class="card-actions">
-            <button class="btn btn-primary">More info</button>
+            <nuxt-link to="/B6Impoty">
+              <button class="btn btn-primary">More info</button>
+            </nuxt-link>
           </div>
         </div>
       </div>
