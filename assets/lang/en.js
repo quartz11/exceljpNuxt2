@@ -47,6 +47,18 @@ export default {
     And entered into a partnership for the purpose acquisition and the business strengthening of business
     opportunities
     both to expand business opportunities by sharing technology and know-how of each other, why not continue
-    to grow together.`
+    to grow together.`,
+    btn_inquiry: "Inquiry form",
+  },
+  register:{
+    card_head:`Flow of form input`,
+    card_text1:`The following empty We fill in the necessary information in, please check the
+    input check box.
+    If there is no mistake in the input content, please click the [Send] button.
+    We will contact you than the person in charge.
+    There is some time to answer it takes.
+    If you hurry, reservations will wish by phone.`,
+    card_text2:`TEL 075-256-7872`,
+    card_text3:`※ Please input the item of the mark always.`,
   },
 };

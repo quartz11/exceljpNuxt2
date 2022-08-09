@@ -4,18 +4,18 @@
 
     <div class="flex justify-center mx-auto">
       <div class="justify-center max-w-sm overflow-hidden rounded shadow-2xl bg-slate-50" style="max-width: 60rem;">
-        <div class="card-header" style="background-color:blueviolet; color:white;">&nbsp;&nbsp; Flow of form input</div>
+        <div class="card-header" style="background-color:blueviolet; color:white;">
+          &emsp; {{ $t('register.card_head') }}
+        </div>
         <div class="card-body">
-          <p class="text-black card-text">The following empty We fill in the necessary information in, please check the
-            input check box.
-            If there is no mistake in the input content, please click the [Send] button.
-            We will contact you than the person in charge.
-            There is some time to answer it takes.
-            If you hurry, reservations will wish by phone.</p>
+          <p class="text-black card-text">
+            {{ $t('register.card_text1') }}
+          </p>
 
-          <p class="text-center text-black card-text">TEL 075-256-7872
+          <p class="text-center text-black card-text">
+            {{ $t('register.card_text2') }}
             <br />
-            ※ Please input the item of the mark always.
+            {{ $t('register.card_text3') }}
           </p>
         </div>
       </div>
@@ -108,7 +108,7 @@
                     Matter
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-                  <p style="white-space: pre-line;">{{ matter }}</p>
+                    <p style="white-space: pre-line;">{{ matter }}</p>
                   </td>
                 </tr>
                 <br />

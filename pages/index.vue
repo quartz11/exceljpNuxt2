@@ -71,28 +71,17 @@
     </div>
     <br />
 
-
-    <div class="flex justify-center">
-      <table>
-        <thead>
-          <tr>
-            <th class="w-1/3"></th>
-            <th class="w-1/3">
-              <nuxt-link to="/register">
-                <button
-                  class="w-full	 content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700 mx-2">
-                  Inquiry form
-                </button>
-              </nuxt-link>
-            </th>
-            <th class="w-1/3"></th>
-          </tr>
-        </thead>
-      </table>
+    <div class="flex p-max justify-center ">
+      <nuxt-link :to="localePath('register')"
+        class="	content-center font-bold text-white btn bg-slate-600 hover:bg-slate-500 border-0 shadow-2xl">
+        {{ $t('index.btn_inquiry') }}
+        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+          <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"></path>
+        </svg>
+      </nuxt-link>
     </div>
 
     <br />
-
   </div>
 </template>
 
