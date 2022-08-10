@@ -28,7 +28,9 @@
         </figure>
         <div class="card-body">
           <h2 class="text-black card-title">
-            <nuxt-link to="/product"><p class="text-black">Development Package</p></nuxt-link>
+            <nuxt-link to="/product">
+              <p class="text-black">Development Package</p>
+            </nuxt-link>
           </h2>
           <p class="text-black">In our company we have been developing products for various business.</p>
           <nuxt-link to="/products/p1treatment">
@@ -38,7 +40,7 @@
             <p class="text-sky-600">Bonded Warehouse System</p>
           </nuxt-link>
           <nuxt-link to="/products/p3ebase">
-           <p class="text-sky-600">Groupware System</p>
+            <p class="text-sky-600">Groupware System</p>
           </nuxt-link>
           <nuxt-link to="/products/p4reservation">
             <p class="text-sky-600">Hotel Reservation System</p>
@@ -91,7 +93,8 @@
         </figure>
         <div class="card-body">
           <h2 class="text-black card-title">Asia foray consultants</h2>
-          <p class="text-black">	Subsidiary established in Thailand, based on the business experience in China, we will help with Preparing to various procedures and site selection and offices opened.</p>
+          <p class="text-black"> Subsidiary established in Thailand, based on the business experience in China, we will
+            help with Preparing to various procedures and site selection and offices opened.</p>
           <div class="card-actions">
             <nuxt-link to="/business1/B4Consult">
               <button class="btn btn-primary">More info</button>
@@ -107,8 +110,8 @@
         </figure>
         <div class="card-body">
           <h2 class="text-black card-title">Translation(Japanese/English/Chinese/Thai)</h2>
-          <p class="text-black">	“Japanese→Other languages”“Other languages→Japanese”Both it can be translated.
-Japanese fluent Chinese and Thai staff have enrolled,It delivered in Comfortable quality.</p>
+          <p class="text-black"> “Japanese→Other languages”“Other languages→Japanese”Both it can be translated.
+            Japanese fluent Chinese and Thai staff have enrolled,It delivered in Comfortable quality.</p>
           <div class="card-actions">
             <nuxt-link to="/business1/B5Trans">
               <button class="btn btn-primary">More info</button>
@@ -124,8 +127,9 @@ Japanese fluent Chinese and Thai staff have enrolled,It delivered in Comfortable
         </figure>
         <div class="card-body">
           <h2 class="text-black card-title">Siam Order Service(Import agency)</h2>
-          <p class="text-black">Products that are not sold only in Thailand.It is a service to the import agency with their introduction.
-</p>
+          <p class="text-black">Products that are not sold only in Thailand.It is a service to the import agency with
+            their introduction.
+          </p>
           <div class="card-actions">
             <nuxt-link to="/business1/B6Import">
               <button class="btn btn-primary">More info</button>
