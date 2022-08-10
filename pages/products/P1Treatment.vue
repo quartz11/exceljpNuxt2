@@ -173,21 +173,21 @@
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
+              <nuxt-link to="/products/p2warehouse">
                 <p class="text-lg text-black underline">Bonded Warehouse System</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
+              <nuxt-link to="/products/p3ebase">
                 <p class="text-lg text-black underline">Groupware System</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
+              <nuxt-link to="/products/p4reservation">
                 <p class="text-lg text-black underline">Hotel Reservation System</p>
               </nuxt-link>
             </td>

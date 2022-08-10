@@ -10,13 +10,14 @@
             <thead>
               <tr>
                 <th class="text-2xl text-left text-black w-80">
-                  Bonded Warehouse System
+                  Hotel Reservation System
                 </th>
               </tr>
               <br />
               <tr>
                 <div class="flex justify-center mx-auto">
-                  <img src="http://1excellence.com/official/img/deployment/warehouse.jpg" width="300" height="300" />
+                  <img src="http://1excellence.com/official/img/deployment/hotelReservation.jpg" width="300"
+                    height="300" />
                 </div>
               </tr>
             </thead>
@@ -25,9 +26,9 @@
               <tr>
                 <td class="px-6 text-xl text-left text-white shadow-2xl bg-violet-500">
                   <br />
-                  Bulk automate inventory management and work management in a bonded warehouse.
+                  It is a system that can be reserved business hotel from a mobile phone.
                   <br />
-                  We collectively eliminate the cost and loss risks associated with management.
+                  Status check of the empty room, the room type and I can be done with easy access.
                   <br />
                   <br />
                 </td>
@@ -39,11 +40,10 @@
                   <br />
                   <p class="px-4 text-left">Recommended for such people</p>
                   <br />
-                  <p class="px-8 text-left">Bonded workers to be woven considering the cost down a long-term
-                    perspective.</p>
-                  <p class="px-8 text-left">Business procedure has bloated, bonded business is woven to improve study
-                    workers.</p>
-                  <br />
+                  <p class="px-8 text-left"><a>● </a>Hotel own or manage to be woven are considering the cost down a
+                    long-term perspective.</p>
+                  <p class="px-8 text-left"><a>● </a>Hotel management who want to risk measures such as cost and human
+                    error in the reservation management.</p> <br />
                 </td>
               </tr>
             </tbody>
@@ -67,82 +67,93 @@
             <tbody>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Operability
+                  Booking from mobile site
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>By setting the operating authority of the operator, and it can
-                    reduce operation errors.</p>
-                  <p class="px-8 text-left"><a>● </a>Of warehouse usage search, the selection of the location it will
-                    visually done in plan view of the warehouse.</p>
-                  <p class="px-8 text-left"><a>● </a>By lot, standard-specific, you can get a simple operation
-                    merchandise inventory information that has been aggregated, such as another storage location.</p>
-                  <p class="px-8 text-left"><a>● </a>Since the menu is displayed as an icon, an easy-to-understand, you
-                    will find it as a good command of the same tasks as those skilled in rookie.</p>
+                  <p class="px-8 text-left"><a>● </a>We realized simple and straightforward structure.</p>
+                  It is the concept of stress-free design to design and operability both.
+                  <p class="px-8 text-left"><a>● </a>It provides peace of mind to the customer by sending a confirmation
+                    email after booking.</p>
+                  (Compatible models: DoCoMo, au, Softbank)
+                  <br />
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Progress confirmation function
+                  Automation of booking.
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>Tracking of goods, it can be queried in easily browser entry and
-                    leaving history.</p>
-                  <p class="px-8 text-left"><a>● </a>You can see the real-time progress.</p>
+                  <p class="px-8 text-left"><a>● </a>Reservation confirmation e-mail also delivered automatically. The
+                    cost of labor costs will help.</p>
+                  <p class="px-8 text-left"><a>● </a>And automatically display the reservable rooms, depending on the
+                    customer's desired conditions.</p>
+                  It will prevent the human error associated with the selection work.
+                  <br />
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  The transmitting function of warning e-mail before the shelf life expires
+                  Hotel specific date freely set!
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>One month before the shelf life expires and I will send a warning
-                    e-mail a week ago.</p>
-                  <p class="px-8 text-left"><a>● </a>Goods issue, also it is safe service for not forget the
-                    correspondence, such as updating of the storage period.</p>
+                  <p class="px-8 text-left"><a>● </a>Because it can be freely set by selecting a specific date such as
+                    anniversary discount Sunday and busy period of each hotel from the date of the monthly calendar,
+                    easy to understand even in appearance, is available wide range of correspondence.</p>
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Work efficiency improved by the issuance of various analyzes document (optional feature)!
+                  Quickly cope with change of sudden reservation content!
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>By analyzing past sales and by product of input and the number of
-                    times such as, business improvement, it can help to improve work efficiency.</p>
+                  <p class="px-8 text-left"><a>● </a>If there is a request for your sudden room change in the hope,
+                    etc., it is possible to present as soon as the room can be changed.</p>
+                  <p class="px-8 text-left"><a>● </a>Even for change of stay, if the extension for other reservation is
+                    not possible, it is possible to display to calculate the alternative of a change in the room.</p>
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Data collaboration with NACCS also possible
+                  You can change the setting of the fee for each month!
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>And to exchange NACCS and data, you can do such as the arrival and
-                    customs clearance confirmation of cargo.</p>
+                  <p class="px-8 text-left"><a>● </a>The setting of the room rate on a monthly basis, not only on
+                    weekdays and public holidays, it is possible to be set by a specific date.</p>
+                  <p class="px-8 text-left"><a>● </a>Meals rates may be set on a monthly basis, you can respond to
+                    pricing to meet the needs of each hotel.</p>
                   <br />
-                  <p class="px-4 left">※The NACCS, in international trade, has been constructed and payment of customs
-                    duties at the time of customs clearance and import for the purpose of efficient processing, customs
-                    offices, common carriers, customs brokers, warehouse suppliers, airlines, shipping companies, ship
-                    agency, is an electronic information and communication system that connects the mutual financial
-                    institutions.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
+                  Easy change of each room information!
+                </td>
+              </tr>
+              <tr>
+                <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
+                  <p class="px-8 text-left"><a>● </a>A unit for several days the condition of the plurality of rooms, by
+                    displaying on one screen, it is possible to grasp the reservation state for several days at once,
+                    you can see influence to changes in room information.</p>
                   <br />
                 </td>
               </tr>
@@ -173,7 +184,7 @@
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/products/P2warehouse">
+              <nuxt-link to="/products/p2warehouse">
                 <p class="text-lg text-black underline">Bonded Warehouse System</p>
               </nuxt-link>
             </td>

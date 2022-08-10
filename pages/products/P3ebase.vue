@@ -10,13 +10,13 @@
             <thead>
               <tr>
                 <th class="text-2xl text-left text-black w-80">
-                  Bonded Warehouse System
+                  Groupware System : e-base
                 </th>
               </tr>
               <br />
               <tr>
                 <div class="flex justify-center mx-auto">
-                  <img src="http://1excellence.com/official/img/deployment/warehouse.jpg" width="300" height="300" />
+                  <img src="http://1excellence.com/official/img/deployment/groupware.jpg" width="300" height="300" />
                 </div>
               </tr>
             </thead>
@@ -25,9 +25,9 @@
               <tr>
                 <td class="px-6 text-xl text-left text-white shadow-2xl bg-violet-500">
                   <br />
-                  Bulk automate inventory management and work management in a bonded warehouse.
+                  Information sharing between the on-premises OK in one this.
                   <br />
-                  We collectively eliminate the cost and loss risks associated with management.
+                  Various reports and attendance / transportation expense management and data sharing and targets check creation of the sheet can be done with the use of groupware.
                   <br />
                   <br />
                 </td>
@@ -39,10 +39,9 @@
                   <br />
                   <p class="px-4 text-left">Recommended for such people</p>
                   <br />
-                  <p class="px-8 text-left">Bonded workers to be woven considering the cost down a long-term
-                    perspective.</p>
-                  <p class="px-8 text-left">Business procedure has bloated, bonded business is woven to improve study
-                    workers.</p>
+                  <p class="px-8 text-left"><a>● </a>The number of employees increases, better business management who is an object of the internal management cost reduction.</p>
+                  <p class="px-8 text-left"><a>● </a>Increased house of paper data, general affairs manager of Need help to management.</p>
+                  <p class="px-8 text-left"><a>● </a>Company that aims to share in-house management centralization and reporting, communication and consultation.</p>
                   <br />
                 </td>
               </tr>
@@ -67,82 +66,68 @@
             <tbody>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Operability
+                  Safety and security of company data sharing capabilities
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>By setting the operating authority of the operator, and it can
-                    reduce operation errors.</p>
-                  <p class="px-8 text-left"><a>● </a>Of warehouse usage search, the selection of the location it will
-                    visually done in plan view of the warehouse.</p>
-                  <p class="px-8 text-left"><a>● </a>By lot, standard-specific, you can get a simple operation
-                    merchandise inventory information that has been aggregated, such as another storage location.</p>
-                  <p class="px-8 text-left"><a>● </a>Since the menu is displayed as an icon, an easy-to-understand, you
-                    will find it as a good command of the same tasks as those skilled in rookie.</p>
+                  Safely you can do you an in-house data sharing.
+                  <br />
+                  <br />
+                  <p class="px-8 text-left"><a>● </a>Data does not have to worry about the loss for storage on the server.</p>
+                  <p class="px-8 text-left"><a>● </a>Data acquisition can be done account holders only.</p>
+                  <p class="px-8 text-left"><a>● </a>By electronic, it will cut the risk of lost paper medium.</p>
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Progress confirmation function
+                  OK Affairs request is one which
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>Tracking of goods, it can be queried in easily browser entry and
-                    leaving history.</p>
-                  <p class="px-8 text-left"><a>● </a>You can see the real-time progress.</p>
+                  Attendance management, transportation expenses request, you can make meetings convened.
+                  <br />
+                  <br />
+                  <p class="px-8 text-left"><a>● </a>Login is easy procedure of less than 10 minutes to complete request.</p>
+                  <p class="px-8 text-left"><a>● </a>You can check the participation presence or absence of attendance and meetings among employees at a glance.</p>
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  The transmitting function of warning e-mail before the shelf life expires
+                  Employee another challenge check function
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>One month before the shelf life expires and I will send a warning
-                    e-mail a week ago.</p>
-                  <p class="px-8 text-left"><a>● </a>Goods issue, also it is safe service for not forget the
-                    correspondence, such as updating of the storage period.</p>
+                  It will perform the monthly issues posted the achievement record.
+                  <br />
+                  <br />
+                  <p class="px-8 text-left"><a>● </a>For each account, you can set the challenge up to 10 on a monthly basis.</p>
+                  <p class="px-8 text-left"><a>● </a>The results for each task is daily record, it will be able to calculate the monthly achievement rate.</p>
+                  <br />
+                  The results can be shared view among employees.
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Work efficiency improved by the issuance of various analyzes document (optional feature)!
+                  Report submitted feedback and I can be done.
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>By analyzing past sales and by product of input and the number of
-                    times such as, business improvement, it can help to improve work efficiency.</p>
+                  Report can be shared view among employees.
                   <br />
-                </td>
-              </tr>
-              <tr>
-                <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Data collaboration with NACCS also possible
-                </td>
-              </tr>
-              <tr>
-                <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>And to exchange NACCS and data, you can do such as the arrival and
-                    customs clearance confirmation of cargo.</p>
-                  <br />
-                  <p class="px-4 left">※The NACCS, in international trade, has been constructed and payment of customs
-                    duties at the time of customs clearance and import for the purpose of efficient processing, customs
-                    offices, common carriers, customs brokers, warehouse suppliers, airlines, shipping companies, ship
-                    agency, is an electronic information and communication system that connects the mutual financial
-                    institutions.</p>
-                  <br />
+                  <p class="px-8 text-left"><a>● </a>By employee reported (daily / weekly / monthly), it will be able to process the sales report.</p>
+                  <p class="px-8 text-left"><a>● </a>All employees I can to check the reported internal of progress and problems.</p>
                   <br />
                 </td>
               </tr>
@@ -173,7 +158,7 @@
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/products/P2warehouse">
+              <nuxt-link to="/products/p2warehouse">
                 <p class="text-lg text-black underline">Bonded Warehouse System</p>
               </nuxt-link>
             </td>
