@@ -33,7 +33,7 @@
               <tr>
                 <td>
                   <p class="px-4 text-left text-black ">
-                    　お求めの商品が決まりましたら、<nuxt-link to="/blank"><a class="text-blue-600">こちらのフォーム</a></nuxt-link>
+                    　お求めの商品が決まりましたら、<nuxt-link to="/checkout"><a class="text-blue-600">こちらのフォーム</a></nuxt-link>
                     より輸入代行依頼をお問い合わせください。
                   </p>
                 </td>
