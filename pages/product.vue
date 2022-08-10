@@ -67,7 +67,7 @@
           <img width="350" height="350" src="http://1excellence.com/official/img/deployment/hotelReservation.jpg">
         </figure>
         <div class="card-body">
-          <h2 class="text-black card-title"><nuxt-link to="/products/p4reservation"></nuxt-link></h2>
+          <h2 class="text-black card-title"><nuxt-link to="/products/p4reservation">Hotel Reservation System</nuxt-link></h2>
           <p class="text-black">
             You can easily search for bookable room.
             Room type and conditions also can be specified in any.</p>
