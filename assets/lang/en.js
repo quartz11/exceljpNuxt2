@@ -50,15 +50,116 @@ export default {
     to grow together.`,
     btn_inquiry: "Inquiry form",
   },
-  register:{
-    card_head:`Flow of form input`,
-    card_text1:`The following empty We fill in the necessary information in, please check the
+  register: {
+    card_head: `Flow of form input`,
+    card_text1: `The following empty We fill in the necessary information in, please check the
     input check box.
     If there is no mistake in the input content, please click the [Send] button.
     We will contact you than the person in charge.
     There is some time to answer it takes.
     If you hurry, reservations will wish by phone.`,
-    card_text2:`TEL 075-256-7872`,
-    card_text3:`※ Please input the item of the mark always.`,
+    card_text2: `TEL 075-256-7872`,
+    card_text3: `※ Please input the item of the mark always.`,
+  },
+  overview: {
+    title: `Company Overview`,
+    comp_name: {
+      head: `Company Name`,
+      text: `Excellence Inc. Ltd.`,
+    },
+    location: {
+      head: `Location`,
+      text: `2F Animart-Nishiki 311 Uradeyama-cho KarasumaNishiIru Nishikikogi-Tohri Nakagyo-ku Kyoto-city Kyoto
+      604-8115 Japan`,
+    },
+    establish: {
+      head: `Establishment`,
+      text: `1989'12 20`,
+    },
+    capital: {
+      head: `Capital`,
+      text: `10,000,000`,
+    },
+    president: {
+      head: `President`,
+      text: `Atsunori Tokumasu`,
+    },
+    num_employees: {
+      head: `Number of Employees`,
+      text: `24 (2021'3 data)`,
+    },
+    member_oreganiz: {
+      head: `Member Organizations`,
+      text1: "Kyoto Venture Business Club",
+      text2: "Kyoto chamber of commerce Kyoto",
+    },
+    bank: {
+      head: `Bank`,
+      text1: "Kyoto-Chuo Credit Union",
+      text2: "Kyoto Bank ",
+      text3: "Kyoto Credit Union",
+    },
+    business_regis: {
+      head: `Business Registration`,
+      text: `派２６－３００５３２ 一般労働者派遣事業者免許(Japan)`,
+    },
+    btn_history: "Company History",
+  },
+  history: {
+    title: `Company History`,
+    row1: {
+      year: `1989'12`,
+      text: `Established as a joint-stock company with a capital of 2,000,000 yen`,
+    },
+    row2: {
+      year: `1990`,
+      text: `It was involved in the system development of sales, inventory and logistics management, etc. for small and medium-sized enterprises`,
+    },
+    row3: {
+      year: `1997`,
+      text: `Participation in large automated warehouse system development of the soft drink manufacturer`,
+    },
+    row4: {
+      year: `1999`,
+      text: `Participation in comprehensive supply monitoring system development for gas company`,
+    },
+    row5: {
+      year: `2001`,
+      text: `Entrusted development of local governments for disaster prevention system development`,
+    },
+    row6: {
+      year: `2002`,
+      text: `Entrusted development of the inventory management system development for fiber trading company`,
+    },
+    row7: {
+      year: `2003'6`,
+      text: `Organizational changes to the Corporation along with the capital increase to capital 10 million yen`,
+    },
+    row8: {
+      year: `2004`,
+      text: `特定労働者派遣事業者登録　特２６－０１－００４２(Qualification of Japan)`,
+    },
+    row9: {
+      year: `2005`,
+      text: `Entrusted development of local governments for disaster prevention system development`,
+    },
+    row10: {
+      year: `2007～`,
+      text1: `Internet banking, life insurance-related, systems such as car navigation system`,
+      text2: `Engineer many participated in the on-site development`,
+    },
+    row11: {
+      year: `2008～`,
+      text: `And developing a variety of sites for mobile phones and for the PC in PHP and JAVA`,
+    },
+    row12: {
+      year: `2010'10'22～26`,
+      text: `Security system exhibitors to Shanghai World Expo`,
+    },
+    row13: {
+      year: `2012`,
+      text: `Thailand local subsidiaries office established`,
+    },
+    btn_overview: "Company Overview",
   },
 };

@@ -3,110 +3,101 @@
 
     <div class="container w-9/12 mx-auto">
 
-      <h1 class="text-lg text-center text-white bg-violet-800 ">Company Overview</h1>
+      <h1 class="text-lg text-center text-white bg-violet-800 ">{{ $t('overview.title') }}</h1>
       <div class="relative overflow-x-auto shadow-md ">
         <table class="w-full text-sm text-left text-white dark:text-gray-400">
           <thead class="text-xs text-white uppercase dark:text-gray-400">
             <tr class="border-b border-gray-200 dark:border-gray-700">
               <th scope="col" class="px-6 py-3 text-white dark:bg-violet-600 auto-cols-auto">
-                Company Name
+                {{ $t('overview.comp_name.head') }}
               </th>
               <th scope="col" class="px-6 py-3 text-black bg-blue-300">
-                Excellence Inc. Ltd.
+                {{ $t('overview.comp_name.text') }}
               </th>
             </tr>
           </thead>
           <tbody>
             <tr class="border-b border-gray-200 dark:border-gray-700">
               <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-violet-600 auto-cols-auto">
-                Location
+                {{ $t('overview.location.head') }}
               </th>
               <td class="px-6 py-4 text-black bg-blue-300">
-                2F Animart-Nishiki 311 Uradeyama-cho KarasumaNishiIru Nishikikogi-Tohri Nakagyo-ku Kyoto-city Kyoto
-                604-8115 Japan
+                {{ $t('overview.location.text') }}
               </td>
 
             </tr>
             <tr class="border-b border-gray-200 dark:border-gray-700">
               <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-violet-600 auto-cols-auto">
-                Establishment
+                {{ $t('overview.establish.head') }}
               </th>
               <td class="px-6 py-4 text-black bg-blue-300">
-                1989'12 20
+                {{ $t('overview.establish.text') }}
               </td>
             </tr>
             <tr class="border-b border-gray-200 dark:border-gray-700">
               <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-violet-600 auto-cols-auto">
-                Capital
+                {{ $t('overview.capital.head') }}
               </th>
               <td class="px-6 py-4 text-black bg-blue-300">
-                10,000,000
+                {{ $t('overview.capital.text') }}
               </td>
             </tr>
 
             <tr class="border-b border-gray-200 dark:border-gray-700">
               <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-violet-600 auto-cols-auto">
-                President
+                {{ $t('overview.president.head') }}
               </th>
               <td class="px-6 py-4 text-black bg-blue-300">
-                Atsunori Tokumasu
+                {{ $t('overview.president.text') }}
               </td>
             </tr>
             <tr class="border-b border-gray-200 dark:border-gray-700">
               <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-violet-600 auto-cols-auto">
-                Number of Employees
+                {{ $t('overview.num_employees.head') }}
               </th>
               <td class="px-6 py-4 text-black bg-blue-300">
-                24 (2021'3 data)
+                {{ $t('overview.num_employees.text') }}
               </td>
             </tr>
             <tr class="border-b border-gray-200 dark:border-gray-700">
               <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-violet-600 auto-cols-auto">
-                Member Organizations
+                {{ $t('overview.member_oreganiz.head') }}
               </th>
               <td class="px-6 py-4 text-black bg-blue-300">
-                Kyoto Venture Business Club
-                <br />
-                Kyoto chamber of commerce Kyoto
+                {{ $t('overview.member_oreganiz.text1') }} <br />
+                {{ $t('overview.member_oreganiz.text2') }}
               </td>
             </tr>
             <tr class="border-b border-gray-200 dark:border-gray-700">
               <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-violet-600 auto-cols-auto">
-                Bank
+                {{ $t('overview.bank.head') }}
               </th>
               <td class="px-6 py-4 text-black bg-blue-300">
-                Kyoto-Chuo Credit Union
-                <br />
-                Kyoto Bank
-                <br />
-                Kyoto Credit Union
+                {{ $t('overview.bank.text1') }} <br />
+                {{ $t('overview.bank.text2') }} <br />
+                {{ $t('overview.bank.text3') }}
               </td>
             </tr>
             <tr class="border-b border-gray-200 dark:border-gray-700">
               <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-violet-600 auto-cols-auto">
-                Business Registration
+                {{ $t('overview.business_regis.head') }}
               </th>
               <td class="px-6 py-4 text-black bg-blue-300">
-                派２６－３００５３２ 一般労働者派遣事業者免許(Japan)
+                {{ $t('overview.business_regis.text') }}
               </td>
             </tr>
           </tbody>
         </table>
       </div>
-      <br />
-      <div class="h-8 grid grid-cols-5 gap-4 content-center">
-        <div></div>
-        <div></div>
-        <div>
-          <nuxt-link to="/history">
-            <button
-              class="content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700">
-              Company History
-            </button>
-          </nuxt-link>
-        </div>
-        <div></div>
-        <div></div>
+
+      <div class="flex p-max justify-center pt-5 ">
+        <nuxt-link :to="localePath('history')"
+          class="	content-center font-bold text-white btn bg-slate-600 hover:bg-slate-500 border-0 shadow-2xl">
+          {{ $t('overview.btn_history') }}
+          <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"></path>
+          </svg>
+        </nuxt-link>
       </div>
 
     </div>
