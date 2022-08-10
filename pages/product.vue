@@ -9,15 +9,13 @@
           <img width="350" height="350" src="http://1excellence.com/official/img/deployment/medical.jpg">
         </figure>
         <div class="card-body">
-          <h2 class="text-black card-title">Treatment support application</h2>
+          <h2 class="text-black card-title"><nuxt-link to="/products/P1treatment">Treatment support application</nuxt-link></h2>
           <p class="text-black">It is a tablet application that was developed to focus on improvement realize improvement of the patient.
 Available in such as acupuncture salon, chiropractic bodywork.
 Photos, videos, body image and saved for each patient, it is possible to edit and comparison browsing.</p>
           <p class="text-black">Introduction：</p>
-          <a href="http://1excellence.com/#Treatment%20support%20application">
-            <p class="text-sky-600">You can experience for one minute videos.</p>
-          </a>
-
+          <nuxt-link to="/products/P1treatment"><p class="text-sky-600">You can experience for one minute videos.</p>
+</nuxt-link>
         </div>
       </div>
       <br />
