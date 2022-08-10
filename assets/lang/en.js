@@ -162,4 +162,45 @@ export default {
     },
     btn_overview: "Company Overview",
   },
+  motto: {
+    philosophy: {
+      header: `Corporate Philosophy`,
+      // topic 1
+      topic1: `The pursuit of happiness of discretion both sides of all employees`,
+      text1: `All employees of the company, management also including one technician, there
+      spiritual of all the people that the gathering work, it is the pursuit of material happiness.`,
+      text2: `That is, of happiness and is physically and spiritually both sides that we aim, and that through
+      self-fulfillment in the field of work as well as go in search of economic stability and prosperity,
+      and will seek the richness of the heart as a human being, such as life worth living and rewardingIt
+      is.`,
+      // topic 2
+      topic2: `It will contribute to the realization of a livable in rich society`,
+      text3: `Customers and the community, including to global environment steady around us
+      worked hard in our efforts, that is has been put is the wish of the I want to become better by the
+      realization of corporate activities.`,
+      text4: `In addition, we polish always technology, by sending the world one after another excellent software,
+      and continue to raise the profit as a company as well as contribute to the advancement of science and
+      technology, and to contribute to the public welfare enhancement through such that you pay a lot of
+      taxes to go.`,
+      // topic 3
+      topic3: `Heart of altruistic`,
+      text5: `Idea that altruistic that in better than your own has become a backbone.
+      Themselves even better by happy others, is the way to become happy.`,
+      text6: `Only the spirit of the altruistic is not more to allow for sustainable development, it is that is to
+      act in order to achieve those ideals is the purpose of our company.`,
+    },
+    motto: {
+      header: `Company Motto`,
+      topic1: `敬天愛人`,
+      topic2: `「南洲翁遺訓」`,
+      text1: `道というのはこの天地のおのずからなるものであり、人はこれにのっとって行うべきもの
+      であるから何よりもまず、天を敬うことを目的とすべきである。`,
+      text2: `天は他人も自分も平等に愛したもうから、自分を愛する心をもって人を愛することが肝要である。`,
+      text3: `To put contemporary say. the company or team is like a family.`,
+      text4: `It is to little put up with selfishness among the organizations.`,
+      text5: `It is very difficult to increase the heart but by Strive to realize in all
+      employees,`,
+      text6: `and I think it will lead to being able to embody the spiritual richness.`,
+    },
+  },
 };

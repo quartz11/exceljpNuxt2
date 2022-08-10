@@ -42,7 +42,7 @@
             </nuxt-link>
             <ul class="p-2 bg-base-100">
               <li>
-                <nuxt-link :to="localePath('/')" class="rounded-lg">{{$t('navbar.overview.company')}}</nuxt-link>
+                <nuxt-link :to="localePath('overview')" class="rounded-lg">{{$t('navbar.overview.company')}}</nuxt-link>
               </li>
               <li>
                 <nuxt-link :to="localePath('history')" class="rounded-lg">{{$t('navbar.overview.history')}}</nuxt-link>
@@ -148,7 +148,7 @@
             </nuxt-link>
             <ul class="p-2 bg-base-100">
               <li>
-                <nuxt-link :to="localePath('/')">{{$t('navbar.overview.company')}}</nuxt-link>
+                <nuxt-link :to="localePath('overview')">{{$t('navbar.overview.company')}}</nuxt-link>
               </li>
               <li>
                 <nuxt-link :to="localePath('history')">{{$t('navbar.overview.history')}}</nuxt-link>
