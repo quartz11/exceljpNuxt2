@@ -166,7 +166,7 @@
         <tbody class="text-center">
           <tr>
             <td>
-              <nuxt-link to="/B1Dispatch">
+              <nuxt-link to="/products/P1treatment">
                 <p class="text-lg text-black underline">Treatment support application</p>
               </nuxt-link>
             </td>
