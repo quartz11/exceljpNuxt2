@@ -1,24 +1,19 @@
 <template>
   <div>
-
     <div class="flex justify-center mx-auto">
-      <div class="justify-center overflow-hidden rounded shadow-2xl bg-slate-50 w-11/12">
+      <div class="container overflow-hidden rounded shadow-2xl bg-slate-50 w-11/12">
         <div class="card-header" style="background-color:blueviolet; color:white;">&nbsp;</div>
         <div class="card-body w-full">
           <table>
             <thead>
-              <th class="text-black w-80">
-                <img width="350" height="350" src="http://1excellence.com/official/img/common/boss.jpg">
-                <br />
-                Atsunori Tokumasu
-                <br />
-                Company President
+              <th class="text-black w-1/4 lg:px-8 " style="text-align: -webkit-center;">
+                <img src="http://1excellence.com/official/img/common/boss.jpg" />
+                <p>{{ $t('employment.pic_name') }}</p>
+                <p>{{ $t('employment.pic_title') }}</p>
               </th>
-              <th class="w-screen text-black">
-                <h1 class="text-2xl">
-                  We are seeking
-                  enthusiastic partner
-
+              <th class="text-black w-3/4 lg:px-8">
+                <h1 class="lg:text-3xl text-2xl">
+                  {{ $t('employment.toppic') }}
                 </h1>
               </th>
             </thead>
@@ -26,79 +21,47 @@
           <br />
           <table>
             <thead>
-              <th>
-                <p class="text-black text-left	">
-
-                  When I hear the IT consulting and software company, you might think that “technology is not good” or
-                  “myself liberal arts”
-                  However, IT and software, not just a “tool for the purpose of reform”
-                  <br />
-                  <br />
-                  To polished to evolve its tools, lone of technology is required, is why we are also always pursue it.
-                  However, on the other hand it more than in the us is sought, towards the goal of reform is to
-                  understand the problem, I ability and spirit of challenge that leads to the resolution.
-                  Even in your senior, while a liberal arts graduate, and to some people that are at the core of the
-                  system development, some people have become “demon of sales” in science born in reverse.<br />
-                  <br />
-                  Do not do that “to fit into a mold” their potential and capabilities.
-                  Is the future of Japanese companies, in order to continue to survive in global competition, to enter
-                  the “Defense” is not allowed.<br />
-                  <br />
-                </p>
+              <th class="text-black text-left">
+                <p class="py-3">{{ $t('employment.text1') }}</p>
+                <p class="py-3">{{ $t('employment.text2') }}</p>
+                <p class="py-3">{{ $t('employment.text3') }}</p>
               </th>
             </thead>
           </table>
         </div>
       </div>
     </div>
-    <br />
 
     <!-- 3 button -->
 
-    <div class="flex justify-center mx-auto">
-
-      <div class="justify-center overflow-hidden rounded shadow-2xl bg-slate-50 w-11/12">
+    <div class="flex justify-center mx-auto my-6">
+      <div class="container overflow-hidden rounded shadow-2xl bg-slate-50 w-11/12">
 
         <div class="card-body text-black">
 
-          <table class="table-auto justify-center mx-auto">
-            <thead class="justify-center">
+          <table class="table-auto justify-center">
+            <thead>
               <tr>
-                <th class="w-96 center mx-auto">
-                  <div class="flex justify-center mx-auto">
+                <td class="text-center text-xl text-blue-600 btn-ghost p-4 rounded-lg" style="text-align: -webkit-center;">
+                  <nuxt-link :to="localePath('campus')">
                     <img width="290" height="290" src="http://1excellence.com/official/img/recruit/recruit.jpg" />
-                  </div>
-                </th>
-                <th class="w-96 content-center mx-auto">
-                  <div class="flex justify-center mx-auto">
+                    {{ $t('employment.job1') }}
+                  </nuxt-link>
+                </td>
+                <td class="text-center text-xl text-blue-600 btn-ghost p-4 rounded-lg" style="text-align: -webkit-center;">
+                  <nuxt-link to="/midcareer">
                     <img width="290" height="290" src="http://1excellence.com/official/img/recruit/recruit.jpg" />
-                  </div>
-                </th>
-                <th class="w-96 content-center mx-auto">
-                  <div class="flex justify-center mx-auto">
+                    {{ $t('employment.job2') }}
+                  </nuxt-link>
+                </td>
+                <td class="text-center text-xl text-blue-600 btn-ghost p-4 rounded-lg" style="text-align: -webkit-center;">
+                  <nuxt-link to="/empinter1">
                     <img width="290" height="290" src="http://1excellence.com/official/img/recruit/recruit.jpg" />
-                  </div>
-                </th>
+                    {{ $t('employment.job3') }}
+                  </nuxt-link>
+                </td>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td><br /></td>
-                <td><br /></td>
-                <td><br /></td>
-              </tr>
-              <tr>
-                <td class="text-center text-xl text-blue-600">
-                  <nuxt-link to="/campus">Campus Recruiting</nuxt-link>
-                </td>
-                <td class="text-center text-xl text-blue-600">
-                  <nuxt-link to="/midcareer">Mid-career recruitment</nuxt-link>
-                </td>
-                <td class="text-center text-xl text-blue-600">
-                  <nuxt-link to="/empinter1">Employee Interviews</nuxt-link>
-                </td>
-              </tr>
-            </tbody>
           </table>
 
         </div>
