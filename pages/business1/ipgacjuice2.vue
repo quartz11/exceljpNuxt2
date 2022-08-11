@@ -357,7 +357,7 @@
     </div>
 
     <div class="flex justify-center">
-      <nuxt-link to="/business1/ipgacjuice2">
+      <nuxt-link to="/">
         <p class="text-blue-600 underline">ガックフルーツについて。</p>
       </nuxt-link>
     </div>
