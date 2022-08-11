@@ -1,18 +1,19 @@
-<style scoped>
+<!-- <style scoped>
 h1 {
   text-align: center;
 }
-</style>
+</style> -->
 <template>
-  <section class="px-20">
-    <div class="container">
+  <section class="justify-center flex">
+    <div class="container px-20">
 
-      <h1 class="text-3xl text-black ">Corporate Philosophy</h1>
-      <br />
+      <h1 class="text-3xl text-center text-black py-5 ">
+        {{ $t('motto.philosophy.header') }}
+      </h1>
       <!-- CUSTOM BLOCKQUOTE -->
       <div class="p-4 text-gray-800 bg-white rounded-lg shadow-2xl max-w-8xl">
         <div class="mb-2">
-          <table class="justify-center w-full table-auto ">
+          <table class=" w-full table-auto ">
             <thead>
               <tr>
                 <th class="w-full "></th>
@@ -20,48 +21,51 @@ h1 {
             </thead>
             <tbody>
               <tr>
-                <td class="content-center text-xl text-center">The pursuit of happiness of discretion both sides of all employees</td>
+                <td class=" text-xl text-center pt-8 pb-5">
+                  {{ $t('motto.philosophy.topic1') }}
+                </td>
               </tr>
-              <br />
-              <tr>
-                <td class="text-center">All employees of the company, management also including one technician, there spiritual of all the people that the gathering work, it is the pursuit of material happiness.
-
-That is, of happiness and is physically and spiritually both sides that we aim, and that through self-fulfillment in the field of work as well as go in search of economic stability and prosperity, and will seek the richness of the heart as a human being, such as life worth living and rewardingIt is.</td>
-              </tr>
-              <br />
 
               <tr>
-                <td class="text-xl text-center">It will contribute to the realization of a livable in rich society</td>
+                <td class="text-center">
+                  {{ $t('motto.philosophy.text1') }} <br />
+                  {{ $t('motto.philosophy.text2') }}
+                </td>
               </tr>
-              <br />
 
               <tr>
-                <td class="text-center">Customers and the community, including to global environment steady around us worked hard in our efforts, that is has been put is the wish of the I want to become better by the realization of corporate activities.
-
-In addition, we polish always technology, by sending the world one after another excellent software, and continue to raise the profit as a company as well as contribute to the advancement of science and technology, and to contribute to the public welfare enhancement through such that you pay a lot of taxes to go.</td>
+                <td class="text-xl text-center pt-8 pb-5">
+                  {{ $t('motto.philosophy.topic2') }}
+                </td>
               </tr>
-              <br />
 
               <tr>
-                <td class="text-xl text-center">Heart of altruistic</td>
+                <td class="text-center">
+                  {{ $t('motto.philosophy.text3') }} <br />
+                  {{ $t('motto.philosophy.text4') }}
+                </td>
               </tr>
-              <br />
 
               <tr>
-                <td class="text-center">Idea that altruistic that in better than your own has become a backbone. Themselves even better by happy others, is the way to become happy.
+                <td class="text-xl text-center pt-8 pb-5">
+                  {{ $t('motto.philosophy.topic3') }}
+                </td>
+              </tr>
 
-Only the spirit of the altruistic is not more to allow for sustainable development, it is that is to act in order to achieve those ideals is the purpose of our company.</td>
+              <tr>
+                <td class="text-center pb-8">
+                  {{ $t('motto.philosophy.text5') }} <br />
+                  {{ $t('motto.philosophy.text6') }}
+                </td>
               </tr>
             </tbody>
           </table>
 
         </div>
       </div>
-      <br />
       <!-- END -->
 
-      <h1 class="text-3xl text-black ">Company Motto</h1>
-      <br />
+      <h1 class="text-3xl text-center text-black pt-12 pb-5"> {{ $t('motto.motto.header') }} </h1>
       <!-- CUSTOM BLOCKQUOTE -->
       <div class="p-4 text-gray-800 bg-white rounded-lg shadow-2xl max-w-8xl">
         <div class="mb-2">
@@ -73,40 +77,37 @@ Only the spirit of the altruistic is not more to allow for sustainable developme
             </thead>
             <tbody>
               <tr>
-                <td class="content-center text-2xl text-center">敬天愛人</td>
+                <td class="content-center text-2xl text-center pt-8">{{ $t('motto.motto.topic1') }} </td>
               </tr>
-              <br />
               <tr>
-                <td class="text-xl text-center">「南洲翁遺訓」</td>
+                <td class="text-xl text-center pb-4">{{ $t('motto.motto.topic2') }} </td>
               </tr>
-              <br />
 
               <tr>
-                <td class="text-center">道というのはこの天地のおのずからなるものであり、人はこれにのっとって行うべきもの
-であるから何よりもまず、天を敬うことを目的とすべきである。
-<br />
-天は他人も自分も平等に愛したもうから、自分を愛する心をもって人を愛することが肝要である。</td>
+                <td class="text-center py-3">
+                  {{ $t('motto.motto.text1') }} <br />
+                  {{ $t('motto.motto.text2') }}
+                </td>
               </tr>
-              <br />
 
               <tr>
-                <td class="text-center">To put contemporary say.
-the company or team is like a family.
-It is to little put up with selfishness among the organizations.</td>
+                <td class="text-center py-3">
+                  {{ $t('motto.motto.text3') }} <br />
+                  {{ $t('motto.motto.text4') }}
+                </td>
               </tr>
-              <br />
 
               <tr>
-                <td class="text-center">It is very difficult to increase the heart but by Strive to realize in all employees,
-and I think it will lead to being able to embody the spiritual richness.</td>
+                <td class="text-center py-3">
+                  {{ $t('motto.motto.text5') }} <br />
+                  {{ $t('motto.motto.text6') }}
+                </td>
               </tr>
-              <br />
             </tbody>
           </table>
 
         </div>
       </div>
-      <br />
       <!-- END -->
 
 
