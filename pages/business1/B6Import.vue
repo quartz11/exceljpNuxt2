@@ -558,7 +558,7 @@
 
       <div class="h-48 shadow-2xl hero bg-slate-50">
         <div class="flex-col hero-content lg:flex-row">
-          <nuxt-link to="/">
+          <nuxt-link to="/business1/ipgacjuice">
             <img src="http://1excellence.com/official/img/store/gac_sub.png" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
