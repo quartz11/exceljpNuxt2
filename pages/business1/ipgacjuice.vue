@@ -424,7 +424,7 @@
 
       <div class="shadow-2xl hero h-72 bg-slate-50">
         <div class="flex-col hero-content lg:flex-row">
-          <nuxt-link to="/">
+          <nuxt-link to="/business1/ipsoursop">
             <img src="http://1excellence.com/official/img/store/sopfront.jpg" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
