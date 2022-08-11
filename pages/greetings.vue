@@ -1,61 +1,31 @@
 <template>
   <div>
-
     <div class="flex justify-center mx-auto">
-      <div class="justify-center overflow-hidden rounded shadow-2xl bg-slate-50 w-11/12">
-        <div class="card-header" style="background-color:blueviolet; color:white;">&nbsp;&nbsp; Greetings</div>
+      <div class="container overflow-hidden rounded shadow-2xl bg-slate-50 w-11/12">
+        <div class="card-header" style="background-color:blueviolet; color:white;">&emsp; {{ $t('greeting.card_head') }}</div>
         <div class="card-body w-full">
           <table>
             <thead>
-              <th class="text-black w-80">
-                <img width="350" height="350" src="http://1excellence.com/official/img/common/boss.jpg">
-                <br />
-                Atsunori Tokumasu
-                <br />
-                Company President
+              <th class="text-black w-1/4 lg:px-8 px-4" style="text-align: -webkit-center;">
+                <img  src="http://1excellence.com/official/img/common/boss.jpg"/>
+                <p>{{ $t('greeting.pic_name') }}</p>
+                <p>{{ $t('greeting.pic_title') }}</p>
               </th>
-              <th class="w-screen text-black">
-                <p>
-                  We at Excellence in December 1989
-                  In addition to
-                <p class="underline">the pursuit of happiness discretion both sides of all employees
-                  To provide the best of ICT services to customers
-                  It will contribute to the realization of a livable peace society.</p>
-                It was established under the management philosophy
-                </p>
+              <th class="text-black w-3/4 lg:px-8 px-4">
+                <p>{{ $t('greeting.greeting1') }}</p>
+                <p class="underline">{{ $t('greeting.greeting2') }}</p>
+                <p>{{ $t('greeting.greeting3') }}</p>
               </th>
             </thead>
           </table>
-          <br />
-          <table>
+          <table class="mt-5">
             <thead>
-              <th>
-                <p class="text-black text-left	">
-                  Established initially, it had been worked on small systems development that runs on a personal
-                  computer.
-                  Building and gamma-ray trajectory simulation system for non-destructive testing equipment, is a data
-                  logger system of data collection.
-                  <br />
-                  <br />
-                  Then, in the high-performance server machine only little more than the time of the personal computer
-                  that office computer, it was I am allowed to help the construction of sales management and inventory
-                  management system for the enterprise.
-                  <br />
-                  <br />
-                  Then, a large general-purpose on the computer and residential CAD element deployment system
-                  development, we continue to expand gradually specialties such am allowed to participate in large-scale
-                  projects such as an automatic warehouse transport system.
-                  <br />
-                  <br />
-                  There is the collapse of the bubble economy from that time until now, and there IT bubble shock, there
-                  Lehman shock, but there was variety and consistently under this management philosophy, we have piled
-                  up steadily effort.
-                  <br />
-                  <br />
-                  In the 21 century, but there is in society has come further increase the rate of change, we will
-                  further piled up efforts and devotion to become a company that is for the people for the progress and
-                  development in contributions and world human society.
-                </p>
+              <th class="text-black text-left">
+                <p class="py-3">{{ $t('greeting.text1') }}</p>
+                <p class="py-3">{{ $t('greeting.text2') }}</p>
+                <p class="py-3">{{ $t('greeting.text3') }}</p>
+                <p class="py-3">{{ $t('greeting.text4') }}</p>
+                <p class="py-3">{{ $t('greeting.text5') }}</p>
               </th>
             </thead>
           </table>

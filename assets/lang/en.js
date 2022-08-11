@@ -203,4 +203,64 @@ export default {
       text6: `and I think it will lead to being able to embody the spiritual richness.`,
     },
   },
+  greeting: {
+    card_head: `Greetings`,
+    pic_name: `Atsunori Tokumasu`,
+    pic_title: `Company President`,
+    greeting1: `We at Excellence in December 1989 In addition to`,
+    greeting2: `the pursuit of happiness discretion both sides of all employees
+    To provide the best of ICT services to customers
+    It will contribute to the realization of a livable peace society.`,
+    greeting3: `It was established under the management philosophy`,
+    text1: `Established initially, it had been worked on small systems development that runs on a personal
+    computer.
+    Building and gamma-ray trajectory simulation system for non-destructive testing equipment, is a data
+    logger system of data collection.`,
+    text2: `Then, in the high-performance server machine only little more than the time of the personal computer
+    that office computer, it was I am allowed to help the construction of sales management and inventory
+    management system for the enterprise.`,
+    text3: `Then, a large general-purpose on the computer and residential CAD element deployment system
+    development, we continue to expand gradually specialties such am allowed to participate in large-scale
+    projects such as an automatic warehouse transport system.`,
+    text4: `There is the collapse of the bubble economy from that time until now, and there IT bubble shock, there
+    Lehman shock, but there was variety and consistently under this management philosophy, we have piled
+    up steadily effort.`,
+    text5: `In the 21 century, but there is in society has come further increase the rate of change, we will
+    further piled up efforts and devotion to become a company that is for the people for the progress and
+    development in contributions and world human society.`,
+  },
+  employment: {
+    pic_name: `Atsunori Tokumasu`,
+    pic_title: `Company President`,
+    toppic: `We are seeking enthusiastic partner `,
+    text1: `When I hear the IT consulting and software company, you might think that “technology is not good” or
+    “myself liberal arts”
+    However, IT and software, not just a “tool for the purpose of reform”`,
+    text2: `To polished to evolve its tools, lone of technology is required, is why we are also always pursue it.
+    However, on the other hand it more than in the us is sought, towards the goal of reform is to
+    understand the problem, I ability and spirit of challenge that leads to the resolution.
+    Even in your senior, while a liberal arts graduate, and to some people that are at the core of the
+    system development, some people have become “demon of sales” in science born in reverse.`,
+    text3: `Do not do that “to fit into a mold” their potential and capabilities.
+    Is the future of Japanese companies, in order to continue to survive in global competition, to enter
+    the “Defense” is not allowed.`,
+    job1: `Campus Recruiting`,
+    job2: `Mid-career recruitment`,
+    job3: `Employee Interviews`,
+  },
+  campus: {
+    first_box: {
+      card_head: `Campus Recruiting`,
+      card_topic: `Creation of new business`,
+      text1: `The current world economy is a difficult situation that can predict.
+      Goods which they sell now may also well be that tomorrow will not sell.
+      For this reason, it is keep thinking every day the idea of new business all employees in our company,
+      I believe life work necessary in order to perpetuate the company.`,
+      text2: `Everyone not be done, to create their own services, which can provide dreams and excitement to many
+      people. Plan from the discovery of business opportunities, start-up, and go actually profitable.
+      One I would like to create a new business model from the idea.
+      We welcome those who are such a enthusiasm and motivation.
+`,
+    },
+  },
 };
