@@ -16,7 +16,7 @@
               <br />
               <tr>
                 <div class="flex justify-center mx-auto">
-                  <img src="http://1excellence.com/official/img/deployment/hotelReservation.jpg" width="300"
+                  <img src="/productpic/hotelReservation.jpg" width="300"
                     height="300" />
                 </div>
               </tr>

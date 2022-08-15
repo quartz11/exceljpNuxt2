@@ -7,7 +7,7 @@
           <table>
             <thead>
               <th class="text-black w-1/4 lg:px-8 px-4" style="text-align: -webkit-center;">
-                <img  src="http://1excellence.com/official/img/common/boss.jpg"/>
+                <img  src="/boss.jpg"/>
                 <p>{{ $t('greeting.pic_name') }}</p>
                 <p>{{ $t('greeting.pic_title') }}</p>
               </th>

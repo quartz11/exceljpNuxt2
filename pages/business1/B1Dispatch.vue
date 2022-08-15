@@ -15,7 +15,7 @@
               </tr>
               <tr>
                 <div class="flex justify-center mx-auto">
-                  <img src="http://1excellence.com/official/img/business/dispatch.jpg" width="300" height="300" />
+                  <img src="/businesspic/dispatch.jpg" width="300" height="300" />
                 </div>
               </tr>
             </thead>

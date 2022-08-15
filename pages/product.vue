@@ -6,7 +6,7 @@
 
       <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
-          <img width="350" height="350" src="http://1excellence.com/official/img/deployment/medical.jpg">
+          <img width="350" height="350" src="/productpic/medical.jpg">
         </figure>
         <div class="card-body">
           <h2 class="text-black card-title">
@@ -26,7 +26,7 @@
 
       <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
-          <img width="350" height="350" src="http://1excellence.com/official/img/deployment/warehouse.jpg">
+          <img width="350" height="350" src="/productpic/warehouse.jpg">
         </figure>
         <div class="card-body">
           <h2 class="text-black card-title">
@@ -46,7 +46,7 @@
 
       <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
-          <img width="350" height="350" src="http://1excellence.com/official/img/deployment/groupware.jpg">
+          <img width="350" height="350" src="/productpic/groupware.jpg">
         </figure>
         <div class="card-body">
           <h2 class="text-black card-title"><nuxt-link to="/products/p3ebase">Groupware System : e-base</nuxt-link></h2>
@@ -64,7 +64,7 @@
 
       <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
-          <img width="350" height="350" src="http://1excellence.com/official/img/deployment/hotelReservation.jpg">
+          <img width="350" height="350" src="/productpic/hotelReservation.jpg">
         </figure>
         <div class="card-body">
           <h2 class="text-black card-title"><nuxt-link to="/products/p4reservation">Hotel Reservation System</nuxt-link></h2>
