@@ -252,15 +252,170 @@ export default {
     first_box: {
       card_head: `Campus Recruiting`,
       card_topic: `Creation of new business`,
-      text1: `The current world economy is a difficult situation that can predict.
+      text: [
+        `The current world economy is a difficult situation that can predict.
       Goods which they sell now may also well be that tomorrow will not sell.
       For this reason, it is keep thinking every day the idea of new business all employees in our company,
       I believe life work necessary in order to perpetuate the company.`,
-      text2: `Everyone not be done, to create their own services, which can provide dreams and excitement to many
+        `Everyone not be done, to create their own services, which can provide dreams and excitement to many
       people. Plan from the discovery of business opportunities, start-up, and go actually profitable.
       One I would like to create a new business model from the idea.
-      We welcome those who are such a enthusiasm and motivation.
-`,
+      We welcome those who are such a enthusiasm and motivation.`,
+      ],
+    },
+    second_box: {
+      card_head: `Adoption condition`,
+      row1: {
+        head: `Job category`,
+        text: `Software technical positions, technical sales staff`,
+      },
+      row2: {
+        head: `Job description`,
+        text: [
+          `◉ Setting, development, maintenance, operation and management of computer systems.`,
+          `◉ Design and development of software.`,
+          `◉ Design and development of network.`,
+          `◉ Building a Web site, production.`,
+        ],
+      },
+      row3: {
+        head: `Human resources to find`,
+        text: [
+          `◉ Mind and body hale and be an honest, there is some physical strength.`,
+          `◉ I like to read the newspapers and history books, etc., and hear properly Some people talk.`,
+          `◉ Value a originality and thinking in my head. (it is not blindly rely on Google)`,
+          `◉ There is some strong ambition to pressure.`,
+          `◉ Coordination ability high, people with high contribution willingness to society.`,
+        ],
+      },
+      row4: {
+        head: `Skills conditions`,
+        text: [
+          `◉ PC or smartphone, people like to treat the tablet terminal and the like.`,
+          `◉ Until now, still good and there is a program created experience in C / C ++ and Java.`,
+          `◉ DB and SQL, it is more preferable to the meaning of the object-oriented is known.`,
+          `◉ Basic information processing engineer of the Ministry of Economy, Trade and Industry, software
+          development engineer of qualified personnel is preferred.`,
+        ],
+      },
+      row5: {
+        head: `Wanted persons`,
+        text: `Some persons`,
+      },
+      row6: {
+        head: `Target`,
+        text: [
+          `Graduate school, university, computer vocational high school in 2023 spring prospective graduates.`,
+          `※International Students Allowed. (primary Japanese, less than 30 years old)`,
+          `※Second new graduates Allowed.`,
+          `※Liberal arts science unquestioned.`,
+        ],
+      },
+    },
+    third_box: {
+      card_head: `Treatment`,
+      row1: {
+        head: `Social insurance`,
+        text: `Conditioning (employment insurance, workers' compensation insurance, health insurance, welfare
+        pensioninsurance)`,
+      },
+      row2: {
+        head: `Wage pattern`,
+        text: `Monthly salary system (end of the month deadline, 15th of the following month payment)`,
+      },
+      row3: {
+        head: `Base salary`,
+        text: [
+          `Masters Degree Have`,
+          `University graduates`,
+          `Community & Technical College graduate`,
+        ],
+        salary: [`200,000 yen`, `196,000 yen`, `186,000 yen`],
+      },
+      row4: {
+        head: `Raise and bonus`,
+        text: [
+          `Raise: once a year (breakdown of performance by)`,
+          `bonus: twice a year (about 2 month / year)`,
+        ],
+      },
+      row5: {
+        head: `Raise and bonus`,
+        text: [
+          `Raise: once a year (breakdown of performance by)`,
+          `bonus: twice a year (about 2 month / year)`,
+        ],
+      },
+      row6: {
+        head: `Various allowances`,
+        text: [
+          `Commuting allowance`,
+          `Duty allowance.`,
+          `Overtime pay.`,
+          `Qualification celebration allowance.`,
+        ],
+      },
+      row7: {
+        head: `Holiday-Vacation`,
+        text: [
+          `◉ Full five-day week. (Saturday, Sunday and public holidays)`,
+          `◉ Annual vacation days about 120 days.`,
+          `※Other: company designated date, New Year · GW · summer vacation, annual paid leave, etc.`,
+        ],
+      },
+      row8: {
+        head: `Working hours`,
+        text: [
+          `9:00 to 18:00 (break 1 hour)`,
+          `※There vary slightly depending resident destination.`,
+        ],
+      },
+      row9: {
+        head: `Work location`,
+        text: `Headquarters (after training ended Kyoto headquarters, Kyoto, Osaka and Shiga customer destination)`,
+      },
+      row10: {
+        head: `System`,
+        text: [
+          `Qualification incentive system.`,
+          `congratulatory or condolence payments.`,
+        ],
+      },
+      row11: {
+        head: `Remarks`,
+        text: [
+          `◉ On-site work in the resident destination becomes the main.`,
+          `◉ Resident destination is within the range from home within one way about an hour and a half.`,
+          `◉ After joining is done the new employee training in Kyoto headquarters.`,
+          `◉ Tokyo, China, Southeast Asia, will unlikely be a business trip to the United States.(short-term - long term)`,
+          `◉ There trial period. (3 months to 6 months depending on the situation)`,
+          `◉ English a plus those who speak.`,
+        ],
+      },
+    },
+    fourth_box: {
+      card_head: `Documents to be submitted`,
+      text: [
+        `Please mail the following documents to us.`,
+        `※It should be noted that, at the time of application will be made to read our “Privacy Policy”, please your application on top of the agreement. `,
+        `1.With handwriting photo resume (A4, described the best match) ※ word processor writing invalid`,
+        `2.Expected graduation certificate (graduation certificate in the case of already graduated)`,
+        `3.Transcript`,
+        `4.Within three months of health certificate (copy available)`,
+        `5.Motivation letter (about 400 words)`,
+        `6.The contents of the graduation study (400 words max)`,
+        `Destination`,
+        `◉ 〒604-8155`,
+        `Kyoto Nakagyo-ku Uradeyama cho address 311 Animato Nishiki 2F`,
+        `Recruitment Officer: Tokumasu Atsunori`,
+        `◉ TEL:075-256-7872`,
+        `◉ FAX:075-256-9052`,
+        `◉ mail: recruit@1excellence.com`,
+        `Reception time`,
+        `◉ 9:00-18:00Excluding weekends and holidays`,
+        `Remarks`,
+        `◉ Please contact feel free to recruiters If you have any unknown point or questions.`,
+      ],
     },
   },
 };

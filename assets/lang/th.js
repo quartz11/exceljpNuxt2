@@ -206,4 +206,167 @@ export default {
     job2: `รับสมัครบุคคลทั่วไป`,
     job3: `สัมภาษณ์พนักงาน`,
   },
+  campus: {
+    first_box: {
+      card_head: `รับสมัครนักศึกษา`,
+      card_topic: `การสร้างธุรกิจใหม่`,
+      text: [
+        `เศรษฐกิจโลกในปัจจุบันเป็นสถานการณ์ที่ยากลำบากที่สามารถคาดเดาได้ สินค้าที่พวกเขาขายตอนนี้ก็อาจเป็นได้ว่าพรุ่งนี้จะไม่ขาย ด้วยเหตุผลนี้ ทุกวันจึงมีความคิดเกี่ยวกับธุรกิจใหม่ พนักงานทุกคนในบริษัทของเรา ฉันเชื่อว่าการทำงานในชีวิตจำเป็นเพื่อสานต่อบริษัท`,
+        `ทุกคนไม่ได้ทำเพื่อสร้างบริการของตัวเองที่สามารถให้ความฝันและความตื่นเต้นให้กับคนจำนวนมาก วางแผนจากการค้นพบโอกาสทางธุรกิจ การเริ่มต้น และทำกำไรได้จริง หนึ่งฉันต้องการสร้างรูปแบบธุรกิจใหม่จากแนวคิด เรายินดีต้อนรับผู้ที่มีความกระตือรือร้นและแรงจูงใจดังกล่าว`,
+      ],
+    },
+    second_box: {
+      card_head: `เงื่อนไขการรับสมัคร`,
+      row1: {
+        head: `ประเภทงาน`,
+        text: `ตำแหน่งทางเทคนิคซอฟต์แวร์ พนักงานขายด้านเทคนิค`,
+      },
+      row2: {
+        head: `รายละเอียดงาน`,
+        text: [
+          `◉ การตั้งค่า การพัฒนา การบำรุงรักษา การดำเนินงาน และการจัดการระบบคอมพิวเตอร์`,
+          `◉ การออกแบบและพัฒนาซอฟต์แวร์`,
+          `◉ การออกแบบและพัฒนาเครือข่าย`,
+          `◉ การสร้างเว็บไซต์ การผลิต`,
+        ],
+      },
+      row3: {
+        head: `ทรัพยากรมนุษย์ที่จะหา`,
+        text: [
+          `◉ จิตใจและร่างกายแจ่มใส ซื่อสัตย์ มีกำลังกายอยู่บ้าง`,
+          `◉ ฉันชอบอ่านหนังสือพิมพ์และหนังสือประวัติศาสตร์ ฯลฯ และฟังอย่างถูกต้อง บางคนพูด`,
+          `◉ ให้ความสำคัญกับความคิดริเริ่มและความคิดในหัวของฉัน (มันไม่ได้พึ่งพา Google อย่างสุ่มสี่สุ่มห้า)`,
+          `◉ มีความทะเยอทะยานอย่างแรงกล้าที่จะกดดัน`,
+          `◉ ความสามารถในการประสานงานสูง คนที่มีส่วนร่วมสูงต่อสังคม`,
+        ],
+      },
+      row4: {
+        head: `เงื่อนไขทักษะ`,
+        text: [
+          `◉ เครื่องคอมพิวเตอร์หรือมาร์ทโฟนคนชอบที่จะจัดการกับขั้วแท็บเล็ต ฯลฯ`,
+          `◉ จนถึงขณะนี้ยังดีและมีประสบการณ์เป็นโปรแกรมที่สร้างขึ้นใน C / C ++ และ Java`,
+          `◉ DB และ SQL มันจะดีกว่าความหมายของวัตถุเชิงเป็นที่รู้จักกัน.`,
+          `◉ วิศวกรประมวลผลข้อมูลพื้นฐานของกระทรวงเศรษฐกิจ การค้าและอุตสาหกรรม ซอฟต์แวร์ วิศวกรพัฒนาของบุคลากรที่มีคุณภาพเป็นที่ต้องการ.`,
+        ],
+      },
+      row5: {
+        head: `ต้องการบุคคล`,
+        text: `บางคน`,
+      },
+      row6: {
+        head: `จุดมุ่งหมาย`,
+        text: [
+          `บัณฑิตวิทยาลัย, มหาวิทยาลัย, คอมพิวเตอร์อาชีวศึกษามัธยมปลายในฤดูใบไม้ผลิปี 2023 ผู้สำเร็จการศึกษาที่คาดหวังในฤดูใบไม้ผลิ.`,
+          `※อนุญาตให้นักศึกษาต่างชาติ (ภาษาญี่ปุ่นหลัก อายุต่ำกว่า 30 ปี)`,
+          `※อนุญาตผู้สำเร็จการศึกษาใหม่คนที่สอง.`,
+          `※ไม่ต้องสงสัยวิทยาศาสตร์ศิลปศาสตร์`,
+        ],
+      },
+    },
+    third_box: {
+      card_head: `Treatment`,
+      row1: {
+        head: `Social insurance`,
+        text: `Conditioning (employment insurance, workers' compensation insurance, health insurance, welfare
+        pensioninsurance)`,
+      },
+      row2: {
+        head: `Wage pattern`,
+        text: `Monthly salary system (end of the month deadline, 15th of the following month payment)`,
+      },
+      row3: {
+        head: `Base salary`,
+        text: [
+          `Masters Degree Have`,
+          `University graduates`,
+          `Community & Technical College graduate`,
+        ],
+        salary: [`200,000 yen`, `196,000 yen`, `186,000 yen`],
+      },
+      row4: {
+        head: `Raise and bonus`,
+        text: [
+          `Raise: once a year (breakdown of performance by)`,
+          `bonus: twice a year (about 2 month / year)`,
+        ],
+      },
+      row5: {
+        head: `Raise and bonus`,
+        text: [
+          `Raise: once a year (breakdown of performance by)`,
+          `bonus: twice a year (about 2 month / year)`,
+        ],
+      },
+      row6: {
+        head: `Various allowances`,
+        text: [
+          `Commuting allowance`,
+          `Duty allowance.`,
+          `Overtime pay.`,
+          `Qualification celebration allowance.`,
+        ],
+      },
+      row7: {
+        head: `Holiday-Vacation`,
+        text: [
+          `◉ Full five-day week. (Saturday, Sunday and public holidays)`,
+          `◉ Annual vacation days about 120 days.`,
+          `※Other: company designated date, New Year · GW · summer vacation, annual paid leave, etc.`,
+        ],
+      },
+      row8: {
+        head: `Working hours`,
+        text: [
+          `9:00 to 18:00 (break 1 hour)`,
+          `※There vary slightly depending resident destination.`,
+        ],
+      },
+      row9: {
+        head: `Work location`,
+        text: `Headquarters (after training ended Kyoto headquarters, Kyoto, Osaka and Shiga customer destination)`,
+      },
+      row10: {
+        head: `System`,
+        text: [
+          `Qualification incentive system.`,
+          `congratulatory or condolence payments.`,
+        ],
+      },
+      row11: {
+        head: `Remarks`,
+        text: [
+          `◉ On-site work in the resident destination becomes the main.`,
+          `◉ Resident destination is within the range from home within one way about an hour and a half.`,
+          `◉ After joining is done the new employee training in Kyoto headquarters.`,
+          `◉ Tokyo, China, Southeast Asia, will unlikely be a business trip to the United States.(short-term - long term)`,
+          `◉ There trial period. (3 months to 6 months depending on the situation)`,
+          `◉ English a plus those who speak.`,
+        ],
+      },
+    },
+    fourth_box: {
+      card_head: `Documents to be submitted`,
+      text: [
+        `Please mail the following documents to us.`,
+        `※It should be noted that, at the time of application will be made to read our “Privacy Policy”, please your application on top of the agreement. `,
+        `1.With handwriting photo resume (A4, described the best match) ※ word processor writing invalid`,
+        `2.Expected graduation certificate (graduation certificate in the case of already graduated)`,
+        `3.Transcript`,
+        `4.Within three months of health certificate (copy available)`,
+        `5.Motivation letter (about 400 words)`,
+        `6.The contents of the graduation study (400 words max)`,
+        `Destination`,
+        `◉ 〒604-8155`,
+        `Kyoto Nakagyo-ku Uradeyama cho address 311 Animato Nishiki 2F`,
+        `Recruitment Officer: Tokumasu Atsunori`,
+        `◉ TEL:075-256-7872`,
+        `◉ FAX:075-256-9052`,
+        `◉ mail: recruit@1excellence.com`,
+        `Reception time`,
+        `◉ 9:00-18:00Excluding weekends and holidays`,
+        `Remarks`,
+        `◉ Please contact feel free to recruiters If you have any unknown point or questions.`,
+      ],
+    },
+  },
 };
