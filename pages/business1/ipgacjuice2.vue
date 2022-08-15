@@ -37,7 +37,7 @@
             <tbody>
               <tr>
                 <td>
-                  <img src="http://1excellence.com/official/img/store/Nutrient_jp.png" width="500" height="500" />
+                  <img src="/businesspic/import/Nutrient_jp.png" width="500" height="500" />
                 </td>
                 <td>
                   <p class="text-black font-bold px-2">　ガックフルーツとは正式名称を「ナンバンカラスウリ」という、<a
@@ -109,7 +109,7 @@
                   <p class="text-black font-bold px-2">つまり、活性酸素を撃退するということはシワの無い肌を維持する老化防止の効果になるといわれているのだ。</p>
                 </td>
                 <td>
-                  <img src="http://1excellence.com/official/img/store/bitamin.png" width="350" height="400"
+                  <img src="/businesspic/import/bitamin.png" width="350" height="400"
                     class="px-2" />
                 </td>
               </tr>
@@ -277,7 +277,7 @@
       <div class="h-48 shadow-2xl hero bg-slate-50">
         <div class="flex-col hero-content lg:flex-row">
           <nuxt-link to="/business1/ipgacjuice">
-            <img src="http://1excellence.com/official/img/store/gac_sub.png" width="150" height="250"
+            <img src="/businesspic/import/gac_sub.png" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
           <div>

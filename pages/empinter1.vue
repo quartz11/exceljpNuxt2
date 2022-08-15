@@ -10,7 +10,7 @@
             <thead>
               <th class="text-black w-80">
                 <div class="flex justify-center">
-                  <img width="150" height="150" src="http://1excellence.com/official/img/recruit/shimizu.gif" />
+                  <img width="150" height="150" src="/emp/shimizu.gif" />
                 </div>
                 <br />
                 <p>System Development Department</p>

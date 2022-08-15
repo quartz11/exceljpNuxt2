@@ -40,7 +40,7 @@
             <thead>
               <tr>
                 <img alt='' class='w-64 h-64 block mx-auto'
-                  src='http://1excellence.com/official/img/store/gacjuice_big.png'>
+                  src='/businesspic/import/gacjuice_big.png'>
                 <div class="text-base">
                   <nuxt-link to="/business1/b6import">
                     <p class="text-blue-800 underline px-4">送料や税金についてはコチラ。</p>
@@ -165,7 +165,7 @@
               <div class="flex justify-center mx-auto">
                 <tr>
                   <img alt='' class='w-64 h-64 block mx-auto'
-                    src='http://1excellence.com/official/img/store/gacjuice_min.png'>
+                    src='/businesspic/import/gacjuice_min.png'>
                   <div class="text-base">
                     <nuxt-link to="/business1/b6import">
                       <p class="text-blue-800 underline px-4">送料や税金についてはコチラ。</p>
@@ -365,7 +365,7 @@
     <!-- Detail Foot-->
 
     <div class="flex justify-center mx-auto">
-      <img src="http://1excellence.com/official/img/store/gacjuice_top.png" />
+      <img src="/businesspic/import/gacjuice_top.png" />
     </div>
     <br />
     <div class="flex justify-center mx-auto">
@@ -384,7 +384,7 @@
       <div class="h-48 shadow-2xl hero bg-slate-50">
         <div class="flex-col hero-content lg:flex-row">
           <nuxt-link to="/business1/ipgacjuice">
-            <img src="http://1excellence.com/official/img/store/gac_sub.png" width="150" height="250"
+            <img src="/businesspic/import/gac_sub.png" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
           <div>
@@ -405,7 +405,7 @@
       <div class="h-56 shadow-2xl hero bg-slate-50">
         <div class="flex-col hero-content lg:flex-row">
           <nuxt-link to="/business1/ipkrachai">
-            <img src="http://1excellence.com/official/img/store/krachaidum.jpg" width="150" height="250"
+            <img src="/businesspic/import/krachaidum.jpg" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
           <div>
@@ -425,7 +425,7 @@
       <div class="shadow-2xl hero h-72 bg-slate-50">
         <div class="flex-col hero-content lg:flex-row">
           <nuxt-link to="/business1/ipsoursop">
-            <img src="http://1excellence.com/official/img/store/sopfront.jpg" width="150" height="250"
+            <img src="/businesspic/import/sopfront.jpg" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
           <div>

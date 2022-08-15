@@ -217,7 +217,7 @@
             <tbody>
               <tr>
                 <td>
-                  <img src="http://1excellence.com/official/img/store/kra_orign.jpg" width="300" height="250" />
+                  <img src="/businesspic/import/kra_orign.jpg" width="300" height="250" />
                 </td>
                 <td>
                   <p class="text-black font-bold px-2">　東南アジアのタイ、ラオスの熱帯原生林地帯原産の天然ハーブの一種。</p>
@@ -323,7 +323,7 @@
                   <p class="text-black font-bold px-2">温められた血液が体中に巡り、手足などの末端にまで行き届き冷え症やむくみが解消されていく仕組みだそうだ。</p>
                 </td>
                 <td>
-                  <img src="http://1excellence.com/official/img/store/woman.jpg" width="300" height="550"
+                  <img src="/businesspic/import/woman.jpg" width="300" height="550"
                     class="px-2" />
                 </td>
               </tr>
@@ -371,7 +371,7 @@
             <tbody>
               <tr>
                 <td>
-                  <img src="http://1excellence.com/official/img/store/man.png" width="400" height="400" class="px-2" />
+                  <img src="/businesspic/import/man.png" width="400" height="400" class="px-2" />
                 </td>
                 <td>
                   <p class="text-black font-bold px-2">　クラチャイダムの効果で最も有名なのが、男性の精力増強効果だ。EDの改善効果や性器増大効果が知られている。</p>
@@ -481,7 +481,7 @@
       <div class="h-48 shadow-2xl hero bg-slate-50">
         <div class="flex-col hero-content lg:flex-row">
           <nuxt-link to="/business1/ipgacjuice">
-            <img src="http://1excellence.com/official/img/store/gac_sub.png" width="150" height="250"
+            <img src="/businesspic/import/gac_sub.png" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
           <div>
@@ -502,7 +502,7 @@
       <div class="h-56 shadow-2xl hero bg-slate-50">
         <div class="flex-col hero-content lg:flex-row">
           <nuxt-link to="/business1/ipkrachai">
-            <img src="http://1excellence.com/official/img/store/krachaidum.jpg" width="150" height="250"
+            <img src="/businesspic/import/krachaidum.jpg" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
           <div>
@@ -522,7 +522,7 @@
       <div class="shadow-2xl hero h-72 bg-slate-50">
         <div class="flex-col hero-content lg:flex-row">
           <nuxt-link to="/business1/ipsoursop">
-            <img src="http://1excellence.com/official/img/store/sopfront.jpg" width="150" height="250"
+            <img src="/businesspic/import/sopfront.jpg" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
           <div>

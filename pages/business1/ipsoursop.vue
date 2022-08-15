@@ -240,7 +240,7 @@
             <tbody>
               <tr>
                 <td>
-                  <img src="http://1excellence.com/official/img/store/soursop.jpg" width="500" height="450" />
+                  <img src="/businesspic/import/soursop.jpg" width="500" height="450" />
                 </td>
                 <td>
                   <p class="text-black font-bold px-2">　サワーソップ(Soursop)とは、メキシコ、中米、カリブ諸島、北米、南米を原産とする常緑広葉樹の顕花植物である。日本語では<a
@@ -300,7 +300,7 @@
                   </p>
                 </td>
                 <td class="w-80">
-                  <img src="http://1excellence.com/official/img/store/energy.png" width="400" height="250"
+                  <img src="/businesspic/import/energy.png" width="400" height="250"
                     class="px-2" />
                 </td>
               </tr>
@@ -353,7 +353,7 @@
             <tbody>
               <tr>
                 <td>
-                  <img src="http://1excellence.com/official/img/store/cancer.png" width="400" height="400"
+                  <img src="/businesspic/import/cancer.png" width="400" height="400"
                     class="px-2" />
                 </td>
                 <td>
@@ -464,7 +464,7 @@
       <div class="h-48 shadow-2xl hero bg-slate-50">
         <div class="flex-col hero-content lg:flex-row">
           <nuxt-link to="/business1/ipgacjuice">
-            <img src="http://1excellence.com/official/img/store/gac_sub.png" width="150" height="250"
+            <img src="/businesspic/import/gac_sub.png" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
           <div>
@@ -485,7 +485,7 @@
       <div class="h-56 shadow-2xl hero bg-slate-50">
         <div class="flex-col hero-content lg:flex-row">
           <nuxt-link to="/business1/ipkrachai">
-            <img src="http://1excellence.com/official/img/store/krachaidum.jpg" width="150" height="250"
+            <img src="/businesspic/import/krachaidum.jpg" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
           <div>
@@ -505,7 +505,7 @@
       <div class="shadow-2xl hero h-72 bg-slate-50">
         <div class="flex-col hero-content lg:flex-row">
           <nuxt-link to="/business1/ipsoursop">
-            <img src="http://1excellence.com/official/img/store/sopfront.jpg" width="150" height="250"
+            <img src="/businesspic/import/sopfront.jpg" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
           <div>

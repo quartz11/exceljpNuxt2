@@ -559,7 +559,7 @@
       <div class="h-48 shadow-2xl hero bg-slate-50">
         <div class="flex-col hero-content lg:flex-row">
           <nuxt-link to="/business1/ipgacjuice">
-            <img src="http://1excellence.com/official/img/store/gac_sub.png" width="150" height="250"
+            <img src="/businesspic/import/gac_sub.png" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
           <div>
@@ -580,7 +580,7 @@
       <div class="h-56 shadow-2xl hero bg-slate-50">
         <div class="flex-col hero-content lg:flex-row">
           <nuxt-link to="/business1/ipkrachai">
-            <img src="http://1excellence.com/official/img/store/krachaidum.jpg" width="150" height="250"
+            <img src="/businesspic/import/krachaidum.jpg" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
           <div>
@@ -600,7 +600,7 @@
       <div class="shadow-2xl hero h-72 bg-slate-50">
         <div class="flex-col hero-content lg:flex-row">
           <nuxt-link to="/business1/ipsoursop">
-            <img src="http://1excellence.com/official/img/store/sopfront.jpg" width="150" height="250"
+            <img src="/businesspic/import/sopfront.jpg" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
           <div>
