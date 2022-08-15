@@ -6,7 +6,7 @@
 
       <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
-          <img width="350" height="350" src="http://1excellence.com/official/img/business/dispatch.jpg">
+          <img width="350" height="350" src="/businesspic/dispatch.jpg">
         </figure>
         <div class="card-body">
           <h2 class="text-black card-title">Dispatch the IT technician</h2>
@@ -24,7 +24,7 @@
 
       <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
-          <img width="350" height="350" src="http://1excellence.com/official/img/business/package.jpg">
+          <img width="350" height="350" src="/businesspic/package.jpg">
         </figure>
         <div class="card-body">
           <h2 class="text-black card-title">
@@ -51,7 +51,7 @@
 
       <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
-          <img width="350" height="350" src="http://1excellence.com/official/img/business/given.jpg">
+          <img width="350" height="350" src="/businesspic/given.jpg">
         </figure>
         <div class="card-body">
           <h2 class="text-black card-title">System Outsourcing</h2>
@@ -71,7 +71,7 @@
 
       <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
-          <img width="350" height="350" src="http://1excellence.com/official/img/business/offshore.jpg">
+          <img width="350" height="350" src="/businesspic/offshore.jpg">
         </figure>
         <div class="card-body">
           <h2 class="text-black card-title">Offshore Development</h2>
@@ -89,7 +89,7 @@
 
       <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
-          <img width="350" height="350" src="http://1excellence.com/official/img/business/consult.jpg">
+          <img width="350" height="350" src="/businesspic/consult.jpg">
         </figure>
         <div class="card-body">
           <h2 class="text-black card-title">Asia foray consultants</h2>
@@ -106,7 +106,7 @@
 
       <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
-          <img width="350" height="350" src="http://1excellence.com/official/img/business/translate.jpg">
+          <img width="350" height="350" src="/businesspic/translate.jpg">
         </figure>
         <div class="card-body">
           <h2 class="text-black card-title">Translation(Japanese/English/Chinese/Thai)</h2>
@@ -123,7 +123,7 @@
 
       <div class="shadow-2xl bg-slate-50 card lg:card-side">
         <figure>
-          <img width="350" height="350" src="http://1excellence.com/official/img/business/siamorder.jpg">
+          <img width="350" height="350" src="/businesspic/siamorder.jpg">
         </figure>
         <div class="card-body">
           <h2 class="text-black card-title">Siam Order Service(Import agency)</h2>
