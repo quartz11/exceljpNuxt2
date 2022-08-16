@@ -340,13 +340,6 @@ export default {
         ],
       },
       row5: {
-        head: `Raise and bonus`,
-        text: [
-          `Raise: once a year (breakdown of performance by)`,
-          `bonus: twice a year (about 2 month / year)`,
-        ],
-      },
-      row6: {
         head: `Various allowances`,
         text: [
           `Commuting allowance`,
@@ -355,7 +348,7 @@ export default {
           `Qualification celebration allowance.`,
         ],
       },
-      row7: {
+      row6: {
         head: `Holiday-Vacation`,
         text: [
           `◉ Full five-day week. (Saturday, Sunday and public holidays)`,
@@ -363,25 +356,25 @@ export default {
           `※Other: company designated date, New Year · GW · summer vacation, annual paid leave, etc.`,
         ],
       },
-      row8: {
+      row7: {
         head: `Working hours`,
         text: [
           `9:00 to 18:00 (break 1 hour)`,
           `※There vary slightly depending resident destination.`,
         ],
       },
-      row9: {
+      row8: {
         head: `Work location`,
         text: `Headquarters (after training ended Kyoto headquarters, Kyoto, Osaka and Shiga customer destination)`,
       },
-      row10: {
+      row9: {
         head: `System`,
         text: [
           `Qualification incentive system.`,
           `congratulatory or condolence payments.`,
         ],
       },
-      row11: {
+      row10: {
         head: `Remarks`,
         text: [
           `◉ On-site work in the resident destination becomes the main.`,
@@ -418,4 +411,174 @@ export default {
       ],
     },
   },
-};
+  midcareer: {
+    first_box: {
+      card_head: `Mid-career recruitment`,
+      card_topic: `Creation of new business`,
+      text: [
+        `The current world economy is a difficult situation that can predict. Goods which they sell now may also well be that tomorrow will not sell.
+        For this reason, it is keep thinking every day the idea of new business all employees in our company,
+        I believe life work necessary in order to perpetuate the company.`,
+        `Everyone not be done, to create their own services, which can provide dreams and excitement to many people.
+        Plan from the discovery of business opportunities, start-up, and go actually profitable. One I would like to create a new business model from the idea.
+        We welcome those who are such a enthusiasm and motivation.`,
+      ],
+    },
+    second_box: {
+      card_head: `Adoption condition`,
+      row1: {
+        head: `Job category`,
+        text: `Programmers, system engineers, system sales`,
+      },
+      row2: {
+        head: `Employment status`,
+        text: `Full-time, and contract employees by hope`,
+      },
+      row3: {
+        head: `Job description`,
+        text: [
+          `◉ Setting, development, maintenance, operation and management of computer systems`,
+          `◉ Design and development of software.`,
+          `◉ Design and development of network.`,
+          `◉ Building a Web site, production.`,
+        ],
+      },
+      row4: {
+        head: `Human resources to find`,
+        text: [
+          `◉ Mind and body hale and be an honest, there is some physical strength.`,
+          `◉ I like to read the newspapers and history books, etc., and hear properly Some people talk.`,
+          `◉ Value a originality and thinking in my head. (it is not blindly rely on Google)`,
+          `◉ There is some strong ambition to pressure.`,
+          `◉ Coordination ability high, people with high contribution willingness to society.`,
+        ],
+      },
+      row5: {
+        head: `Skills conditions`,
+        text: [
+          `◉ Especially people who want to do face recognition technology development in crime prevention for the camera, and the like.`,
+          `◉ Security systems product development seekers in RFID + GPS and the like.`,
+          `◉ Sales experience in the software industry.`,
+          `◉ Infrastructure engineer (Unix Linux various WindowsServer)`,
+          `◉ Network engineer`,
+          `◉ Expert of RDB (Oracle, SQLServer, DB2, etc.)`,
+          `◉ C #, C ++, VB.NET, development experience in EJB, etc.`,
+          `◉ JSP & Servlet, Web-based development experience, such as ASP`,
+          `◉ Development experience of embedded system and the control system`,
+          `◉ Basic information processing engineer of the Ministry of Economy, Trade and Industry, software development engineer of qualified personnel is preferred.`,
+        ],
+      },
+      row6: {
+        head: `Wanted persons`,
+        text: `Some persons`,
+      },
+      row7: {
+        head: `Target`,
+        text: [
+          `◉ Graduate school, university, computer technical colleges already graduated`,
+          `◉ Work experience about three years or more, or people having the same productivity.`,
+          `◉ Experienced even those of foreign nationality OK (1 grade or more Japanese)`,
+          `◉ Work experience about 5 years or more, or people having the same productivity. (contract employees)`,
+          `◉ Human experience as sales of the proposed sales and technician dispatch of system development projects there are more than 3 years.`,
+        ],
+      },
+    },    
+    third_box: {
+      card_head: `Treatment`,
+      row1: {
+        head: `Social insurance`,
+        text: `Conditioning (employment insurance, workers' compensation insurance, health insurance, welfare
+        pensioninsurance)`,
+      },
+      row2: {
+        head: `Wage pattern`,
+        text: `Monthly salary system (end of the month deadline, 15th of the following month payment)`,
+      },
+      row3: {
+        head: `Base salary`,
+        text: [
+          `※Determine individually depending on the experience and track record and ability. (Negotiable)`,
+          `200,000 yen to 400,000 yen monthly salary`,
+          `(Reference monthly remuneration of contract employees: 300,000 yen to 600,000 yen)`,
+        ],
+      },
+      row4: {
+        head: `Raise and bonus`,
+        text: [
+          `Raise: once a year (in April), bonus: twice a year (July / December) according to the previous year.`,
+          `(Contract employees: salary increase, no bonus, and included in the payroll)`,
+        ],
+      },
+      row5: {
+        head: `Various allowances`,
+        text: [
+          `Commuting allowance`,
+          `Duty allowance.`,
+          `Overtime pay.`,
+          `Qualification celebration allowance.`,
+        ],
+      },
+      row6: {
+        head: `Holiday-Vacation`,
+        text: [
+          `◉ Full five-day week. (Saturday, Sunday and public holidays)`,
+          `◉ Annual vacation days about 120 days.`,
+          `※Other: company designated date, New Year · GW · summer vacation, annual paid leave, etc.`,
+        ],
+      },
+      row7: {
+        head: `Working hours`,
+        text: [
+          `9:00 to 18:00 (break 1 hour)`,
+          `※There vary slightly depending resident destination.`,
+        ],
+      },
+      row8: {
+        head: `Work location`,
+        text: `Headquarters (after training ended Kyoto headquarters, Kyoto, Osaka and Shiga customer destination)`,
+      },
+      row9: {
+        head: `System`,
+        text: [
+          `Qualification incentive system.`,
+          `congratulatory or condolence payments.`,
+        ],
+      },
+      row10: {
+        head: `Remarks`,
+        text: [
+          `◉ On-site work in the resident destination becomes the main.`,
+          `◉ Resident destination is within the range from home within one way about an hour and a half.`,
+          `◉ After joining is done the new employee training in Kyoto headquarters.`,
+          `◉ Tokyo, China, Southeast Asia, will unlikely be a business trip to the United States.(short-term - long term)`,
+          `◉ There trial period. (3 months to 6 months depending on the situation)`,
+          `◉ English a plus those who speak.`,
+        ],
+      },
+    },    
+    fourth_box: {
+      card_head: `Documents to be submitted`,
+      text: [
+        `Please mail the following documents to us.`,
+        `※It should be noted that, at the time of application will be made to read our “Privacy Policy”, please your application on top of the agreement. `,
+        `1.With handwriting photo resume (A4, described the best match) ※ word processor writing invalid`,
+        `2.Expected graduation certificate (graduation certificate in the case of already graduated)`,
+        `3.Transcript`,
+        `4.Within three months of health certificate (copy available)`,
+        `5.Motivation letter (about 400 words)`,
+        `6.The contents of the graduation study (400 words max)`,
+        `Destination`,
+        `◉ 〒604-8155`,
+        `Kyoto Nakagyo-ku Uradeyama cho address 311 Animato Nishiki 2F`,
+        `Recruitment Officer: Tokumasu Atsunori`,
+        `◉ TEL:075-256-7872`,
+        `◉ FAX:075-256-9052`,
+        `◉ mail: recruit@1excellence.com`,
+        `Reception time`,
+        `◉ 9:00-18:00Excluding weekends and holidays`,
+        `Remarks`,
+        `◉ Please contact feel free to recruiters If you have any unknown point or questions.`,
+      ],
+    },
+  },
+}; 

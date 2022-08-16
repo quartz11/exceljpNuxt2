@@ -160,14 +160,25 @@
             </tr>
             <tr class="border-b border-gray-200 dark:border-gray-700">
               <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-violet-600 auto-cols-auto">
+                {{ $t('campus.third_box.row4.head') }}
+              </th>
+              <td class="px-6 py-4 text-black bg-blue-300">
+                {{ $t('campus.third_box.row4.text[0]') }} <br />
+                {{ $t('campus.third_box.row4.text[1]') }} <br />
+              </td>
+            </tr>
+
+            <tr class="border-b border-gray-200 dark:border-gray-700">
+              <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-violet-600 auto-cols-auto">
                 {{ $t('campus.third_box.row5.head') }}
               </th>
               <td class="px-6 py-4 text-black bg-blue-300">
                 {{ $t('campus.third_box.row5.text[0]') }} <br />
                 {{ $t('campus.third_box.row5.text[1]') }} <br />
+                {{ $t('campus.third_box.row5.text[2]') }} <br />
+                {{ $t('campus.third_box.row5.text[3]') }} <br />
               </td>
             </tr>
-
             <tr class="border-b border-gray-200 dark:border-gray-700">
               <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-violet-600 auto-cols-auto">
                 {{ $t('campus.third_box.row6.head') }}
@@ -176,7 +187,6 @@
                 {{ $t('campus.third_box.row6.text[0]') }} <br />
                 {{ $t('campus.third_box.row6.text[1]') }} <br />
                 {{ $t('campus.third_box.row6.text[2]') }} <br />
-                {{ $t('campus.third_box.row6.text[3]') }} <br />
               </td>
             </tr>
             <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -186,25 +196,24 @@
               <td class="px-6 py-4 text-black bg-blue-300">
                 {{ $t('campus.third_box.row7.text[0]') }} <br />
                 {{ $t('campus.third_box.row7.text[1]') }} <br />
-                {{ $t('campus.third_box.row7.text[2]') }} <br />
               </td>
+
             </tr>
             <tr class="border-b border-gray-200 dark:border-gray-700">
               <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-violet-600 auto-cols-auto">
                 {{ $t('campus.third_box.row8.head') }}
               </th>
               <td class="px-6 py-4 text-black bg-blue-300">
-                {{ $t('campus.third_box.row8.text[0]') }} <br />
-                {{ $t('campus.third_box.row8.text[1]') }} <br />
+                {{ $t('campus.third_box.row8.text') }}
               </td>
-
             </tr>
             <tr class="border-b border-gray-200 dark:border-gray-700">
               <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-violet-600 auto-cols-auto">
                 {{ $t('campus.third_box.row9.head') }}
               </th>
               <td class="px-6 py-4 text-black bg-blue-300">
-                {{ $t('campus.third_box.row9.text') }}
+                {{ $t('campus.third_box.row9.text[0]') }} <br />
+                {{ $t('campus.third_box.row9.text[1]') }} <br />
               </td>
             </tr>
             <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -214,19 +223,10 @@
               <td class="px-6 py-4 text-black bg-blue-300">
                 {{ $t('campus.third_box.row10.text[0]') }} <br />
                 {{ $t('campus.third_box.row10.text[1]') }} <br />
-              </td>
-            </tr>
-            <tr class="border-b border-gray-200 dark:border-gray-700">
-              <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-violet-600 auto-cols-auto">
-                {{ $t('campus.third_box.row11.head') }}
-              </th>
-              <td class="px-6 py-4 text-black bg-blue-300">
-                {{ $t('campus.third_box.row11.text[0]') }} <br />
-                {{ $t('campus.third_box.row11.text[1]') }} <br />
-                {{ $t('campus.third_box.row11.text[2]') }} <br />
-                {{ $t('campus.third_box.row11.text[3]') }} <br />
-                {{ $t('campus.third_box.row11.text[4]') }} <br />
-                {{ $t('campus.third_box.row11.text[5]') }} <br />
+                {{ $t('campus.third_box.row10.text[2]') }} <br />
+                {{ $t('campus.third_box.row10.text[3]') }} <br />
+                {{ $t('campus.third_box.row10.text[4]') }} <br />
+                {{ $t('campus.third_box.row10.text[5]') }} <br />
               </td>
             </tr>
           </tbody>
