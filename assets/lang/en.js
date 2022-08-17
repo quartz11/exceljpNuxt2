@@ -662,4 +662,46 @@ export default {
       intro: `Any system?`,
     },
   },
+  joinus: {
+    card1: {
+      title: `Partners Recruiting`,
+      sub_title: `We are looking for a partner.`,
+      text1: `The Company is looking for a partner who can both perform software
+      development.
+      Interested in our business areas, if there is a possibility you'll find cooperation, thank you for
+      your consideration.
+      We are, for the sake of technology provided by customers satisfaction is, without having to stick to
+      our own,
+      widely flexibility in seeking business partners, and we believe Let's build a relationship of
+      collaboration.`,
+      text2: `And entered into a partnership for the purpose acquisition and the business
+      strengthening of business opportunities
+      both to expand business opportunities by sharing technology and know-how of each other, why not
+      continue to grow together.`,
+    },
+    card2: {
+      left_side:
+      [       
+        {
+          title: `Sales Department (Representative)`,
+          text: `Direct inquiries to the sales department to the following e-mail address.`,
+          mail: `g-sales@1excellence.com`
+        },
+        {
+          title: `General Affairs Department (Representative)`,
+          text1: `Direct inquiries to the General Affairs Department is to the following e-mail address.`,
+          mail1: `admin@1excellence.com`,
+          text2: `Direct inquiries about adoption to the following e-mail address.`,
+          mail2: `recruit@1excellence.com`,
+        },
+        {
+          title: `General reception`,
+          text: `Inquiries other than the above to the following e-mail address.`,
+          mail: `excel@mbox.kyoto-inet.or.jp`,
+          tel:`TEL 075-256-7872`,
+          fax:`FAX 075-256-9052`,
+        },
+      ],
+    },
+  },
 }; 
