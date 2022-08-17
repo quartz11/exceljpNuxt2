@@ -482,7 +482,7 @@ export default {
           `◉ Human experience as sales of the proposed sales and technician dispatch of system development projects there are more than 3 years.`,
         ],
       },
-    },    
+    },
     third_box: {
       card_head: `Treatment`,
       row1: {
@@ -555,7 +555,7 @@ export default {
           `◉ English a plus those who speak.`,
         ],
       },
-    },    
+    },
     fourth_box: {
       card_head: `Documents to be submitted`,
       text: [
@@ -579,6 +579,87 @@ export default {
         `Remarks`,
         `◉ Please contact feel free to recruiters If you have any unknown point or questions.`,
       ],
+    },
+  },
+  business: {
+    btn_moreinfo: `More info`,
+    card1: {
+      title: `Dispatch the IT technician`,
+      text: `We propose the technician that match the request.
+      we are aligned to the skills experienced technicians from the newcomer,Regardless of the field.
+      Please contact us.`,
+    },
+    card2: {
+      title: `Development Package`,
+      text: `In our company we have been developing products for various business.`,
+      product: [
+        `◉ Treatment support application`,
+        `◉ Bonded Warehouse System`,
+        `◉ Groupware System`,
+        `◉ Hotel Reservation System`,
+      ],
+    },
+    card3: {
+      title: `System Outsourcing`,
+      text: `Depending on the budget of your choice, cost reduction is also possible by the
+      participation of offshore personnel.
+      You can flexible suggestions.
+      In addition, as long as it is a project that is similar to the development track record, it is possible more
+      rapid response.`,
+    },
+    card4: {
+      title: `Offshore Development`,
+      text: `The secret to suppress the development of a low budget is located in the offshore
+      development approach in Thailand subsidiary.
+      The management format by Japanese staff are based, it will simultaneously achieve high quality.`,
+    },
+    card5: {
+      title: `Asia foray consultants`,
+      text: `Subsidiary established in Thailand, based on the business experience in China, we will
+      help with Preparing to various procedures and site selection and offices opened.`,
+    },
+    card6: {
+      title: `Translation(Japanese/English/Chinese/Thai)`,
+      text: `“Japanese→Other languages” “Other languages→Japanese”Both it can be translated.
+      Japanese fluent Chinese and Thai staff have enrolled,It delivered in Comfortable quality.`,
+    },
+    card7: {
+      title: `Siam Order Service(Import agency)`,
+      text: `Products that are not sold only in Thailand.It is a service to the import agency with
+      their introduction.`,
+    },
+  },
+  product: {
+    pa_intro: `Introduction：`,
+    card1: {
+      title: `Treatment support application`,
+      text: `It is a tablet application that was developed to focus on improvement realize
+      improvement of the patient.
+      Available in such as acupuncture salon, chiropractic bodywork.
+      Photos, videos, body image and saved for each patient, it is possible to edit and comparison browsing.`,
+      intro: `You can experience for one minute videos.`,
+    },
+    card2: {
+      title: `Bonded Warehouse System`,
+      text: `It automates all of the detailed inventory management and work together.
+      Fixed work what is the specialty of the machine.
+      By your leave the risks associated with tied and data management to the complicated office work, let's aim
+      to reduce labor costs.`,
+      intro: `Is it possible to automate any work?`,
+    },
+    card3: {
+      title: `Groupware System : e-base`,
+      text: `Do you not Need help to the improvement of communication and solidarity between the
+      on-premises?
+      Daily, weekly, monthly, general affairs management, sales reporting, ranging from management's side
+      feedback, can be done with a single login.`,
+      intro: `Currently, it is the system of the popular operating in our company.`,
+    },
+    card4: {
+      title: `Hotel Reservation System`,
+      text: `You can easily search for bookable room.
+      Room type and conditions also can be specified in any.`,
+      intro: `Any system?`,
     },
   },
 }; 
