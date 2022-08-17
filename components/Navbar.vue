@@ -1,5 +1,5 @@
 <template>
-  <div class="justify-center navbar bg-base-100">
+  <div class="justify-center navbar bg-slate-800 ">
     <div class="container items-start text-slate-200">
 
       <!-- Collapse Manu -->
@@ -26,7 +26,7 @@
                 <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"></path>
               </svg>
             </nuxt-link>
-            <ul class="p-2 bg-base-100">
+            <ul class="p-2 bg-slate-800">
               <li>
                 <nuxt-link :to="localePath('index')" class="rounded-lg">{{ $t('navbar.home.news') }}</nuxt-link>
               </li>
@@ -40,7 +40,7 @@
                 <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"></path>
               </svg>
             </nuxt-link>
-            <ul class="p-2 bg-base-100">
+            <ul class="p-2 bg-slate-800">
               <li>
                 <nuxt-link :to="localePath('overview')" class="rounded-lg">{{$t('navbar.overview.company')}}</nuxt-link>
               </li>
@@ -67,7 +67,7 @@
                 <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"></path>
               </svg>
             </nuxt-link>
-            <ul class="p-2 bg-base-100">
+            <ul class="p-2 bg-slate-800">
               <li>
                 <nuxt-link :to="localePath('business')" class="rounded-lg">{{$t('navbar.business.business')}}
                 </nuxt-link>
@@ -96,7 +96,7 @@
           <label tabindex="0" class="m-1 btn btn-ghost">
             <font-awesome-icon icon="fa-solid fa-language" class="text-2xl" />
           </label>
-          <ul tabindex="0" class="w-32 p-2 shadow dropdown-content menu bg-base-100 rounded-box">
+          <ul tabindex="0" class="w-32 p-2 shadow dropdown-content menu bg-slate-800 rounded-box">
             <li>
               <nuxt-link :to="switchLocalePath('jp')">日本語</nuxt-link>
             </li>
@@ -132,7 +132,7 @@
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </nuxt-link>
-            <ul class="p-2 bg-base-100">
+            <ul class="p-2 bg-slate-800">
               <li>
                 <nuxt-link :to="localePath('index')">{{ $t('navbar.home.news') }}</nuxt-link>
               </li>
@@ -146,7 +146,7 @@
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </nuxt-link>
-            <ul class="p-2 bg-base-100">
+            <ul class="p-2 bg-slate-800">
               <li>
                 <nuxt-link :to="localePath('overview')">{{$t('navbar.overview.company')}}</nuxt-link>
               </li>
@@ -173,7 +173,7 @@
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </nuxt-link>
-            <ul class="p-2 bg-base-100">
+            <ul class="p-2 bg-slate-800">
               <li>
                 <nuxt-link :to="localePath('business')">{{$t('navbar.business.business')}}
                 </nuxt-link>
@@ -197,7 +197,7 @@
             <a>
               <font-awesome-icon icon="fa-solid fa-language" class="text-2xl" />
             </a>
-            <ul class="p-2 bg-base-100 dropdown-content">
+            <ul class="p-2 bg-slate-800 dropdown-content">
               <li>
                 <nuxt-link :to="switchLocalePath('jp')">日本語</nuxt-link>
               </li>
