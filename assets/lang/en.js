@@ -232,7 +232,7 @@ export default {
   employment: {
     pic_name: `Atsunori Tokumasu`,
     pic_title: `Company President`,
-    toppic: `We are seeking enthusiastic partner `,
+    topic: `We are seeking enthusiastic partner `,
     text1: `When I hear the IT consulting and software company, you might think that “technology is not good” or
     “myself liberal arts”
     However, IT and software, not just a “tool for the purpose of reform”`,
@@ -760,6 +760,31 @@ export default {
       `FAX: 075-256-9052`,
       `MailAddress: excel@mbox.kyoto-inet.or.jp`,
       `Karasuma Line of Kyoto Municipal Subway “Shijo” Station. Hankyu Kyoto Line “Shijo Karasuma”Station.Please exit out of ●exit 22 at that station.`,
+    ],
+  },
+  footer: {
+    focus_topic: [`Focus Topics`, `News`, `Blog`],
+    service_product: [
+      `Services and Products`,
+      `Business`,
+      `Product`,
+      `Import agency`,
+      `e-base`,
+    ],
+    company_guide: [
+      `Company Guide`,
+      `Greeting`,
+      `Overview`,
+      `Philosophy and Motto`,
+      `Privacy Policy`,
+      `Employment`,
+      `Contact`,
+      `Join us`,
+    ],
+    related_site:[
+      `Related Sites`,
+      `Excellence Siam`,
+      `Employee e-base`,
     ],
   },
 }; 

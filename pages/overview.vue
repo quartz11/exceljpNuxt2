@@ -4,7 +4,7 @@
     <div class="container w-9/12 mx-auto">
 
       <h1 class="text-lg text-center text-white bg-violet-800 ">{{ $t('overview.title') }}</h1>
-      <div class="relative overflow-x-auto shadow-md ">
+      <div class="overflow-x-auto shadow-md ">
         <table class="w-full text-sm text-left text-white dark:text-gray-400">
           <thead class="text-xs text-white uppercase dark:text-gray-400">
             <tr class="border-b border-gray-200 dark:border-gray-700">
