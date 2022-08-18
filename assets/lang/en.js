@@ -680,12 +680,11 @@ export default {
       continue to grow together.`,
     },
     card2: {
-      left_side:
-      [       
+      left_side: [
         {
           title: `Sales Department (Representative)`,
           text: `Direct inquiries to the sales department to the following e-mail address.`,
-          mail: `g-sales@1excellence.com`
+          mail: `g-sales@1excellence.com`,
         },
         {
           title: `General Affairs Department (Representative)`,
@@ -698,10 +697,69 @@ export default {
           title: `General reception`,
           text: `Inquiries other than the above to the following e-mail address.`,
           mail: `excel@mbox.kyoto-inet.or.jp`,
-          tel:`TEL 075-256-7872`,
-          fax:`FAX 075-256-9052`,
+          tel: `TEL 075-256-7872`,
+          fax: `FAX 075-256-9052`,
         },
       ],
+      right_side: {
+        title: `Recruiting Requirements`,
+        table: [
+          {
+            head: `Business`,
+            text: [
+              `System Outsourcing`,
+              `Network construction and design`,
+              `Operations management and introduction deployment`,
+              `Internet connection`,
+              `Hardware repair and Simple Network construction`,
+            ],
+          },
+          {
+            head: `Area targeted`,
+            text: `Japan a location for companies and corporate-like, towards the individual`,
+          },
+          {
+            head: `Skills and experience of finding`,
+            text: [
+              `Software system development`,
+              `(VB, C, JAVA, Perl, ORACLE other languages)`,
+              `Construction of infrastructure`,
+              `Project management`,
+              `※ Is not limited to the above, we look forward to hearing from those who have a variety of techniques.`,
+            ],
+          },
+        ],
+        btn_inquiry: `Inquiry form`,
+      },
     },
+  },
+  contact: {
+    header: `Contact Us`,
+    table: [
+      {
+        title: `Sales Department :`,
+        mail: `g-sales@1excellence.com`,
+      },
+      {
+        title: `General Affairs :`,
+        mail: `admin@1excellence.com`,
+      },
+      {
+        title: `Human Resource :`,
+        mail: `recruit@1excellence.com`,
+      },
+      {
+        title: `Other Inquiries :`,
+        mail: `excel@mbox.kyoto-inet.or.jp`,
+      },
+    ],
+    detail: [
+      `Excellence Inc. Ltd.`,
+      `Address: 2F Animart-Nishiki 311 Uradeyama-cho KarasumaNishiIru Nishikikogi-Tohri Nakagyo-ku Kyoto-city Kyoto 604-8115 Japan`,
+      `Telephone: 075-256-7872`,
+      `FAX: 075-256-9052`,
+      `MailAddress: excel@mbox.kyoto-inet.or.jp`,
+      `Karasuma Line of Kyoto Municipal Subway “Shijo” Station. Hankyu Kyoto Line “Shijo Karasuma”Station.Please exit out of ●exit 22 at that station.`,
+    ],
   },
 }; 
