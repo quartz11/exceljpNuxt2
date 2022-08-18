@@ -1,92 +1,41 @@
-<style scoped>
-h1 {
-  text-align: center;
-}
-</style>
 <template>
-  <section class="px-20">
-    <div class="container">
+  <section class="container mx-auto">
+    <h1 class="text-3xl text-black text-center py-8 ">{{ $t('contact.header') }}</h1>
 
-      <h1 class="text-3xl text-black ">Contact Us</h1>
-      <br />
-      <!-- CUSTOM BLOCKQUOTE -->
-      <div class="p-4 text-gray-800 bg-white rounded-lg shadow max-w-8xl">
-        <div class="mb-2">
-          <table class="justify-center table-fixed">
-            <thead>
-              <tr>
-                <th class="w-80"></th>
-                <th class="w-80"></th>
-                <th class="w-80"></th>
-                <th class="w-80"></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td></td>
-                <td class="text-center">Sales Department : </td>
-                <td class="text-center">g-sales@1excellence.com</td>
-              </tr>
-              <br />
-              <tr>
-                <td></td>
-                <td class="text-center">General Affairs :</td>
-                <td class="text-center">admin@1excellence.com</td>
-              </tr>
-              <br />
+    <!-- CUSTOM BLOCKQUOTE -->
+    <div class="p-8 text-gray-800 bg-white rounded-lg shadow ">
+      <table class="w-full table-fixed border-separate border-spacing-y-4 border-spacing-x-2">
+        <tbody>
+          <tr>
+            <td class="text-right font-bold">{{ $t('contact.table[0].title') }}</td>
+            <td class="text-left">{{ $t('contact.table[0].mail') }}</td>
+          </tr>
+          <tr>
+            <td class="text-right font-bold">{{ $t('contact.table[1].title') }}</td>
+            <td class="text-left">{{ $t('contact.table[1].mail') }}</td>
+          </tr>
+          <tr>
+            <td class="text-right font-bold">{{ $t('contact.table[2].title') }}</td>
+            <td class="text-left">{{ $t('contact.table[2].mail') }}</td>
+          </tr>
+          <tr>
+            <td class="text-right font-bold">{{ $t('contact.table[3].title') }}</td>
+            <td class="text-left">{{ $t('contact.table[3].mail') }}</td>
+          </tr>
+        </tbody>
+      </table>
 
-              <tr>
-                <td></td>
-                <td class="text-center">Human Resource :</td>
-                <td class="text-center">recruit@1excellence.com</td>
-              </tr>
-              <br />
+      <img class="w-1/3 mx-auto py-4" src="/access_en.png" />
 
-              <tr>
-                <td></td>
-                <td class="text-center">Other inquiries :</td>
-                <td class="text-center">excel@mbox.kyoto-inet.or.jp</td>
-              </tr>
-            </tbody>
-          </table>
-          <br />
-
-          <table class="justify-center table-fixed">
-            <thead>
-              <tr>
-                <th class="w-1/3"></th>
-                <th class="w-1/3"></th>
-                <th class="w-1/3"></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td></td>
-                <td>
-                  <img class="object-scale-down object-center"
-                    src="/access_en.png"/>
-                </td>
-                <td></td>
-              </tr>
-            </tbody>
-
-          </table>
-          <br />
-          <div class="text-center">
-            <h1>Excellence Inc. Ltd.</h1>
-            <h2>Address: 2F Animart-Nishiki 311 Uradeyama-cho KarasumaNishiIru Nishikikogi-Tohri Nakagyo-ku Kyoto-city
-              Kyoto 604-8115 Japan</h2>
-            <h2>Telephone: 075-256-7872</h2>
-            <h2>FAX: 075-256-9052</h2>
-            <h2>MailAddress: excel@mbox.kyoto-inet.or.jp</h2>
-            <h2>Karasuma Line of Kyoto Municipal Subway “Shijo” Station.
-              Hankyu Kyoto Line “Shijo Karasuma”Station.Please exit out of ●exit 22 at that station.</h2>
-          </div>
-        </div>
+      <div class="text-center py-6">
+        <p class="text-xl py-2">{{ $t('contact.detail[0]') }}</p>
+        <p>{{ $t('contact.detail[1]') }}</p>
+        <p>{{ $t('contact.detail[2]') }}</p>
+        <p>{{ $t('contact.detail[3]') }}</p>
+        <p>{{ $t('contact.detail[4]') }}</p>
+        <p>{{ $t('contact.detail[5]') }}</p>
       </div>
-      <!-- END -->
-
-
     </div>
+    <!-- END -->
   </section>
 </template>

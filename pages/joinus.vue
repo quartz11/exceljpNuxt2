@@ -52,65 +52,55 @@
             <p>{{ $t('joinus.card2.left_side[2].fax') }}</p>
 
           </div>
-          <br />
+
           <div class="container mx-auto">
-            <p class="text-2xl text-center text-black">Recruiting Requirements</p>
-            <br />
-            <table class="w-full text-sm text-left text-white dark:text-gray-400">
+            <p class="text-2xl text-center text-black">{{ $t('joinus.card2.right_side.title') }}</p>
+
+            <table class="w-full text-sm text-left text-white dark:text-gray-400 my-4">
               <thead class="text-sm text-white dark:text-gray-400">
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="col" class="px-6 py-3 text-sm text-white dark:bg-slate-900 auto-cols-auto">
-                    Business
+                    {{ $t('joinus.card2.right_side.table[0].head') }}
                   </th>
                   <th scope="col" class="px-6 py-3 text-black bg-slate-400">
-                    System Outsourcing
-                    <br />
-                    Network construction and design
-                    <br />
-                    Operations management and introduction deployment
-                    <br />
-                    Internet connection
-                    <br />
-                    Hardware repair and Simple Network construction
+                    {{ $t('joinus.card2.right_side.table[0].text[0]') }}<br />
+                    {{ $t('joinus.card2.right_side.table[0].text[1]') }}<br />
+                    {{ $t('joinus.card2.right_side.table[0].text[2]') }}<br />
+                    {{ $t('joinus.card2.right_side.table[0].text[3]') }}<br />
+                    {{ $t('joinus.card2.right_side.table[0].text[4]') }}<br />
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Area targeted
+                    {{ $t('joinus.card2.right_side.table[1].head') }}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-                    Japan a location for companies and corporate-like, towards the individual
+                    {{ $t('joinus.card2.right_side.table[1].text') }}
                   </td>
-
                 </tr>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Skills and experience of finding
+                    {{ $t('joinus.card2.right_side.table[2].head') }}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-                    Software system development
-                    <br />
-                    (VB, C, JAVA, Perl, ORACLE other languages)
-                    <br />
-                    Construction of infrastructure
-                    <br />
-                    Project management
-                    <br />
-                    ※ Is not limited to the above, we look forward to hearing from those who have a variety of
-                    techniques.
+                    {{ $t('joinus.card2.right_side.table[2].text[0]') }}<br />
+                    {{ $t('joinus.card2.right_side.table[2].text[1]') }}<br />
+                    {{ $t('joinus.card2.right_side.table[2].text[2]') }}<br />
+                    {{ $t('joinus.card2.right_side.table[2].text[3]') }}<br />
+                    {{ $t('joinus.card2.right_side.table[2].text[4]') }}<br />
                   </td>
                 </tr>
-                <br />
-                <nuxt-link to="/register">
-                  <button
-                    class="content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700">
-                    Inquiry form
-                  </button>
-                </nuxt-link>
               </tbody>
             </table>
+
+            <nuxt-link to="/register">
+              <button
+                class="btn btn-ghost font-bold  text-white bg-blue-500 border hover:bg-blue-700">
+                    {{ $t('joinus.card2.right_side.btn_inquiry') }}
+              </button>
+            </nuxt-link>
 
           </div>
 
