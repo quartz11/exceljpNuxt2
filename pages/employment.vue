@@ -44,18 +44,18 @@
               <tr>
                 <td class="text-center text-xl text-blue-600 btn-ghost p-4 rounded-lg" style="text-align: -webkit-center;">
                   <nuxt-link :to="localePath('campus')">
-                    <img width="290" height="290" src="recruit.jpg" />
+                    <img width="290" height="290" src="/recruit.jpg" />
                     {{ $t('employment.job1') }}
                   </nuxt-link>
                 </td>
                 <td class="text-center text-xl text-blue-600 btn-ghost p-4 rounded-lg" style="text-align: -webkit-center;">
-                  <nuxt-link to="/midcareer">
+                  <nuxt-link :to="localePath('midcareer')">
                     <img width="290" height="290" src="/recruit.jpg" />
                     {{ $t('employment.job2') }}
                   </nuxt-link>
                 </td>
                 <td class="text-center text-xl text-blue-600 btn-ghost p-4 rounded-lg" style="text-align: -webkit-center;">
-                  <nuxt-link to="/empinter1">
+                   <nuxt-link :to="localePath('empinter1')">
                     <img width="290" height="290" src="/recruit.jpg" />
                     {{ $t('employment.job3') }}
                   </nuxt-link>

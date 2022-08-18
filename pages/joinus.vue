@@ -3,128 +3,53 @@
 
     <div class="container mx-auto">
 
-      <div class="border shadow-2xl mockup-window bg-violet-600">
-        <div class="flex justify-center px-4 py-16 text-xl text-black shadow-2xl bg-slate-200">
-          <br />
+      <div class="border shadow-2xl mockup-window bg-violet-600 mb-8">
+        <div class="text-center p-4 py-8 text-black shadow-2xl bg-slate-100">
 
-          <table class="justify-center w-full table-auto ">
-            <thead>
-              <tr>
-                <th class="w-full "></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="content-center text-3xl text-center">Partners Recruiting</td>
-              </tr>
-              <br />
-              <tr>
-                <td class="text-2xl text-center">We are looking for a partner.</td>
-              </tr>
-              <br />
+          <p class="text-4xl py-4 ">{{ $t('joinus.card1.title') }}</p>
 
-              <tr>
-                <td class="text-xl text-center">The Company is looking for a partner who can both perform software
-                  development.
-                  Interested in our business areas, if there is a possibility you'll find cooperation, thank you for
-                  your consideration.
-                  We are, for the sake of technology provided by customers satisfaction is, without having to stick to
-                  our own,
-                  widely flexibility in seeking business partners, and we believe Let's build a relationship of
-                  collaboration.</td>
-              </tr>
-              <br />
+          <p class="text-2xl py-4">{{ $t('joinus.card1.sub_title') }}</p>
 
-              <tr>
-                <td class="text-center">And entered into a partnership for the purpose acquisition and the business
-                  strengthening of business opportunities
-                  both to expand business opportunities by sharing technology and know-how of each other, why not
-                  continue to grow together.</td>
-              </tr>
-              <br />
-            </tbody>
-          </table>
+          <p class="text-xl py-2">{{ $t('joinus.card1.text1') }}</p>
+
+          <p class="py-2">{{ $t('joinus.card1.text2') }}</p>
 
         </div>
       </div>
 
-      <br />
       <!-- Another Box-->
 
       <div class="border shadow-2xl mockup-window bg-violet-600">
-        <div class="flex justify-center px-4 py-16 text-xl text-black shadow-2xl bg-slate-200">
+        <div class="flex p-4 py-8 text-black shadow-2xl bg-slate-100">
 
-          <div class="container mx-auto">
-            <table class="w-full text-sm text-center text-black">
-              <thead class="text-xs text-white dark:text-gray-400">
-                <tr>
+          <div class="container mx-autotext-sm text-center text-sm font-bold">
 
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="col" class="px-6 py-3 text-xl text-center text-black auto-cols-auto">Sales
-                    department(Representative)</th>
+            <!-- Group 1 -->
+            <p class="text-xl pb-2">{{ $t('joinus.card2.left_side[0].title') }}</p>
+            <p>{{ $t('joinus.card2.left_side[0].text') }}</p>
+            <a v-bind:href="'mailto:'+$t('joinus.card2.left_side[0].mail')" class="text-blue-800">
+              {{ $t('joinus.card2.left_side[0].mail') }}
+            </a>
 
-                </tr>
-                <tr>
-                  <th>
-                    Direct inquiries to the sales department to the following e-mail address.
-                  </th>
-                </tr>
-                <tr>
-                  <th>
-                    <a href="mailto:g-sales@1excellence.com" class="text-blue-800"> g-sales@1excellence.com</a>
-                  </th>
-                </tr>
-                <tr>
-                  <th scope="col" class="px-6 py-3 text-xl text-center text-black auto-cols-auto">General Affairs
-                    Department(Representative)</th>
+            <!-- Group 2 -->
+            <p class="text-xl pt-8 pb-2">{{ $t('joinus.card2.left_side[1].title') }}</p>
+            <p>{{ $t('joinus.card2.left_side[1].text1') }}</p>
+            <a v-bind:href="'mailto:'+$t('joinus.card2.left_side[1].mail1')" class="text-blue-800 ">
+              {{ $t('joinus.card2.left_side[1].mail1') }}
+            </a>
+            <p>{{ $t('joinus.card2.left_side[1].text2') }}</p>
+            <a v-bind:href="'mailto:'+$t('joinus.card2.left_side[1].mail2')" class="text-blue-800">
+              {{ $t('joinus.card2.left_side[1].mail2') }}
+            </a>
 
-                </tr>
-                <tr>
-                  <th>
-                    Direct inquiries to the General Affairs Department is to the following e-mail address.
-                  </th>
-                </tr>
-                <tr>
-                  <th>
-                    <a href="mailto:admin@1excellence.com" class="text-blue-800">admin@1excellence.com</a>
-                  </th>
-                </tr>
-                <tr>
-                  <th>Direct inquiries about adoption to the following e-mail address.</th>
-
-                </tr>
-                <tr>
-                  <th>
-                    <a href="mailto:recruit@1excellence.com" class="text-blue-800">recruit@1excellence.com</a>
-                  </th>
-                </tr>
-
-                <tr>
-                  <th scope="col" class="px-6 py-3 text-xl text-center text-black auto-cols-auto">General reception</th>
-
-                </tr>
-                <tr>
-                  <th>
-                    Inquiries other than the above to the following e-mail address.
-                  </th>
-                </tr>
-                <tr>
-                  <th>
-                    <a href="mailto:excel@mbox.kyoto-inet.or.jp" class="text-blue-800">excel@mbox.kyoto-inet.or.jp</a>
-                  </th>
-                </tr>
-                <tr>
-                  <th>
-                    TEL 075-256-7872
-                    <br />
-                    FAX 075-256-9052
-                  </th>
-                </tr>
-              </tbody>
-            </table>
+            <!-- Group 3 -->
+            <p class="text-xl pt-8 pb-2">{{ $t('joinus.card2.left_side[2].title') }}</p>
+            <p>{{ $t('joinus.card2.left_side[2].text') }}</p>
+            <a v-bind:href="'mailto:'+$t('joinus.card2.left_side[2].mail')" class="text-blue-800 ">
+              {{ $t('joinus.card2.left_side[2].mail') }}
+            </a>
+            <p>{{ $t('joinus.card2.left_side[2].tel') }}</p>
+            <p>{{ $t('joinus.card2.left_side[2].fax') }}</p>
 
           </div>
           <br />
