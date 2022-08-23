@@ -32,6 +32,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     "@nuxtjs/i18n",
+    '@nuxtjs/axios'
   ],
   target: "static",
 
@@ -45,12 +46,17 @@ export default {
     },
   },
 
+  axios: {
+    // proxy: true
+  },
+
   fontawesome: {
     icons: {
       solid: true,
       brands: true,
     },
   },
+
 
   i18n: {
     locales: [
