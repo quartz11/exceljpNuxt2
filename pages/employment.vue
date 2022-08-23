@@ -13,7 +13,7 @@
               </th>
               <th class="text-black w-3/4 lg:px-8">
                 <h1 class="lg:text-3xl text-2xl">
-                  {{ $t('employment.toppic') }}
+                  {{ $t('employment.topic') }}
                 </h1>
               </th>
             </thead>

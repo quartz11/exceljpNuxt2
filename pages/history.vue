@@ -4,7 +4,7 @@
     <div class="container w-9/12	 mx-auto">
 
       <h1 class="text-lg shadow-2xl text-left text-white bg-violet-800 ">&emsp;{{ $t('history.title') }}</h1>
-      <div class="relative overflow-x-auto shadow-md ">
+      <div class="overflow-x-auto shadow-md ">
         <table class="w-full shadow-2xl text-sm text-left text-white dark:text-gray-400">
           <thead class="text-xs text-white dark:text-gray-400">
             <tr class="border-b border-gray-200 dark:border-gray-700">

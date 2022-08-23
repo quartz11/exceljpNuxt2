@@ -3,7 +3,7 @@
 
     <div class="container mx-auto">
 
-      <div class="border shadow-2xl mockup-window bg-violet-600 mb-8">
+      <div class="border shadow-2xl mockup-window bg-violet-600 mb-8 static">
         <div class="text-center p-4 py-8 text-black shadow-2xl bg-slate-100">
 
           <p class="text-4xl py-4 ">{{ $t('joinus.card1.title') }}</p>
@@ -19,7 +19,7 @@
 
       <!-- Another Box-->
 
-      <div class="border shadow-2xl mockup-window bg-violet-600">
+      <div class="border shadow-2xl mockup-window bg-violet-600 static">
         <div class="flex p-4 py-8 text-black shadow-2xl bg-slate-100">
 
           <div class="container mx-autotext-sm text-center text-sm font-bold">
