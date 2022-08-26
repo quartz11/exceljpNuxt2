@@ -73,7 +73,7 @@
                     Address-Number
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-                    <p>{{ addressN }}</p>
+                    <p>{{ addressn }}</p>
                   </td>
                 </tr>
 
@@ -140,10 +140,6 @@
                   </td>
                 </tr>
                 <br />
-                <button
-                  class="content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700">
-                  Send
-                </button>
               </tbody>
             </table>
           </div>
@@ -159,184 +155,195 @@
           </table>
           <!-- Form input -->
           <div id="inputForm1" class="container mx-auto">
-            <table class="w-full text-sm text-left text-white dark:text-gray-400">
-              <thead class="text-sm text-white dark:text-gray-400">
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                  <th scope="row" class="w-40 px-6 py-2 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    <p class="text-sm"><a class="text-red-600">※</a>Inquiry Type</p>
-                  </th>
-                  <td class="px-6 py-4 text-black bg-slate-400">
-                    <select v-model="itype" id="itype"
-                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-60 h-10	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                      <option>Inquiry</option>
-                      <option>Request for quotation</option>
-                      <option>The final order request</option>
-                    </select>
-                    ※ Please input the item of the mark always.
-                  </td>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                  <th scope="col" class="w-40 px-6 py-3 text-sm text-white dark:bg-slate-900 auto-cols-auto">
-                    <a class="text-red-600">※</a>Name
-                  </th>
-                  <th scope="col" class="px-6 py-3 text-black bg-slate-400">
-                <tr></tr>
-                <label for="first_name">First Name</label>
-                <input v-model="first_name" id="first_name"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  required>
-                <br />
-                <label for="middle_name">Middle Name</label>
-                <input v-model="middle_name" id="middle_name"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  required>
-                <br />
-                <label for="family_name">Family Name</label>
-                <input v-model="family_name" id="family_name"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  required>
-                </th>
-                </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                  <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    <a class="text-red-600">※</a>Date of birth
-                  </th>
-                  <td class="px-6 py-4 text-black bg-slate-400">
-                    <div>
-                      <labela>A.D.</labela> <input id="year" v-model="year" type="number" name="year" min="0"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-20  h-8	p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        required> Year
-                      <input id="month" v-model="month" type="number" name="month" min="0"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-20  h-8	p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        required> Month
-                      <input id="day" v-model="day" type="number" name="day" min="0"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-20  h-8	p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        required> Day
-                    </div>
-                  </td>
-                </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                  <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    <a class="text-red-600">※</a>Sex
-                  </th>
-                  <td class="px-6 py-4 text-black bg-slate-400">
-                    <input type="radio" id="Sex_M" value="Male" v-model="sex"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                    <label for="Sex_M" class="ml-2 text-sm font-medium text-gray-900">Male</label>
-                    &nbsp;&nbsp;
-                    <input type="radio" id="Sex_F" value="Female" v-model="sex"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                    <label for="Sex_F" class="ml-2 text-sm font-medium text-gray-900">Female</label>
-                    &nbsp;&nbsp;
-                    <input type="radio" id="Sex_O" value="--" v-model="sex"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                    <label for="Sex_O" class="ml-2 text-sm font-medium text-gray-900">--</label>
-                  </td>
-                </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                  <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    <a class="text-red-600">※</a>Address-Number
-                  </th>
-                  <td class="px-6 py-4 text-black bg-slate-400">
-                    <input v-model="addressN" id="addressN"
-                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                      required>
-                  </td>
-                </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                  <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    <a class="text-red-600">※</a>Address
-                  </th>
-                  <td class="px-6 py-4 text-black bg-slate-400">
-                    <input v-model="address" id="address"
-                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                      required>
-                  </td>
-                </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                  <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    <a class="text-red-600">※</a>Telphone
-                  </th>
-                  <td class="px-6 py-4 text-black bg-slate-400">
-                    <input v-model="telphone" id="telphone"
-                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                      required>
-                  </td>
-                </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                  <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    <a class="text-red-600">※</a>e-Mail
-                  </th>
-                  <td class="px-6 py-4 text-black bg-slate-400">
-                    <input v-model="email" id="email"
-                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                      required>
-                  </td>
-                </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                  <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    <a class="text-red-600">※</a>Order number
-                  </th>
-                  <td class="px-6 py-4 text-black bg-slate-400">
-                    <input v-model="ordernum" id="ordernum"
-                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                      required>
-                  </td>
-                </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                  <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    <a class="text-red-600">※</a>Choice of payment method
-                  </th>
-                  <td class="px-6 py-4 text-black bg-slate-400">
-                    <input type="radio" id="Bank" value="Bank transfer" v-model="payment"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                    <label for="Bank" class="ml-2 text-sm font-medium text-gray-900">Bank transfer</label>
-                    &nbsp;&nbsp;
-                    <input type="radio" id="PayPal" value="PayPal" v-model="payment"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                    <label for="PayPal" class="ml-2 text-sm font-medium text-gray-900">PayPal</label>
-                    &nbsp;&nbsp;
-                    <input type="radio" id="Pay_O" value="--" v-model="payment"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                    <label for="Pay_O" class="ml-2 text-sm font-medium text-gray-900">--</label>
-                  </td>
-                </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                  <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    <a class="text-red-600">※</a>Privacy Policy
-                  </th>
-                  <td class="px-6 py-4 text-black bg-slate-400">
-                    <p class="text-lg text-blue-600 underline">
-                      <nuxt-link to="/policy">Privacy Policy</nuxt-link>
-                    </p>
-                    <br />
-                    <input type="radio" id="agree" value="I agree to the privacy policy" v-model="privacy"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                    <label for="agree" class="ml-2 text-sm font-medium text-gray-900">I agree to the privacy
-                      policy</label>
-                    &nbsp;&nbsp;
-                    <input type="radio" id="notagree" value="--" v-model="privacy"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                    <label for="notagree" class="ml-2 text-sm font-medium text-gray-900">--</label>
-                    &nbsp;&nbsp;
+            <form @submit.prevent="onCheckout" method="post">
 
-                  </td>
-                </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                  <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Matter
+              <table class="w-full text-sm text-left text-white dark:text-gray-400">
+                <thead class="text-sm text-white dark:text-gray-400">
+                  <tr class="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" class="w-40 px-6 py-2 font-medium text-white dark:bg-slate-900 auto-cols-auto">
+                      <p class="text-sm"><a class="text-red-600">※</a>Inquiry Type</p>
+                    </th>
+                    <td class="px-6 py-4 text-black bg-slate-400">
+                      <select v-model="itype" id="itype"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-60 h-10	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                        <option>Inquiry</option>
+                        <option>Request for quotation</option>
+                        <option>The final order request</option>
+                      </select>
+                      ※ Please input the item of the mark always.
+                    </td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="col" class="w-40 px-6 py-3 text-sm text-white dark:bg-slate-900 auto-cols-auto">
+                      <a class="text-red-600">※</a>Name
+                    </th>
+                    <th scope="col" class="px-6 py-3 text-black bg-slate-400">
+                  <tr></tr>
+                  <label for="first_name">First Name</label>
+                  <input v-model="first_name" id="first_name"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    required>
+                  <br />
+                  <label for="middle_name">Middle Name</label>
+                  <input v-model="middle_name" id="middle_name"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    required>
+                  <br />
+                  <label for="family_name">Family Name</label>
+                  <input v-model="family_name" id="family_name"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    required>
                   </th>
-                  <td class="px-6 py-4 text-black bg-slate-400">
-                    <textarea v-model="matter" id="matter"
-                      class="block p-2.5 w-full text-sm text-black bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"></textarea>
+                  </tr>
+                  <tr class="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
+                      <a class="text-red-600">※</a>Date of birth
+                    </th>
+                    <td class="px-6 py-4 text-black bg-slate-400">
+                      <div>
+                        <labela>A.D.</labela> <input id="year" v-model="year" type="number" name="year" min="0"
+                          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-20  h-8	p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                          required> Year
+                        <input id="month" v-model="month" type="number" name="month" min="0"
+                          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-20  h-8	p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                          required> Month
+                        <input id="day" v-model="day" type="number" name="day" min="0"
+                          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-20  h-8	p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                          required> Day
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
+                      <a class="text-red-600">※</a>Sex
+                    </th>
+                    <td class="px-6 py-4 text-black bg-slate-400">
+                      <input type="radio" id="Sex_M" value="Male" v-model="sex"
+                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                      <label for="Sex_M" class="ml-2 text-sm font-medium text-gray-900">Male</label>
+                      &nbsp;&nbsp;
+                      <input type="radio" id="Sex_F" value="Female" v-model="sex"
+                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                      <label for="Sex_F" class="ml-2 text-sm font-medium text-gray-900">Female</label>
+                      &nbsp;&nbsp;
+                      <input type="radio" id="Sex_O" value="--" v-model="sex"
+                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                      <label for="Sex_O" class="ml-2 text-sm font-medium text-gray-900">--</label>
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
+                      <a class="text-red-600">※</a>Address-Number
+                    </th>
+                    <td class="px-6 py-4 text-black bg-slate-400">
+                      <input v-model="addressn" id="addressn"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        required>
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
+                      <a class="text-red-600">※</a>Address
+                    </th>
+                    <td class="px-6 py-4 text-black bg-slate-400">
+                      <input v-model="address" id="address"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        required>
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
+                      <a class="text-red-600">※</a>Telphone
+                    </th>
+                    <td class="px-6 py-4 text-black bg-slate-400">
+                      <input v-model="telphone" id="telphone"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        required>
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
+                      <a class="text-red-600">※</a>e-Mail
+                    </th>
+                    <td class="px-6 py-4 text-black bg-slate-400">
+                      <input v-model="email" id="email"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        required>
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
+                      <a class="text-red-600">※</a>Order number
+                    </th>
+                    <td class="px-6 py-4 text-black bg-slate-400">
+                      <input v-model="ordernum" id="ordernum"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        required>
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
+                      <a class="text-red-600">※</a>Choice of payment method
+                    </th>
+                    <td class="px-6 py-4 text-black bg-slate-400">
+                      <input type="radio" id="Bank" value="Bank transfer" v-model="payment"
+                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                      <label for="Bank" class="ml-2 text-sm font-medium text-gray-900">Bank transfer</label>
+                      &nbsp;&nbsp;
+                      <input type="radio" id="PayPal" value="PayPal" v-model="payment"
+                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                      <label for="PayPal" class="ml-2 text-sm font-medium text-gray-900">PayPal</label>
+                      &nbsp;&nbsp;
+                      <input type="radio" id="Pay_O" value="--" v-model="payment"
+                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                      <label for="Pay_O" class="ml-2 text-sm font-medium text-gray-900">--</label>
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
+                      <a class="text-red-600">※</a>Privacy Policy
+                    </th>
+                    <td class="px-6 py-4 text-black bg-slate-400">
+                      <p class="text-lg text-blue-600 underline">
+                        <nuxt-link to="/policy">Privacy Policy</nuxt-link>
+                      </p>
+                      <br />
+                      <input type="radio" id="agree" value="I agree to the privacy policy" v-model="privacy"
+                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                      <label for="agree" class="ml-2 text-sm font-medium text-gray-900">I agree to the privacy
+                        policy</label>
+                      &nbsp;&nbsp;
+                      <input type="radio" id="notagree" value="--" v-model="privacy"
+                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                      <label for="notagree" class="ml-2 text-sm font-medium text-gray-900">--</label>
+                      &nbsp;&nbsp;
 
-                  </td>
-                </tr>
-                <br />
-              </tbody>
-            </table>
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
+                      Matter
+                    </th>
+                    <td class="px-6 py-4 text-black bg-slate-400">
+                      <textarea v-model="matter" id="matter"
+                        class="block p-2.5 w-full text-sm text-black bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"></textarea>
+
+                    </td>
+                  </tr>
+                  <br />
+                  <tr>
+                    <td>
+                      <button
+                        class="content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700">
+                        Send
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </form>
           </div>
 
         </div>
@@ -347,7 +354,7 @@
 </template>
 
 <script>
-import Vue from 'vue'
+import axios from 'axios'
 export default {
   data() {
     return {
@@ -359,7 +366,7 @@ export default {
       month: '',
       day: '',
       sex: '',
-      addressN: '',
+      addressn: '',
       address: '',
       telphone: '',
       email: '',
@@ -370,7 +377,32 @@ export default {
     }
   },
   methods: {
-
+    async onCheckout() {
+      await axios.post('http://localhost:3100/checkout', {
+        itype: this.itype,
+        first_name: this.first_name,
+        middle_name: this.middle_name,
+        family_name: this.family_name,
+        year: this.year,
+        month: this.month,
+        day: this.day,
+        sex: this.sex,
+        addressn: this.addressn,
+        address: this.address,
+        telphone: this.telphone,
+        email: this.email,
+        ordernum: this.ordernum,
+        payment: this.payment,
+        privacy: this.privacy,
+        matter: this.matter
+      })
+      .then(response => {
+        console.log(response)
+      })
+      .catch(err => {
+        console.log(err)
+      })
+    }
   }
 }
 </script>

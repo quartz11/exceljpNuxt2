@@ -128,7 +128,7 @@
       <div class="hero h-48 bg-slate-50 shadow-2xl">
         <div class="hero-content flex-col lg:flex-row">
           <nuxt-link to="/">
-            <img src="http://1excellence.com/official/img/store/gac_sub.png" width="150" height="250"
+            <img src="/businesspic/import/gac_sub.png" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
           <div>
@@ -149,7 +149,7 @@
       <div class="hero h-56 bg-slate-50 shadow-2xl">
         <div class="hero-content flex-col lg:flex-row">
           <nuxt-link to="/">
-            <img src="http://1excellence.com/official/img/store/krachaidum.jpg" width="150" height="250"
+            <img src="/businesspic/import/krachaidum.jpg" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
           <div>
@@ -169,7 +169,7 @@
       <div class="hero h-72 bg-slate-50 shadow-2xl">
         <div class="hero-content flex-col lg:flex-row">
           <nuxt-link to="/">
-            <img src="http://1excellence.com/official/img/store/sopfront.jpg" width="150" height="250"
+            <img src="/businesspic/import/sopfront.jpg" width="150" height="250"
               class="max-w-sm rounded-lg shadow-2xl" />
           </nuxt-link>
           <div>
@@ -186,7 +186,7 @@
     <br />
     <br />
     <div class="flex justify-center mx-auto">
-      <nuxt-link to="/blank">
+      <nuxt-link to="/business1/b6import">
         <a class="text-blue-600 underline text-xl">特定商取引法に基づく表記</a>
       </nuxt-link>
     </div>

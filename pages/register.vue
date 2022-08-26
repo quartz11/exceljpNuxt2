@@ -246,7 +246,7 @@
                   <br />
                   <tr>
                     <button
-                      class="content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700">
+                      class="content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700" v-on:click="message = 'Register Successful'">
                       Send
                     </button>
                   </tr>
