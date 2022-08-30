@@ -19,10 +19,10 @@ $ npm run generate
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
-
+## Special Directories
 <details>
 
-<summary>## Special Directories</summary>
+<summary>Click to see detail of Special Directories</summary>
 
 You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
 
