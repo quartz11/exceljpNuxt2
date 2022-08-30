@@ -118,6 +118,9 @@ $ docker run -d -p 3000:3000 DockerImageName:DockerImageTAG
 # You can run Docker image by IMAGE ID
 $ docker run -d -p 3000:3000 DockerImageID
 
+# When docker image run you can access website at
+localhost:3000
+
 # Show current running containers and stop containers
 
 Show current running Docker container
