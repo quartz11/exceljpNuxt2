@@ -1,4 +1,4 @@
-FROM node:lts
+FROM node:16-alpine3.16 AS builder
 
 # create destination directory
 RUN mkdir -p /usr/src/app
@@ -11,6 +11,15 @@ RUN npm install
 COPY ./ ./
 RUN npm run generate
 RUN npm run build
+
+
+# Stage 2
+
+FROM node:16-alpine3.16
+WORKDIR /usr/src/app
+COPY package.json /usr/src/app/package.json
+COPY --from=builder /usr/src/app .
+
 
 EXPOSE 3000
 
