@@ -267,23 +267,20 @@
                 <p class="text-black text-left	">
                   {{ $t('midcareer.fourth_box.text[0]') }} <br />
                   {{ $t('midcareer.fourth_box.text[1]') }} <br /><br />
-                  {{ $t('midcareer.fourth_box.text[2]') }} <br />
-                  {{ $t('midcareer.fourth_box.text[3]') }} <br />
-                  {{ $t('midcareer.fourth_box.text[4]') }} <br />
-                  {{ $t('midcareer.fourth_box.text[5]') }} <br />
-                  {{ $t('midcareer.fourth_box.text[6]') }} <br />
-                  {{ $t('midcareer.fourth_box.text[7]') }} <br /><br />
-                  {{ $t('midcareer.fourth_box.text[8]') }} <br />
-                  {{ $t('midcareer.fourth_box.text[9]') }} <br />
+                  &emsp;{{ $t('midcareer.fourth_box.text[2]') }} <br />
+                  &emsp;{{ $t('midcareer.fourth_box.text[3]') }} <br />
+                  &emsp;{{ $t('midcareer.fourth_box.text[4]') }} <br /><br />
+                  {{ $t('midcareer.fourth_box.text[5]') }} <br /><br />
+                  &emsp;{{ $t('midcareer.fourth_box.text[6]') }} <br />
+                  &emsp;&emsp;{{ $t('midcareer.fourth_box.text[7]') }} <br />
+                  &emsp;&emsp;{{ $t('midcareer.fourth_box.text[8]') }} <br />
+                  &emsp;{{ $t('midcareer.fourth_box.text[9]') }} <br />
                   &emsp;{{ $t('midcareer.fourth_box.text[10]') }} <br />
-                  &emsp;{{ $t('midcareer.fourth_box.text[11]') }} <br />
-                  {{ $t('midcareer.fourth_box.text[12]') }} <br />
-                  {{ $t('midcareer.fourth_box.text[13]') }} <br />
+                  &emsp;{{ $t('midcareer.fourth_box.text[11]') }} <br /><br />
+                  {{ $t('midcareer.fourth_box.text[12]') }} <br /><br />
+                  &emsp;{{ $t('midcareer.fourth_box.text[13]') }} <br /><br />
                   {{ $t('midcareer.fourth_box.text[14]') }} <br /><br />
-                  {{ $t('midcareer.fourth_box.text[15]') }} <br />
-                  {{ $t('midcareer.fourth_box.text[16]') }} <br />
-                  {{ $t('midcareer.fourth_box.text[17]') }} <br />
-                  {{ $t('midcareer.fourth_box.text[18]') }} <br />
+                  &emsp;{{ $t('midcareer.fourth_box.text[15]') }} <br />
                 </p>
               </tr>
             </tbody>
