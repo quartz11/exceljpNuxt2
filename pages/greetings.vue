@@ -21,11 +21,11 @@
           <table class="mt-5">
             <thead>
               <th class="text-black text-left">
-                <p class="py-3">{{ $t('greeting.text1') }}</p>
-                <p class="py-3">{{ $t('greeting.text2') }}</p>
-                <p class="py-3">{{ $t('greeting.text3') }}</p>
-                <p class="py-3">{{ $t('greeting.text4') }}</p>
-                <p class="py-3">{{ $t('greeting.text5') }}</p>
+                <p class="py-3">&nbsp;&nbsp;{{ $t('greeting.text1') }}</p>
+                <p class="py-3">&nbsp;&nbsp;{{ $t('greeting.text2') }}</p>
+                <p class="py-3">&nbsp;&nbsp;{{ $t('greeting.text3') }}</p>
+                <p class="py-3">&nbsp;&nbsp;{{ $t('greeting.text4') }}</p>
+                <p class="py-3">&nbsp;&nbsp;{{ $t('greeting.text5') }}</p>
               </th>
             </thead>
           </table>

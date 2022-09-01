@@ -28,8 +28,8 @@ h1 {
 
               <tr>
                 <td class="text-center">
-                  {{ $t('motto.philosophy.text1') }} <br />
-                  {{ $t('motto.philosophy.text2') }}
+                  {{ $t('motto.philosophy.topic1text1') }} <br />
+                  {{ $t('motto.philosophy.topic1text2') }}
                 </td>
               </tr>
 
@@ -41,8 +41,8 @@ h1 {
 
               <tr>
                 <td class="text-center">
-                  {{ $t('motto.philosophy.text3') }} <br />
-                  {{ $t('motto.philosophy.text4') }}
+                  {{ $t('motto.philosophy.topic2text1') }} <br />
+                  {{ $t('motto.philosophy.topic2text2') }}
                 </td>
               </tr>
 
@@ -54,8 +54,8 @@ h1 {
 
               <tr>
                 <td class="text-center pb-8">
-                  {{ $t('motto.philosophy.text5') }} <br />
-                  {{ $t('motto.philosophy.text6') }}
+                  {{ $t('motto.philosophy.topic3text1') }} <br />
+                  {{ $t('motto.philosophy.topic3text2') }}
                 </td>
               </tr>
             </tbody>

@@ -61,11 +61,11 @@
             </tr>
             <tr class="border-b border-gray-200 dark:border-gray-700">
               <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-violet-600 auto-cols-auto">
-                {{ $t('overview.member_oreganiz.head') }}
+                {{ $t('overview.member_organize.head') }}
               </th>
               <td class="px-6 py-4 text-black bg-blue-300">
-                {{ $t('overview.member_oreganiz.text1') }} <br />
-                {{ $t('overview.member_oreganiz.text2') }}
+                {{ $t('overview.member_organize.text1') }} <br />
+                {{ $t('overview.member_organize.text2') }}
               </td>
             </tr>
             <tr class="border-b border-gray-200 dark:border-gray-700">
