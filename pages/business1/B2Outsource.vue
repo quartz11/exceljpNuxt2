@@ -10,12 +10,12 @@
             <thead>
               <tr>
                 <th class="text-black w-80 text-left text-2xl">
-                  System Outsourcing
+                  {{ $t('b2outsource.head') }}
                 </th>
               </tr>
               <tr>
                 <div class="flex justify-center mx-auto">
-                  <img src="/productpic/given.jpg" width="300" height="300" />
+                  <img src="/businesspic/given.jpg" width="300" height="300" />
                 </div>
               </tr>
             </thead>
@@ -24,9 +24,9 @@
               <tr>
                 <td class=" text-left bg-violet-500 text-white text-xl px-6 shadow-2xl">
                   <br />
-                  Overseas & Japan staff of collaboration by offshore development.
+                  {{ $t('b2outsource.firstbox[0]') }}
                   <br />
-                  Low price × security of quality realization is possible.
+                  {{ $t('b2outsource.firstbox[1]') }}.
                   <br />
                   <br />
                 </td>
@@ -52,14 +52,13 @@
             <tbody>
               <tr>
                 <td class=" text-left bg-blue-400 text-black text-xl px-6 h-10">
-                  Development Results of Excellence
+                  {{ $t('b2outsource.row1.head') }}
                 </td>
               </tr>
               <tr>
                 <td class="text-left bg-slate-50 text-black text-lg px-6">
                   <br />
-                  Bonded warehouse system and large-scale automated warehouse system, there is a track record of working
-                  on such as hotel reservation system
+                  {{ $t('b2outsource.row1.detail') }}
                   <nuxt-link to="/product"><a class="text-blue-600">（Click here for details）</a></nuxt-link>.
                   <br />
                   <br />
@@ -67,39 +66,37 @@
               </tr>
               <tr>
                 <td class=" text-left bg-blue-400 text-black text-xl px-6 h-10">
-                  In all fields by experts, thorough and PDCA
+                  {{ $t('b2outsource.row2.head') }}
                 </td>
               </tr>
               <tr>
                 <td class="text-left bg-slate-50 text-black text-lg px-6">
                   <br />
-                  A variety of industries, terminal, the engineer who engaged in the development of the language has
-                  been gathered.
+                  {{ $t('b2outsource.row2.detail[0]') }}
                   <br />
-                  We want to meet the many needs even one person.
+                  {{ $t('b2outsource.row2.detail[1]') }}
                   <br />
-                  Our company is in this thought, we accept your order regardless of the field.
+                  {{ $t('b2outsource.row2.detail[2]') }}
                   <br />
-                  We are pursuing the absolute quality by experts in each field.
+                  {{ $t('b2outsource.row2.detail[3]') }}
                   <br />
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class=" text-left bg-blue-400 text-black text-xl px-6 h-10">
-                  The secret of the low price?
+                  {{ $t('b2outsource.row3.head') }}
                 </td>
               </tr>
               <tr>
                 <td class="text-left bg-slate-50 text-black text-lg px-6">
                   <br />
-                  Overseas resides staff we have also deployed.
+                  {{ $t('b2outsource.row3.detail[0]') }}
                   <br />
                   <nuxt-link to="/B3Offshoe"><a class="text-blue-600 underline">Offshore Development</a></nuxt-link> With
-                  the introduction, depending on the development scale and budget of the customer's wish, it is possible
-                  to respond flexibly.
+                  {{ $t('b2outsource.row3.detail[1]') }}
                   <br />
-                  The joint development with Japan of staff are based, we will guarantee quality standards maintained.
+                  {{ $t('b2outsource.row3.detail[2]') }}
                   <br />
                   <br />
                 </td>
@@ -116,7 +113,7 @@
         <thead>
           <tr>
             <th class="text-black text-center text-2xl">
-              Introduction
+              {{ $t('b1dispatch.intro.intro') }}
             </th>
           </tr>
         </thead>
@@ -124,57 +121,57 @@
         <tbody class="text-center">
           <tr>
             <td>
-              <nuxt-link to="/B1Dispatch">
-                <p class="text-black text-lg">Dispatch the IT technician</p>
+              <nuxt-link to="/business1/B1Dispatch">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.dispatch') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Development Package</p>
+              <nuxt-link to="/product">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.development') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">System Outsourcing</p>
+              <nuxt-link to="/business1/B2Outsource">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.outsource') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Offshore Development</p>
+              <nuxt-link to="/business1/B3Offshoe">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.offshoe') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Asia foray consultants</p>
+              <nuxt-link to="/business1/B4consult">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.consult') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Translation(Japanese/English/Chinese/Thai)</p>
+              <nuxt-link to="/business1/B5Trans">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.translate') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Siam Order Service(Import agency)</p>
+              <nuxt-link to="/business1/B6Import">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.import') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Other Development Results</p>
+              <nuxt-link to="/business1/B7otherdevelop">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.otherdevelop') }}</p>
               </nuxt-link>
             </td>
           </tr>
