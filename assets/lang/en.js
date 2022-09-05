@@ -21,10 +21,10 @@ export default {
     contact: "Contact us",
   },
   index: {
-    pa_1: `"The pursuit of happiness discretion both sides of all employees. 
-        To provide the best of ICT services to customers, 
+    paragraph1: `"The pursuit of happiness discretion both sides of all employees.
+        To provide the best of ICT services to customers,
         It will contribute to the realization of a livable peace society."`,
-    pa_2: `We will continue to all employees growth beneath the the
+    paragraph2: `We will continue to all employees growth beneath the the
         management philosophy. And we have stacked the day-to-day study in order to continue to be a company
         that will contribute to the world.
         Also,beneath the idea of“Making the first person before you make things.”we have the human resources
@@ -88,7 +88,7 @@ export default {
       head: `Number of Employees`,
       text: `24 (2021'3 data)`,
     },
-    member_oreganiz: {
+    member_organize: {
       head: `Member Organizations`,
       text1: "Kyoto Venture Business Club",
       text2: "Kyoto chamber of commerce Kyoto",
@@ -167,26 +167,26 @@ export default {
       header: `Corporate Philosophy`,
       // topic 1
       topic1: `The pursuit of happiness of discretion both sides of all employees`,
-      text1: `All employees of the company, management also including one technician, there
+      topic1text1: `All employees of the company, management also including one technician, there
       spiritual of all the people that the gathering work, it is the pursuit of material happiness.`,
-      text2: `That is, of happiness and is physically and spiritually both sides that we aim, and that through
+      topic1text2: `That is, of happiness and is physically and spiritually both sides that we aim, and that through
       self-fulfillment in the field of work as well as go in search of economic stability and prosperity,
       and will seek the richness of the heart as a human being, such as life worth living and rewardingIt
       is.`,
       // topic 2
       topic2: `It will contribute to the realization of a livable in rich society`,
-      text3: `Customers and the community, including to global environment steady around us
+      topic2text1: `Customers and the community, including to global environment steady around us
       worked hard in our efforts, that is has been put is the wish of the I want to become better by the
       realization of corporate activities.`,
-      text4: `In addition, we polish always technology, by sending the world one after another excellent software,
+      topic2text2: `In addition, we polish always technology, by sending the world one after another excellent software,
       and continue to raise the profit as a company as well as contribute to the advancement of science and
       technology, and to contribute to the public welfare enhancement through such that you pay a lot of
       taxes to go.`,
       // topic 3
       topic3: `Heart of altruistic`,
-      text5: `Idea that altruistic that in better than your own has become a backbone.
+      topic3text1: `Idea that altruistic that in better than your own has become a backbone.
       Themselves even better by happy others, is the way to become happy.`,
-      text6: `Only the spirit of the altruistic is not more to allow for sustainable development, it is that is to
+      topic3text2: `Only the spirit of the altruistic is not more to allow for sustainable development, it is that is to
       act in order to achieve those ideals is the purpose of our company.`,
     },
     motto: {
@@ -562,11 +562,8 @@ export default {
         `Please mail the following documents to us.`,
         `※It should be noted that, at the time of application will be made to read our “Privacy Policy”, please your application on top of the agreement. `,
         `1.With handwriting photo resume (A4, described the best match) ※ word processor writing invalid`,
-        `2.Expected graduation certificate (graduation certificate in the case of already graduated)`,
-        `3.Transcript`,
-        `4.Within three months of health certificate (copy available)`,
-        `5.Motivation letter (about 400 words)`,
-        `6.The contents of the graduation study (400 words max)`,
+        `2.Occupational resume`,
+        `3.Motivation letter (about 400 words)`,
         `Destination`,
         `◉ 〒604-8155`,
         `Kyoto Nakagyo-ku Uradeyama cho address 311 Animato Nishiki 2F`,
@@ -788,7 +785,7 @@ export default {
         and proper handling of personal information.`,
         `■ When the Company to acquire the personal information is to endeavor to clarify the purpose of use,
         by appropriate and fair means, we will obtain personal information.`,
-        `■ The Company, in person for personal information, it is recognized that has the right to ask for such disclosure, correction, suspension of use and erase, you can set up a personal information 
+        `■ The Company, in person for personal information, it is recognized that has the right to ask for such disclosure, correction, suspension of use and erase, you can set up a personal information
         consultation, if there these requests, in accordance with laws and regulations promptly we will correspond. `,
         `■ The Company will establish a system for implementing the proper handling of personal information to be used on business.`,
         `■ The Company, in order to run this Privacy Policy, we have established a personal information protection compliance program, which was run by well-known thorough in the company through training and education, by continuous improvement, always best We will maintain the state.`,
@@ -816,4 +813,64 @@ export default {
     ],
     related_site: [`Related Sites`, `Excellence Siam`, `Employee e-base`],
   },
-}; 
+
+  empinter1: {
+    role: 'System Development Department',
+    name: 'Shimizu Yasuyuki	',
+    headbox: 'Mind (thinking) is important, as long as what the firm to be called should there as a person, you will be able to grow reliably.',
+    row1head: '  What is the motivation that was joined to this company?',
+    row1detail: '  Is it personality of the The company president.I think that it is felt if the conversation toward the surface.In addition, the playing field even things and new employees that are focused on education that is given now to the direct motivation.',
+    row2head: '  What do you have to work now?',
+    row2detail: '  Was seconded to the customer destination, you have a Windows application developed in C # language.We are developing a map-related applications.',
+    row3head: '  What did you learn after joining?',
+    row3detail: '  It is a philosophy (management philosophy).We hold regular study sessions as employee education, but not things like increase the technical capabilities, study of philosophy has become the center.Technical strength also is important in terms of going to work, but can be worn in the work.First heart (idea) is important, if what the firm to be called should there as a person, we believe that it can be grown reliably.',
+    row4head: '  What is that you are left in the most impressive in the past?',
+    row4detail: '  Hundreds of thousands it is also that it was training I am allowed to participate in, such as.In our company, we are focused on the idea in education and that individual is directly linked to that company to grow if growth.Content is also often made for themselves, it will be able to participate in various training if they wish.',
+    row5head: '  Message to students in job hunting',
+    row5detail: "  In our company, it can cause the proposals and act in his power even new employees.If you are motivated, let's do our best come together.",
+    row6head: '  Finally, anything you want it and you want that oysters say.',
+    row6detail: '  I think there are many things to be worried about, such as business content and work location, but I think also people working together is not the most important.I think that I want you to cherish the company select the impression you feel Try actually met.',
+    other: 'See an interview with other employees',
+    otherdesc: '(Display every time you click will change)'
+  },
+  b1dispatch: {
+    head: 'Dispatch the IT technician',
+    firstbox: [
+      'To experienced person from rookie, we will deliver superior IT technician.',
+      '(Kyoto, Osaka, Shiga, Tokyo and overseas)'
+  ],
+  row1:
+    {
+      head: 'From rookie to experienced person',
+      detail: [
+        'Technique level and results years, budget, period and number of persons, age, etc.,',
+        'It is possible that I am allowed to support us to flexible on request.',
+        'Technical field and language also does not matter.',
+        'Please do not hesitate to contact us.'
+      ]
+    },
+    row2: {
+      head: 'Employee training: Now what is asked “human force”',
+      detail: [
+        'The training of the “human force”, we have especially emphasized.',
+        'That it is a cooperative do our thanks to the other party, that it is a sincere, doing a neat information transmission.',
+        'Pull out the power of the team to the maximum, in order to lead to a successful project,',
+        'We are focused on human force training.'
+      ]
+    },
+    intro: {
+      intro: 'Introduction',
+      dispatch: 'Dispatch the IT technician',
+      development: 'Development Package',
+      outsource: 'System Outsourcing',
+      offshoe: 'Offshore Development',
+      consult: 'Asia foray consultants',
+      translate: 'Translation(Japanese/English/Chinese/Thai)',
+      import: 'Siam Order Service(Import agency)',
+      otherdevelop: 'Other Development Results'
+    }
+  },
+  b2outsource: {
+
+  },
+};
