@@ -39,7 +39,7 @@
             <blockquote class="p-5 bg-white rounded shadow-2xl blockquote blockquote-custom">
               <div class="shadow-2xl blockquote-custom-icon bg-info"></div>
               <p class="mt-2 mb-0 text-black font-italic">
-                {{ $t('index.paragraph1') }}
+                {{ $t('index.paragraph2') }}
               </p>
 
             </blockquote>
