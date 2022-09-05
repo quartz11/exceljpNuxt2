@@ -10,12 +10,12 @@
             <thead>
               <tr>
                 <th class="text-black w-80 text-left text-2xl">
-                  Offshore Development
+                  {{ $t('b3offshoe.head') }}
                 </th>
               </tr>
               <tr>
                 <div class="flex justify-center mx-auto">
-                  <img src="/productpic/offshore.jpg" width="300" height="300" />
+                  <img src="/businesspic/offshore.jpg" width="300" height="300" />
                 </div>
               </tr>
             </thead>
@@ -24,9 +24,9 @@
               <tr>
                 <td class=" text-left bg-violet-500 text-white text-xl px-6 shadow-2xl">
                   <br />
-                  We are deployed overseas staff of highly skilled holdings.
+                  {{ $t('b3offshoe.firstbox[0]') }}
                   <br />
-                  You'll want to keep a low budget.
+                  {{ $t('b3offshoe.firstbox[1]') }}
                   <br />
                   <br />
                 </td>
@@ -52,39 +52,38 @@
             <tbody>
               <tr>
                 <td class=" text-left bg-blue-400 text-black text-xl px-6 h-10">
-                  We realized low-cost!
+                  {{ $t('b3offshoe.row1.head') }}
                 </td>
               </tr>
               <tr>
                 <td class="text-left bg-slate-50 text-black text-lg px-6">
                   <br />
-                  With the introduction of offshore development in 2012, the low-budget development became possible.
+                  {{ $t('b3offshoe.row1.detail[0]') }}
                   <br />
-                  “Development costs are bulky ...”
+                  {{ $t('b3offshoe.row1.detail[1]') }}
                   <br />
-                  “I can not find the trader was commensurate with the budget ...”
+                  {{ $t('b3offshoe.row1.detail[2]') }}
                   <br />
-                  Our company such a your troubles we will have eliminated.
+                  {{ $t('b3offshoe.row1.detail[3]') }}
                   <br />
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class=" text-left bg-blue-400 text-black text-xl px-6 h-10">
-                  But, quality is all right?
+                  {{ $t('b3offshoe.row2.head') }}
                 </td>
               </tr>
               <tr>
                 <td class="text-left bg-slate-50 text-black text-lg px-6">
                   <br />
-High-skill owned and Japanese fluent overseas staff is responsible.
-
+                  {{ $t('b3offshoe.row2.detail[0]') }}
                   <br />
-2013, there is a proven success in order business in Thailand local.
+                  {{ $t('b3offshoe.row2.detail[1]') }}
                   <br />
-In addition, development style to advance based on the management by the Japanese staff,
+                  {{ $t('b3offshoe.row2.detail[2]') }}
                   <br />
-There is a confidence that you can deliver peace of mind quality.
+                  {{ $t('b3offshoe.row2.detail[3]') }}
                   <br />
                   <br />
                 </td>
@@ -101,7 +100,7 @@ There is a confidence that you can deliver peace of mind quality.
         <thead>
           <tr>
             <th class="text-black text-center text-2xl">
-              Other Applications
+              {{ $t('b1dispatch.intro.intro') }}
             </th>
           </tr>
         </thead>
@@ -109,29 +108,57 @@ There is a confidence that you can deliver peace of mind quality.
         <tbody class="text-center">
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Treatment support application</p>
+              <nuxt-link to="/business1/B1Dispatch">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.dispatch') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Bonded Warehouse System</p>
+              <nuxt-link to="/product">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.development') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Groupware System</p>
+              <nuxt-link to="/business1/B2Outsource">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.outsource') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Hotel Reservation System</p>
+              <nuxt-link to="/business1/B3Offshoe">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.offshoe') }}</p>
+              </nuxt-link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <nuxt-link to="/business1/B4consult">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.consult') }}</p>
+              </nuxt-link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <nuxt-link to="/business1/B5Trans">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.translate') }}</p>
+              </nuxt-link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <nuxt-link to="/business1/B6Import">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.import') }}</p>
+              </nuxt-link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <nuxt-link to="/business1/B7otherdevelop">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.otherdevelop') }}</p>
               </nuxt-link>
             </td>
           </tr>
