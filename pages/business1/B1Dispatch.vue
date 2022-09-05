@@ -10,7 +10,7 @@
             <thead>
               <tr>
                 <th class="text-black w-80 text-left text-2xl">
-                  Dispatch the IT technician
+                  {{ $t('b1dispatch.head') }}
                 </th>
               </tr>
               <tr>
@@ -24,9 +24,9 @@
               <tr>
                 <td class=" text-left bg-violet-500 text-white text-xl px-6 shadow-2xl">
                   <br />
-                  To experienced person from rookie, we will deliver superior IT technician.
+                  {{ $t('b1dispatch.firstbox[0]') }}
                   <br />
-                  (Kyoto, Osaka, Shiga, Tokyo and overseas)
+                  {{ $t('b1dispatch.firstbox[1]') }}
                   <br />
                   <br />
                 </td>
@@ -52,39 +52,38 @@
             <tbody>
               <tr>
                 <td class=" text-left bg-blue-400 text-black text-xl px-6 h-10">
-                  From rookie to experienced person
+                  {{ $t('b1dispatch.row1.head') }}
                 </td>
               </tr>
               <tr>
                 <td class="text-left bg-slate-50 text-black text-lg px-6">
                   <br />
-                  Technique level and results years, budget, period and number of persons, age, etc.,
+                  {{ $t('b1dispatch.row1.detail[0]') }}
                   <br />
-                  It is possible that I am allowed to support us to flexible on request.
+                  {{ $t('b1dispatch.row1.detail[1]') }}
                   <br />
-                  Technical field and language also does not matter.
+                  {{ $t('b1dispatch.row1.detail[2]') }}
                   <br />
-                  Please do not hesitate to contact us.
+                  {{ $t('b1dispatch.row1.detail[3]') }}
                   <br />
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class=" text-left bg-blue-400 text-black text-xl px-6 h-10">
-                  Employee training: Now what is asked “human force”
+                  {{ $t('b1dispatch.row2.head') }}
                 </td>
               </tr>
               <tr>
                 <td class="text-left bg-slate-50 text-black text-lg px-6">
                   <br />
-                  The training of the “human force”, we have especially emphasized.
+                  {{ $t('b1dispatch.row2.detail[0]') }}
                   <br />
-                  That it is a cooperative do our thanks to the other party, that it is a sincere, doing a neat
-                  information transmission.
+                  {{ $t('b1dispatch.row2.detail[1]') }}
                   <br />
-                  Pull out the power of the team to the maximum, in order to lead to a successful project,
+                  {{ $t('b1dispatch.row2.detail[2]') }}
                   <br />
-                  We are focused on human force training.
+                  {{ $t('b1dispatch.row2.detail[3]') }}
                   <br />
                   <br />
                 </td>
@@ -101,7 +100,7 @@
         <thead>
           <tr>
             <th class="text-black text-center text-2xl">
-              Introduction
+              {{ $t('b1dispatch.intro.intro') }}
             </th>
           </tr>
         </thead>
@@ -109,57 +108,57 @@
         <tbody class="text-center">
           <tr>
             <td>
-              <nuxt-link to="/B1Dispatch">
-                <p class="text-black text-lg">Dispatch the IT technician</p>
+              <nuxt-link to="/business1/B1Dispatch">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.dispatch') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Development Package</p>
+              <nuxt-link to="/product">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.development') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">System Outsourcing</p>
+              <nuxt-link to="/business1/B2Outsource">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.outsource') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Offshore Development</p>
+              <nuxt-link to="/business1/B3Offshoe">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.offshoe') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Asia foray consultants</p>
+              <nuxt-link to="/business1/B4consult">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.consult') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Translation(Japanese/English/Chinese/Thai)</p>
+              <nuxt-link to="/business1/B5Trans">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.translate') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Siam Order Service(Import agency)</p>
+              <nuxt-link to="/business1/B6Import">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.import') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Other Development Results</p>
+              <nuxt-link to="/business1/B7otherdevelop">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.otherdevelop') }}</p>
               </nuxt-link>
             </td>
           </tr>
