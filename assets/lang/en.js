@@ -891,12 +891,15 @@ export default {
     },
     row3: {
       head: 'The secret of the low price?',
+      development : 'Offshore Development',
       detail: [
         'Overseas resides staff we have also deployed.',
         "With the introduction, depending on the development scale and budget of the customer's wish, it is possible to respond flexibly.",
         'The joint development with Japan of staff are based, we will guarantee quality standards maintained.'
       ]
-    }
+    },
+    clickhere : '（Click here for details）',
+
   },
   b3offshore: {
     head: 'Offshore Development',

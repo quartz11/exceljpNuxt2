@@ -59,7 +59,7 @@
                 <td class="text-left bg-slate-50 text-black text-lg px-6">
                   <br />
                   {{ $t('b2outsource.row1.detail') }}
-                  <nuxt-link to="/product"><a class="text-blue-600">（Click here for details）</a></nuxt-link>.
+                  <nuxt-link to="/product"><a class="text-blue-600">{{ $t('b2outsource.clickhere')}}</a></nuxt-link>.
                   <br />
                   <br />
                 </td>
@@ -93,7 +93,7 @@
                   <br />
                   {{ $t('b2outsource.row3.detail[0]') }}
                   <br />
-                  <nuxt-link to="/B3Offshoe"><a class="text-blue-600 underline">Offshore Development</a></nuxt-link>
+                  <nuxt-link to="/B3Offshoe"><a class="text-blue-600 underline">{{ $t('b2outsource.row3.development')}}</a></nuxt-link>
                   With
                   {{ $t('b2outsource.row3.detail[1]') }}
                   <br />
