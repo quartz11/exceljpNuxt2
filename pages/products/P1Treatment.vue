@@ -10,7 +10,7 @@
             <thead>
               <tr>
                 <th class="text-2xl text-left text-black w-80">
-                  Treatment support application i-Therapy
+                  {{ $t('p1treatment.head')}}
                 </th>
               </tr>
               <br />
@@ -25,11 +25,11 @@
               <tr>
                 <td class="px-6 text-xl text-left text-white shadow-2xl bg-violet-500">
                   <br />
-                  For Practitioner of Acupuncture, BodyWork and Chiropractic.
+                  {{ $t('p1treatment.firstbox[0]')}}
                   <br />
-                  This application makes your treatment to develop.
+                  {{ $t('p1treatment.firstbox[1]')}}
                   <br />
-                  It is a free monitor wanted to December 31.
+                  {{ $t('p1treatment.firstbox[2]')}}
                   <br />
                   <br />
                 </td>
@@ -39,12 +39,11 @@
               <tr>
                 <td class="px-6 text-xl text-left text-white shadow-2xl bg-zinc-500">
                   <br />
-                  <p class="px-4 text-left">Recommended for such people</p>
+                  <p class="px-4 text-left">{{ $t('p1treatment.secondbox[0]')}}</p>
                   <br />
-                  <p class="px-8 text-left">For Practitioner of Acupuncture, BodyWork and Chiropractic.</p>
-                  <p class="px-8 text-left">For Practitioner who wants to reduce the risk of management of medical
-                    records.</p>
-                  <p class="px-8 text-left">For Practitioner who wants to share data easily at your study session.</p>
+                  <p class="px-8 text-left">{{ $t('p1treatment.secondbox[1]')}}</p>
+                  <p class="px-8 text-left">{{ $t('p1treatment.secondbox[2]')}}</p>
+                  <p class="px-8 text-left">{{ $t('p1treatment.secondbox[3]')}}</p>
                   <br />
                 </td>
               </tr>
@@ -76,73 +75,70 @@
             <tbody>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  How does patient realize the therapeutic effect of your treatment ?
+                  {{ $t('p1treatment.row1.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  You can store photos, body image, the video at the time of treatment.
+                  {{ $t('p1treatment.row1.detail[0]')}}
                   <br />
                   <br />
-                  <p class="px-8 text-left">You can take some pictures of the parts which are invisible in the client's
-                    own.</p>
-                  <p class="px-8 text-left">You can explain the change of some parts of client visually</p>
-                  <p class="px-8 text-left">You can compare, zoom-up, store any pictures. And also, you can draw in any
-                    pictures.</p>
+                  <p class="px-8 text-left">{{ $t('p1treatment.row1.detail[1]')}}</p>
+                  <p class="px-8 text-left">{{ $t('p1treatment.row1.detail[2]')}}</p>
+                  <p class="px-8 text-left">{{ $t('p1treatment.row1.detail[3]')}}</p>
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  To touch of a button, you can sharing data in the study session.
+                  {{ $t('p1treatment.row2.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  You can share the data to practitioner that you specify
+                  {{ $t('p1treatment.row2.detail[0]')}}
                   <br />
                   <br />
-                  <p class="px-8 text-left">If you change the settings about SHARING of the patient, you can share data
-                    to the practitioner that you specify.</p>
-                  <p class="px-8 text-left">It is effective at meetings, study sessions, and guidance.</p>
-                  <p class="px-8 text-left">You can use this function if you have the corporate contract.</p>
+                  <p class="px-8 text-left"> {{ $t('p1treatment.row2.detail[1]')}}</p>
+                  <p class="px-8 text-left"> {{ $t('p1treatment.row2.detail[2]')}}</p>
+                  <p class="px-8 text-left"> {{ $t('p1treatment.row2.detail[3]')}}</p>
                   <br />
-                  ※It is also possible to publish it face down personal information.
+                  {{ $t('p1treatment.row2.detail[4]')}}
                   <br />
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  By using a tablet, you can access to all your clients.
+                  {{ $t('p1treatment.row3.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  By using a tablet, you can access to all your clients.
+                  {{ $t('p1treatment.row3.detail[0]')}}
                   <br />
                   <br />
-                  <p class="px-8 text-left">You'll be freed from the hear and risk of the loss of medical records.</p>
-                  <p class="px-8 text-left">You can enter while treatment.</p>
+                  <p class="px-8 text-left">{{ $t('p1treatment.row3.detail[1]')}}</p>
+                  <p class="px-8 text-left">{{ $t('p1treatment.row3.detail[3]')}}</p>
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  By comparing the data, therapeutic effect will be realized "obviously".
+                  {{ $t('p1treatment.row4.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  You can compare the data.
+                  {{ $t('p1treatment.row4.detail[0]')}}
                   <br />
                   <br />
-                  <p class="px-8 text-left">You can compare the pre- and post-treatment or the current day and date of the first visit.You can select any day to compare.</p>
-                  <p class="px-8 text-left">Not only text information, you can use image or video for comparison.</p>
+                  <p class="px-8 text-left">{{ $t('p1treatment.row4.detail[1]')}}</p>
+                  <p class="px-8 text-left">{{ $t('p1treatment.row4.detail[2]')}}</p>
                   <br />
                 </td>
               </tr>
@@ -158,7 +154,7 @@
         <thead>
           <tr>
             <th class="text-2xl text-center text-black">
-              Other Applications
+              {{ $t('productlist.other')}}
             </th>
           </tr>
         </thead>
@@ -167,28 +163,28 @@
           <tr>
             <td>
               <nuxt-link to="/products/P1treatment">
-                <p class="text-lg text-black underline">Treatment support application</p>
+                <p class="text-lg text-black underline">{{ $t('productlist.list[0]')}}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
               <nuxt-link to="/products/p2warehouse">
-                <p class="text-lg text-black underline">Bonded Warehouse System</p>
+                <p class="text-lg text-black underline">{{ $t('productlist.list[1]')}}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
               <nuxt-link to="/products/p3ebase">
-                <p class="text-lg text-black underline">Groupware System</p>
+                <p class="text-lg text-black underline">{{ $t('productlist.list[2]')}}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
               <nuxt-link to="/products/p4reservation">
-                <p class="text-lg text-black underline">Hotel Reservation System</p>
+                <p class="text-lg text-black underline">{{ $t('productlist.list[3]')}}</p>
               </nuxt-link>
             </td>
           </tr>
