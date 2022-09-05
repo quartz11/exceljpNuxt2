@@ -863,7 +863,7 @@ export default {
       dispatch: 'Dispatch the IT technician',
       development: 'Development Package',
       outsource: 'System Outsourcing',
-      offshoe: 'Offshore Development',
+      offshore: 'Offshore Development',
       consult: 'Asia foray consultants',
       translate: 'Translation(Japanese/English/Chinese/Thai)',
       import: 'Siam Order Service(Import agency)',
@@ -898,4 +898,102 @@ export default {
       ]
     }
   },
+  b3offshore: {
+    head: 'Offshore Development',
+    firstbox: [
+      'We are deployed overseas staff of highly skilled holdings.',
+      "You'll want to keep a low budget."
+    ],
+    row1: {
+      head: 'We realized low-cost!',
+      detail: [
+        'With the introduction of offshore development in 2012, the low-budget development became possible.',
+        '“Development costs are bulky ...”',
+        '“I can not find the trader was commensurate with the budget ...”',
+        'Our company such a your troubles we will have eliminated.'
+      ]
+    },
+    row2: {
+      head: 'But, quality is all right?',
+      detail: [
+        'High-skill owned and Japanese fluent overseas staff is responsible.',
+        '2013, there is a proven success in order business in Thailand local.',
+        'In addition, development style to advance based on the management by the Japanese staff,',
+        'There is a confidence that you can deliver peace of mind quality.'
+      ]
+    }
+  },
+  b4consult: {
+    head: 'Asia foray consultants',
+    firstbox: [
+      'In 2012 it was we gained a track record opened a Thai subsidiary.',
+      'It will help your Asia expansion.'
+    ],
+    row1: {
+      head: 'There is a proven advance',
+      detail : [
+        'In 2012 in Thailand we opened a local subsidiary.',
+        'It has carried out its own to the proceedings from the field survey, it is available to provide information of the whole process.',
+        'Japanese fluent staff in local also has been staying.',
+        '“Live data” Now to you, we will provide.'
+      ]
+    }
+  },
+  b5trans: {
+    head: 'Translation(Japanese/English/Chinese/Thai)',
+    firstbox: [
+      'Japanese fluent Chinese-Thai staff enrolled!',
+      'It is a Japanese ⇔ English / Chinese / Thai available.'
+    ],
+    row1: {
+      head: 'Native staff has been active',
+      detail: [
+        'Japan living history China native staff and of “more than 10 years”, Thai native staff that led to successful joint development with Japan staff will backup.',
+        'We will quote a price and delivery time by phone or e-mail one.'
+      ]
+    }
+  },
+  b7otherdevelop: {
+    head: 'Achievements',
+    row1: {
+      head: 'Hotel Reservation System',
+      detail: [
+        'System that you can booking online business hotel on a mobile phone.',
+        'Compatible models: DoCoMo, au, Softbank.',
+        '(Development environment: server-side Java servlet, terminal Flash lite 2.0)'
+      ]
+    },
+    row2: {
+      head: 'Comprehensive supply monitoring system',
+      detail: [
+        'City gas supply network system that all Kansai district about 2700 places of supply facility at the end for 24-hour monitoring of.',
+        'It can be detected immediately without going to the site of the gas leak or the like when a big earthquake happened.',
+        '(Development environment: UNIX, Windows, C language, VB, Oracle)'
+      ]
+    },
+    row3: {
+      head: 'Large scale automatic warehouse system',
+      detail: [
+        '1 hour can be out privileges of plastic bottles about 6,000 cases of the system in the five-story warehouse for the beverage manufacturer.',
+        '(Development environment: UNIX, Windows, C language, VB, Oracle)'
+      ]
+    },
+    row4: {
+      head: 'Device control code automatically generated system',
+      detail: [
+        'System for automatically generating the source code of the device control for the semiconductor manufacturer.',
+        'Regardless of the technician skills, and we can keep the quality constant.',
+        '(Development environment: Windows, C ++, C #, STL, UML, XML)'
+      ]
+    },
+    row5: {
+      head: 'Risk management system',
+      detail: [
+        'System for managing the various links for the financial institutions.',
+        'Risk management affects the management for financial institutions.',
+        '(Development environment: UNIX, Windows, C language, Oracle)'
+      ]
+    }
+  },
+
 };
