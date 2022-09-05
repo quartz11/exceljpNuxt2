@@ -10,12 +10,12 @@
             <thead>
               <tr>
                 <th class="text-black w-80 text-left text-2xl">
-                  Asia foray consultants
+                  {{ $t('b4consult.head') }}
                 </th>
               </tr>
               <tr>
                 <div class="flex justify-center mx-auto">
-                  <img src="/productpic/consult.jpg" width="300" height="300" />
+                  <img src="/businesspic/consult.jpg" width="300" height="300" />
                 </div>
               </tr>
             </thead>
@@ -24,9 +24,9 @@
               <tr>
                 <td class=" text-left bg-violet-500 text-white text-xl px-6 shadow-2xl">
                   <br />
-                  In 2012 it was we gained a track record opened a Thai subsidiary.
+                  {{ $t('b4consult.firstbox[0]')}}
                   <br />
-                  It will help your Asia expansion.
+                  {{ $t('b4consult.firstbox[1]')}}
                   <br />
                   <br />
                 </td>
@@ -52,19 +52,19 @@
             <tbody>
               <tr>
                 <td class=" text-left bg-blue-400 text-black text-xl px-6 h-10">
-                  There is a proven advance
+                  {{ $t('b4consult.row1.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="text-left bg-slate-50 text-black text-lg px-6">
                   <br />
-                  In 2012 in Thailand we opened a local subsidiary.
+                  {{ $t('b4consult.row1.detail[0]')}}
                   <br />
-                  It has carried out its own to the proceedings from the field survey, it is available to provide information of the whole process.
+                  {{ $t('b4consult.row1.detail[1]')}}
                   <br />
-                  Japanese fluent staff in local also has been staying.
+                  {{ $t('b4consult.row1.detail[2]')}}
                   <br />
-                  “Live data” Now to you, we will provide.
+                  {{ $t('b4consult.row1.detail[3]')}}
                   <br />
                   <br />
                 </td>
@@ -82,7 +82,7 @@
         <thead>
           <tr>
             <th class="text-black text-center text-2xl">
-              Introduction
+              {{ $t('b1dispatch.intro.intro') }}
             </th>
           </tr>
         </thead>
@@ -90,57 +90,57 @@
         <tbody class="text-center">
           <tr>
             <td>
-              <nuxt-link to="/B1Dispatch">
-                <p class="text-black text-lg">Dispatch the IT technician</p>
+              <nuxt-link to="/business1/B1Dispatch">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.dispatch') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Development Package</p>
+              <nuxt-link to="/product">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.development') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">System Outsourcing</p>
+              <nuxt-link to="/business1/B2Outsource">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.outsource') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Offshore Development</p>
+              <nuxt-link to="/business1/B3Offshore">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.offshore') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Asia foray consultants</p>
+              <nuxt-link to="/business1/B4consult">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.consult') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Translation(Japanese/English/Chinese/Thai)</p>
+              <nuxt-link to="/business1/B5Trans">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.translate') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Siam Order Service(Import agency)</p>
+              <nuxt-link to="/business1/B6Import">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.import') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Other Development Results</p>
+              <nuxt-link to="/business1/B7otherdevelop">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.otherdevelop') }}</p>
               </nuxt-link>
             </td>
           </tr>

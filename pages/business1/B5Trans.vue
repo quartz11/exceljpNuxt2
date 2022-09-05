@@ -10,12 +10,13 @@
             <thead>
               <tr>
                 <th class="text-black w-80 text-left text-2xl">
-                  Translation(Japanese/English/Chinese/Thai)
+                  {{ $t('b5trans.head')}}
                 </th>
               </tr>
+              <br />
               <tr>
                 <div class="flex justify-center mx-auto">
-                  <img src="/productpic/translate.jpg" width="300" height="300" />
+                  <img src="/businesspic/translate.jpg" width="300" height="300" />
                 </div>
               </tr>
             </thead>
@@ -24,9 +25,9 @@
               <tr>
                 <td class=" text-left bg-violet-500 text-white text-xl px-6 shadow-2xl">
                   <br />
-                  Japanese fluent Chinese-Thai staff enrolled!
+                  {{ $t('b5trans.firstbox[0]')}}
                   <br />
-                  It is a Japanese ⇔ English / Chinese / Thai available.
+                  {{ $t('b5trans.firstbox[1]')}}
                   <br />
                   <br />
                 </td>
@@ -52,15 +53,15 @@
             <tbody>
               <tr>
                 <td class=" text-left bg-blue-400 text-black text-xl px-6 h-10">
-                  Native staff has been active
+                  {{ $t('b5trans.row1.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="text-left bg-slate-50 text-black text-lg px-6">
                   <br />
-                  Japan living history China native staff and of “more than 10 years”, Thai native staff that led to successful joint development with Japan staff will backup.
+                  {{ $t('b5trans.row1.detail[0]')}}
                   <br />
-We will quote a price and delivery time by phone or e-mail one.
+                  {{ $t('b5trans.row1.detail[1]')}}
                   <br />
                   <br />
                 </td>
@@ -78,7 +79,7 @@ We will quote a price and delivery time by phone or e-mail one.
         <thead>
           <tr>
             <th class="text-black text-center text-2xl">
-              Introduction
+              {{ $t('b1dispatch.intro.intro') }}
             </th>
           </tr>
         </thead>
@@ -86,57 +87,57 @@ We will quote a price and delivery time by phone or e-mail one.
         <tbody class="text-center">
           <tr>
             <td>
-              <nuxt-link to="/B1Dispatch">
-                <p class="text-black text-lg">Dispatch the IT technician</p>
+              <nuxt-link to="/business1/B1Dispatch">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.dispatch') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Development Package</p>
+              <nuxt-link to="/product">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.development') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">System Outsourcing</p>
+              <nuxt-link to="/business1/B2Outsource">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.outsource') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Offshore Development</p>
+              <nuxt-link to="/business1/B3Offshore">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.offshore') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Asia foray consultants</p>
+              <nuxt-link to="/business1/B4consult">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.consult') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Translation(Japanese/English/Chinese/Thai)</p>
+              <nuxt-link to="/business1/B5Trans">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.translate') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Siam Order Service(Import agency)</p>
+              <nuxt-link to="/business1/B6Import">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.import') }}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/">
-                <p class="text-black text-lg">Other Development Results</p>
+              <nuxt-link to="/business1/B7otherdevelop">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.otherdevelop') }}</p>
               </nuxt-link>
             </td>
           </tr>

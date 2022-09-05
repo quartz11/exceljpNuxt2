@@ -93,7 +93,8 @@
                   <br />
                   {{ $t('b2outsource.row3.detail[0]') }}
                   <br />
-                  <nuxt-link to="/B3Offshoe"><a class="text-blue-600 underline">Offshore Development</a></nuxt-link> With
+                  <nuxt-link to="/B3Offshoe"><a class="text-blue-600 underline">Offshore Development</a></nuxt-link>
+                  With
                   {{ $t('b2outsource.row3.detail[1]') }}
                   <br />
                   {{ $t('b2outsource.row3.detail[2]') }}
