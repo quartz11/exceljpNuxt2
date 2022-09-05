@@ -9,28 +9,14 @@
           <table>
             <thead>
               <tr>
-                <th class="text-black w-80 text-left text-2xl">
-                  {{ $t('b2outsource.head') }}
+                <th class="text-black w-80 text-center text-2xl">
+                  Achievements
                 </th>
-              </tr>
-              <tr>
-                <div class="flex justify-center mx-auto">
-                  <img src="/businesspic/given.jpg" width="300" height="300" />
-                </div>
               </tr>
             </thead>
             <br />
             <tbody>
-              <tr>
-                <td class=" text-left bg-violet-500 text-white text-xl px-6 shadow-2xl">
-                  <br />
-                  {{ $t('b2outsource.firstbox[0]') }}
-                  <br />
-                  {{ $t('b2outsource.firstbox[1]') }}.
-                  <br />
-                  <br />
-                </td>
-              </tr>
+
             </tbody>
           </table>
         </div>
@@ -52,51 +38,99 @@
             <tbody>
               <tr>
                 <td class=" text-left bg-blue-400 text-black text-xl px-6 h-10">
-                  {{ $t('b2outsource.row1.head') }}
+                  {{ $t('b1dispatch.row1.head') }}
                 </td>
               </tr>
               <tr>
                 <td class="text-left bg-slate-50 text-black text-lg px-6">
                   <br />
-                  {{ $t('b2outsource.row1.detail') }}
-                  <nuxt-link to="/product"><a class="text-blue-600">（Click here for details）</a></nuxt-link>.
+                  {{ $t('b1dispatch.row1.detail[0]') }}
+                  <br />
+                  {{ $t('b1dispatch.row1.detail[1]') }}
+                  <br />
+                  {{ $t('b1dispatch.row1.detail[2]') }}
+                  <br />
+                  {{ $t('b1dispatch.row1.detail[3]') }}
                   <br />
                   <br />
                 </td>
               </tr>
+              <br />
               <tr>
                 <td class=" text-left bg-blue-400 text-black text-xl px-6 h-10">
-                  {{ $t('b2outsource.row2.head') }}
+                  {{ $t('b1dispatch.row2.head') }}
                 </td>
               </tr>
               <tr>
                 <td class="text-left bg-slate-50 text-black text-lg px-6">
                   <br />
-                  {{ $t('b2outsource.row2.detail[0]') }}
+                  {{ $t('b1dispatch.row2.detail[0]') }}
                   <br />
-                  {{ $t('b2outsource.row2.detail[1]') }}
+                  {{ $t('b1dispatch.row2.detail[1]') }}
                   <br />
-                  {{ $t('b2outsource.row2.detail[2]') }}
+                  {{ $t('b1dispatch.row2.detail[2]') }}
                   <br />
-                  {{ $t('b2outsource.row2.detail[3]') }}
+                  {{ $t('b1dispatch.row2.detail[3]') }}
                   <br />
                   <br />
                 </td>
               </tr>
+              <br />
               <tr>
                 <td class=" text-left bg-blue-400 text-black text-xl px-6 h-10">
-                  {{ $t('b2outsource.row3.head') }}
+                  {{ $t('b1dispatch.row1.head') }}
                 </td>
               </tr>
               <tr>
                 <td class="text-left bg-slate-50 text-black text-lg px-6">
                   <br />
-                  {{ $t('b2outsource.row3.detail[0]') }}
+                  {{ $t('b1dispatch.row1.detail[0]') }}
                   <br />
-                  <nuxt-link to="/B3Offshoe"><a class="text-blue-600 underline">Offshore Development</a></nuxt-link> With
-                  {{ $t('b2outsource.row3.detail[1]') }}
+                  {{ $t('b1dispatch.row1.detail[1]') }}
                   <br />
-                  {{ $t('b2outsource.row3.detail[2]') }}
+                  {{ $t('b1dispatch.row1.detail[2]') }}
+                  <br />
+                  {{ $t('b1dispatch.row1.detail[3]') }}
+                  <br />
+                  <br />
+                </td>
+              </tr>
+              <br />
+              <tr>
+                <td class=" text-left bg-blue-400 text-black text-xl px-6 h-10">
+                  {{ $t('b1dispatch.row1.head') }}
+                </td>
+              </tr>
+              <tr>
+                <td class="text-left bg-slate-50 text-black text-lg px-6">
+                  <br />
+                  {{ $t('b1dispatch.row1.detail[0]') }}
+                  <br />
+                  {{ $t('b1dispatch.row1.detail[1]') }}
+                  <br />
+                  {{ $t('b1dispatch.row1.detail[2]') }}
+                  <br />
+                  {{ $t('b1dispatch.row1.detail[3]') }}
+                  <br />
+                  <br />
+                </td>
+              </tr>
+              <br />
+              <tr>
+                <td class=" text-left bg-blue-400 text-black text-xl px-6 h-10">
+                  {{ $t('b1dispatch.row1.head') }}
+                </td>
+              </tr>
+              <tr>
+                <td class="text-left bg-slate-50 text-black text-lg px-6">
+                  <br />
+                  {{ $t('b1dispatch.row1.detail[0]') }}
+                  <br />
+                  {{ $t('b1dispatch.row1.detail[1]') }}
+                  <br />
+                  {{ $t('b1dispatch.row1.detail[2]') }}
+                  <br />
+                  {{ $t('b1dispatch.row1.detail[3]') }}
                   <br />
                   <br />
                 </td>
