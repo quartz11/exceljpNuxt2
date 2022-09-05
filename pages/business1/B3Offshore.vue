@@ -10,7 +10,7 @@
             <thead>
               <tr>
                 <th class="text-black w-80 text-left text-2xl">
-                  {{ $t('b3offshoe.head') }}
+                  {{ $t('b3offshore.head') }}
                 </th>
               </tr>
               <tr>
@@ -24,9 +24,9 @@
               <tr>
                 <td class=" text-left bg-violet-500 text-white text-xl px-6 shadow-2xl">
                   <br />
-                  {{ $t('b3offshoe.firstbox[0]') }}
+                  {{ $t('b3offshore.firstbox[0]') }}
                   <br />
-                  {{ $t('b3offshoe.firstbox[1]') }}
+                  {{ $t('b3offshore.firstbox[1]') }}
                   <br />
                   <br />
                 </td>
@@ -52,38 +52,38 @@
             <tbody>
               <tr>
                 <td class=" text-left bg-blue-400 text-black text-xl px-6 h-10">
-                  {{ $t('b3offshoe.row1.head') }}
+                  {{ $t('b3offshore.row1.head') }}
                 </td>
               </tr>
               <tr>
                 <td class="text-left bg-slate-50 text-black text-lg px-6">
                   <br />
-                  {{ $t('b3offshoe.row1.detail[0]') }}
+                  {{ $t('b3offshore.row1.detail[0]') }}
                   <br />
-                  {{ $t('b3offshoe.row1.detail[1]') }}
+                  {{ $t('b3offshore.row1.detail[1]') }}
                   <br />
-                  {{ $t('b3offshoe.row1.detail[2]') }}
+                  {{ $t('b3offshore.row1.detail[2]') }}
                   <br />
-                  {{ $t('b3offshoe.row1.detail[3]') }}
+                  {{ $t('b3offshore.row1.detail[3]') }}
                   <br />
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class=" text-left bg-blue-400 text-black text-xl px-6 h-10">
-                  {{ $t('b3offshoe.row2.head') }}
+                  {{ $t('b3offshore.row2.head') }}
                 </td>
               </tr>
               <tr>
                 <td class="text-left bg-slate-50 text-black text-lg px-6">
                   <br />
-                  {{ $t('b3offshoe.row2.detail[0]') }}
+                  {{ $t('b3offshore.row2.detail[0]') }}
                   <br />
-                  {{ $t('b3offshoe.row2.detail[1]') }}
+                  {{ $t('b3offshore.row2.detail[1]') }}
                   <br />
-                  {{ $t('b3offshoe.row2.detail[2]') }}
+                  {{ $t('b3offshore.row2.detail[2]') }}
                   <br />
-                  {{ $t('b3offshoe.row2.detail[3]') }}
+                  {{ $t('b3offshore.row2.detail[3]') }}
                   <br />
                   <br />
                 </td>
@@ -129,8 +129,8 @@
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/business1/B3Offshoe">
-                <p class="text-black text-lg">{{ $t('b1dispatch.intro.offshoe') }}</p>
+              <nuxt-link to="/business1/B3Offshore">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.offshore') }}</p>
               </nuxt-link>
             </td>
           </tr>

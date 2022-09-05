@@ -129,8 +129,8 @@
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/business1/B3Offshoe">
-                <p class="text-black text-lg">{{ $t('b1dispatch.intro.offshoe') }}</p>
+              <nuxt-link to="/business1/B3Offshore">
+                <p class="text-black text-lg">{{ $t('b1dispatch.intro.offshore') }}</p>
               </nuxt-link>
             </td>
           </tr>
