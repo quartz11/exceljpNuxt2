@@ -10,7 +10,7 @@
             <thead>
               <tr>
                 <th class="text-2xl text-left text-black w-80">
-                  Bonded Warehouse System
+                  {{ $t('p2warehouse.head')}}
                 </th>
               </tr>
               <br />
@@ -25,9 +25,9 @@
               <tr>
                 <td class="px-6 text-xl text-left text-white shadow-2xl bg-violet-500">
                   <br />
-                  Bulk automate inventory management and work management in a bonded warehouse.
+                  {{ $t('p2warehouse.firstbox[0]')}}
                   <br />
-                  We collectively eliminate the cost and loss risks associated with management.
+                  {{ $t('p2warehouse.firstbox[1]')}}
                   <br />
                   <br />
                 </td>
@@ -37,12 +37,10 @@
               <tr>
                 <td class="px-6 text-xl text-left text-white shadow-2xl bg-zinc-500">
                   <br />
-                  <p class="px-4 text-left">Recommended for such people</p>
+                  <p class="px-4 text-left">{{ $t('p2warehouse.secondbox[0]')}}</p>
                   <br />
-                  <p class="px-8 text-left">Bonded workers to be woven considering the cost down a long-term
-                    perspective.</p>
-                  <p class="px-8 text-left">Business procedure has bloated, bonded business is woven to improve study
-                    workers.</p>
+                  <p class="px-8 text-left">{{ $t('p2warehouse.secondbox[1]')}}</p>
+                  <p class="px-8 text-left">{{ $t('p2warehouse.secondbox[2]')}}</p>
                   <br />
                 </td>
               </tr>
@@ -67,81 +65,68 @@
             <tbody>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Operability
+                  {{ $t('p2warehouse.row1.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>By setting the operating authority of the operator, and it can
-                    reduce operation errors.</p>
-                  <p class="px-8 text-left"><a>● </a>Of warehouse usage search, the selection of the location it will
-                    visually done in plan view of the warehouse.</p>
-                  <p class="px-8 text-left"><a>● </a>By lot, standard-specific, you can get a simple operation
-                    merchandise inventory information that has been aggregated, such as another storage location.</p>
-                  <p class="px-8 text-left"><a>● </a>Since the menu is displayed as an icon, an easy-to-understand, you
-                    will find it as a good command of the same tasks as those skilled in rookie.</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p2warehouse.row1.detail[0]')}}</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p2warehouse.row1.detail[1]')}}</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p2warehouse.row1.detail[2]')}}</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p2warehouse.row1.detail[3]')}}</p>
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Progress confirmation function
+                  {{ $t('p2warehouse.row2.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>Tracking of goods, it can be queried in easily browser entry and
-                    leaving history.</p>
-                  <p class="px-8 text-left"><a>● </a>You can see the real-time progress.</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p2warehouse.row2.detail[0]')}}</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p2warehouse.row2.detail[1]')}}</p>
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  The transmitting function of warning e-mail before the shelf life expires
+                  {{ $t('p2warehouse.row3.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>One month before the shelf life expires and I will send a warning
-                    e-mail a week ago.</p>
-                  <p class="px-8 text-left"><a>● </a>Goods issue, also it is safe service for not forget the
-                    correspondence, such as updating of the storage period.</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p2warehouse.row3.detail[0]')}}</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p2warehouse.row3.detail[1]')}}</p>
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Work efficiency improved by the issuance of various analyzes document (optional feature)!
+                  {{ $t('p2warehouse.row4.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>By analyzing past sales and by product of input and the number of
-                    times such as, business improvement, it can help to improve work efficiency.</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p2warehouse.row4.detail[0]')}}</p>
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Data collaboration with NACCS also possible
+                  {{ $t('p2warehouse.row5.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>And to exchange NACCS and data, you can do such as the arrival and
-                    customs clearance confirmation of cargo.</p>
+                  <p class="px-8 text-left"><a>● </a> {{ $t('p2warehouse.row5.detail[0]')}}</p>
                   <br />
-                  <p class="px-4 left">※The NACCS, in international trade, has been constructed and payment of customs
-                    duties at the time of customs clearance and import for the purpose of efficient processing, customs
-                    offices, common carriers, customs brokers, warehouse suppliers, airlines, shipping companies, ship
-                    agency, is an electronic information and communication system that connects the mutual financial
-                    institutions.</p>
+                  <p class="px-4 left">{{ $t('p2warehouse.row5.detail[1]')}}</p>
                   <br />
                   <br />
                 </td>
@@ -158,7 +143,7 @@
         <thead>
           <tr>
             <th class="text-2xl text-center text-black">
-              Other Applications
+              {{ $t('productlist.other')}}
             </th>
           </tr>
         </thead>
@@ -167,28 +152,28 @@
           <tr>
             <td>
               <nuxt-link to="/products/P1treatment">
-                <p class="text-lg text-black underline">Treatment support application</p>
+                <p class="text-lg text-black underline">{{ $t('productlist.list[0]')}}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
-              <nuxt-link to="/products/P2warehouse">
-                <p class="text-lg text-black underline">Bonded Warehouse System</p>
+              <nuxt-link to="/products/p2warehouse">
+                <p class="text-lg text-black underline">{{ $t('productlist.list[1]')}}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
               <nuxt-link to="/products/p3ebase">
-                <p class="text-lg text-black underline">Groupware System</p>
+                <p class="text-lg text-black underline">{{ $t('productlist.list[2]')}}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
               <nuxt-link to="/products/p4reservation">
-                <p class="text-lg text-black underline">Hotel Reservation System</p>
+                <p class="text-lg text-black underline">{{ $t('productlist.list[3]')}}</p>
               </nuxt-link>
             </td>
           </tr>

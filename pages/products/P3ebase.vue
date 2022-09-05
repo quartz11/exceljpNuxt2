@@ -10,7 +10,7 @@
             <thead>
               <tr>
                 <th class="text-2xl text-left text-black w-80">
-                  Groupware System : e-base
+                  {{ $t('p3ebase.head')}}
                 </th>
               </tr>
               <br />
@@ -25,9 +25,9 @@
               <tr>
                 <td class="px-6 text-xl text-left text-white shadow-2xl bg-violet-500">
                   <br />
-                  Information sharing between the on-premises OK in one this.
+                  {{ $t('p3ebase.firstbox[0]')}}
                   <br />
-                  Various reports and attendance / transportation expense management and data sharing and targets check creation of the sheet can be done with the use of groupware.
+                  {{ $t('p3ebase.firstbox[1]')}}
                   <br />
                   <br />
                 </td>
@@ -37,11 +37,11 @@
               <tr>
                 <td class="px-6 text-xl text-left text-white shadow-2xl bg-zinc-500">
                   <br />
-                  <p class="px-4 text-left">Recommended for such people</p>
+                  <p class="px-4 text-left">{{ $t('p3ebase.secondbox[0]')}}</p>
                   <br />
-                  <p class="px-8 text-left"><a>● </a>The number of employees increases, better business management who is an object of the internal management cost reduction.</p>
-                  <p class="px-8 text-left"><a>● </a>Increased house of paper data, general affairs manager of Need help to management.</p>
-                  <p class="px-8 text-left"><a>● </a>Company that aims to share in-house management centralization and reporting, communication and consultation.</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p3ebase.secondbox[1]')}}</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p3ebase.secondbox[2]')}}</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p3ebase.secondbox[3]')}}</p>
                   <br />
                 </td>
               </tr>
@@ -66,68 +66,68 @@
             <tbody>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Safety and security of company data sharing capabilities
+                  {{ $t('p3ebase.row1.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  Safely you can do you an in-house data sharing.
+                  {{ $t('p3ebase.row1.detail[0]')}}
                   <br />
                   <br />
-                  <p class="px-8 text-left"><a>● </a>Data does not have to worry about the loss for storage on the server.</p>
-                  <p class="px-8 text-left"><a>● </a>Data acquisition can be done account holders only.</p>
-                  <p class="px-8 text-left"><a>● </a>By electronic, it will cut the risk of lost paper medium.</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p3ebase.row1.detail[1]')}}</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p3ebase.row1.detail[2]')}}</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p3ebase.row1.detail[3]')}}</p>
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  OK Affairs request is one which
+                  {{ $t('p3ebase.row2.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  Attendance management, transportation expenses request, you can make meetings convened.
+                  {{ $t('p3ebase.row2.detail[0]')}}
                   <br />
                   <br />
-                  <p class="px-8 text-left"><a>● </a>Login is easy procedure of less than 10 minutes to complete request.</p>
-                  <p class="px-8 text-left"><a>● </a>You can check the participation presence or absence of attendance and meetings among employees at a glance.</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p3ebase.row2.detail[1]')}}</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p3ebase.row2.detail[2]')}}</p>
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Employee another challenge check function
+                  {{ $t('p3ebase.row3.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  It will perform the monthly issues posted the achievement record.
+                  {{ $t('p3ebase.row3.detail[0]')}}
                   <br />
                   <br />
-                  <p class="px-8 text-left"><a>● </a>For each account, you can set the challenge up to 10 on a monthly basis.</p>
-                  <p class="px-8 text-left"><a>● </a>The results for each task is daily record, it will be able to calculate the monthly achievement rate.</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p3ebase.row3.detail[1]')}}</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p3ebase.row3.detail[2]')}}</p>
                   <br />
-                  The results can be shared view among employees.
+                  {{ $t('p3ebase.row3.detail[3]')}}
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Report submitted feedback and I can be done.
+                  {{ $t('p3ebase.row4.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  Report can be shared view among employees.
+                  {{ $t('p3ebase.row4.detail[0]')}}
                   <br />
                   <br />
-                  <p class="px-8 text-left"><a>● </a>By employee reported (daily / weekly / monthly), it will be able to process the sales report.</p>
-                  <p class="px-8 text-left"><a>● </a>All employees I can to check the reported internal of progress and problems.</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p3ebase.row4.detail[1]')}}</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p3ebase.row4.detail[2]')}}</p>
                   <br />
                 </td>
               </tr>
@@ -143,7 +143,7 @@
         <thead>
           <tr>
             <th class="text-2xl text-center text-black">
-              Other Applications
+              {{ $t('productlist.other')}}
             </th>
           </tr>
         </thead>
@@ -152,28 +152,28 @@
           <tr>
             <td>
               <nuxt-link to="/products/P1treatment">
-                <p class="text-lg text-black underline">Treatment support application</p>
+                <p class="text-lg text-black underline">{{ $t('productlist.list[0]')}}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
               <nuxt-link to="/products/p2warehouse">
-                <p class="text-lg text-black underline">Bonded Warehouse System</p>
+                <p class="text-lg text-black underline">{{ $t('productlist.list[1]')}}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
               <nuxt-link to="/products/p3ebase">
-                <p class="text-lg text-black underline">Groupware System</p>
+                <p class="text-lg text-black underline">{{ $t('productlist.list[2]')}}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
               <nuxt-link to="/products/p4reservation">
-                <p class="text-lg text-black underline">Hotel Reservation System</p>
+                <p class="text-lg text-black underline">{{ $t('productlist.list[3]')}}</p>
               </nuxt-link>
             </td>
           </tr>
