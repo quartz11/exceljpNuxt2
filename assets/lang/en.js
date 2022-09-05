@@ -871,31 +871,6 @@ export default {
     }
   },
   b2outsource: {
-    head: 'System Outsourcing',
-    firstbox: [
-      'Overseas & Japan staff of collaboration by offshore development.',
-      'Low price × security of quality realization is possible.'
-  ],
-    row1: {
-      head: 'Development Results of Excellence',
-      detail: 'Bonded warehouse system and large-scale automated warehouse system, there is a track record of working on such as hotel reservation system'
-    },
-    row2: {
-      head: 'In all fields by experts, thorough and PDCA',
-      detail: [
-        'A variety of industries, terminal, the engineer who engaged in the development of the language has been gathered.',
-        'We want to meet the many needs even one person.',
-        'Our company is in this thought, we accept your order regardless of the field.',
-        'We are pursuing the absolute quality by experts in each field.'
-      ]
-    },
-    row3: {
-      head: 'The secret of the low price?',
-      detail: [
-        'Overseas resides staff we have also deployed.',
-        "With the introduction, depending on the development scale and budget of the customer's wish, it is possible to respond flexibly.",
-        'The joint development with Japan of staff are based, we will guarantee quality standards maintained.'
-      ]
-    }
+
   },
 };

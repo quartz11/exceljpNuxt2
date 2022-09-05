@@ -9,12 +9,6 @@
       </h2>
     </div> -->
 
-    <div v-if="$i18n.locale === 'jp'">
-      This is Japan
-    </div>
-    <div v-else-if="$i18n.locale !== 'jp'">
-  Not jp
-</div>
     <section class="py-5">
       <div class="container mx-auto">
         <div class="row">
@@ -24,7 +18,7 @@
             <blockquote class="p-5 bg-white rounded shadow-2xl blockquote blockquote-custom">
               <div class="shadow-2xl blockquote-custom-icon bg-info"></div>
               <p class="mt-2 mb-0 text-black font-italic content-center">
-                {{ $t('index.paragraph1') }}
+                {{ $t('index.pa_1') }}
               </p>
 
             </blockquote>
@@ -45,7 +39,7 @@
             <blockquote class="p-5 bg-white rounded shadow-2xl blockquote blockquote-custom">
               <div class="shadow-2xl blockquote-custom-icon bg-info"></div>
               <p class="mt-2 mb-0 text-black font-italic">
-                {{ $t('index.paragraph1') }}
+                {{ $t('index.pa_2') }}
               </p>
 
             </blockquote>
