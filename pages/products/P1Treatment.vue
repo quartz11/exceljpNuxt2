@@ -122,7 +122,7 @@
                   <br />
                   <br />
                   <p class="px-8 text-left">{{ $t('p1treatment.row3.detail[1]')}}</p>
-                  <p class="px-8 text-left">{{ $t('p1treatment.row3.detail[3]')}}</p>
+                  <p class="px-8 text-left">{{ $t('p1treatment.row3.detail[2]')}}</p>
                   <br />
                 </td>
               </tr>
