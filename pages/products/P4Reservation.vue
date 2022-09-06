@@ -10,7 +10,7 @@
             <thead>
               <tr>
                 <th class="text-2xl text-left text-black w-80">
-                  Hotel Reservation System
+                  {{ $t('p4reservation.head')}}
                 </th>
               </tr>
               <br />
@@ -26,9 +26,9 @@
               <tr>
                 <td class="px-6 text-xl text-left text-white shadow-2xl bg-violet-500">
                   <br />
-                  It is a system that can be reserved business hotel from a mobile phone.
+                  {{ $t('p4reservation.firstbox[0]')}}
                   <br />
-                  Status check of the empty room, the room type and I can be done with easy access.
+                  {{ $t('p4reservation.firstbox[1]')}}
                   <br />
                   <br />
                 </td>
@@ -38,12 +38,10 @@
               <tr>
                 <td class="px-6 text-xl text-left text-white shadow-2xl bg-zinc-500">
                   <br />
-                  <p class="px-4 text-left">Recommended for such people</p>
+                  <p class="px-4 text-left">{{ $t('p4reservation.secondbox[0]')}}</p>
                   <br />
-                  <p class="px-8 text-left"><a>● </a>Hotel own or manage to be woven are considering the cost down a
-                    long-term perspective.</p>
-                  <p class="px-8 text-left"><a>● </a>Hotel management who want to risk measures such as cost and human
-                    error in the reservation management.</p> <br />
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p4reservation.secondbox[1]')}}</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p4reservation.secondbox[2]')}}</p> <br />
                 </td>
               </tr>
             </tbody>
@@ -67,93 +65,82 @@
             <tbody>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Booking from mobile site
+                  {{ $t('p4reservation.row1.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>We realized simple and straightforward structure.</p>
-                  It is the concept of stress-free design to design and operability both.
-                  <p class="px-8 text-left"><a>● </a>It provides peace of mind to the customer by sending a confirmation
-                    email after booking.</p>
-                  (Compatible models: DoCoMo, au, Softbank)
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p4reservation.row1.detail[0]')}}</p>
+                  {{ $t('p4reservation.row1.detail[1]')}}
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p4reservation.row1.detail[2]')}}</p>
+                  {{ $t('p4reservation.row1.detail[3]')}}
                   <br />
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Automation of booking.
+                  {{ $t('p4reservation.row2.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>Reservation confirmation e-mail also delivered automatically. The
-                    cost of labor costs will help.</p>
-                  <p class="px-8 text-left"><a>● </a>And automatically display the reservable rooms, depending on the
-                    customer's desired conditions.</p>
-                  It will prevent the human error associated with the selection work.
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p4reservation.row2.detail[0]')}}</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p4reservation.row2.detail[1]')}}</p>
+                  {{ $t('p4reservation.row2.detail[2]')}}
                   <br />
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Hotel specific date freely set!
+                  {{ $t('p4reservation.row3.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>Because it can be freely set by selecting a specific date such as
-                    anniversary discount Sunday and busy period of each hotel from the date of the monthly calendar,
-                    easy to understand even in appearance, is available wide range of correspondence.</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p4reservation.row3.detail[0]')}}</p>
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Quickly cope with change of sudden reservation content!
+                  {{ $t('p4reservation.row4.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>If there is a request for your sudden room change in the hope,
-                    etc., it is possible to present as soon as the room can be changed.</p>
-                  <p class="px-8 text-left"><a>● </a>Even for change of stay, if the extension for other reservation is
-                    not possible, it is possible to display to calculate the alternative of a change in the room.</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p4reservation.row4.detail[0]')}}</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p4reservation.row4.detail[1]')}}</p>
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  You can change the setting of the fee for each month!
+                  {{ $t('p4reservation.row5.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>The setting of the room rate on a monthly basis, not only on
-                    weekdays and public holidays, it is possible to be set by a specific date.</p>
-                  <p class="px-8 text-left"><a>● </a>Meals rates may be set on a monthly basis, you can respond to
-                    pricing to meet the needs of each hotel.</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p4reservation.row5.detail[0]')}}</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p4reservation.row5.detail[1]')}}</p>
                   <br />
                 </td>
               </tr>
               <tr>
                 <td class="h-10 px-6 text-xl text-left text-black bg-blue-400 ">
-                  Easy change of each room information!
+                  {{ $t('p4reservation.row6.head')}}
                 </td>
               </tr>
               <tr>
                 <td class="px-6 text-lg text-left text-black bg-slate-50">
                   <br />
-                  <p class="px-8 text-left"><a>● </a>A unit for several days the condition of the plurality of rooms, by
-                    displaying on one screen, it is possible to grasp the reservation state for several days at once,
-                    you can see influence to changes in room information.</p>
+                  <p class="px-8 text-left"><a>● </a>{{ $t('p4reservation.row6.detail[0]')}}</p>
                   <br />
                 </td>
               </tr>
@@ -169,7 +156,7 @@
         <thead>
           <tr>
             <th class="text-2xl text-center text-black">
-              Other Applications
+              {{ $t('productlist.other')}}
             </th>
           </tr>
         </thead>
@@ -178,28 +165,28 @@
           <tr>
             <td>
               <nuxt-link to="/products/P1treatment">
-                <p class="text-lg text-black underline">Treatment support application</p>
+                <p class="text-lg text-black underline">{{ $t('productlist.list[0]')}}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
               <nuxt-link to="/products/p2warehouse">
-                <p class="text-lg text-black underline">Bonded Warehouse System</p>
+                <p class="text-lg text-black underline">{{ $t('productlist.list[1]')}}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
               <nuxt-link to="/products/p3ebase">
-                <p class="text-lg text-black underline">Groupware System</p>
+                <p class="text-lg text-black underline">{{ $t('productlist.list[2]')}}</p>
               </nuxt-link>
             </td>
           </tr>
           <tr>
             <td>
               <nuxt-link to="/products/p4reservation">
-                <p class="text-lg text-black underline">Hotel Reservation System</p>
+                <p class="text-lg text-black underline">{{ $t('productlist.list[3]')}}</p>
               </nuxt-link>
             </td>
           </tr>
