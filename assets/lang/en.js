@@ -998,5 +998,214 @@ export default {
       ]
     }
   },
+  productlist: {
+    other: 'Other Applications',
+    list: [
+      'Treatment support application',
+      'Bonded Warehouse System',
+      'Groupware System',
+      'Hotel Reservation System'
+    ]
+  },
+  p1treatment: {
+    head: 'Treatment support application i-Therapy',
+    firstbox: [
+      'For Practitioner of Acupuncture, BodyWork and Chiropractic.',
+      'This application makes your treatment to develop.',
+      'It is a free monitor wanted to December 31.'
+    ],
+    secondbox: [
+      'Recommended for such people',
+      'For Practitioner of Acupuncture, BodyWork and Chiropractic.',
+      'For Practitioner who wants to reduce the risk of management of medical records.',
+      'For Practitioner who wants to share data easily at your study session.'
+    ],
+    row1: {
+      head: 'How does patient realize the therapeutic effect of your treatment ?',
+      detail: [
+        'You can store photos, body image, the video at the time of treatment.',
+        "You can take some pictures of the parts which are invisible in the client's own.",
+        'You can explain the change of some parts of client visually',
+        'You can compare, zoom-up, store any pictures. And also, you can draw in any pictures.'
+      ]
+    },
+    row2: {
+      head: 'To touch of a button, you can sharing data in the study session.',
+      detail: [
+        'You can share the data to practitioner that you specify',
+        'If you change the settings about SHARING of the patient, you can share data to the practitioner that you specify.',
+        'It is effective at meetings, study sessions, and guidance.',
+        'You can use this function if you have the corporate contract.',
+        '※It is also possible to publish it face down personal information.'
+      ]
+    },
+    row3: {
+      head: 'By using a tablet, you can access to all your clients.',
+      detail: [
+        'By using a tablet, you can access to all your clients.',
+        "You'll be freed from the hear and risk of the loss of medical records.",
+        'You can enter while treatment.'
+      ]
+    },
+    row4: {
+      head: 'By comparing the data, therapeutic effect will be realized "obviously".',
+      detail: [
+        'You can compare the data.',
+        'You can compare the pre- and post-treatment or the current day and date of the first visit.You can select any day to compare.',
+        'Not only text information, you can use image or video for comparison.'
+      ]
+    }
+  },
+  p2warehouse: {
+    head: 'Bonded Warehouse System',
+    firstbox: [
+      'Bulk automate inventory management and work management in a bonded warehouse.',
+      'We collectively eliminate the cost and loss risks associated with management.'
+    ],
+    secondbox: [
+      'Recommended for such people',
+      'Bonded workers to be woven considering the cost down a long-term perspective.',
+      'Business procedure has bloated, bonded business is woven to improve study workers.'
+    ],
+    row1: {
+      head: 'Operability',
+      detail: [
+        'By setting the operating authority of the operator, and it can reduce operation errors.',
+        'Of warehouse usage search, the selection of the location it will visually done in plan view of the warehouse.',
+        'By lot, standard-specific, you can get a simple operation merchandise inventory information that has been aggregated, such as another storage location.',
+        'Since the menu is displayed as an icon, an easy-to-understand, you will find it as a good command of the same tasks as those skilled in rookie.'
+      ]
+    },
+    row2: {
+      head: 'Progress confirmation function',
+      detail: [
+        'Tracking of goods, it can be queried in easily browser entry and leaving history.',
+        'You can see the real-time progress.'
+      ]
+    },
+    row3: {
+      head: 'The transmitting function of warning e-mail before the shelf life expires',
+      detail: [
+        'One month before the shelf life expires and I will send a warning e-mail a week ago.',
+        'Goods issue, also it is safe service for not forget the correspondence, such as updating of the storage period.'
+      ]
+    },
+    row4: {
+      head: 'Work efficiency improved by the issuance of various analyzes document (optional feature)!',
+      detail: [
+        'By analyzing past sales and by product of input and the number of times such as, business improvement, it can help to improve work efficiency.'
+      ]
+    },
+    row5: {
+      head: 'Data collaboration with NACCS also possible',
+      detail: [
+        'And to exchange NACCS and data, you can do such as the arrival and customs clearance confirmation of cargo.',
+        "※The NACCS, in international trade, has been constructed and payment of customs duties at the time of customs clearance and import for the purpose of efficient processing, customs offices, common carriers, customs brokers, warehouse suppliers, airlines, shipping companies, ship agency, is an electronic information and communication system that connects the mutual financial institutions."
+      ]
+    }
+  },
+  p3ebase: {
+    head: 'Groupware System : e-base',
+    firstbox: [
+      'Information sharing between the on-premises OK in one this.',
+      'Various reports and attendance / transportation expense management and data sharing and targets check creation of the sheet can be done with the use of groupware.'
+    ],
+    secondbox: [
+      'Recommended for such people',
+      'The number of employees increases, better business management who is an object of the internal management cost reduction.',
+      'Increased house of paper data, general affairs manager of Need help to management.',
+      'Company that aims to share in-house management centralization and reporting, communication and consultation.'
+    ],
+    row1: {
+      head: 'Safety and security of company data sharing capabilities',
+      detail: [
+        'Safely you can do you an in-house data sharing.',
+        'Data does not have to worry about the loss for storage on the server.',
+        'Data acquisition can be done account holders only.',
+        'By electronic, it will cut the risk of lost paper medium.'
+      ]
+    },
+    row2: {
+      head: 'OK Affairs request is one which',
+      detail: [
+        'Attendance management, transportation expenses request, you can make meetings convened.',
+        'Login is easy procedure of less than 10 minutes to complete request.',
+        'You can check the participation presence or absence of attendance and meetings among employees at a glance.'
+      ]
+    },
+    row3: {
+      head: 'Employee another challenge check function',
+      detail: [
+        'It will perform the monthly issues posted the achievement record.',
+        'For each account, you can set the challenge up to 10 on a monthly basis.',
+        'The results for each task is daily record, it will be able to calculate the monthly achievement rate.',
+        'The results can be shared view among employees.'
+      ]
+    },
+    row4: {
+      head: 'Report submitted feedback and I can be done.',
+      detail: [
+        'Report can be shared view among employees.',
+        'By employee reported (daily / weekly / monthly), it will be able to process the sales report.',
+        'All employees I can to check the reported internal of progress and problems.'
+      ]
+    }
+  },
+  p4reservation: {
+    head: 'Hotel Reservation System',
+    firstbox: [
+      'It is a system that can be reserved business hotel from a mobile phone.',
+      'Status check of the empty room, the room type and I can be done with easy access.'
+    ],
+    secondbox: [
+      'Recommended for such people',
+      'Hotel own or manage to be woven are considering the cost down a long-term perspective.',
+      'Hotel management who want to risk measures such as cost and human error in the reservation management.'
+    ],
+    row1: {
+      head: 'Booking from mobile site',
+      detail: [
+        'We realized simple and straightforward structure.',
+        'It is the concept of stress-free design to design and operability both.',
+        'It provides peace of mind to the customer by sending a confirmation email after booking.',
+        '(Compatible models: DoCoMo, au, Softbank)'
+      ]
+    },
+    row2: {
+      head: 'Automation of booking.',
+      detail: [
+        'Reservation confirmation e-mail also delivered automatically. The cost of labor costs will help.',
+        "And automatically display the reservable rooms, depending on the customer's desired conditions.",
+        'It will prevent the human error associated with the selection work.'
+      ]
+    },
+    row3: {
+      head: 'Hotel specific date freely set!',
+      detail: [
+        'Because it can be freely set by selecting a specific date such as anniversary discount Sunday and busy period of each hotel from the date of the monthly calendar, easy to understand even in appearance, is available wide range of correspondence.',
+
+      ]
+    },
+    row4: {
+      head: 'Quickly cope with change of sudden reservation content!',
+      detail: [
+        'If there is a request for your sudden room change in the hope, etc., it is possible to present as soon as the room can be changed.',
+        'Even for change of stay, if the extension for other reservation is not possible, it is possible to display to calculate the alternative of a change in the room.'
+      ]
+    },
+    row5: {
+      head: 'You can change the setting of the fee for each month!',
+      detail: [
+        'The setting of the room rate on a monthly basis, not only on weekdays and public holidays, it is possible to be set by a specific date.',
+        'Meals rates may be set on a monthly basis, you can respond to pricing to meet the needs of each hotel.'
+      ]
+    },
+    row6: {
+      head: 'Easy change of each room information!',
+      detail: [
+        'A unit for several days the condition of the plurality of rooms, by displaying on one screen, it is possible to grasp the reservation state for several days at once, you can see influence to changes in room information.'
+      ]
+    }
+  },
 
 };
