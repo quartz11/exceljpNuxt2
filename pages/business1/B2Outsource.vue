@@ -59,7 +59,12 @@
                 <td class="text-left bg-slate-50 text-black text-lg px-6">
                   <br />
                   {{ $t('b2outsource.row1.detail') }}
-                  <nuxt-link to="/product"><a class="text-blue-600">{{ $t('b2outsource.clickhere')}}</a></nuxt-link>.
+                  <nuxt-link to="/product"><a class="text-blue-600">{{ $t('b2outsource.clickhere') }}</a></nuxt-link>.
+                  <div v-if="$i18n.locale === 'jp'">
+                    実績に沿う製品であれば、より低予算でご提供できます。
+                    <br />
+                    御社製品のカスタマイズも可能です。お気軽にお問い合わせください。
+                  </div>
                   <br />
                   <br />
                 </td>
@@ -93,7 +98,9 @@
                   <br />
                   {{ $t('b2outsource.row3.detail[0]') }}
                   <br />
-                  <nuxt-link to="/B3Offshoe"><a class="text-blue-600 underline">{{ $t('b2outsource.row3.development')}}</a></nuxt-link>
+                  <nuxt-link to="/B3Offshoe"><a class="text-blue-600 underline">{{
+                      $t('b2outsource.row3.development')
+                  }}</a></nuxt-link>
                   With
                   {{ $t('b2outsource.row3.detail[1]') }}
                   <br />
