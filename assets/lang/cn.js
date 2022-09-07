@@ -1,558 +1,528 @@
 export default{
-  welcome: '歡迎',
+  welcome: `歡迎`,
   navbar: {
     home: {
-      home: "Home",
-      news: "News",
+      home: "首页",
+      news: "新闻速递",
     },
     overview: {
-      overview: "Overview",
-      company: "Company Overview",
-      history: "Our History",
-      philosophy: "Our Philosophy",
-      greeting: "Greeting",
-      employment: "Employment",
+      overview: "公司简介",
+      company: "公司简介",
+      history: "历史",
+      philosophy: "经营理念",
+      greeting: "董事长寄语",
+      employment: "人才招聘",
     },
     business: {
-      business: "Our Business",
-      product: "Our Product",
+      business: "经营范围",
+      product: "开发项目",
     },
     joinus: "Join us",
-    contact: "Contact us",
+    contact: "合作",
   },
   index: {
-    paragraph1: `"The pursuit of happiness discretion both sides of all employees.
-        To provide the best of ICT services to customers,
-        It will contribute to the realization of a livable peace society."`,
-    paragraph2: `We will continue to all employees growth beneath the the
-        management philosophy. And we have stacked the day-to-day study in order to continue to be a company
-        that will contribute to the world.
-        Also,beneath the idea of“Making the first person before you make things.”we have the human resources
-        development as one of the important themes.
-        Learn the technology, to learn philosophy.Then growing employees voluntarily each person was, and will
-        continue to further growth by learn sometimes gathered.
-        Its employees and by mutual cooperation, the force will be the companies able to contribute to the world
-        become a greater force.`,
-    card_head: `Partners Recruiting.`,
-    card_title: `We are looking for a partner.`,
-    card_text: `The Company is looking for a partner who can both perform software
-    development.
-    Interested in our business areas, if there is a possibility you'll find cooperation, thank you for your
-    consideration.
-    We are, for the sake of technology provided by customers satisfaction is, without having to stick to our
-    own,
-    widely flexibility in seeking business partners, and we believe Let's build a relationship of
-    collaboration.
+    paragraph1: `"追求幸福的心灵和身体两个全体员工的两侧
+    为客户提供最佳的ICT服务于客户
+    这将有助于实现宜居和平的社会。"`,
+    paragraph2: `我们全体员工将遵循这上述经营理念一同成长，不断的为人类和社会的进步与发展做出贡献。
+    此外，我们有一个重要的育人理念就是“造物前首先要育人”
+    学技术，学哲学。从而使每一个员工成长，并能够自主的组织学习，更加进步。
+    通过员工们的团结合作，凝聚出巨大的力量，为公司为社会做出更大的贡献。
+    `,
+    card_head: `寻找合作伙伴`,
+    card_title: `我们正在寻找一个合作伙伴。`,
+    card_text: `我们公司正在寻找愿意和我们进行共同开发的合作伙伴。
+    如果您有合作意向，请一定考虑，并和我们联系。
+    为了满足客户的需要，不仅限于弊公司，
+    我们也很愿意为您介绍其他公司的技术援助。
 
-    And entered into a partnership for the purpose acquisition and the business strengthening of business
-    opportunities
-    both to expand business opportunities by sharing technology and know-how of each other, why not continue
-    to grow together.`,
-    btn_inquiry: "Inquiry form",
+    于此同时，通过技术分享和情报交流让我们可以寻找到更多更好的商机，
+    共同开拓更广阔的业务渠道，开发更新的技术，达到双赢和共同成长的目的！`,
+    btn_inquiry: "咨询表",
   },
   register: {
-    card_head: `Flow of form input`,
-    card_text1: `The following empty We fill in the necessary information in, please check the
-    input check box.
-    If there is no mistake in the input content, please click the [Send] button.
-    We will contact you than the person in charge.
-    There is some time to answer it takes.
-    If you hurry, reservations will wish by phone.`,
+    card_head: `形式的输入流程`,
+    card_text1: `下面的空白填写的，请检查输入复选框。
+    如果输入内容没有错误，请点击[发送]按钮。
+    我们会比负责人与您联系。
+    有一些时间来回答它需要。
+    如果你赶时间，预订将通过电话希望`,
     card_text2: `TEL 075-256-7872`,
-    card_text3: `※ Please input the item of the mark always.`,
+    card_text3: `※ 请输入标记的项目始终。`,
   },
   overview: {
-    title: `Company Overview`,
+    title: `公司简介`,
     comp_name: {
-      head: `Company Name`,
+      head: `公司名称	`,
       text: `Excellence Inc. Ltd.`,
     },
     location: {
-      head: `Location`,
+      head: `所在地	`,
       text: `2F Animart-Nishiki 311 Uradeyama-cho KarasumaNishiIru Nishikikogi-Tohri Nakagyo-ku Kyoto-city Kyoto
       604-8115 Japan`,
     },
     establish: {
-      head: `Establishment`,
+      head: `开幕	`,
       text: `1989'12 20`,
     },
     capital: {
-      head: `Capital`,
+      head: `资本的	`,
       text: `10,000,000`,
     },
     president: {
-      head: `President`,
+      head: `公司总裁	`,
       text: `Atsunori Tokumasu`,
     },
     num_employees: {
-      head: `Number of Employees`,
+      head: `员工人数	`,
       text: `24 (2021'3 data)`,
     },
     member_organize: {
-      head: `Member Organizations`,
+      head: `会员组织	`,
       text1: "Kyoto Venture Business Club",
       text2: "Kyoto chamber of commerce Kyoto",
     },
     bank: {
-      head: `Bank`,
+      head: `银行	`,
       text1: "Kyoto-Chuo Credit Union",
       text2: "Kyoto Bank ",
       text3: "Kyoto Credit Union",
     },
     business_regis: {
-      head: `Business Registration`,
+      head: `商业注册	`,
       text: `派２６－３００５３２ 一般労働者派遣事業者免許(Japan)`,
     },
-    btn_history: "Company History",
+    btn_history: " 历史　",
   },
   history: {
-    title: `Company History`,
+    title: `历史`,
     row1: {
       year: `1989'12`,
-      text: `Established as a joint-stock company with a capital of 2,000,000 yen`,
+      text: `设立为公司的的200万日元资本`,
     },
     row2: {
       year: `1990`,
-      text: `It was involved in the system development of sales, inventory and logistics management, etc. for small and medium-sized enterprises`,
+      text: `它参与了销售，库存和物流管理等系统的开发为中小型企业`,
     },
     row3: {
       year: `1997`,
-      text: `Participation in large automated warehouse system development of the soft drink manufacturer`,
+      text: `参加软饮料制造商的大型自动化立体仓库系统开发`,
     },
     row4: {
       year: `1999`,
-      text: `Participation in comprehensive supply monitoring system development for gas company`,
+      text: `参加综合电源监控系统开发天然气公司`,
     },
     row5: {
       year: `2001`,
-      text: `Entrusted development of local governments for disaster prevention system development`,
+      text: `地方政府委托开发的防灾系统开发`,
     },
     row6: {
       year: `2002`,
-      text: `Entrusted development of the inventory management system development for fiber trading company`,
+      text: `库存管理系统的开发委托开发的纤维贸易公司`,
     },
     row7: {
       year: `2003'6`,
-      text: `Organizational changes to the Corporation along with the capital increase to capital 10 million yen`,
+      text: `组织变革的公司随着增资资本千万日元`,
     },
     row8: {
       year: `2004`,
-      text: `特定労働者派遣事業者登録　特２６－０１－００４２(Qualification of Japan)`,
+      text: `特定労働者派遣事業者登録　特２６－０１－００４２(日本的资格)`,
     },
     row9: {
       year: `2005`,
-      text: `Entrusted development of local governments for disaster prevention system development`,
+      text: `地方政府委托开发的防灾系统开发`,
     },
     row10: {
       year: `2007～`,
-      text1: `Internet banking, life insurance-related, systems such as car navigation system`,
-      text2: `Engineer many participated in the on-site development`,
+      text1: `网络银行，人寿保险相关，系统，如汽车导航系统`,
+      text2: `许多技术人员参加了现场开发`,
     },
     row11: {
       year: `2008～`,
-      text: `And developing a variety of sites for mobile phones and for the PC in PHP and JAVA`,
+      text: `并制定各种网站为手机和电脑在PHP和Java`,
     },
     row12: {
       year: `2010'10'22～26`,
-      text: `Security system exhibitors to Shanghai World Expo`,
+      text: `安全的系统参展上海世博会`,
     },
     row13: {
       year: `2012`,
-      text: `Thailand local subsidiaries office established`,
+      text: `泰国子公司办事处成立`,
     },
-    btn_overview: "Company Overview",
+    btn_overview: "公司简介",
   },
   motto: {
     philosophy: {
-      header: `Corporate Philosophy`,
+      header: `企业理念`,
       // topic 1
-      topic1: `The pursuit of happiness of discretion both sides of all employees`,
-      text1: `All employees of the company, management also including one technician, there
-      spiritual of all the people that the gathering work, it is the pursuit of material happiness.`,
-      text2: `That is, of happiness and is physically and spiritually both sides that we aim, and that through
-      self-fulfillment in the field of work as well as go in search of economic stability and prosperity,
-      and will seek the richness of the heart as a human being, such as life worth living and rewardingIt
-      is.`,
+      topic1: `全体员工的追求自由裁量权的幸福两侧`,
+      text1: `公司全体员工，管理层还包括一名技术人员，还有精神上的所有的人，这个聚会的工作，这是追求物质幸福。`,
+      text2: `这是幸福的，而且是身体上和精神上的双方，我们的目标，并通过自我实现的工作领域，以及去寻找经济稳定和繁荣，并寻求心脏的丰富性作为一个人，如生命价值的生活和奖励是的。
+      `,
       // topic 2
-      topic2: `It will contribute to the realization of a livable in rich society`,
-      text3: `Customers and the community, including to global environment steady around us
-      worked hard in our efforts, that is has been put is the wish of the I want to become better by the
-      realization of corporate activities.`,
-      text4: `In addition, we polish always technology, by sending the world one after another excellent software,
-      and continue to raise the profit as a company as well as contribute to the advancement of science and
-      technology, and to contribute to the public welfare enhancement through such that you pay a lot of
-      taxes to go.`,
+      topic2: `这将有助于宜居富裕社会的实现`,
+      text3: `客户和社会各界，包括我们周围稳定的全球环境，我们在努力打拼，即已经投入是的，我想成为的实现企业活动更好的愿望。
+      `,
+      text4: `此外，我们闪耀总是技术，通过向世界一个又一个优秀的软件，并不断提高利润作为公司以及促进科学技术的进步，并通过这样你付出了很多税，以促进公益增强去。
+      `,
       // topic 3
-      topic3: `Heart of altruistic`,
-      text5: `Idea that altruistic that in better than your own has become a backbone.
-      Themselves even better by happy others, is the way to become happy.`,
-      text6: `Only the spirit of the altruistic is not more to allow for sustainable development, it is that is to
-      act in order to achieve those ideals is the purpose of our company.`,
+      topic3: `利他心脏`,
+      text5: `想法，利他，在比自己更已成为中坚力量。他们甚至乐意别人好，就是要成为快乐的方式。
+      `,
+      text6: `只有利他的精神是不是更让可持续发展，这是为了实现这些理想采取行动，是我们公司的宗旨。
+      `,
     },
     motto: {
-      header: `Company Motto`,
+      header: `公司座右铭`,
       topic1: `敬天愛人`,
       topic2: `「南洲翁遺訓」`,
       text1: `道というのはこの天地のおのずからなるものであり、人はこれにのっとって行うべきもの
-      であるから何よりもまず、天を敬うことを目的とすべきである。`,
-      text2: `天は他人も自分も平等に愛したもうから、自分を愛する心をもって人を愛することが肝要である。`,
-      text3: `To put contemporary say. the company or team is like a family.`,
-      text4: `It is to little put up with selfishness among the organizations.`,
-      text5: `It is very difficult to increase the heart but by Strive to realize in all
-      employees,`,
-      text6: `and I think it will lead to being able to embody the spiritual richness.`,
+      であるから何よりもまず、天を敬うことを目的とすべきである`,
+      text2: `天は他人も自分も平等に愛したもうから、自分を愛する心をもって人を愛することが肝要である。
+      `,
+      text3: `“敬天愛人”如果你说这是容易还是当代多一点理解，
+      公司或团队，在其中的一些，如家的组织，`,
+      text4: `它是什么，每一个自己的贪婪，抑制一点一点什么，他自私的话。`,
+      text5: `这是非常困难的增加心脏，但通过努力实现全体员工，`,
+      text6: `我认为这会导致能体现精神财富。`,
     },
   },
   greeting: {
-    card_head: `Greetings`,
+    card_head: `问候`,
     pic_name: `Atsunori Tokumasu`,
     pic_title: `Company President`,
-    greeting1: `We at Excellence in December 1989 In addition to`,
-    greeting2: `the pursuit of happiness discretion both sides of all employees
-    To provide the best of ICT services to customers
-    It will contribute to the realization of a livable peace society.`,
-    greeting3: `It was established under the management philosophy`,
-    text1: `Established initially, it had been worked on small systems development that runs on a personal
-    computer.
-    Building and gamma-ray trajectory simulation system for non-destructive testing equipment, is a data
-    logger system of data collection.`,
-    text2: `Then, in the high-performance server machine only little more than the time of the personal computer
-    that office computer, it was I am allowed to help the construction of sales management and inventory
-    management system for the enterprise.`,
-    text3: `Then, a large general-purpose on the computer and residential CAD element deployment system
-    development, we continue to expand gradually specialties such am allowed to participate in large-scale
-    projects such as an automatic warehouse transport system.`,
-    text4: `There is the collapse of the bubble economy from that time until now, and there IT bubble shock, there
-    Lehman shock, but there was variety and consistently under this management philosophy, we have piled
-    up steadily effort.`,
-    text5: `In the 21 century, but there is in society has come further increase the rate of change, we will
-    further piled up efforts and devotion to become a company that is for the people for the progress and
-    development in contributions and world human society.`,
+    greeting1: `我们以Excellence1989年12月
+此外`,
+    greeting2: `追求幸福的心灵和身体两个全体员工的两侧
+    为客户提供最佳的ICT服务于客户
+    这将有助于实现宜居和平的社会。`,
+    greeting3: `它是在管理理念建立`,
+    text1: `建立初期，它一直工作在小型系统开发的个人计算机内运行。
+    建筑及伽玛射线轨迹仿真系统的无损检测设备，是数据收集的数据记录器系统。`,
+    text2: `然后，在高性能服务器的机器只有很少的比个人计算机的办公电脑，这是我让其帮忙销售管理，库存管理系统的建设，为企业的时间更多。`,
+    text3: `然后，计算机和住宅CAD元件展开系统的开发在大型通用，我们将继续逐渐扩大的专业，我可以参加的大型项目，如自动仓库运输系统。`,
+    text4: `有没有从那时候的泡沫经济崩溃到现在为止，还有IT泡沫的冲击，雷曼危机，但有多种，始终根据本管理理念，我们越积越多持续的努力。`,
+    text5: `在21世纪，但在社会进一步来增加变化的速度，我们将进一步堆积起来的努力和奉献，成为一个公司，是为人民的进步和发展的贡献和世界的人类社会。`,
   },
   employment: {
     pic_name: `Atsunori Tokumasu`,
     pic_title: `Company President`,
-    topic: `We are seeking enthusiastic partner `,
-    text1: `When I hear the IT consulting and software company, you might think that “technology is not good” or
-    “myself liberal arts”
-    However, IT and software, not just a “tool for the purpose of reform”`,
-    text2: `To polished to evolve its tools, lone of technology is required, is why we are also always pursue it.
-    However, on the other hand it more than in the us is sought, towards the goal of reform is to
-    understand the problem, I ability and spirit of challenge that leads to the resolution.
-    Even in your senior, while a liberal arts graduate, and to some people that are at the core of the
-    system development, some people have become “demon of sales” in science born in reverse.`,
-    text3: `Do not do that “to fit into a mold” their potential and capabilities.
-    Is the future of Japanese companies, in order to continue to survive in global competition, to enter
-    the “Defense” is not allowed.`,
-    job1: `Campus Recruiting`,
-    job2: `Mid-career recruitment`,
-    job3: `Employee Interviews`,
+    topic: `我们正在寻找热心的合作伙伴`,
+    text1: `当我听到的IT咨询和软件公司，你可能会认为，“技术不好”或“我自己文科。”
+    然而，IT和软件，而不是只是一个“工具改革的目的”`,
+    text2: `　为了打磨发展其用具，孤傲的技术是必需的，这就是为什么我们也总是追求它。
+    但是，另一方面要问我们了，朝着改革的目标是要了解这个问题，我的能力和挑战精神，导致该决议。
+    即使是在你的师兄，而文科毕业生，而一些人是在系统开发的核心，一些人已成为科学生在反“魔鬼销售”。`,
+    text3: `　不要做，“以适应模具”他们的潜力和能力。
+    是日本企业的未来，为了继续在全球竞争中生存下来，进入“防御”是不允许的`,
+    job1: `校园招聘`,
+    job2: `经验者招聘`,
+    job3: `员工访谈`,
   },
   campus: {
     first_box: {
-      card_head: `Campus Recruiting`,
-      card_topic: `Creation of new business`,
+      card_head: `校园招聘`,
+      card_topic: `创建新业务`,
       text: [
-        `The current world economy is a difficult situation that can predict.
-      Goods which they sell now may also well be that tomorrow will not sell.
-      For this reason, it is keep thinking every day the idea of new business all employees in our company,
-      I believe life work necessary in order to perpetuate the company.`,
-        `Everyone not be done, to create their own services, which can provide dreams and excitement to many
-      people. Plan from the discovery of business opportunities, start-up, and go actually profitable.
-      One I would like to create a new business model from the idea.
-      We welcome those who are such a enthusiasm and motivation.`,
+        `当前世界经济困难的情况下，可以预测。
+        商品，他们现在卖也可能是明天会不会卖。
+        出于这个原因，一直以为每天都有新的企业的理念在我们公司全体员工，
+        我们认为，工作生活必要的，以便延续了公司。`,
+        `每个人都无法做到的，打造自己的服务，它可以提供的梦想和激情的人不少。
+        从商业机会在发现规划，启动，并进入实际盈利。
+        一个我想创建一个从构思新的商业模式。
+        我们欢迎那些谁是这样的热情和积极性。`,
       ],
     },
     second_box: {
-      card_head: `Adoption condition`,
+      card_head: `收养条件`,
       row1: {
-        head: `Job category`,
-        text: `Software technical positions, technical sales staff`,
+        head: `职位类别	`,
+        text: `软件技术岗位，技术销售人员`,
       },
       row2: {
-        head: `Job description`,
+        head: `职位描述	`,
         text: [
-          `◉ Setting, development, maintenance, operation and management of computer systems.`,
-          `◉ Design and development of software.`,
-          `◉ Design and development of network.`,
-          `◉ Building a Web site, production.`,
+          `◉ 设置，开发，维护，操作和计算机系统的管理`,
+          `◉ 设计和软件开发`,
+          `◉ 设计和网络的开发`,
+          `◉ 建设一个网站，制作`,
         ],
       },
       row3: {
-        head: `Human resources to find`,
+        head: `人力资源找	`,
         text: [
-          `◉ Mind and body hale and be an honest, there is some physical strength.`,
-          `◉ I like to read the newspapers and history books, etc., and hear properly Some people talk.`,
-          `◉ Value a originality and thinking in my head. (it is not blindly rely on Google)`,
-          `◉ There is some strong ambition to pressure.`,
-          `◉ Coordination ability high, people with high contribution willingness to society.`,
+          `◉ 心灵和身体硬朗，成为一个诚实，有一定的体力`,
+          `◉ 我喜欢看报纸和历史书籍等，并听取正确有些人说话`,
+          `◉ 值的独创性和在我的脑海思维（它不是一味地依赖谷歌）`,
+          `◉ 有一些强大的野心压力`,
+          `◉ 协调能力高，高的人愿意贡献给社会`,
         ],
       },
       row4: {
-        head: `Skills conditions`,
+        head: `技能条件	`,
         text: [
-          `◉ PC or smartphone, people like to treat the tablet terminal and the like.`,
-          `◉ Until now, still good and there is a program created experience in C / C ++ and Java.`,
-          `◉ DB and SQL, it is more preferable to the meaning of the object-oriented is known.`,
-          `◉ Basic information processing engineer of the Ministry of Economy, Trade and Industry, software
-          development engineer of qualified personnel is preferred.`,
+          `◉ 电脑或智能手机，人们喜欢治疗片剂终端等。`,
+          `◉ 到现在为止，还是不错的，并没有在C / C ++程序创建的经验++和Java`,
+          `◉ 数据库和SQL，最好仍时的面向对象的可见的含义`,
+          `◉ 经济，贸易和工业部的基本信息处理工程师，合格人员软件开发工程师的首选`,
         ],
       },
       row5: {
-        head: `Wanted persons`,
-        text: `Some persons`,
+        head: `通缉人士	`,
+        text: `有些人`,
       },
       row6: {
-        head: `Target`,
+        head: `靶标	`,
         text: [
-          `Graduate school, university, computer vocational high school in 2023 spring prospective graduates.`,
-          `※International Students Allowed. (primary Japanese, less than 30 years old)`,
-          `※Second new graduates Allowed.`,
-          `※Liberal arts science unquestioned.`,
+          `研究生院，大学，在2023年春季准毕业生计算机职业高中`,
+          `※留学生可（主日文，不到30岁）`,
+          `※二新毕业允许`,
+          `※文科理科不容置疑`,
         ],
       },
     },
     third_box: {
-      card_head: `Treatment`,
+      card_head: `对待`,
       row1: {
-        head: `Social insurance`,
-        text: `Conditioning (employment insurance, workers' compensation insurance, health insurance, welfare
-        pensioninsurance)`,
+        head: `社会保险	`,
+        text: `完成（失业保险，工伤保险，医疗保险，福利养老保险）`,
       },
       row2: {
-        head: `Wage pattern`,
-        text: `Monthly salary system (end of the month deadline, 15th of the following month payment)`,
+        head: `工资形式	`,
+        text: `月薪制（每月的最后期限结束，随后的一个月支付15日）`
       },
       row3: {
-        head: `Base salary`,
+        head: `基本工资	`,
         text: [
-          `Masters Degree Have`,
-          `University graduates`,
-          `Community & Technical College graduate`,
+          `硕士学位	`,
+          `大学毕业生	`,
+          `社区技术学院毕业	`,
         ],
-        salary: [`200,000 yen`, `196,000 yen`, `186,000 yen`],
+        salary: [`200000日元`, `196000日元`, `186000日元`],
       },
       row4: {
-        head: `Raise and bonus`,
+        head: `提高和奖金	`,
         text: [
-          `Raise: once a year (breakdown of performance by)`,
-          `bonus: twice a year (about 2 month / year)`,
+          `提高：每年一次（由性能故障）`,
+          `奖金：每年两次（2月/年）`,
         ],
       },
       row5: {
-        head: `Various allowances`,
+        head: `各种津贴	`,
         text: [
-          `Commuting allowance`,
-          `Duty allowance.`,
-          `Overtime pay.`,
-          `Qualification celebration allowance.`,
+          `通勤津贴`,
+          `工作津贴`,
+          `加班费`,
+          `资质庆祝津贴`,
         ],
       },
       row6: {
-        head: `Holiday-Vacation`,
+        head: `假日，假期	`,
         text: [
-          `◉ Full five-day week. (Saturday, Sunday and public holidays)`,
-          `◉ Annual vacation days about 120 days.`,
-          `※Other: company designated date, New Year · GW · summer vacation, annual paid leave, etc.`,
+          `◉ 全面实施五天工作周（周六，周日及公众假期）`,
+          `◉ 约120天带薪休假日`,
+          `※其他：公司指定的日期，新年·GW·暑假，带薪年休假等。`,
         ],
       },
       row7: {
-        head: `Working hours`,
+        head: `工作时间	`,
         text: [
-          `9:00 to 18:00 (break 1 hour)`,
-          `※There vary slightly depending resident destination.`,
+          `9：00〜18：00（休息1小时）`,
+          `※这里稍微有些不同居民的目的地`,
         ],
       },
       row8: {
-        head: `Work location`,
-        text: `Headquarters (after training ended Kyoto headquarters, Kyoto, Osaka and Shiga customer destination)`,
+        head: `工作地点	`,
+        text: `总部（培训结束京都总部后，京都，大阪，滋贺的客户目标）`,
       },
       row9: {
-        head: `System`,
+        head: `制度	`,
         text: [
-          `Qualification incentive system.`,
-          `congratulatory or condolence payments.`,
+          `资格奖励制度`,
+          `祝贺或慰问金`,
         ],
       },
       row10: {
-        head: `Remarks`,
+        head: `备注	`,
         text: [
-          `◉ On-site work in the resident destination becomes the main.`,
-          `◉ Resident destination is within the range from home within one way about an hour and a half.`,
-          `◉ After joining is done the new employee training in Kyoto headquarters.`,
-          `◉ Tokyo, China, Southeast Asia, will unlikely be a business trip to the United States.(short-term - long term)`,
-          `◉ There trial period. (3 months to 6 months depending on the situation)`,
-          `◉ English a plus those who speak.`,
+          `◉ 现场工作在驻地目的地成为主要的。`,
+          `◉ 驻地目的地是在约一小时和半单程的范围从家庭内。`,
+          `◉ 加入做新员工培训在京都总部之后。`,
+          `◉ 东京，中国，东南亚，将不可能是出差到美国（短期 - 长期）`,
+          `◉ 有试用期。 （3个月至6个月根据不同的情况）`,
+          `◉ 英语加那些谁说话。`,
         ],
       },
     },
     fourth_box: {
-      card_head: `Documents to be submitted`,
+      card_head: `需提交的文件`,
       text: [
-        `Please mail the following documents to us.`,
-        `※It should be noted that, at the time of application will be made to read our “Privacy Policy”, please your application on top of the agreement. `,
-        `1.With handwriting photo resume (A4, described the best match) ※ word processor writing invalid`,
-        `2.Expected graduation certificate (graduation certificate in the case of already graduated)`,
-        `3.Transcript`,
-        `4.Within three months of health certificate (copy available)`,
-        `5.Motivation letter (about 400 words)`,
-        `6.The contents of the graduation study (400 words max)`,
-        `Destination`,
+        `请邮寄下列文件给我们。`,
+        `※此外，您确认您已经阅读提出申请时我们的“隐私政策”，请申请若同意。`,
+        `1.手写的照片简历（A4，描述的最佳匹配）※字处理器将无效`,
+        `2.预计发给毕业证书（在已经毕业的情况下，毕业证）`,
+        `3.成绩单`,
+        `4.在健康证三个月（可复制）`,
+        `5.动因（约400字）`,
+        `6.毕业研究的内容（400字）`,
+        `目标地址`,
         `◉ 〒604-8155`,
-        `Kyoto Nakagyo-ku Uradeyama cho address 311 Animato Nishiki 2F`,
-        `Recruitment Officer: Tokumasu Atsunori`,
-        `◉ TEL:075-256-7872`,
-        `◉ FAX:075-256-9052`,
-        `◉ mail: recruit@1excellence.com`,
-        `Reception time`,
-        `◉ 9:00-18:00Excluding weekends and holidays`,
-        `Remarks`,
-        `◉ Please contact feel free to recruiters If you have any unknown point or questions.`,
+        `京都中京区占出山町地址311 Animato Nishiki 2F`,
+        `采用主管: Tokumasu Atsunori`,
+        `◉ 电话号码:075-256-7872`,
+        `◉ 传真:075-256-9052`,
+        `◉ 电子邮件: recruit@1excellence.com`,
+        `营业时间`,
+        `◉ 9:00-18:00不包括周末和节假日`,
+        `备注`,
+        `◉ 请联系随意招聘如果您有任何疑问或问题。`,
       ],
     },
   },
   midcareer: {
     first_box: {
-      card_head: `Mid-career recruitment`,
+      card_head: `经验者招聘`,
       card_topic: `Creation of new business`,
       text: [
-        `The current world economy is a difficult situation that can predict. Goods which they sell now may also well be that tomorrow will not sell.
-        For this reason, it is keep thinking every day the idea of new business all employees in our company,
-        I believe life work necessary in order to perpetuate the company.`,
-        `Everyone not be done, to create their own services, which can provide dreams and excitement to many people.
-        Plan from the discovery of business opportunities, start-up, and go actually profitable. One I would like to create a new business model from the idea.
-        We welcome those who are such a enthusiasm and motivation.`,
+        `当前世界经济困难的情况下，可以预测。
+        商品，他们现在卖也可能是明天会不会卖。
+        出于这个原因，一直以为每天都有新的企业的理念在我们公司全体员工，
+        我们认为，工作生活必要的，以便延续了公司。`,
+        `每个人都无法做到的，打造自己的服务，它可以提供的梦想和激情的人不少。
+        从商业机会在发现规划，启动，并进入实际盈利。
+        一个我想创建一个从构思新的商业模式。
+        我们欢迎那些谁是这样的热情和积极性。`,
       ],
     },
     second_box: {
-      card_head: `Adoption condition`,
+      card_head: `收养条件`,
       row1: {
-        head: `Job category`,
-        text: `Programmers, system engineers, system sales`,
+        head: `职位类别	`,
+        text: `程序员，系统工程师，系统的销售`,
       },
       row2: {
-        head: `Employment status`,
-        text: `Full-time, and contract employees by hope`,
+        head: `就业状况	`,
+        text: `由希望全职和合同雇员`,
       },
       row3: {
-        head: `Job description`,
+        head: `职位描述	`,
         text: [
-          `◉ Setting, development, maintenance, operation and management of computer systems`,
-          `◉ Design and development of software.`,
-          `◉ Design and development of network.`,
-          `◉ Building a Web site, production.`,
+          `◉ 设置，开发，维护，操作和计算机系统的管理`,
+          `◉ 设计和软件开发`,
+          `◉ 设计和网络的开发`,
+          `◉ 建设一个网站，制作`,
         ],
       },
       row4: {
-        head: `Human resources to find`,
+        head: `人力资源找	`,
         text: [
-          `◉ Mind and body hale and be an honest, there is some physical strength.`,
-          `◉ I like to read the newspapers and history books, etc., and hear properly Some people talk.`,
-          `◉ Value a originality and thinking in my head. (it is not blindly rely on Google)`,
-          `◉ There is some strong ambition to pressure.`,
-          `◉ Coordination ability high, people with high contribution willingness to society.`,
+          `◉ 心灵和身体硬朗，成为一个诚实，有一定的体力`,
+          `◉ 我喜欢看报纸和历史书籍等，并听取正确有些人说话`,
+          `◉ 值的独创性和在我的脑海思维（它不是一味地依赖谷歌）`,
+          `◉ 有一些强大的野心压力`,
+          `◉ 协调能力高，高的人愿意贡献给社会`,
         ],
       },
       row5: {
-        head: `Skills conditions`,
+        head: `技能条件	`,
         text: [
-          `◉ Especially people who want to do face recognition technology development in crime prevention for the camera, and the like.`,
-          `◉ Security systems product development seekers in RFID + GPS and the like.`,
-          `◉ Sales experience in the software industry.`,
-          `◉ Infrastructure engineer (Unix Linux various WindowsServer)`,
-          `◉ Network engineer`,
-          `◉ Expert of RDB (Oracle, SQLServer, DB2, etc.)`,
-          `◉ C #, C ++, VB.NET, development experience in EJB, etc.`,
-          `◉ JSP & Servlet, Web-based development experience, such as ASP`,
-          `◉ Development experience of embedded system and the control system`,
-          `◉ Basic information processing engineer of the Ministry of Economy, Trade and Industry, software development engineer of qualified personnel is preferred.`,
+          `◉ 特别是人谁不想做的人脸识别技术开发预防犯罪的相机，等等`,
+          `◉ 安全系统产品的开发者在RFID+ GPS等`,
+          `◉ 在软件行业销售经验`,
+          `◉ 基础设施工程（Unix的Linux的不同的WindowsServer）`,
+          `◉ 网络工程师`,
+          `◉ 专家RDB（了Oracle，SQLServer，DB2等）`,
+          `◉ C＃，C ++，VB.NET，在EJB开发经验等。`,
+          `◉ JSP和Servlet的，基于Web的开发经验，如ASP`,
+          `◉ 嵌入式系统的开发经验和控制系统`,
+          `◉ 经济，贸易和工业部的基本信息处理工程师，合格人员软件开发工程师的首选`,
         ],
       },
       row6: {
-        head: `Wanted persons`,
-        text: `Some persons`,
+        head: `通缉人士	`,
+        text: `有些人`,
       },
       row7: {
-        head: `Target`,
+        head: `靶标`,
         text: [
-          `◉ Graduate school, university, computer technical colleges already graduated`,
-          `◉ Work experience about three years or more, or people having the same productivity.`,
-          `◉ Experienced even those of foreign nationality OK (1 grade or more Japanese)`,
-          `◉ Work experience about 5 years or more, or people having the same productivity. (contract employees)`,
-          `◉ Human experience as sales of the proposed sales and technician dispatch of system development projects there are more than 3 years.`,
+          `◉ 研究生院，大学，计算机技术学院已经毕业了`,
+          `◉ 工作三年以上或具有相同生产能力的人的经验`,
+          `   即使是经验丰富的外国国籍的确定（1级以上的日文）`,
+          `◉ 大约5年以上，或具有相同生产能力的人工作经验（合同工）`,
+          `◉ 人类经验的销售系统的开发提出了销售和技术人员派遣的项目有3年以上`,
         ],
       },
     },
     third_box: {
-      card_head: `Treatment`,
+      card_head: `对待`,
       row1: {
-        head: `Social insurance`,
-        text: `Conditioning (employment insurance, workers' compensation insurance, health insurance, welfare
-        pensioninsurance)`,
+        head: `社会保险`,
+        text: `完成（失业保险，工伤保险，医疗保险，福利养老保险）`,
       },
       row2: {
-        head: `Wage pattern`,
-        text: `Monthly salary system (end of the month deadline, 15th of the following month payment)`,
+        head: `基本工资`,
+        text: `月薪制（每月的最后期限结束，随后的一个月支付15日）`,
       },
       row3: {
-        head: `Base salary`,
+        head: `基本工资`,
         text: [
-          `※Determine individually depending on the experience and track record and ability. (Negotiable)`,
-          `200,000 yen to 400,000 yen monthly salary`,
-          `(Reference monthly remuneration of contract employees: 300,000 yen to 600,000 yen)`,
+          `※分别确定不同的经验和业绩记录，有能力（面议`,
+          `200000日元〜400000日元月的薪水`,
+          `（参考合同雇员月薪：300000日元〜600,000日元）`,
         ],
       },
       row4: {
-        head: `Raise and bonus`,
+        head: `提高和奖金`,
         text: [
-          `Raise: once a year (in April), bonus: twice a year (July / December) according to the previous year.`,
-          `(Contract employees: salary increase, no bonus, and included in the payroll)`,
+          `提高：每年一次（四月），奖金：每年两次（7月/月）根据前一年。`,
+          `（合同工：工资增长，没有奖金，并纳入工资）`,
         ],
       },
       row5: {
-        head: `Various allowances`,
+        head: `各种津贴`,
         text: [
-          `Commuting allowance`,
-          `Duty allowance.`,
-          `Overtime pay.`,
-          `Qualification celebration allowance.`,
+          `通勤津贴`,
+          `工作津贴`,
+          `加班费`,
+          `资质庆祝津贴`,
         ],
       },
       row6: {
-        head: `Holiday-Vacation`,
+        head: `假日，假期`,
         text: [
-          `◉ Full five-day week. (Saturday, Sunday and public holidays)`,
-          `◉ Annual vacation days about 120 days.`,
-          `※Other: company designated date, New Year · GW · summer vacation, annual paid leave, etc.`,
+          `◉ 全面实施五天工作周（周六，周日及公众假期）`,
+          `◉ 约120天带薪休假日`,
+          `※其他：公司指定的日期，新年·GW·暑假，带薪年休假等。`,
         ],
       },
       row7: {
-        head: `Working hours`,
+        head: `工作时间`,
         text: [
-          `9:00 to 18:00 (break 1 hour)`,
-          `※There vary slightly depending resident destination.`,
+          `9：00〜18：00（休息1小时）`,
+          `※这里稍微有些不同居民的目的地`,
         ],
       },
       row8: {
-        head: `Work location`,
-        text: `Headquarters (after training ended Kyoto headquarters, Kyoto, Osaka and Shiga customer destination)`,
+        head: `工作地点`,
+        text: `	总部（培训结束京都总部后，京都，大阪，滋贺的客户目标）`,
       },
       row9: {
-        head: `System`,
+        head: `制度`,
         text: [
-          `Qualification incentive system.`,
-          `congratulatory or condolence payments.`,
+          `资格奖励制度`,
+          `祝贺或慰问金`,
         ],
       },
       row10: {
-        head: `Remarks`,
+        head: `备注`,
         text: [
-          `◉ On-site work in the resident destination becomes the main.`,
-          `◉ Resident destination is within the range from home within one way about an hour and a half.`,
-          `◉ After joining is done the new employee training in Kyoto headquarters.`,
-          `◉ Tokyo, China, Southeast Asia, will unlikely be a business trip to the United States.(short-term - long term)`,
-          `◉ There trial period. (3 months to 6 months depending on the situation)`,
-          `◉ English a plus those who speak.`,
+          `◉ 现场工作在驻地目的地成为主要的。`,
+          `◉ 驻地目的地是在约一小时和半单程的范围从家庭内。（平均1小时）`,
+          `◉ 加入做新员工培训在京都总部之后。`,
+          `◉ 东京，中国，东南亚，将不可能是出差到美国（短期 - 长期）`,
+          `◉ 有试用期。 （3个月至6个月根据不同的情况）`,
+          `◉ 英语加那些谁说话。`,
         ],
       },
     },
@@ -579,16 +549,16 @@ export default{
     },
   },
   business: {
-    btn_moreinfo: `More info`,
+    btn_moreinfo: `更多信息`,
     card1: {
-      title: `Dispatch the IT technician`,
-      text: `We propose the technician that match the request.
-      we are aligned to the skills experienced technicians from the newcomer,Regardless of the field.
-      Please contact us.`,
+      title: `派遣IT技术人员`,
+      text: `我们建议符合要求的技术人员。
+      我们对齐从新人经验丰富的技术人员的技能，不管领域。
+      请与我们联系`,
     },
     card2: {
-      title: `Development Package`,
-      text: `In our company we have been developing products for various business.`,
+      title: `软件开发`,
+      text: `我们正在开发的产品在公司的各种业务。`,
       product: [
         `◉ Treatment support application`,
         `◉ Bonded Warehouse System`,
@@ -597,240 +567,590 @@ export default{
       ],
     },
     card3: {
-      title: `System Outsourcing`,
-      text: `Depending on the budget of your choice, cost reduction is also possible by the
-      participation of offshore personnel.
-      You can flexible suggestions.
-      In addition, as long as it is a project that is similar to the development track record, it is possible more
-      rapid response.`,
+      title: `系统合同开发`,
+      text: `根据您所选择的预算，降低成本，还可以通过境外人员的参与。
+      你可以灵活的建议是。
+      另外，如果您的项目类似的发展轨迹记录，可以更快速的反应。`,
     },
     card4: {
-      title: `Offshore Development`,
-      text: `The secret to suppress the development of a low budget is located in the offshore
-      development approach in Thailand subsidiary.
-      The management format by Japanese staff are based, it will simultaneously achieve high quality.`,
+      title: `离岸开发`,
+      text: `抑制低预算的发展的诀窍是位于泰国的子公司的离岸开发方法。
+      由日本工作人员的管理形式为基础，将同时实现高品质。`,
     },
     card5: {
-      title: `Asia foray consultants`,
-      text: `Subsidiary established in Thailand, based on the business experience in China, we will
-      help with Preparing to various procedures and site selection and offices opened.`,
+      title: `亚洲进军顾问`,
+      text: `在泰国设立子公司，总部设在中国的业务经验，我们将帮助准备各种程序和选址和办事处开业。`,
     },
     card6: {
-      title: `Translation(Japanese/English/Chinese/Thai)`,
-      text: `“Japanese→Other languages” “Other languages→Japanese”Both it can be translated.
-      Japanese fluent Chinese and Thai staff have enrolled,It delivered in Comfortable quality.`,
+      title: `翻译(日文/英文/中文/泰文)`,
+      text: `	“日文→其他语言”“其他语言→日文”两者都可翻译。
+      日文流利的中国 - 泰国的工作人员参加,这将交付安全质量。`,
     },
     card7: {
-      title: `Siam Order Service(Import agency)`,
-      text: `Products that are not sold only in Thailand.It is a service to the import agency with
-      their introduction.`,
+      title: `Siam Order Service(進口代理)`,
+      text: `这不仅仅在泰国销售的产品。这是与他们引进了進口代理服务。`,
     },
   },
   product: {
-    pa_intro: `Introduction：`,
+    pa_intro: `介绍：`,
     card1: {
       title: `Treatment support application`,
-      text: `It is a tablet application that was developed to focus on improvement realize
-      improvement of the patient.
-      Available in such as acupuncture salon, chiropractic bodywork.
-      Photos, videos, body image and saved for each patient, it is possible to edit and comparison browsing.`,
-      intro: `You can experience for one minute videos.`,
+      text: `
+      这是一个被开发把重点放在改善病人的感觉平板电脑的应用程序。
+      可在如针灸沙龙，脊医手法。
+      照片，视频，身体图像并保存对于每个患者，可以进行编辑和比较浏览。`,
+      intro: `你可以一分钟的视频体验。`,
     },
     card2: {
       title: `Bonded Warehouse System`,
-      text: `It automates all of the detailed inventory management and work together.
-      Fixed work what is the specialty of the machine.
-      By your leave the risks associated with tied and data management to the complicated office work, let's aim
-      to reduce labor costs.`,
-      intro: `Is it possible to automate any work?`,
+      text: `它可自动所有详细的库存管理和协同工作。
+      固定的工作是什么机器的专科。
+      通过与捆绑和数据管理的繁琐事务有关的风险假期，让我们的目标是降低劳动力成本`,
+      intro: `是否可以自动执行任何工作？`,
     },
     card3: {
       title: `Groupware System : e-base`,
-      text: `Do you not Need help to the improvement of communication and solidarity between the
-      on-premises?
-      Daily, weekly, monthly, general affairs management, sales reporting, ranging from management's side
-      feedback, can be done with a single login.`,
-      intro: `Currently, it is the system of the popular operating in our company.`,
+      text: `难道你没有需要帮助的沟通和团结的内部部署的改进？
+      每日，每周，每月，总务管理，销售报告，从管理的侧反馈，可以用单点登录来完成。`,
+      intro: `目前，它是我们公司的流行的操作系统的系统。`,
     },
     card4: {
       title: `Hotel Reservation System`,
-      text: `You can easily search for bookable room.
-      Room type and conditions also can be specified in any.`,
-      intro: `Any system?`,
+      text: `您可以轻松地搜索可预订的客房。
+      房型和条件，也可以在任何指定。`,
+      intro: `任何制度？`,
     },
   },
   joinus: {
     card1: {
-      title: `Partners Recruiting`,
-      sub_title: `We are looking for a partner.`,
-      text1: `The Company is looking for a partner who can both perform software
-      development.
-      Interested in our business areas, if there is a possibility you'll find cooperation, thank you for
-      your consideration.
-      We are, for the sake of technology provided by customers satisfaction is, without having to stick to
-      our own,
-      widely flexibility in seeking business partners, and we believe Let's build a relationship of
-      collaboration.`,
-      text2: `And entered into a partnership for the purpose acquisition and the business
-      strengthening of business opportunities
-      both to expand business opportunities by sharing technology and know-how of each other, why not
-      continue to grow together.`,
+      title: `寻找合作伙伴`,
+      sub_title: `我们正在寻找一个合作伙伴。`,
+      text1: `
+      寻找合作伙伴
+      我们正在寻找一个合作伙伴。
+      该公司正在寻找谁能够既进行软件开发的合作伙伴。
+      对我们的业务领域，如果有可能，你会发现合作，谢谢您的考虑。
+      我们是，对技术的客户满意度，提供的缘故，而不必坚持我们自己的，
+      广泛的灵活性，寻求商业合作伙伴，我们相信我们建立合作关系。`,
+      text2: `并建立了合作关系为目的的采集和商机都加强企业通过分享技术，
+      拓展业务和技术诀窍彼此，为什么不继续共同成长。`,
     },
     card2: {
       left_side: [
         {
-          title: `Sales Department (Representative)`,
-          text: `Direct inquiries to the sales department to the following e-mail address.`,
+          title: `销售部门（代表）Sales Department (Representative)`,
+          text: `直接查询到销售部门到以下电子邮件地址。`,
           mail: `g-sales@1excellence.com`,
         },
         {
-          title: `General Affairs Department (Representative)`,
-          text1: `Direct inquiries to the General Affairs Department is to the following e-mail address.`,
+          title: `总务部（代表）`,
+          text1: `直接查询到总务部下面的电子邮件地址。`,
           mail1: `admin@1excellence.com`,
-          text2: `Direct inquiries about adoption to the following e-mail address.`,
+          text2: `有关通过以下电子邮件地址直接查询。`,
           mail2: `recruit@1excellence.com`,
         },
         {
-          title: `General reception`,
-          text: `Inquiries other than the above to the following e-mail address.`,
+          title: `综合接待`,
+          text: `查询上述以外的的以下电子邮件地址。`,
           mail: `excel@mbox.kyoto-inet.or.jp`,
           tel: `TEL 075-256-7872`,
           fax: `FAX 075-256-9052`,
         },
       ],
       right_side: {
-        title: `Recruiting Requirements`,
+        title: `招聘要点`,
         table: [
           {
-            head: `Business`,
+            head: `企业`,
             text: [
-              `System Outsourcing`,
-              `Network construction and design`,
-              `Operations management and introduction deployment`,
-              `Internet connection`,
-              `Hardware repair and Simple Network construction`,
+              `系统合同开发`,
+              `网络建设和设计`,
+              `运营管理和引进展开`,
+              `互联网连接`,
+              `硬件维修和简单网络建设`,
             ],
           },
           {
-            head: `Area targeted`,
-            text: `Japan a location for companies and corporate-like, towards the individual`,
+            head: `区域与目标`,
+            text: `日本的公司和企业一样的位置，对各个`,
           },
           {
-            head: `Skills and experience of finding`,
+            head: `技能和发现的体验`,
             text: [
-              `Software system development`,
-              `(VB, C, JAVA, Perl, ORACLE other languages)`,
-              `Construction of infrastructure`,
-              `Project management`,
-              `※ Is not limited to the above, we look forward to hearing from those who have a variety of techniques.`,
+              `软件系统开发`,
+              `（VB，C，JAVA，Perl中，ORACLE其他语言）`,
+              `基础设施建设`,
+              `项目管理`,
+              `※ 不限于上述情况，我们正在等待接触的人谁都有各种各样的技术。`,
             ],
           },
         ],
-        btn_inquiry: `Inquiry form`,
+        btn_inquiry: `咨询表`,
       },
     },
   },
   contact: {
-    header: `Contact Us`,
+    header: `合作`,
     table: [
       {
-        title: `Sales Department :`,
+        title: `销售部门（代表）:`,
         mail: `g-sales@1excellence.com`,
       },
       {
-        title: `General Affairs :`,
+        title: `总务部（代表）:`,
         mail: `admin@1excellence.com`,
       },
       {
-        title: `Human Resource :`,
+        title: `人力資源 :`,
         mail: `recruit@1excellence.com`,
       },
       {
-        title: `Other Inquiries :`,
+        title: `综合接待 :`,
         mail: `excel@mbox.kyoto-inet.or.jp`,
       },
     ],
     detail: [
       `Excellence Inc. Ltd.`,
-      `Address: 2F Animart-Nishiki 311 Uradeyama-cho KarasumaNishiIru Nishikikogi-Tohri Nakagyo-ku Kyoto-city Kyoto 604-8115 Japan`,
-      `Telephone: 075-256-7872`,
+      `地址: 2F Animart-Nishiki 311 Uradeyama-cho KarasumaNishiIru Nishikikogi-Tohri Nakagyo-ku Kyoto-city Kyoto 604-8115 Japan`,
+      `电话: 075-256-7872`,
       `FAX: 075-256-9052`,
       `MailAddress: excel@mbox.kyoto-inet.or.jp`,
-      `Karasuma Line of Kyoto Municipal Subway “Shijo” Station. Hankyu Kyoto Line “Shijo Karasuma”Station.Please exit out of ●exit 22 at that station.`,
+      `Karasuma Line of Kyoto Municipal Subway “Shijo” Station. Hankyu Kyoto Line “Shijo Karasuma”Station.请退出了●出口22在该站。`,
     ],
   },
   policy: {
     card_topic: {
-      head: `Privacy Policy`,
-      text: `Excellence Inc. Ltd. (hereinafter referred to as the Company) will
-      understand that it is the assets personal information is important in advanced information
-      communication society of today, able to handle personal information properly and is recognized as one
-      of our important responsibility , we will declare that strive to protect personal information based on
-      the following policy.`,
+      head: `	隐私政策`,
+      text: `Excellence Co. Ltd.（以下简称本公司），就会明白，这是资产的个人信息是当今先进的信息通信社会的重要，能够妥善处理个人信息，被公认为是我们的重要责任，我们将宣布，致力于保护基于以下政策个人信息。`,
     },
     card_detail: {
-      head: `Privacy Policy`,
+      head: `隐私政策`,
       list: [
-        `■ The Company, with the exception of the cases specified in laws and regulations, will not be provided
-        to third parties without obtaining prior to the consent of the personal information.`,
-        `■ It maintains the accuracy and up-to-date personal information, safe loss of personal information as
-        well as management, tampering, in order to prevent such leaks, we will achieve the necessary and
-        appropriate information security measures.`,
-        `■ Personal information that we acquired, purpose of use shown in when it is acquired or, at the same
-        within the range of reasonable relevance, will be available as long as is necessary on the performance
-        of the business. In addition, the personal information to interoperate with third parties, or, if you want to entrust
-        the handling of personal information to a third party, provide the proper use of personal information
-        about the joint use of the other party and third party make director for.`,
-        `■ The Company will comply with laws and other regulations related to personal information protection
-        and proper handling of personal information.`,
-        `■ When the Company to acquire the personal information is to endeavor to clarify the purpose of use,
-        by appropriate and fair means, we will obtain personal information.`,
-        `■ The Company, in person for personal information, it is recognized that has the right to ask for such disclosure, correction, suspension of use and erase, you can set up a personal information
-        consultation, if there these requests, in accordance with laws and regulations promptly we will correspond. `,
-        `■ The Company will establish a system for implementing the proper handling of personal information to be used on business.`,
-        `■ The Company, in order to run this Privacy Policy, we have established a personal information protection compliance program, which was run by well-known thorough in the company through training and education, by continuous improvement, always best We will maintain the state.`,
+        `■ 本公司，除法律，法规规定的情况下，也不会在未取得之前的个人信息的同意擅自提供给第三方。`,
+        `■ 它维护的准确性和向上的最新的个人信息，个人信息的安全损失以及管理，篡改，为了防止这种泄漏，我们将实现必要和适当信息的安全措施。`,
+        `■ 我们取得的个人信息，使用目的公司取得时，或者在合理的相关性的范围内的相同中所示，将可只要是必要的业务的性能。
+        此外，个人信息互通与第三方，或者，如果你想委托的个人信息的处理给第三方，提供有关共同使用对方和第三方的正确使用个人信息制作总监。`,
+        `■ 本公司将遵守有关个人信息保护和个人信息的正确处理法律和其他法规`,
+        `■ 当公司获得的个人信息是尽力澄清使用目的，通过适当的和公平的方法，我们将获得的个人信息。`,
+        `■ 本公司，本人的个人信息，人们认识到，要问这样的公开使用，校正，悬挂和删除，您可以设置个人信息咨询，权利，如果有这些要求，依照法律法规我们及时将对应。`,
+        `■ 我们将建立一个系统，用于实现个人信息的正确处理要在业务中使用。`,
+        `■ 本公司，为了运行这个隐私政策，我们已经建立了个人信息保护的合规计划，这是运行通过培训和教育公司著名的全面的，通过持续改进，始终是最好的我们将保持状态。`,
       ],
     },
   },
   footer: {
-    focus_topic: [`Focus Topics`, `News`, `Blog`],
+    focus_topic: [`焦点话题`, `信息`, `博客`],
     service_product: [
-      `Services and Products`,
-      `Business`,
-      `Product`,
-      `Import agency`,
+      `服务和产品`,
+      `生意`,
+      `发展`,
+      `進口代理`,
       `e-base`,
     ],
     company_guide: [
-      `Company Guide`,
-      `Greeting`,
-      `Overview`,
-      `Philosophy and Motto`,
-      `Privacy Policy`,
-      `Employment`,
-      `Contact`,
+      `公司指导`,
+      `问候`,
+      `公司简介`,
+      `座右铭`,
+      `隐私政策`,
+      `业`,
+      `联系`,
       `Join us`,
     ],
-    related_site: [`Related Sites`, `Excellence Siam`, `Employee e-base`],
+    related_site: [`相关网站`, `Excellence Siam`, `Employee e-base`],
   },
 
   empinter1: {
-    role: '系统开发部',
-    name: 'Shimizu Yasuyuki	',
-    headbox: '精神（思想）是很重要的，只要什么公司被称为应该有作为一个人，你将能够可靠地生长',
-    row1head: '那是什么也加入到这个公司的动机是什么？',
-    row1detail: '它是总统的个性。我认为这是感觉，如果朝向地面的交谈。此外，主要集中在教育公平的竞争环境，甚至事物和新员工，现在是给予直接的动机。',
-    row2head: '你有什么现在的工作？',
-    row2detail: '被借调到客户的目标，你必须在C＃语言开发Windows应用程序。我们正在开发一个地图相关的应用程序。',
-    row3head: '你加盟后，学到了什么？',
-    row3detail: '这是一个理念（经营理念）。我们定期举办学习班的职工教育，而不是像增强技术能力，经营理念的研究已成为中心。技术实力还是在去工作而言重要的，但是可以穿在工作。首先心脏（想法）是很重要的，是否应该有一个人，我们相信它能够可靠地种植什么样的公司被称为。',
-    row4head: '什么是你留在印象最深刻的过去？',
-    row4detail: '数以十万计，还在于它是训练，我可以参加，如。在我们公司，我们专注于这个念头在教育和个人直接链接到该公司，如果成长壮大。内容也常常为自己做，你将能够参加各种培训，如果他们的愿望。',
-    row5head: '留言给学生找工作',
+    role: `系统开发部`,
+    name: `Shimizu Yasuyuki	`,
+    headbox: `精神（思想）是很重要的，只要什么公司被称为应该有作为一个人，你将能够可靠地生长`,
+    row1head: `那是什么也加入到这个公司的动机是什么？`,
+    row1detail: `它是总统的个性。我认为这是感觉，如果朝向地面的交谈。此外，主要集中在教育公平的竞争环境，甚至事物和新员工，现在是给予直接的动机。`,
+    row2head: `你有什么现在的工作？`,
+    row2detail: `被借调到客户的目标，你必须在C＃语言开发Windows应用程序。我们正在开发一个地图相关的应用程序。`,
+    row3head: `你加盟后，学到了什么？`,
+    row3detail: `这是一个理念（经营理念）。我们定期举办学习班的职工教育，而不是像增强技术能力，经营理念的研究已成为中心。技术实力还是在去工作而言重要的，但是可以穿在工作。首先心脏（想法）是很重要的，是否应该有一个人，我们相信它能够可靠地种植什么样的公司被称为。`,
+    row4head: `什么是你留在印象最深刻的过去？`,
+    row4detail: `数以十万计，还在于它是训练，我可以参加，如。在我们公司，我们专注于这个念头在教育和个人直接链接到该公司，如果成长壮大。内容也常常为自己做，你将能够参加各种培训，如果他们的愿望。`,
+    row5head: `留言给学生找工作`,
     row5detail: "在我们公司，你可能会导致他的力量，即使是新员工的建议和行动。如果你的动机，让我们尽我们所能走到了一起。",
-    row6head: '最后，任何你想要它，你想要的牡蛎说。',
-    row6detail: '我认为有许多事情需要担心，如业务内容和工作地点，但我也认为人一起工作是不是最重要的。我认为，我希望你能珍惜公司选择你觉得印象尽量居然碰到。',
-    other: '请参阅与其他员工的采访',
-    otherdesc: '（显示你点击会改变每一次）'
+    row6head: `最后，任何你想要它，你想要的牡蛎说。`,
+    row6detail: `我认为有许多事情需要担心，如业务内容和工作地点，但我也认为人一起工作是不是最重要的。我认为，我希望你能珍惜公司选择你觉得印象尽量居然碰到。`,
+    other: `请参阅与其他员工的采访`,
+    otherdesc: `（显示你点击会改变每一次）`
+  },
+  b1dispatch: {
+    head: `派遣IT技术人员`,
+    firstbox: [
+      `从菜鸟经验，我们将提供卓越的IT技术人员。`,
+      `（京都，大阪，滋贺，东京, 海外）`
+  ],
+  row1:
+    {
+      head: `从菜鸟到经历`,
+      detail: [
+        `技术实力级的跟踪记录年，预算，期间人，年龄等的数量，并`,
+        `这可能是我让支持我们灵活的要求。`,
+        `技术实力和语言也无所谓。`,
+        `请不要犹豫与我们联系。`
+      ]
+    },
+    row2: {
+      head: `员工培训：现在被要求“人的力量”`,
+      detail: [
+        `“人的力量”的训练中，我们特别强调。`,
+        `这是一个合作做我们感谢对方，这是一个真诚的，做了整齐的信息传输。`,
+        `拉出团队的力量最大，从而导致一个成功的项目，`,
+        `我们专注于人的力量训练。`
+      ]
+    },
+    intro: {
+      intro: `介绍`,
+      dispatch: `派遣IT技术人员`,
+      development: `软件开发`,
+      outsource: `系统合同开发`,
+      offshore: `离岸开发`,
+      consult: `亚洲进军顾问`,
+      translate: `翻译(日文/英文/中文/泰文)`,
+      import: `Siam Order Service(進口代理)`,
+      otherdevelop: `其他开发成就`
+    }
+  },
+  b2outsource: {
+    head: `系统合同开发`,
+    firstbox: [
+      `合作的离岸开发海外和日本的工作人员。`,
+      `低价格×质量安全的实现是可能的。`
+  ],
+    row1: {
+      head: `Excellence的开发成果`,
+      detail: `保税仓库系统和大型自动化立体仓库系统中，有工作的，如酒店预订系统的跟踪记录`
+    },
+    row2: {
+      head: `在由专家，彻底和PDCA所有领域`,
+      detail: [
+        `各种行业，终端，谁从事语言开发工程师已经收集。`,
+        `我们要满足众多的需求，甚至一个人。`,
+        `我公司是这种思想，我们接受您的订单不分领域。`,
+        `我们所追求的专家们在各个领域的绝对质量。`
+      ]
+    },
+    row3: {
+      head: `低价的秘密是什么？`,
+      development : `离岸开发`,
+      detail: [
+        `海外常驻人员，我们还部署了。`,
+        "随着引进，根据用户的愿望的开发规模和预算，也能够灵活应对。",
+        `工作人员是根据与日本联合开发，将保证维护质量标准。`
+      ]
+    },
+    clickhere : `（点击查看详情）`,
+
+  },
+  b3offshore: {
+    head: `离岸开发`,
+    firstbox: [
+      `我们正在部署高技能增持海外员工。`,
+      "你要保持一个较低的预算。"
+    ],
+    row1: {
+      head: `我们意识到低价！`,
+      detail: [
+        `随着2012年引入离岸开发，低预算的发展成为可能。`,
+        `“开发成本是庞大的。”`,
+        `“我找不到熟悉这项技术的是与预算相符的......”`,
+        `我们公司这样的你的烦恼，我们将已经消除。`
+      ]
+    },
+    row2: {
+      head: `但是，质量好吗？`,
+      detail: [
+        `高技能拥有和日文流利的海外人员负责。`,
+        `2013年，有为了一个企业的成功经验在泰国当地`,
+        `此外，开发风格，以推进由日本工作人员的基础上的管理，`,
+        `还有就是可以提供安心的品质信心。`
+      ]
+    }
+  },
+  b4consult: {
+    head: `亚洲进军顾问`,
+    firstbox: [
+      `2012年是我们获得了一个记录开了一家泰国子公司。`,
+      `这将帮助你的亚洲扩张。`
+    ],
+    row1: {
+      head: `有一个跟踪记录提前`,
+      detail : [
+        `2012年在泰国，我们开设了一家当地的子公司。`,
+        `它已经对自己进行了从实地调查的程序，它可以提供全过程的信息。`,
+        `日文一口流利的工作人员在当地也一直呆在。`,
+        `“实时数据”现在给你，我们将提供。`
+      ]
+    }
+  },
+  b5trans: {
+    head: `	翻译(日文/英文/中文/泰文)`,
+    firstbox: [
+      `日文流利的中国 - 泰国的工作人员参加！`,
+      `这是日文⇔英文/中文/泰文。`
+    ],
+    row1: {
+      head: `本土的工作人员一直活跃`,
+      detail: [
+        `日本活生生的历史中国本土员工的“10年以上”，泰国本土的员工，导致与日本的工作人员将备份成功联合开发。`,
+        `我们将通过电话或电子邮件的一个副本报出的价格和交货时间。`
+      ]
+    }
+  },
+  b7otherdevelop: {
+    head: `成就`,
+    row1: {
+      head: `Hotel Reservation System`,
+      detail: [
+        `系统，你可以在手机预定一家商务型酒店。`,
+        `适用型号：DoCoMo, au, Softbank。`,
+        `（开发环境：服务器端的Java servlet，终端的Flashlite 2.0）`
+      ]
+    },
+    row2: {
+      head: `Comprehensive supply monitoring system`,
+      detail: [
+        `城市燃气管网系统，大约在年底进行24小时监控2700场所供水设施全部关西地区。.`,
+        `可以立即检测无需气体泄漏的部位，或当大地震发生等。`,
+        `（开发环境：UNIX，Windows，C语言，VB，Oracle）`
+      ]
+    },
+    row3: {
+      head: `Large scale automatic warehouse system`,
+      detail: [
+        `1个小时就能出PET瓶约6,000情况下，系统中的五层仓库的饮料生产企业的特权。`,
+        `（开发环境：UNIX，Windows，C语言，VB，Oracle）`
+      ]
+    },
+    row4: {
+      head: `Device control code automatically generated system`,
+      detail: [
+        `系统用于自动生成用于半导体制造设备控制的源代码。`,
+        `不管技术技能，我们可以保持品质不变。`,
+        `（开发环境：Windows，C ++，C＃，STL，UML，XML）`
+      ]
+    },
+    row5: {
+      head: `Risk management system`,
+      detail: [
+        `系统管理的各个环节的金融机构。`,
+        `风险管理影响管理的金融机构`,
+        `（开发环境：UNIX，Windows，C语言，Oracle）`
+      ]
+    }
+  },
+  productlist: {
+    other: `其他应用程序`,
+    list: [
+      `Treatment support application`,
+      `Bonded Warehouse System`,
+      `Groupware System`,
+      `Hotel Reservation System`
+    ]
+  },
+  p1treatment: {
+    head: `Treatment support application i-Therapy`,
+    firstbox: [
+      `平板电脑的应用程序，提供针灸，整脊，脊医治疗提高了目标医生。`,
+      ``,
+      `它目前是免费的监视器招募，直到12月31日。`
+    ],
+    secondbox: [
+      `推荐这样的人`,
+      `为实现这一我想要你们知道病人的治疗效果的医生`,
+      `如果管理员正在考虑对医疗记录管理风险的成本改善`,
+      `医生的人要立即在指导和学习班的时间共享患者信`
+    ],
+    row1: {
+      head: `变化所造成的治疗身体，你不知道怎么的病人？`,
+      detail: [
+        `您的照片在治疗，身体形象的时候，你可以保存电影。`,
+        "网站隐形病人自己拍摄。",
+        `我会的视觉进展情况向病人说明。`,
+        `写入，存储，扩张和比较也是可能的。`
+      ]
+    },
+    row2: {
+      head: `车间数据共享，一键式！`,
+      detail: [
+        `的数据可以被共享到指定的伙伴。`,
+        `如果你改变病人的共享设置，可以共享数据到指定的合作伙伴。`,
+        `企业合同的唯一的人是可用的。`,
+        ``,
+        `※另外，也可以向发布隐藏的个人信息。`
+      ]
+    },
+    row3: {
+      head: `平板电脑终端之一，您将能够访问的“一切”的患者数据`,
+      detail: [
+        `您可以访问到所有的患者数据在一个单一的平板电脑。`,
+        "时间和精力损失预防和管理的医疗记录并不需要。",
+        `您可以同时治疗进入。`
+      ]
+    },
+    row4: {
+      head: `在数据比较的治疗效果是“显而易见”`,
+      detail: [
+        `我能数据比较。`,
+        `治疗前⇔治疗后 - 第一次访问日期⇔的日期。您可以选择一个最喜欢的治疗日期。`,
+        `不仅文本信息，图片也视频也可以进行比较。`
+      ]
+    }
+  },
+  p2warehouse: {
+    head: `Bonded Warehouse System`,
+    firstbox: [
+      `批量自动化库存管理和工作管理的保税仓库。`,
+      `我们共同消除与管理相关的成本和损失的风险。`
+    ],
+    secondbox: [
+      `推荐这样的人`,
+      `保税工人织考虑成本下降一个长远的眼光`,
+      `业务流程已经臃肿，保税业务编织，以提高研究人员。`
+    ],
+    row1: {
+      head: `操作性`,
+      detail: [
+        `通过将操作者的操作权限，并可以减少操作错误。`,
+        `仓库使用搜索，位置的选择，将在视觉上的仓库平面图进行。`,
+        `通过大量的，标准规定，你可以得到已聚集了一个简单操作性商品库存信息，如另一个存储位置`,
+        `由于菜单显示为图标，一个易于理解的，你会发现它为那些熟练的新秀同样的任务一个很好的命令。`
+      ]
+    },
+    row2: {
+      head: `进度确认功能`,
+      detail: [
+        `跟踪商品，它可以查询在浏览器容易地进入和离开历史。`,
+        `你可以看到实时的进展。`
+      ]
+    },
+    row3: {
+      head: `警告电子邮件的保质期期满之前的传输功能`,
+      detail: [
+        `一个月的保质期到期之前，我会一个星期前发送警告电子邮件。`,
+        `发货，也可以安全的服务，为不忘对应，如贮存期的更新。`
+      ]
+    },
+    row4: {
+      head: `通过发行各种分析文档（可选功能）的工作效率提高了！`,
+      detail: [
+        `通过以往的销售和投入的产品和次数等，提高企业的数量分析，它可以帮助提高工作效率。`
+      ]
+    },
+    row5: {
+      head: `与NACCS也有可能数据协作`,
+      detail: [
+        `并交换NACCS和数据，你可以做，如货物的到货和清关的确认。`,
+        "※该NACCS，在国际贸易中，已经建成，并缴纳关税为报关进口时进行有效的处理，海关，公共承运人，报关行，仓库的供应商，航空公司，船公司的目的，船舶代理，是连接相互的金融机构的电子信息和通讯系统。"
+      ]
+    }
+  },
+  p3ebase: {
+    head: `Groupware System : e-base`,
+    firstbox: [
+      `信息内部部署在一本好间共享。`,
+      `各种报告和考勤/运输费用管理，数据共享和目标检查创建的表可以通过使用群件来完成`
+    ],
+    secondbox: [
+      `推荐这样的人`,
+      `员工数量的增加，更好的业务管理谁是内部管理减少成本的目的。`,
+      `纸提高数据的内部，对需要帮助的管理事务经理`,
+      `公司旨在共享内部管理集中化和报告，交流和磋商`
+    ],
+    row1: {
+      head: `安全和公司的数据共享功能的安全性`,
+      detail: [
+        `安全你可以做你的公司数据共享。`,
+        `数据不必担心丢失存储在服务器上。`,
+        `数据采集只能进行帐户持有人。`,
+        `通过电子，将削减丢失纸质介质的风险m.`
+      ]
+    },
+    row2: {
+      head: `好事务申请其中之一`,
+      detail: [
+        `考勤管理，交通费申请，你可以召集会议。`,
+        `简单的10分钟内的程序，直到应用程序完成从登录`,
+        `您可以检查员工的参与存在或不存在考勤和会议与否一目了然。`
+      ]
+    },
+    row3: {
+      head: `员工的另一项挑战检查功能`,
+      detail: [
+        `这将执行每月的问题张贴的成绩记录。`,
+        `对于每一个账户，你可以设置所面临的挑战多达10个每月。`,
+        `结果为每个任务是每日记录，它就能计算月达成率。`,
+        `结果可以共享视图雇员。`
+      ]
+    },
+    row4: {
+      head: `报告提交的反馈，我可以做到的`,
+      detail: [
+        `报告可以共享视图雇员。`,
+        `过员工的报道（每日/每周/每月），这将是能够处理销售报告。`,
+        `所有的员工，我可以检查进展情况和问题的报告的公司。`
+      ]
+    }
+  },
+  p4reservation: {
+    head: `Hotel Reservation System`,
+    firstbox: [
+      `其为可以从移动电话可以预订商务酒店的系统。`,
+      `空荡荡的房间状态检查，房间类型，我可以方便地访问来完成。`
+    ],
+    secondbox: [
+      `推荐这样的人`,
+      `酒店拥有或管理被编织考虑成本下降一个长远的眼光`,
+      `谁想要冒险例如在预约管理成本和人为错误的措施宾馆管理`
+    ],
+    row1: {
+      head: `从移动网站在线预订`,
+      detail: [
+        `我们意识到，简单明了的结构。`,
+        `我是无压力的的设计来设计和可操作性并重的理念。`,
+        `它提供了安心给客户通过预订后发送一封确认邮件。`,
+        `（兼容型号：DoCoMo，au，Softbank）`
+      ]
+    },
+    row2: {
+      head: `预定自动化`,
+      detail: [
+        `预定确认邮件也会自动发送。劳动力成本的低成本会有所帮助。`,
+        "并自动显示预定房间，取决于顾客的期望的条件",
+        `这将防止与评选工作相关的人为错误。`
+      ]
+    },
+    row3: {
+      head: `酒店具体的具体日期自由设定！`,
+      detail: [
+        `因为它可以通过选择特定的日期，如周年庆打折周日和每家酒店从月历之日起繁忙的时期，很容易理解，即使在外观上可以自由设定，可广泛对应`,
+
+      ]
+    },
+    row4: {
+      head: `快速应对突然预定内容改变！`,
+      detail: [
+        `如果没有为你的突然变化的房间中，希望等的请求时，有可能只要室是可以改变的呈现。`,
+        `即使对于住宿的变化，如果扩展为其他预定是不可能的，它可以显示以计算在房间的变化的替代方案。`
+      ]
+    },
+    row5: {
+      head: `您可以更改的费用设置为每一个月！`,
+      detail: [
+        `房费内按月的设定，不仅平日及公众假期，就可以在特定日期进行设置。`,
+        `餐费可以按月设定，您可以响应的定价，以满足每家酒店的需求。`
+      ]
+    },
+    row6: {
+      head: `易改变每个房间的信息！`,
+      detail: [
+        `的单元好几天的多个房间的条件下，通过显示在一个屏幕上，能够把握预留状态好几天同时，就可以看到影响的变化的房间的信息。`
+      ]
+    }
   },
 }

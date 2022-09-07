@@ -815,395 +815,395 @@ export default {
   },
 
   empinter1: {
-    role: 'System Development Department',
-    name: 'Shimizu Yasuyuki	',
-    headbox: 'Mind (thinking) is important, as long as what the firm to be called should there as a person, you will be able to grow reliably.',
-    row1head: '  What is the motivation that was joined to this company?',
-    row1detail: '  Is it personality of the The company president.I think that it is felt if the conversation toward the surface.In addition, the playing field even things and new employees that are focused on education that is given now to the direct motivation.',
-    row2head: '  What do you have to work now?',
-    row2detail: '  Was seconded to the customer destination, you have a Windows application developed in C # language.We are developing a map-related applications.',
-    row3head: '  What did you learn after joining?',
-    row3detail: '  It is a philosophy (management philosophy).We hold regular study sessions as employee education, but not things like increase the technical capabilities, study of philosophy has become the center.Technical strength also is important in terms of going to work, but can be worn in the work.First heart (idea) is important, if what the firm to be called should there as a person, we believe that it can be grown reliably.',
-    row4head: '  What is that you are left in the most impressive in the past?',
-    row4detail: '  Hundreds of thousands it is also that it was training I am allowed to participate in, such as.In our company, we are focused on the idea in education and that individual is directly linked to that company to grow if growth.Content is also often made for themselves, it will be able to participate in various training if they wish.',
-    row5head: '  Message to students in job hunting',
+    role: `System Development Department`,
+    name: `Shimizu Yasuyuki	`,
+    headbox: `Mind (thinking) is important, as long as what the firm to be called should there as a person, you will be able to grow reliably.`,
+    row1head: `  What is the motivation that was joined to this company?`,
+    row1detail: `  Is it personality of the The company president.I think that it is felt if the conversation toward the surface.In addition, the playing field even things and new employees that are focused on education that is given now to the direct motivation.`,
+    row2head: `  What do you have to work now?`,
+    row2detail: `  Was seconded to the customer destination, you have a Windows application developed in C # language.We are developing a map-related applications.`,
+    row3head: `  What did you learn after joining?`,
+    row3detail: `  It is a philosophy (management philosophy).We hold regular study sessions as employee education, but not things like increase the technical capabilities, study of philosophy has become the center.Technical strength also is important in terms of going to work, but can be worn in the work.First heart (idea) is important, if what the firm to be called should there as a person, we believe that it can be grown reliably.`,
+    row4head: `  What is that you are left in the most impressive in the past?`,
+    row4detail: `  Hundreds of thousands it is also that it was training I am allowed to participate in, such as.In our company, we are focused on the idea in education and that individual is directly linked to that company to grow if growth.Content is also often made for themselves, it will be able to participate in various training if they wish.`,
+    row5head: `  Message to students in job hunting`,
     row5detail: "  In our company, it can cause the proposals and act in his power even new employees.If you are motivated, let's do our best come together.",
-    row6head: '  Finally, anything you want it and you want that oysters say.',
-    row6detail: '  I think there are many things to be worried about, such as business content and work location, but I think also people working together is not the most important.I think that I want you to cherish the company select the impression you feel Try actually met.',
-    other: 'See an interview with other employees',
-    otherdesc: '(Display every time you click will change)'
+    row6head: `  Finally, anything you want it and you want that oysters say.`,
+    row6detail: `  I think there are many things to be worried about, such as business content and work location, but I think also people working together is not the most important.I think that I want you to cherish the company select the impression you feel Try actually met.`,
+    other: `See an interview with other employees`,
+    otherdesc: `(Display every time you click will change)`
   },
   b1dispatch: {
-    head: 'Dispatch the IT technician',
+    head: `Dispatch the IT technician`,
     firstbox: [
-      'To experienced person from rookie, we will deliver superior IT technician.',
-      '(Kyoto, Osaka, Shiga, Tokyo and overseas)'
+      `To experienced person from rookie, we will deliver superior IT technician.`,
+      `(Kyoto, Osaka, Shiga, Tokyo and overseas)`
   ],
   row1:
     {
-      head: 'From rookie to experienced person',
+      head: `From rookie to experienced person`,
       detail: [
-        'Technique level and results years, budget, period and number of persons, age, etc.,',
-        'It is possible that I am allowed to support us to flexible on request.',
-        'Technical field and language also does not matter.',
-        'Please do not hesitate to contact us.'
+        `Technique level and results years, budget, period and number of persons, age, etc.,`,
+        `It is possible that I am allowed to support us to flexible on request.`,
+        `Technical field and language also does not matter.`,
+        `Please do not hesitate to contact us.`
       ]
     },
     row2: {
-      head: 'Employee training: Now what is asked “human force”',
+      head: `Employee training: Now what is asked “human force”`,
       detail: [
-        'The training of the “human force”, we have especially emphasized.',
-        'That it is a cooperative do our thanks to the other party, that it is a sincere, doing a neat information transmission.',
-        'Pull out the power of the team to the maximum, in order to lead to a successful project,',
-        'We are focused on human force training.'
+        `The training of the “human force”, we have especially emphasized.`,
+        `That it is a cooperative do our thanks to the other party, that it is a sincere, doing a neat information transmission.`,
+        `Pull out the power of the team to the maximum, in order to lead to a successful project,`,
+        `We are focused on human force training.`
       ]
     },
     intro: {
-      intro: 'Introduction',
-      dispatch: 'Dispatch the IT technician',
-      development: 'Development Package',
-      outsource: 'System Outsourcing',
-      offshore: 'Offshore Development',
-      consult: 'Asia foray consultants',
-      translate: 'Translation(Japanese/English/Chinese/Thai)',
-      import: 'Siam Order Service(Import agency)',
-      otherdevelop: 'Other Development Results'
+      intro: `Introduction`,
+      dispatch: `Dispatch the IT technician`,
+      development: `Development Package`,
+      outsource: `System Outsourcing`,
+      offshore: `Offshore Development`,
+      consult: `Asia foray consultants`,
+      translate: `Translation(Japanese/English/Chinese/Thai)`,
+      import: `Siam Order Service(Import agency)`,
+      otherdevelop: `Other Development Results`
     }
   },
   b2outsource: {
-    head: 'System Outsourcing',
+    head: `System Outsourcing`,
     firstbox: [
-      'Overseas & Japan staff of collaboration by offshore development.',
-      'Low price × security of quality realization is possible.'
+      `Overseas & Japan staff of collaboration by offshore development.`,
+      `Low price × security of quality realization is possible.`
   ],
     row1: {
-      head: 'Development Results of Excellence',
-      detail: 'Bonded warehouse system and large-scale automated warehouse system, there is a track record of working on such as hotel reservation system'
+      head: `Development Results of Excellence`,
+      detail: `Bonded warehouse system and large-scale automated warehouse system, there is a track record of working on such as hotel reservation system`
     },
     row2: {
-      head: 'In all fields by experts, thorough and PDCA',
+      head: `In all fields by experts, thorough and PDCA`,
       detail: [
-        'A variety of industries, terminal, the engineer who engaged in the development of the language has been gathered.',
-        'We want to meet the many needs even one person.',
-        'Our company is in this thought, we accept your order regardless of the field.',
-        'We are pursuing the absolute quality by experts in each field.'
+        `A variety of industries, terminal, the engineer who engaged in the development of the language has been gathered.`,
+        `We want to meet the many needs even one person.`,
+        `Our company is in this thought, we accept your order regardless of the field.`,
+        `We are pursuing the absolute quality by experts in each field.`
       ]
     },
     row3: {
-      head: 'The secret of the low price?',
-      development : 'Offshore Development',
+      head: `The secret of the low price?`,
+      development : `Offshore Development`,
       detail: [
-        'Overseas resides staff we have also deployed.',
+        `Overseas resides staff we have also deployed.`,
         "With the introduction, depending on the development scale and budget of the customer's wish, it is possible to respond flexibly.",
-        'The joint development with Japan of staff are based, we will guarantee quality standards maintained.'
+        `The joint development with Japan of staff are based, we will guarantee quality standards maintained.`
       ]
     },
-    clickhere : '（Click here for details）',
+    clickhere : `（Click here for details）`,
 
   },
   b3offshore: {
-    head: 'Offshore Development',
+    head: `Offshore Development`,
     firstbox: [
-      'We are deployed overseas staff of highly skilled holdings.',
-      "You'll want to keep a low budget."
+      `We are deployed overseas staff of highly skilled holdings.`,
+      "You`ll want to keep a low budget."
     ],
     row1: {
-      head: 'We realized low-cost!',
+      head: `We realized low-cost!`,
       detail: [
-        'With the introduction of offshore development in 2012, the low-budget development became possible.',
-        '“Development costs are bulky ...”',
-        '“I can not find the trader was commensurate with the budget ...”',
-        'Our company such a your troubles we will have eliminated.'
+        `With the introduction of offshore development in 2012, the low-budget development became possible.`,
+        `“Development costs are bulky ...”`,
+        `“I can not find the trader was commensurate with the budget ...”`,
+        `Our company such a your troubles we will have eliminated.`
       ]
     },
     row2: {
-      head: 'But, quality is all right?',
+      head: `But, quality is all right?`,
       detail: [
-        'High-skill owned and Japanese fluent overseas staff is responsible.',
-        '2013, there is a proven success in order business in Thailand local.',
-        'In addition, development style to advance based on the management by the Japanese staff,',
-        'There is a confidence that you can deliver peace of mind quality.'
+        `High-skill owned and Japanese fluent overseas staff is responsible.`,
+        `2013, there is a proven success in order business in Thailand local.`,
+        `In addition, development style to advance based on the management by the Japanese staff,`,
+        `There is a confidence that you can deliver peace of mind quality.`
       ]
     }
   },
   b4consult: {
-    head: 'Asia foray consultants',
+    head: `Asia foray consultants`,
     firstbox: [
-      'In 2012 it was we gained a track record opened a Thai subsidiary.',
-      'It will help your Asia expansion.'
+      `In 2012 it was we gained a track record opened a Thai subsidiary.`,
+      `It will help your Asia expansion.`
     ],
     row1: {
-      head: 'There is a proven advance',
+      head: `There is a proven advance`,
       detail : [
-        'In 2012 in Thailand we opened a local subsidiary.',
-        'It has carried out its own to the proceedings from the field survey, it is available to provide information of the whole process.',
-        'Japanese fluent staff in local also has been staying.',
-        '“Live data” Now to you, we will provide.'
+        `In 2012 in Thailand we opened a local subsidiary.`,
+        `It has carried out its own to the proceedings from the field survey, it is available to provide information of the whole process.`,
+        `Japanese fluent staff in local also has been staying.`,
+        `“Live data” Now to you, we will provide.`
       ]
     }
   },
   b5trans: {
-    head: 'Translation(Japanese/English/Chinese/Thai)',
+    head: `Translation(Japanese/English/Chinese/Thai)`,
     firstbox: [
-      'Japanese fluent Chinese-Thai staff enrolled!',
-      'It is a Japanese ⇔ English / Chinese / Thai available.'
+      `Japanese fluent Chinese-Thai staff enrolled!`,
+      `It is a Japanese ⇔ English / Chinese / Thai available.`
     ],
     row1: {
-      head: 'Native staff has been active',
+      head: `Native staff has been active`,
       detail: [
-        'Japan living history China native staff and of “more than 10 years”, Thai native staff that led to successful joint development with Japan staff will backup.',
-        'We will quote a price and delivery time by phone or e-mail one.'
+        `Japan living history China native staff and of “more than 10 years”, Thai native staff that led to successful joint development with Japan staff will backup.`,
+        `We will quote a price and delivery time by phone or e-mail one.`
       ]
     }
   },
   b7otherdevelop: {
-    head: 'Achievements',
+    head: `Achievements`,
     row1: {
-      head: 'Hotel Reservation System',
+      head: `Hotel Reservation System`,
       detail: [
-        'System that you can booking online business hotel on a mobile phone.',
-        'Compatible models: DoCoMo, au, Softbank.',
-        '(Development environment: server-side Java servlet, terminal Flash lite 2.0)'
+        `System that you can booking online business hotel on a mobile phone.`,
+        `Compatible models: DoCoMo, au, Softbank.`,
+        `(Development environment: server-side Java servlet, terminal Flash lite 2.0)`
       ]
     },
     row2: {
-      head: 'Comprehensive supply monitoring system',
+      head: `Comprehensive supply monitoring system`,
       detail: [
-        'City gas supply network system that all Kansai district about 2700 places of supply facility at the end for 24-hour monitoring of.',
-        'It can be detected immediately without going to the site of the gas leak or the like when a big earthquake happened.',
-        '(Development environment: UNIX, Windows, C language, VB, Oracle)'
+        `City gas supply network system that all Kansai district about 2700 places of supply facility at the end for 24-hour monitoring of.`,
+        `It can be detected immediately without going to the site of the gas leak or the like when a big earthquake happened.`,
+        `(Development environment: UNIX, Windows, C language, VB, Oracle)`
       ]
     },
     row3: {
-      head: 'Large scale automatic warehouse system',
+      head: `Large scale automatic warehouse system`,
       detail: [
-        '1 hour can be out privileges of plastic bottles about 6,000 cases of the system in the five-story warehouse for the beverage manufacturer.',
-        '(Development environment: UNIX, Windows, C language, VB, Oracle)'
+        `1 hour can be out privileges of plastic bottles about 6,000 cases of the system in the five-story warehouse for the beverage manufacturer.`,
+        `(Development environment: UNIX, Windows, C language, VB, Oracle)`
       ]
     },
     row4: {
-      head: 'Device control code automatically generated system',
+      head: `Device control code automatically generated system`,
       detail: [
-        'System for automatically generating the source code of the device control for the semiconductor manufacturer.',
-        'Regardless of the technician skills, and we can keep the quality constant.',
-        '(Development environment: Windows, C ++, C #, STL, UML, XML)'
+        `System for automatically generating the source code of the device control for the semiconductor manufacturer.`,
+        `Regardless of the technician skills, and we can keep the quality constant.`,
+        `(Development environment: Windows, C ++, C #, STL, UML, XML)`
       ]
     },
     row5: {
-      head: 'Risk management system',
+      head: `Risk management system`,
       detail: [
-        'System for managing the various links for the financial institutions.',
-        'Risk management affects the management for financial institutions.',
-        '(Development environment: UNIX, Windows, C language, Oracle)'
+        `System for managing the various links for the financial institutions.`,
+        `Risk management affects the management for financial institutions.`,
+        `(Development environment: UNIX, Windows, C language, Oracle)`
       ]
     }
   },
   productlist: {
-    other: 'Other Applications',
+    other: `Other Applications`,
     list: [
-      'Treatment support application',
-      'Bonded Warehouse System',
-      'Groupware System',
-      'Hotel Reservation System'
+      `Treatment support application`,
+      `Bonded Warehouse System`,
+      `Groupware System`,
+      `Hotel Reservation System`
     ]
   },
   p1treatment: {
-    head: 'Treatment support application i-Therapy',
+    head: `Treatment support application i-Therapy`,
     firstbox: [
-      'For Practitioner of Acupuncture, BodyWork and Chiropractic.',
-      'This application makes your treatment to develop.',
-      'It is a free monitor wanted to December 31.'
+      `For Practitioner of Acupuncture, BodyWork and Chiropractic.`,
+      `This application makes your treatment to develop.`,
+      `It is a free monitor wanted to December 31.`
     ],
     secondbox: [
-      'Recommended for such people',
-      'For Practitioner of Acupuncture, BodyWork and Chiropractic.',
-      'For Practitioner who wants to reduce the risk of management of medical records.',
-      'For Practitioner who wants to share data easily at your study session.'
+      `Recommended for such people`,
+      `For Practitioner of Acupuncture, BodyWork and Chiropractic.`,
+      `For Practitioner who wants to reduce the risk of management of medical records.`,
+      `For Practitioner who wants to share data easily at your study session.`
     ],
     row1: {
-      head: 'How does patient realize the therapeutic effect of your treatment ?',
+      head: `How does patient realize the therapeutic effect of your treatment ?`,
       detail: [
-        'You can store photos, body image, the video at the time of treatment.',
+        `You can store photos, body image, the video at the time of treatment.`,
         "You can take some pictures of the parts which are invisible in the client's own.",
-        'You can explain the change of some parts of client visually',
-        'You can compare, zoom-up, store any pictures. And also, you can draw in any pictures.'
+        `You can explain the change of some parts of client visually`,
+        `You can compare, zoom-up, store any pictures. And also, you can draw in any pictures.`
       ]
     },
     row2: {
-      head: 'To touch of a button, you can sharing data in the study session.',
+      head: `To touch of a button, you can sharing data in the study session.`,
       detail: [
-        'You can share the data to practitioner that you specify',
-        'If you change the settings about SHARING of the patient, you can share data to the practitioner that you specify.',
-        'It is effective at meetings, study sessions, and guidance.',
-        'You can use this function if you have the corporate contract.',
-        '※It is also possible to publish it face down personal information.'
+        `You can share the data to practitioner that you specify`,
+        `If you change the settings about SHARING of the patient, you can share data to the practitioner that you specify.`,
+        `It is effective at meetings, study sessions, and guidance.`,
+        `You can use this function if you have the corporate contract.`,
+        `※It is also possible to publish it face down personal information.`
       ]
     },
     row3: {
-      head: 'By using a tablet, you can access to all your clients.',
+      head: `By using a tablet, you can access to all your clients.`,
       detail: [
-        'By using a tablet, you can access to all your clients.',
+        `By using a tablet, you can access to all your clients.`,
         "You'll be freed from the hear and risk of the loss of medical records.",
-        'You can enter while treatment.'
+        `You can enter while treatment.`
       ]
     },
     row4: {
-      head: 'By comparing the data, therapeutic effect will be realized "obviously".',
+      head: `By comparing the data, therapeutic effect will be realized "obviously".`,
       detail: [
-        'You can compare the data.',
-        'You can compare the pre- and post-treatment or the current day and date of the first visit.You can select any day to compare.',
-        'Not only text information, you can use image or video for comparison.'
+        `You can compare the data.`,
+        `You can compare the pre- and post-treatment or the current day and date of the first visit.You can select any day to compare.`,
+        `Not only text information, you can use image or video for comparison.`
       ]
     }
   },
   p2warehouse: {
-    head: 'Bonded Warehouse System',
+    head: `Bonded Warehouse System`,
     firstbox: [
-      'Bulk automate inventory management and work management in a bonded warehouse.',
-      'We collectively eliminate the cost and loss risks associated with management.'
+      `Bulk automate inventory management and work management in a bonded warehouse.`,
+      `We collectively eliminate the cost and loss risks associated with management.`
     ],
     secondbox: [
-      'Recommended for such people',
-      'Bonded workers to be woven considering the cost down a long-term perspective.',
-      'Business procedure has bloated, bonded business is woven to improve study workers.'
+      `Recommended for such people`,
+      `Bonded workers to be woven considering the cost down a long-term perspective.`,
+      `Business procedure has bloated, bonded business is woven to improve study workers.`
     ],
     row1: {
-      head: 'Operability',
+      head: `Operability`,
       detail: [
-        'By setting the operating authority of the operator, and it can reduce operation errors.',
-        'Of warehouse usage search, the selection of the location it will visually done in plan view of the warehouse.',
-        'By lot, standard-specific, you can get a simple operation merchandise inventory information that has been aggregated, such as another storage location.',
-        'Since the menu is displayed as an icon, an easy-to-understand, you will find it as a good command of the same tasks as those skilled in rookie.'
+        `By setting the operating authority of the operator, and it can reduce operation errors.`,
+        `Of warehouse usage search, the selection of the location it will visually done in plan view of the warehouse.`,
+        `By lot, standard-specific, you can get a simple operation merchandise inventory information that has been aggregated, such as another storage location.`,
+        `Since the menu is displayed as an icon, an easy-to-understand, you will find it as a good command of the same tasks as those skilled in rookie.`
       ]
     },
     row2: {
-      head: 'Progress confirmation function',
+      head: `Progress confirmation function`,
       detail: [
-        'Tracking of goods, it can be queried in easily browser entry and leaving history.',
-        'You can see the real-time progress.'
+        `Tracking of goods, it can be queried in easily browser entry and leaving history.`,
+        `You can see the real-time progress.`
       ]
     },
     row3: {
-      head: 'The transmitting function of warning e-mail before the shelf life expires',
+      head: `The transmitting function of warning e-mail before the shelf life expires`,
       detail: [
-        'One month before the shelf life expires and I will send a warning e-mail a week ago.',
-        'Goods issue, also it is safe service for not forget the correspondence, such as updating of the storage period.'
+        `One month before the shelf life expires and I will send a warning e-mail a week ago.`,
+        `Goods issue, also it is safe service for not forget the correspondence, such as updating of the storage period.`
       ]
     },
     row4: {
-      head: 'Work efficiency improved by the issuance of various analyzes document (optional feature)!',
+      head: `Work efficiency improved by the issuance of various analyzes document (optional feature)!`,
       detail: [
-        'By analyzing past sales and by product of input and the number of times such as, business improvement, it can help to improve work efficiency.'
+        `By analyzing past sales and by product of input and the number of times such as, business improvement, it can help to improve work efficiency.`
       ]
     },
     row5: {
-      head: 'Data collaboration with NACCS also possible',
+      head: `Data collaboration with NACCS also possible`,
       detail: [
-        'And to exchange NACCS and data, you can do such as the arrival and customs clearance confirmation of cargo.',
+        `And to exchange NACCS and data, you can do such as the arrival and customs clearance confirmation of cargo.`,
         "※The NACCS, in international trade, has been constructed and payment of customs duties at the time of customs clearance and import for the purpose of efficient processing, customs offices, common carriers, customs brokers, warehouse suppliers, airlines, shipping companies, ship agency, is an electronic information and communication system that connects the mutual financial institutions."
       ]
     }
   },
   p3ebase: {
-    head: 'Groupware System : e-base',
+    head: `Groupware System : e-base`,
     firstbox: [
-      'Information sharing between the on-premises OK in one this.',
-      'Various reports and attendance / transportation expense management and data sharing and targets check creation of the sheet can be done with the use of groupware.'
+      `Information sharing between the on-premises OK in one this.`,
+      `Various reports and attendance / transportation expense management and data sharing and targets check creation of the sheet can be done with the use of groupware.`
     ],
     secondbox: [
-      'Recommended for such people',
-      'The number of employees increases, better business management who is an object of the internal management cost reduction.',
-      'Increased house of paper data, general affairs manager of Need help to management.',
-      'Company that aims to share in-house management centralization and reporting, communication and consultation.'
+      `Recommended for such people`,
+      `The number of employees increases, better business management who is an object of the internal management cost reduction.`,
+      `Increased house of paper data, general affairs manager of Need help to management.`,
+      `Company that aims to share in-house management centralization and reporting, communication and consultation.`
     ],
     row1: {
-      head: 'Safety and security of company data sharing capabilities',
+      head: `Safety and security of company data sharing capabilities`,
       detail: [
-        'Safely you can do you an in-house data sharing.',
-        'Data does not have to worry about the loss for storage on the server.',
-        'Data acquisition can be done account holders only.',
-        'By electronic, it will cut the risk of lost paper medium.'
+        `Safely you can do you an in-house data sharing.`,
+        `Data does not have to worry about the loss for storage on the server.`,
+        `Data acquisition can be done account holders only.`,
+        `By electronic, it will cut the risk of lost paper medium.`
       ]
     },
     row2: {
-      head: 'OK Affairs request is one which',
+      head: `OK Affairs request is one which`,
       detail: [
-        'Attendance management, transportation expenses request, you can make meetings convened.',
-        'Login is easy procedure of less than 10 minutes to complete request.',
-        'You can check the participation presence or absence of attendance and meetings among employees at a glance.'
+        `Attendance management, transportation expenses request, you can make meetings convened.`,
+        `Login is easy procedure of less than 10 minutes to complete request.`,
+        `You can check the participation presence or absence of attendance and meetings among employees at a glance.`
       ]
     },
     row3: {
-      head: 'Employee another challenge check function',
+      head: `Employee another challenge check function`,
       detail: [
-        'It will perform the monthly issues posted the achievement record.',
-        'For each account, you can set the challenge up to 10 on a monthly basis.',
-        'The results for each task is daily record, it will be able to calculate the monthly achievement rate.',
-        'The results can be shared view among employees.'
+        `It will perform the monthly issues posted the achievement record.`,
+        `For each account, you can set the challenge up to 10 on a monthly basis.`,
+        `The results for each task is daily record, it will be able to calculate the monthly achievement rate.`,
+        `The results can be shared view among employees.`
       ]
     },
     row4: {
-      head: 'Report submitted feedback and I can be done.',
+      head: `Report submitted feedback and I can be done.`,
       detail: [
-        'Report can be shared view among employees.',
-        'By employee reported (daily / weekly / monthly), it will be able to process the sales report.',
-        'All employees I can to check the reported internal of progress and problems.'
+        `Report can be shared view among employees.`,
+        `By employee reported (daily / weekly / monthly), it will be able to process the sales report.`,
+        `All employees I can to check the reported internal of progress and problems.`
       ]
     }
   },
   p4reservation: {
-    head: 'Hotel Reservation System',
+    head: `Hotel Reservation System`,
     firstbox: [
-      'It is a system that can be reserved business hotel from a mobile phone.',
-      'Status check of the empty room, the room type and I can be done with easy access.'
+      `It is a system that can be reserved business hotel from a mobile phone.`,
+      `Status check of the empty room, the room type and I can be done with easy access.`
     ],
     secondbox: [
-      'Recommended for such people',
-      'Hotel own or manage to be woven are considering the cost down a long-term perspective.',
-      'Hotel management who want to risk measures such as cost and human error in the reservation management.'
+      `Recommended for such people`,
+      `Hotel own or manage to be woven are considering the cost down a long-term perspective.`,
+      `Hotel management who want to risk measures such as cost and human error in the reservation management.`
     ],
     row1: {
-      head: 'Booking from mobile site',
+      head: `Booking from mobile site`,
       detail: [
-        'We realized simple and straightforward structure.',
-        'It is the concept of stress-free design to design and operability both.',
-        'It provides peace of mind to the customer by sending a confirmation email after booking.',
-        '(Compatible models: DoCoMo, au, Softbank)'
+        `We realized simple and straightforward structure.`,
+        `It is the concept of stress-free design to design and operability both.`,
+        `It provides peace of mind to the customer by sending a confirmation email after booking.`,
+        `(Compatible models: DoCoMo, au, Softbank)`
       ]
     },
     row2: {
-      head: 'Automation of booking.',
+      head: `Automation of booking.`,
       detail: [
-        'Reservation confirmation e-mail also delivered automatically. The cost of labor costs will help.',
+        `Reservation confirmation e-mail also delivered automatically. The cost of labor costs will help.`,
         "And automatically display the reservable rooms, depending on the customer's desired conditions.",
-        'It will prevent the human error associated with the selection work.'
+        `It will prevent the human error associated with the selection work.`
       ]
     },
     row3: {
-      head: 'Hotel specific date freely set!',
+      head: `Hotel specific date freely set!`,
       detail: [
-        'Because it can be freely set by selecting a specific date such as anniversary discount Sunday and busy period of each hotel from the date of the monthly calendar, easy to understand even in appearance, is available wide range of correspondence.',
+        `Because it can be freely set by selecting a specific date such as anniversary discount Sunday and busy period of each hotel from the date of the monthly calendar, easy to understand even in appearance, is available wide range of correspondence.`,
 
       ]
     },
     row4: {
-      head: 'Quickly cope with change of sudden reservation content!',
+      head: `Quickly cope with change of sudden reservation content!`,
       detail: [
-        'If there is a request for your sudden room change in the hope, etc., it is possible to present as soon as the room can be changed.',
-        'Even for change of stay, if the extension for other reservation is not possible, it is possible to display to calculate the alternative of a change in the room.'
+        `If there is a request for your sudden room change in the hope, etc., it is possible to present as soon as the room can be changed.`,
+        `Even for change of stay, if the extension for other reservation is not possible, it is possible to display to calculate the alternative of a change in the room.`
       ]
     },
     row5: {
-      head: 'You can change the setting of the fee for each month!',
+      head: `You can change the setting of the fee for each month!`,
       detail: [
-        'The setting of the room rate on a monthly basis, not only on weekdays and public holidays, it is possible to be set by a specific date.',
-        'Meals rates may be set on a monthly basis, you can respond to pricing to meet the needs of each hotel.'
+        `The setting of the room rate on a monthly basis, not only on weekdays and public holidays, it is possible to be set by a specific date.`,
+        `Meals rates may be set on a monthly basis, you can respond to pricing to meet the needs of each hotel.`
       ]
     },
     row6: {
-      head: 'Easy change of each room information!',
+      head: `Easy change of each room information!`,
       detail: [
-        'A unit for several days the condition of the plurality of rooms, by displaying on one screen, it is possible to grasp the reservation state for several days at once, you can see influence to changes in room information.'
+        `A unit for several days the condition of the plurality of rooms, by displaying on one screen, it is possible to grasp the reservation state for several days at once, you can see influence to changes in room information.`
       ]
     }
   },
