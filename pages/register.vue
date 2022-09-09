@@ -344,8 +344,6 @@ export default {
         .catch(err => {
           console.log(err)
         })
-      console.log(nfirst_name)
-      console.log(family_name)
       alert("Completed");
     }
   }
