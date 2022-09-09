@@ -48,13 +48,23 @@ export default {
     お急ぎの方・ご予約はお電話にてお願いいたします。`,
     card_text2: `TEL 075-256-7872`,
     card_text3: `※ 印の項目は必ずご入力ください。.`,
-    inputTable: {
-      name: `Name`,
-      age: `age`,
-      sex: `sex`,
-      country: `country`,
-
-    }
+    name: `※お名前`,
+    first_name: `名`,
+    name_furigana: `フリガナ`,
+    middle_name: ``,
+    family_name: `姓`,
+    age: `年齢`,
+    sex: `性別`,
+    male: `男性`,
+    female: `女性`,
+    country: `国名`,
+    postcode: `郵便番号`,
+    addressn: `※住所`,
+    address: `住所`,
+    telphone: `※電話番号`,
+    email: `※eメールアドレス`,
+    matter: `お問い合わせ内容`,
+    send: `送信`
   },
   overview: {
     title: `会社概要`,

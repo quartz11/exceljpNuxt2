@@ -32,7 +32,7 @@
               <thead class="text-sm text-white dark:text-gray-400">
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="col" class="px-6 py-3 text-sm text-white w-60 dark:bg-slate-900 auto-cols-auto">
-                    Name
+                    {{ $t('register.name')}}
                   </th>
                   <th scope="col" class="px-6 py-3 text-black bg-slate-400">
                     <p>{{ first_name }} &nbsp; {{ middle_name }} &nbsp; {{ family_name }}</p>
@@ -42,7 +42,7 @@
               <tbody>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Age
+                    {{ $t('register.age')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ age }}</p>
@@ -51,7 +51,7 @@
                 </tr>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Sex
+                    {{ $t('register.sex')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ sex }}</p>
@@ -60,7 +60,7 @@
 
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Country
+                    {{ $t('register.country')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ country }}</p>
@@ -69,7 +69,7 @@
 
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Address-Number
+                    {{ $t('register.addressn')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ addressn }}</p>
@@ -78,7 +78,7 @@
 
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Address
+                    {{ $t('register.address')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ address }}</p>
@@ -87,7 +87,7 @@
 
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Telphone
+                    {{ $t('register.telphone')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ telphone }}</p>
@@ -96,7 +96,7 @@
 
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    e-Mail
+                    {{ $t('register.email')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ email }}</p>
@@ -105,7 +105,7 @@
 
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Matter
+                    {{ $t('register.matter')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p style="white-space: pre-line;">{{ matter }}</p>
@@ -131,32 +131,66 @@
               <table class="w-full text-sm text-left text-white dark:text-gray-400">
                 <thead class="text-sm text-white dark:text-gray-400">
                   <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="col" class="px-6 py-3 text-sm text-white dark:bg-slate-900 auto-cols-auto">
-                      ※Name
+                    <th scope="col" class="px-6 py-3 text-sm text-white dark:bg-slate-900 auto-cols-auto"
+                      id="nfirst_name">
+                      {{ $t('register.name')}}
                     </th>
                     <th scope="col" class="px-6 py-3 text-black bg-slate-400">
                   <tr></tr>
-                  <label for="first_name">First Name</label>
+                  <label for="first_name">{{ $t('register.first_name')}}</label>
                   <input v-model="first_name" id="first_name"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     required>
                   <br />
-                  <label for="middle_name">Middle Name</label>
-                  <input v-model="middle_name" id="middle_name"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    >
-                  <br />
-                  <label for="family_name">Family Name</label>
+                  <div v-if="$i18n.locale === 'jp'">
+                  </div>
+                  <div v-else-if="$i18n.locale === 'cn'">
+                  </div>
+                  <div v-else>
+                    <label for="middle_name">{{ $t('register.middle_name')}}</label>
+                    <input v-model="middle_name" id="middle_name"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                    <br />
+                  </div>
+                  <label for="family_name">{{ $t('register.family_name')}}</label>
                   <input v-model="family_name" id="family_name"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     required>
+                    <div v-if="$i18n.locale === 'jp'">
+                      （全角）
+                    </div>
                   </th>
                   </tr>
+
+
                 </thead>
                 <tbody>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      Age
+                      <div v-if="$i18n.locale === 'jp'">
+                        {{ $t('register.name_furigana')}}
+                      </div>
+                      <div v-else-if="$i18n.locale === 'cn'">
+                        {{ $t('register.name_pinyin')}}
+                      </div>
+                      <div v-else></div>
+                    </th>
+                    <td class="px-6 py-4 text-black bg-slate-400">
+<div v-if="$i18n.locale === 'jp'">
+  <label for="family_name2">{{ $t('register.family_name')}}</label>
+                  <input v-model="family_name2" id="family_name2"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    required>
+                    <label for="first_name2">{{ $t('register.first_name2')}}</label>
+                  <input v-model="first_name2" id="first_name2"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    required>
+</div>
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
+                      {{ $t('register.age')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <input id="age" v-model="age" type="number" name="age" min="0"
@@ -166,16 +200,17 @@
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      Sex
+                      {{ $t('register.sex')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <input type="radio" id="Sex_M" value="Male" v-model="sex"
                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                      <label for="Sex_M" class="ml-2 text-sm font-medium text-gray-900">Male</label>
+                      <label for="Sex_M" class="ml-2 text-sm font-medium text-gray-900">{{ $t('register.male')}}</label>
                       &nbsp;&nbsp;
                       <input type="radio" id="Sex_F" value="Female" v-model="sex"
                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                      <label for="Sex_F" class="ml-2 text-sm font-medium text-gray-900">Female</label>
+                      <label for="Sex_F" class="ml-2 text-sm font-medium text-gray-900">{{
+                      $t('register.female')}}</label>
                       &nbsp;&nbsp;
                       <input type="radio" id="Sex_O" value="--" v-model="sex"
                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -184,7 +219,7 @@
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      Country
+                      {{ $t('register.country')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <input v-model="country" id="country"
@@ -195,7 +230,7 @@
 
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      Address-Number
+                      {{ $t('register.addressn')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <input v-model="addressn" id="addressn"
@@ -205,7 +240,7 @@
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      ※Address
+                      {{ $t('register.address')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <input v-model="address" id="address"
@@ -215,7 +250,7 @@
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      ※Telphone
+                      {{ $t('register.telphone')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <input v-model="telphone" id="telphone"
@@ -225,7 +260,7 @@
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      ※e-Mail
+                      {{ $t('register.email')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <input v-model="email" id="email"
@@ -235,7 +270,7 @@
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      Matter
+                      {{ $t('register.matter')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <textarea v-model="matter" id="matter"
@@ -246,8 +281,9 @@
                   <br />
                   <tr>
                     <button
-                      class="content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700" v-on:click="message = 'Register Successful'">
-                      Send
+                      class="content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700"
+                      v-on:click="message = 'Register Successful'">
+                      {{ $t('register.send')}}
                     </button>
                   </tr>
                 </tbody>
@@ -261,11 +297,12 @@
     </div>
 
   </div>
+
 </template>
 
 <script>
 import axios from 'axios'
-import Vue from 'vue'
+
 export default {
   data() {
     return {
@@ -279,7 +316,9 @@ export default {
       address: '',
       telphone: '',
       email: '',
-      matter: ''
+      matter: '',
+      first_name2: '',
+      family_name2: '',
     }
   },
   methods: {
@@ -295,14 +334,18 @@ export default {
         address: this.address,
         telphone: this.telphone,
         email: this.email,
-        matter: this.matter
+        matter: this.matter,
+        first_name2: this.first_name2,
+        family_name2: this.family_name2
       })
-      .then(response => {
-        console.log(response)
-      })
-      .catch(err => {
-        console.log(err)
-      })
+        .then(response => {
+          console.log(response)
+        })
+        .catch(err => {
+          console.log(err)
+        })
+      console.log(nfirst_name)
+      console.log(family_name)
       alert("Completed");
     }
   }
