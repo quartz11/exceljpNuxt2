@@ -34,7 +34,7 @@ export default {
     "@nuxtjs/i18n",
     '@nuxtjs/axios'
   ],
-  target: "static",
+  target: "server",
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
@@ -57,7 +57,10 @@ export default {
     },
   },
 
+  serverMiddleware: [
+    {path: '/api' , handler: '~/api/index.js'}
 
+  ],
   i18n: {
     locales: [
       {
