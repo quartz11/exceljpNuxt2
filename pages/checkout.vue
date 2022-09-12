@@ -33,7 +33,7 @@
               <thead class="text-sm text-white dark:text-gray-400">
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Inquiry Type
+                    {{ $t('checkout.inquirytype')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ itype }}</p>
@@ -44,15 +44,36 @@
               <tbody>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="col" class="w-40 px-6 py-3 text-sm text-white dark:bg-slate-900 auto-cols-auto">
-                    Name
+                    {{ $t('checkout.name')}}
                   </th>
                   <th scope="col" class="px-6 py-3 text-black bg-slate-400">
-                    <p>{{ first_name }} &nbsp; {{ middle_name }} &nbsp; {{ family_name }}</p>
+                    <div v-if="$i18n.locale==='jp'">
+                      <p>{{ family_name }}&nbsp; {{ first_name }} </p>
+                    </div>
+                    <div v-else>
+                      <p>{{ first_name }} &nbsp; {{ middle_name }} &nbsp; {{ family_name }}</p>
+                    </div>
+                  </th>
+                </tr>
+                <tr class="border-b border-gray-200 dark:border-gray-700">
+                  <th scope="col" class="w-40 px-6 py-3 text-sm text-white dark:bg-slate-900 auto-cols-auto">
+                    <div v-if="$i18n.locale==='jp'">
+                      {{ $t('checkout.name_furigana')}}
+                    </div>
+                    <div v-else>
+                    </div>
+                  </th>
+                  <th scope="col" class="px-6 py-3 text-black bg-slate-400">
+                    <div v-if="$i18n.locale==='jp'">
+                      <p>{{ family_name2 }}&nbsp; {{ first_name2 }} </p>
+                    </div>
+                    <div v-else>
+                    </div>
                   </th>
                 </tr>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Date of birth
+                    {{ $t('checkout.dob')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ year }} {{ month }} {{ day }}</p>
@@ -61,7 +82,7 @@
                 </tr>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Sex
+                    {{ $t('checkout.sex')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ sex }}</p>
@@ -70,16 +91,26 @@
 
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Address-Number
+                    <div v-if="$i18n.locale==='jp'">
+                      {{ $t('checkout.postcode')}}
+                    </div>
+                    <div v-else>
+                      {{ $t('checkout.addressn')}}
+                    </div>
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-                    <p>{{ addressn }}</p>
+                    <div v-if="$i18n.locale==='jp'">
+                      <p>{{ addressn }}</p>
+                    </div>
+                    <div v-else>
+                      <p>{{ postcode }}</p>
+                    </div>
                   </td>
                 </tr>
 
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Address
+                    {{ $t('checkout.address')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ address }}</p>
@@ -88,7 +119,7 @@
 
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Telphone
+                    {{ $t('checkout.telphone')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ telphone }}</p>
@@ -97,7 +128,7 @@
 
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    e-Mail
+                    {{ $t('checkout.email')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ email }}</p>
@@ -106,7 +137,7 @@
 
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Order number
+                    {{ $t('checkout.ordernum')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ ordernum }}</p>
@@ -115,7 +146,7 @@
 
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Choice of payment method
+                    {{ $t('checkout.payment')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ payment }}</p>
@@ -124,7 +155,7 @@
 
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    I agree to the privacy policy
+                    {{ $t('checkout.agree')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ privacy }}</p>
@@ -133,7 +164,7 @@
 
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    Matter
+                    {{ $t('checkout.matter')}}
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p style="white-space: pre-line;">{{ matter }}</p>
@@ -161,72 +192,123 @@
                 <thead class="text-sm text-white dark:text-gray-400">
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="w-40 px-6 py-2 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      <p class="text-sm"><a class="text-red-600">※</a>Inquiry Type</p>
+                      <p class="text-sm"><a class="text-red-600">※</a>{{ $t('checkout.inquirytype') }}</p>
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <select v-model="itype" id="itype"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-60 h-10	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                        <option>Inquiry</option>
-                        <option>Request for quotation</option>
-                        <option>The final order request</option>
+                        <option>{{ $t('checkout.inquiry1') }}</option>
+                        <option>{{ $t('checkout.inquiry2') }}</option>
+                        <option>{{ $t('checkout.inquiry3') }}</option>
                       </select>
-                      ※ Please input the item of the mark always.
+                      ※ {{ $t('checkout.caution') }}
                     </td>
                   </tr>
                 </thead>
                 <tbody>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="col" class="w-40 px-6 py-3 text-sm text-white dark:bg-slate-900 auto-cols-auto">
-                      <a class="text-red-600">※</a>Name
+                      <a class="text-red-600">※</a> {{ $t('checkout.name') }}
                     </th>
                     <th scope="col" class="px-6 py-3 text-black bg-slate-400">
                   <tr></tr>
-                  <label for="first_name">First Name</label>
+                  <div v-if="$i18n.locale==='jp'">
+                    <label for="family_name">{{ $t('checkout.family_name')}}</label>
+                  <input v-model="family_name" id="family_name"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    required>
+                  </div>
+                  <div v-else>
+                    <label for="first_name">{{ $t('checkout.first_name')}}</label>
                   <input v-model="first_name" id="first_name"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     required>
+                  </div>
+
                   <br />
-                  <label for="middle_name">Middle Name</label>
+                  <div v-if="$i18n.locale==='jp'">
+                    <label for="first_name">{{ $t('checkout.first_name')}}</label>
+                  <input v-model="first_name" id="first_name"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    required>
+                    （全角）
+                  </div>
+                  <div v-else>
+                    <label for="middle_name">{{ $t('checkout.middle_name')}}</label>
                   <input v-model="middle_name" id="middle_name"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     >
                   <br />
-                  <label for="family_name">Family Name</label>
+                  <label for="family_name">{{ $t('checkout.family_name')}}</label>
                   <input v-model="family_name" id="family_name"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     required>
+                  </div>
+
+                  </th>
+                  </tr>
+
+                  <tr class="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="col" class="w-40 px-6 py-3 text-sm text-white dark:bg-slate-900 auto-cols-auto">
+                      <div v-if="$i18n.locale==='jp'">
+                        <a class="text-red-600">※</a> {{ $t('checkout.name_furigana') }}
+                      </div>
+                      <div v-else></div>
+                    </th>
+                    <th scope="col" class="px-6 py-3 text-black bg-slate-400">
+                  <tr></tr>
+                  <div v-if="$i18n.locale==='jp'">
+                    <label for="family_name">{{ $t('checkout.family_name')}}</label>
+                  <input v-model="family_name2" id="family_name2"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    required>
+                  </div>
+                  <div v-else>
+                  </div>
+
+                  <br />
+                  <div v-if="$i18n.locale==='jp'">
+                    <label for="first_name2">{{ $t('checkout.first_name')}}</label>
+                  <input v-model="first_name2" id="first_name2"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    required>
+                    （全角）
+                  </div>
+                  <div v-else>
+                  </div>
+
                   </th>
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      <a class="text-red-600">※</a>Date of birth
+                      <a class="text-red-600">※</a>{{ $t('checkout.dob')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <div>
-                        <labela>A.D.</labela> <input id="year" v-model="year" type="number" name="year" min="0"
+                        <labela>{{ $t('checkout.ad')}}</labela> <input id="year" v-model="year" type="number" name="year" min="0"
                           class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-20  h-8	p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                          required> Year
+                          required> {{ $t('checkout.year')}}
                         <input id="month" v-model="month" type="number" name="month" min="0"
                           class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-20  h-8	p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                          required> Month
+                          required> {{ $t('checkout.month')}}
                         <input id="day" v-model="day" type="number" name="day" min="0"
                           class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-20  h-8	p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                          required> Day
+                          required> {{ $t('checkout.day')}}
                       </div>
                     </td>
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      <a class="text-red-600">※</a>Sex
+                      <a class="text-red-600">※</a>{{ $t('checkout.sex')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <input type="radio" id="Sex_M" value="Male" v-model="sex"
                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                      <label for="Sex_M" class="ml-2 text-sm font-medium text-gray-900">Male</label>
+                      <label for="Sex_M" class="ml-2 text-sm font-medium text-gray-900">{{ $t('checkout.male')}}</label>
                       &nbsp;&nbsp;
                       <input type="radio" id="Sex_F" value="Female" v-model="sex"
                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                      <label for="Sex_F" class="ml-2 text-sm font-medium text-gray-900">Female</label>
+                      <label for="Sex_F" class="ml-2 text-sm font-medium text-gray-900">{{ $t('checkout.female')}}</label>
                       &nbsp;&nbsp;
                       <input type="radio" id="Sex_O" value="--" v-model="sex"
                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -235,17 +317,29 @@
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      <a class="text-red-600">※</a>Address-Number
+                      <div v-if="$i18n.locale==='jp'">
+                        <a class="text-red-600">※</a>{{ $t('checkout.postcode')}}
+                      </div>
+                      <div v-else>
+                        <a class="text-red-600">※</a>{{ $t('checkout.addressn')}}
+                      </div>
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
-                      <input v-model="addressn" id="addressn"
+                      <div v-if="$i18n.locale==='jp'">
+                        <input v-model="postcode" id="postcode"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         required>
+                      </div>
+                      <div v-else>
+                        <input v-model="addressn" id="addressn"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        required>
+                      </div>
                     </td>
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      <a class="text-red-600">※</a>Address
+                      <a class="text-red-600">※</a>{{ $t('checkout.address')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <input v-model="address" id="address"
@@ -255,7 +349,7 @@
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      <a class="text-red-600">※</a>Telphone
+                      <a class="text-red-600">※</a>{{ $t('checkout.telphone')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <input v-model="telphone" id="telphone"
@@ -265,7 +359,7 @@
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      <a class="text-red-600">※</a>e-Mail
+                      <a class="text-red-600">※</a>{{ $t('checkout.email')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <input v-model="email" id="email"
@@ -275,7 +369,7 @@
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      <a class="text-red-600">※</a>Order number
+                      <a class="text-red-600">※</a>{{ $t('checkout.ordernum')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <input v-model="ordernum" id="ordernum"
@@ -285,16 +379,16 @@
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      <a class="text-red-600">※</a>Choice of payment method
+                      <a class="text-red-600">※</a>{{ $t('checkout.payment')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <input type="radio" id="Bank" value="Bank transfer" v-model="payment"
                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                      <label for="Bank" class="ml-2 text-sm font-medium text-gray-900">Bank transfer</label>
+                      <label for="Bank" class="ml-2 text-sm font-medium text-gray-900">{{ $t('checkout.bank')}}</label>
                       &nbsp;&nbsp;
                       <input type="radio" id="PayPal" value="PayPal" v-model="payment"
                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                      <label for="PayPal" class="ml-2 text-sm font-medium text-gray-900">PayPal</label>
+                      <label for="PayPal" class="ml-2 text-sm font-medium text-gray-900">{{ $t('checkout.paypal')}}</label>
                       &nbsp;&nbsp;
                       <input type="radio" id="Pay_O" value="--" v-model="payment"
                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -303,16 +397,16 @@
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      <a class="text-red-600">※</a>Privacy Policy
+                      <a class="text-red-600">※</a>{{ $t('checkout.privacy')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <p class="text-lg text-blue-600 underline">
-                        <nuxt-link to="/policy">Privacy Policy</nuxt-link>
+                        <nuxt-link to="/policy">{{ $t('checkout.privacy')}}</nuxt-link>
                       </p>
                       <br />
                       <input type="radio" id="agree" value="I agree to the privacy policy" v-model="privacy"
                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                      <label for="agree" class="ml-2 text-sm font-medium text-gray-900">I agree to the privacy
+                      <label for="agree" class="ml-2 text-sm font-medium text-gray-900">{{ $t('checkout.agree')}}
                         policy</label>
                       &nbsp;&nbsp;
                       <input type="radio" id="notagree" value="--" v-model="privacy"
@@ -324,7 +418,7 @@
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="w-40 px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      Matter
+                      {{ $t('checkout.matter')}}
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
                       <textarea v-model="matter" id="matter"
@@ -337,7 +431,7 @@
                     <td>
                       <button
                         class="content-center px-4 py-2 font-bold text-white bg-blue-500 border border-blue-700 rounded hover:bg-blue-700">
-                        Send
+                        {{ $t('checkout.send')}}
                       </button>
                     </td>
                   </tr>
@@ -362,6 +456,8 @@ export default {
       first_name: '',
       middle_name: '',
       family_name: '',
+      first_name2: '',
+      family_name2: '',
       year: '',
       month: '',
       day: '',
@@ -373,16 +469,19 @@ export default {
       ordernum: '',
       payment: '',
       privacy: '',
-      matter: ''
+      matter: '',
+      postcode: ''
     }
   },
   methods: {
     async onCheckout() {
-      await axios.post('http://localhost:3100/checkout', {
+      await axios.post('./api/checkout', {
         itype: this.itype,
         first_name: this.first_name,
         middle_name: this.middle_name,
         family_name: this.family_name,
+        first_name2: this.first_name2,
+        family_name2: this.family_name2,
         year: this.year,
         month: this.month,
         day: this.day,
@@ -394,7 +493,8 @@ export default {
         ordernum: this.ordernum,
         payment: this.payment,
         privacy: this.privacy,
-        matter: this.matter
+        matter: this.matter,
+        postcode: this.postcode
       })
       .then(response => {
         console.log(response)

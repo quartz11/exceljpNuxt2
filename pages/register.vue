@@ -400,7 +400,7 @@ export default {
   },
   methods: {
     async onSubmit() {
-      await axios.post('http://localhost:3100/regis', {
+      await axios.post('./api/register', {
         first_name: this.first_name,
         middle_name: this.middle_name,
         family_name: this.family_name,
