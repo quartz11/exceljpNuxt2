@@ -35,11 +35,41 @@
                     {{ $t('register.name')}}
                   </th>
                   <th scope="col" class="px-6 py-3 text-black bg-slate-400">
-                    <p>{{ first_name }} &nbsp; {{ middle_name }} &nbsp; {{ family_name }}</p>
+                   <div v-if="$i18n.locale==='jp'">
+                    <p>{{ family_name  }} &nbsp; {{ first_name}}</p>
+                  </div>
+                  <div v-else-if="$i18n.locale==='cn'">
+                    <p>{{ family_name  }} &nbsp; {{ first_name}}</p>
+                  </div>
+                    <div v-else>
+                      <p>{{ first_name }} &nbsp; {{ middle_name }} &nbsp; {{ family_name }}</p>
+                    </div>
                   </th>
                 </tr>
               </thead>
               <tbody>
+                <tr class="border-b border-gray-200 dark:border-gray-700">
+                  <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
+                    <div v-if="$i18n.locale ==='jp'">
+                      {{ $t('register.name_furigana')}}
+                    </div>
+                    <div v-else-if="$i18n.locale ==='cn'">
+                      {{ $t('register.name_pinyin')}}
+                    </div>
+                    <div v-else>
+                    </div>
+                  </th>
+                  <td class="px-6 py-4 text-black bg-slate-400">
+                    <div v-if="$i18n.locale ==='jp'">
+                      {{ family_name2 }} &nbsp;  {{ first_name2 }}
+                    </div>
+                    <div v-else-if="$i18n.locale ==='cn'">
+                      {{ family_name2 }} &nbsp;  {{ first_name2 }}
+                    </div>
+                    <div v-else>
+                    </div>
+                  </td>
+                </tr>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
                     {{ $t('register.age')}}
@@ -47,7 +77,6 @@
                   <td class="px-6 py-4 text-black bg-slate-400">
                     <p>{{ age }}</p>
                   </td>
-
                 </tr>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
@@ -60,10 +89,20 @@
 
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                    {{ $t('register.country')}}
+                    <div v-if="$i18n.locale==='jp'">
+                      {{ $t('register.postcode')}}
+                      </div>
+                      <div v-else>
+                        {{ $t('register.country')}}
+                      </div>
                   </th>
                   <td class="px-6 py-4 text-black bg-slate-400">
-                    <p>{{ country }}</p>
+                    <div v-if="$i18n.locale==='jp'">
+                      <p>{{ postcode }}</p>
+                    </div>
+                    <div v-else>
+                      <p>{{ country }}</p>
+                    </div>
                   </td>
                 </tr>
 
@@ -137,28 +176,43 @@
                     </th>
                     <th scope="col" class="px-6 py-3 text-black bg-slate-400">
                   <tr></tr>
-                  <label for="first_name">{{ $t('register.first_name')}}</label>
-                  <input v-model="first_name" id="first_name"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    required>
-                  <br />
+
                   <div v-if="$i18n.locale === 'jp'">
+                    <label for="family_name">{{ $t('register.family_name')}}</label>
+                    <input v-model="family_name" id="family_name"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      required>
+                    <label for="first_name">{{ $t('register.first_name')}}</label>
+                    <input v-model="first_name" id="first_name"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      required>
+                    （全角）
                   </div>
                   <div v-else-if="$i18n.locale === 'cn'">
+                    <label for="family_name">{{ $t('register.family_name')}}</label>
+                    <input v-model="family_name" id="family_name"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      required>
+                    <label for="first_name">{{ $t('register.first_name')}}</label>
+                    <input v-model="first_name" id="first_name"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      required>
                   </div>
                   <div v-else>
+                    <label for="first_name">{{ $t('register.first_name')}}</label>
+                    <input v-model="first_name" id="first_name"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      required>
+
                     <label for="middle_name">{{ $t('register.middle_name')}}</label>
                     <input v-model="middle_name" id="middle_name"
                       class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                    <label for="family_name">{{ $t('register.family_name')}}</label>
+                    <input v-model="family_name" id="family_name"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      required>
                     <br />
                   </div>
-                  <label for="family_name">{{ $t('register.family_name')}}</label>
-                  <input v-model="family_name" id="family_name"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    required>
-                    <div v-if="$i18n.locale === 'jp'">
-                      （全角）
-                    </div>
                   </th>
                   </tr>
 
@@ -176,16 +230,26 @@
                       <div v-else></div>
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
-<div v-if="$i18n.locale === 'jp'">
-  <label for="family_name2">{{ $t('register.family_name')}}</label>
-                  <input v-model="family_name2" id="family_name2"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    required>
-                    <label for="first_name2">{{ $t('register.first_name2')}}</label>
-                  <input v-model="first_name2" id="first_name2"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    required>
-</div>
+                      <div v-if="$i18n.locale === 'jp'">
+                        <label for="family_name2">{{ $t('register.family_name')}}</label>
+                        <input v-model="family_name2" id="family_name2"
+                          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                          required>
+                        <label for="first_name2">{{ $t('register.first_name')}}</label>
+                        <input v-model="first_name2" id="first_name2"
+                          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                          required>
+                      </div>
+                      <div v-else-if="$i18n.locale === 'cn'">
+                        <label for="family_name2">{{ $t('register.family_name')}}</label>
+                        <input v-model="family_name2" id="family_name2"
+                          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                          required>
+                        <label for="first_name2">{{ $t('register.first_name')}}</label>
+                        <input v-model="first_name2" id="first_name2"
+                          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8	 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                          required>
+                      </div>
                     </td>
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -219,12 +283,24 @@
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="px-6 py-4 font-medium text-white dark:bg-slate-900 auto-cols-auto">
-                      {{ $t('register.country')}}
+                      <div v-if="$i18n.locale==='jp'">
+                        {{ $t('register.postcode')}}
+                      </div>
+                      <div v-else>
+                        {{ $t('register.country')}}
+                      </div>
                     </th>
                     <td class="px-6 py-4 text-black bg-slate-400">
-                      <input v-model="country" id="country"
+                      <div v-if="$i18n.locale==='jp'">
+                        <input v-model="postcode" id="postcode"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         required>
+                      </div>
+                      <div v-else>
+                        <input v-model="country" id="country"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-8 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        required>
+                      </div>
                     </td>
                   </tr>
 
@@ -319,6 +395,7 @@ export default {
       matter: '',
       first_name2: '',
       family_name2: '',
+      postcode: ''
     }
   },
   methods: {
@@ -336,7 +413,8 @@ export default {
         email: this.email,
         matter: this.matter,
         first_name2: this.first_name2,
-        family_name2: this.family_name2
+        family_name2: this.family_name2,
+        postcode: this.postcode
       })
         .then(response => {
           console.log(response)
