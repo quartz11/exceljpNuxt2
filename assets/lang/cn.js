@@ -17,7 +17,7 @@ export default{
       business: "经营范围",
       product: "开发项目",
     },
-    joinus: "Join us",
+    joinus: "加入我們",
     contact: "合作",
   },
   index: {
@@ -772,7 +772,7 @@ export default{
       `隐私政策`,
       `业`,
       `联系`,
-      `Join us`,
+      `加入我們`,
     ],
     related_site: [`相关网站`, `Excellence Siam`, `Employee e-base`],
   },

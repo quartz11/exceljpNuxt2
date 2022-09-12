@@ -1222,5 +1222,36 @@ export default {
       ]
     }
   },
-
+checkout: {
+  inquirytype: `Inquiry Type`,
+  inquiry1: `Inquiry`,
+  inquiry2: `Request for quotation`,
+  inquiry3: `The final order request`,
+  caution: `Please input the item of the mark always.`,
+  name: `Name`,
+  first_name: `First Name`,
+  middle_name: `Middle Name`,
+  family_name: `Family Name`,
+  dob: `Date of birth`,
+  ad: `A.D.`,
+  year: `Year`,
+  month: `Month`,
+  day: `Day`,
+  sex: `Sex`,
+  male: `Male`,
+  female: `Female`,
+  addressn: `Address-Number`,
+  address: `Address`,
+  telphone: `Telphone`,
+  email: `e-Mail`,
+  ordernum: `Order number`,
+  payment: `Choice of payment method`,
+  bank: `Bank transfer`,
+  paypal: `PayPal`,
+  privacy: `Privacy Policy`,
+  agree: `I agree to the privacy policy`,
+  matter: `Matter`,
+  postcode: ``,
+  send: `Send`
+}
 };
